@@ -1,0 +1,675 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-martin-seleng">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-seleng"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-informatics-slovak-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-fiit-stu-in-bratislava-vojtech-juhasz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vojtech-juhasz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fiit-stu-in-bratislava"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gaelle-recource">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-kwaga-gaelle-recource"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-gaelle-recource"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gaëlle Recourcé</rdfs:label>
+    <j.0:name>Gaëlle Recourcé</j.0:name>
+    <j.0:givenName>Gaëlle</j.0:givenName>
+    <j.0:familyName>Recourcé</j.0:familyName>
+    <foaf:mbox_sha1sum>fdbae6d3546578ad1063451bdc5e41ba7b0e66c4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gaelle-recource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-ian-smith">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ian-smith"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-vitor-carvalho">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/vitor-carvalho"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-nicolas-ducheneaut">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nicolas-ducheneaut"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/uwe-riss">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-sap-research-uwe-riss"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-uwe-riss"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Uwe Riss</rdfs:label>
+    <j.0:name>Uwe Riss</j.0:name>
+    <j.0:givenName>Uwe</j.0:givenName>
+    <j.0:familyName>Riss</j.0:familyName>
+    <foaf:mbox_sha1sum>4a7268a0ba6ceee57d7f2f9c08716343e8654694</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/uwe-riss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vojtech-juhasz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-fiit-stu-in-bratislava-vojtech-juhasz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vojtech Juhasz</rdfs:label>
+    <j.0:name>Vojtech Juhasz</j.0:name>
+    <j.0:givenName>Vojtech</j.0:givenName>
+    <j.0:familyName>Juhasz</j.0:familyName>
+    <foaf:mbox_sha1sum>1b83683b8202865f2fca1e620035c127e18ef3ac</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vojtech-juhasz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ladislav-hluchy">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-sas-ladislav-hluchy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ladislav Hluchy</rdfs:label>
+    <j.0:name>Ladislav Hluchy</j.0:name>
+    <j.0:givenName>Ladislav</j.0:givenName>
+    <j.0:familyName>Hluchy</j.0:familyName>
+    <foaf:mbox_sha1sum>01834214864d4c8207caef9190bd9fd13570e056</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ladislav-hluchy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stefan-dlugolinsky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/unknown">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>(unknown)</rdfs:label>
+    <j.0:name>(unknown)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/unknown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-seleng">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-martin-seleng"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Šeleng</rdfs:label>
+    <j.0:name>Martin Šeleng</j.0:name>
+    <j.0:givenName>Martin</j.0:givenName>
+    <j.0:familyName>Šeleng</j.0:familyName>
+    <foaf:mbox_sha1sum>ca59afaf59560937af72be3e32b23ecad93dceff</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-seleng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-diana-maynard">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/diana-maynard"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ibm">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IBM</rdfs:label>
+    <j.0:name>IBM</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ibm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-kwaga-gaelle-recource">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gaelle-recource"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kwaga"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/parc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>PARC</rdfs:label>
+    <j.0:name>PARC</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/parc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-ascher">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-unknown-david-ascher"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-david-ascher"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Ascher</rdfs:label>
+    <j.0:name>David Ascher</j.0:name>
+    <j.0:givenName>David</j.0:givenName>
+    <j.0:familyName>Ascher</j.0:familyName>
+    <foaf:mbox_sha1sum>70ab5be7469ee3777c21ad2ca3aacf988ce1d7cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-ascher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-michal-laclavik">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michal-laclavik"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-informatics-slovak-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simon-scerri">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-deri-nui-galway-simon-scerri"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-simon-scerri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Simon Scerri</rdfs:label>
+    <j.0:name>Simon Scerri</j.0:name>
+    <j.0:givenName>Simon</j.0:givenName>
+    <j.0:familyName>Scerri</j.0:familyName>
+    <foaf:mbox_sha1sum>ab6d7f6be0a4f94d5084190f850196fb50c3134a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/simon-scerri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-troussov">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-ibm-alexander-troussov"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-alexander-troussov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Troussov</rdfs:label>
+    <j.0:name>Alexander Troussov</j.0:name>
+    <j.0:givenName>Alexander</j.0:givenName>
+    <j.0:familyName>Troussov</j.0:familyName>
+    <foaf:mbox_sha1sum>7e65d0bd72c96f4d71bc8dfe011bc9b2c0988821</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-troussov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-parc-nicolas-ducheneaut">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicolas-ducheneaut"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/parc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-microsoft-research-john-tang">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-tang"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/palantir-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Palantir Technologies</rdfs:label>
+    <j.0:name>Palantir Technologies</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/palantir-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-marek-ciglan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marek-ciglan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-informatics-slovak-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-unknown-david-ascher">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-ascher"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fiit-stu-in-bratislava">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FIIT STU in Bratislava</rdfs:label>
+    <j.0:name>FIIT STU in Bratislava</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fiit-stu-in-bratislava"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-michal-laclavik">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michal-laclavik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-sap-research-uwe-riss">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/uwe-riss"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-tang">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-microsoft-research-john-tang"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-john-tang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Tang</rdfs:label>
+    <j.0:name>John Tang</j.0:name>
+    <j.0:givenName>John</j.0:givenName>
+    <j.0:familyName>Tang</j.0:familyName>
+    <foaf:mbox_sha1sum>6a49f4166be469b58a5454399db1ca4bdc757ceb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-tang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-dlugolinsky">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-stefan-dlugolinsky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Štefan Dlugolinský</rdfs:label>
+    <j.0:name>Štefan Dlugolinský</j.0:name>
+    <j.0:givenName>Štefan</j.0:givenName>
+    <j.0:familyName>Dlugolinský</j.0:familyName>
+    <foaf:mbox_sha1sum>1053c585cde81cc12895bbeaa7513def287fa203</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-dlugolinsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ian-smith">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-everbread-ian-smith"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-ian-smith"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ian Smith</rdfs:label>
+    <j.0:name>Ian Smith</j.0:name>
+    <j.0:givenName>Ian</j.0:givenName>
+    <j.0:familyName>Smith</j.0:familyName>
+    <foaf:mbox_sha1sum>29e8f19284c58c2adc1919c403f738f3ea4ae93e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ian-smith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Sheffield</rdfs:label>
+    <j.0:name>University of Sheffield</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-sheffield-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-david-ascher">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/david-ascher"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/microsoft-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Microsoft Research</rdfs:label>
+    <j.0:name>Microsoft Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/microsoft-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marek-ciglan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-andrew-lampert">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/andrew-lampert"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-alexander-troussov">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/alexander-troussov"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/email/2012/proceedings"/>
+    <j.0:title>Emails as Graph: Relation Discovery in Email Archive</j.0:title>
+    <j.0:keyword>Enron corpus</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stefan-dlugolinsky"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marek-ciglan"/>
+    <j.0:abstract>In this paper, we present an approach for representing an email archive in form of a network, capturing the communication among users and relations between entities extracted from the textual part of the email messages. We showcase the method on the Enron email corpus, from which we extract various entities and a social network. Extracted entities are organized in a graph including email connected with named entities (NE) extracted from emails such as people, email addresses, telephone numbers. Edges in the graph denote relations between NEs, representing occurrence in same email part, paragraph, sentence or composite NE. We study mathematical properties of the graph structure created by the proposed approach and we describe our hands-on experience with the processing of such structure. Enron Graph corpus contains a few millions of nodes and it is a large corpus for experimenting with various graph-querying techniques, e.g. graph traversing or spread of activation. Due to its size, the exploitation of traditional graph processing libraries might be problematic as that keep the whole structure in the memory. We describe our experience with the management of such data and with the relation discovery among extracted entities. The described experience might be valuable for practitioners and highlights several research challenges.</j.0:abstract>
+    <j.0:keyword>social networks</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ladislav-hluchy"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/email/2012/paper/1"/>
+    <j.0:keyword>search</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michal-laclavik"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList"/>
+    <rdfs:label>Emails as Graph: Relation Discovery in Email Archive</rdfs:label>
+    <j.0:keyword>graph data</j.0:keyword>
+    <j.0:keyword>email</j.0:keyword>
+    <j.0:keyword>relation discovery</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-seleng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-burkhart">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-german-research-center-for-artificial-intelligence-dfki-thomas-burkhart"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-thomas-burkhart"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Burkhart</rdfs:label>
+    <j.0:name>Thomas Burkhart</j.0:name>
+    <j.0:givenName>Thomas</j.0:givenName>
+    <j.0:familyName>Burkhart</j.0:familyName>
+    <foaf:mbox_sha1sum>2d902abb05913ee4c30cb433867fc15bae90f5f8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-burkhart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-uwe-riss">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/uwe-riss"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</rdfs:label>
+    <j.0:name>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicolas-ducheneaut">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-parc-nicolas-ducheneaut"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-nicolas-ducheneaut"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicolas Ducheneaut</rdfs:label>
+    <j.0:name>Nicolas Ducheneaut</j.0:name>
+    <j.0:givenName>Nicolas</j.0:givenName>
+    <j.0:familyName>Ducheneaut</j.0:familyName>
+    <foaf:mbox_sha1sum>53e39c4660987bb47211a9856c8ab07bf7bf4637</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicolas-ducheneaut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vitor-carvalho">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-microsoft-vitor-carvalho"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-vitor-carvalho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vitor Carvalho</rdfs:label>
+    <j.0:name>Vitor Carvalho</j.0:name>
+    <j.0:givenName>Vitor</j.0:givenName>
+    <j.0:familyName>Carvalho</j.0:familyName>
+    <foaf:mbox_sha1sum>d7fe7398093d6a760c8fe5f63d65086380b7dd86</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vitor-carvalho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-university-of-sheffield-uk-diana-maynard">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/diana-maynard"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5">
+    <j.0:keyword>text relevance</j.0:keyword>
+    <j.0:keyword>Email search</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vojtech-juhasz"/>
+    <rdfs:label>Full-text search in email archives using social evaluation, attached and linked resources</rdfs:label>
+    <j.0:title>Full-text search in email archives using social evaluation, attached and linked resources</j.0:title>
+    <j.0:keyword>social network</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/email/2012/proceedings"/>
+    <j.0:keyword>attachment</j.0:keyword>
+    <j.0:keyword>fulltext search</j.0:keyword>
+    <j.0:keyword>linked content</j.0:keyword>
+    <j.0:abstract>Emails are important tools for communication and cooperation, they contain large amount of information and connections to knowledge and data sources. Because of this, it is very important to improve the efficiency of their processing. This paper describes an email search system which integrates full-text search with social search while processing also the attached and linked resources.</j.0:abstract>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/email/2012/paper/5"/>
+    <j.0:keyword>social relevance</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-ibm-alexander-troussov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alexander-troussov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ibm"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gaelle-recource"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/liris">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LIRIS</rdfs:label>
+    <j.0:name>LIRIS</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/liris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ladislav-hluchy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-sas-ladislav-hluchy">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ladislav-hluchy"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-informatics-sas"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-deri-nui-galway-simon-scerri">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/simon-scerri"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-thomas-burkhart">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/thomas-burkhart"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-john-tang">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/john-tang"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP AG, SAP Research</rdfs:label>
+    <j.0:name>SAP AG, SAP Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vojtech-juhasz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michal-laclavik"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/romain-vuillemot">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-liris-romain-vuillemot"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-romain-vuillemot"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Romain Vuillemot</rdfs:label>
+    <j.0:name>Romain Vuillemot</j.0:name>
+    <j.0:givenName>Romain</j.0:givenName>
+    <j.0:familyName>Vuillemot</j.0:familyName>
+    <foaf:mbox_sha1sum>45630f1c0abee11d5a3b720812c76b32060d474c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/romain-vuillemot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-informatics-sas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Informatics SAS</rdfs:label>
+    <j.0:name>Institute of Informatics SAS</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-informatics-sas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/email2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about email2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:48 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/email/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-liris-romain-vuillemot">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/romain-vuillemot"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/liris"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kwaga">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>kwaga</rdfs:label>
+    <j.0:name>kwaga</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kwaga"/>
+    <j.0:name>Kwaga</j.0:name>
+    <rdfs:label>Kwaga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-gaelle-recource">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gaelle-recource"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-seleng"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-german-research-center-for-artificial-intelligence-dfki-thomas-burkhart">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-burkhart"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-everbread-ian-smith">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ian-smith"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/everbread"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/email/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/diana-maynard">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-university-of-sheffield-uk-diana-maynard"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-diana-maynard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Diana Maynard</rdfs:label>
+    <j.0:name>Diana Maynard</j.0:name>
+    <j.0:givenName>Diana</j.0:givenName>
+    <j.0:familyName>Maynard</j.0:familyName>
+    <foaf:mbox_sha1sum>6a9054d3a369f74a6338c546dceceeeb7be8ed6a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/diana-maynard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrew-lampert">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-palantir-technologies-andrew-lampert"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-andrew-lampert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrew Lampert</rdfs:label>
+    <j.0:name>Andrew Lampert</j.0:name>
+    <j.0:givenName>Andrew</j.0:givenName>
+    <j.0:familyName>Lampert</j.0:familyName>
+    <foaf:mbox_sha1sum>5e4fc3bd68f95b14b29679925410e747b26a057a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrew-lampert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-microsoft-vitor-carvalho">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vitor-carvalho"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-stefan-dlugolinsky">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-dlugolinsky"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-informatics-slovak-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-informatics-slovak-academy-of-sciences">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Informatics, Slovak Academy of Sciences</rdfs:label>
+    <j.0:name>Institute of Informatics, Slovak Academy of Sciences</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-informatics-slovak-academy-of-sciences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michal-laclavik">
+    <j.0:familyName>Laclavík</j.0:familyName>
+    <rdfs:label>Michal Laclavík</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-michal-laclavik"/>
+    <j.0:familyName>Laclavik</j.0:familyName>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michal-laclavik"/>
+    <rdfs:label>Michal Laclavik</rdfs:label>
+    <j.0:name>Michal Laclavík</j.0:name>
+    <j.0:givenName>Michal</j.0:givenName>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-michal-laclavik"/>
+    <j.0:name>Michal Laclavik</j.0:name>
+    <foaf:mbox_sha1sum>d9a209c6636a3031f57db42773665048d943e676</foaf:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-chair-romain-vuillemot">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/romain-vuillemot"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/email2012-palantir-technologies-andrew-lampert">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrew-lampert"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/palantir-technologies"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Email2012/email/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/email2012-programme-committee-member-simon-scerri">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/simon-scerri"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/email2012/email/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI</rdfs:label>
+    <j.0:name>DFKI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/microsoft">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Microsoft</rdfs:label>
+    <j.0:name>Microsoft</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/microsoft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marek-ciglan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/email2012-institute-of-informatics-slovak-academy-of-sciences-marek-ciglan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marek Ciglan</rdfs:label>
+    <j.0:name>Marek Ciglan</j.0:name>
+    <j.0:givenName>Marek</j.0:givenName>
+    <j.0:familyName>Ciglan</j.0:familyName>
+    <foaf:mbox_sha1sum>be9034c4d072bc25bb7749e910a93ce4d4c52325</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marek-ciglan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/everbread">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>everbread</rdfs:label>
+    <j.0:name>everbread</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/everbread"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3">
+    <j.0:keyword>error detection</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gaelle-recource"/>
+    <j.0:keyword>named entities recognition</j.0:keyword>
+    <j.0:keyword>sig block</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>UIMA</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/email/2012/proceedings"/>
+    <j.0:keyword>dynamic knowledge model correction</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/email2012/data.semanticweb.org/workshop/email/2012/paper/3/authorList"/>
+    <j.0:keyword>contact details</j.0:keyword>
+    <j.0:title>Interpreting Contact Details out of E-mail Signature Blocks</j.0:title>
+    <j.0:keyword>NLP</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/email/2012/paper/3"/>
+    <j.0:abstract>This paper describes a fully automated process of address book enrichment by means of information extraction in e-mail signature blocks. The main issues we tackle are signature block detection, named entites tagging, mapping with a specific person, standardizing the details and auto-updating of the address book. We describe how the process was designed to handle multiple-type of errors (human or computer-driven) while aiming at 100% precision rate. Last, we tackle the question of automatic updating confronted to users rights over their own data.</j.0:abstract>
+    <j.0:keyword>address book</j.0:keyword>
+    <rdfs:label>Interpreting Contact Details out of E-mail Signature Blocks</rdfs:label>
+    <j.0:keyword>email signature</j.0:keyword>
+  </rdf:Description>
+</rdf:RDF>

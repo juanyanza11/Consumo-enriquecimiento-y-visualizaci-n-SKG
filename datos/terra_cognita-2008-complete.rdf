@@ -1,0 +1,1170 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-osnabrueck-angela-schwering">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/angela-schwering"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-osnabrueck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Texas at El Paso</rdfs:label>
+    <j.0:name>University of Texas at El Paso</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-texas-at-el-paso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lemonia-ragia">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-advanced-systems-group-lemonia-ragia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lemonia Ragia</rdfs:label>
+    <j.0:name>Lemonia Ragia</j.0:name>
+    <foaf:mbox_sha1sum>e1ee864957c466ee73246921d4be73e4e8489164</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lemonia-ragia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joerg-hoffman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/beth-driver">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-national-geospatial-intelligence-agency-beth-driver"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Beth Driver</rdfs:label>
+    <j.0:name>Beth Driver</j.0:name>
+    <foaf:mbox_sha1sum>1cecc34c75a239b61778c126643094d9b7f4266f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/beth-driver"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/laura-spinsanti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eva-klien"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList"/>
+    <rdfs:label>Semantic Execution Meets Geospatial Web Services: A Pilot Application</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/laurentiu-vasiliu"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:title>Semantic Execution Meets Geospatial Web Services: A Pilot Application</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joerg-hoffman"/>
+    <j.0:abstract>Geospatial web services can be enhanced with semantic web service techniques in order to solve the existing interoperability issues in the geospatial domain. Therefore a large number of services can be composed to provide meaningful results to complex geospatial queries, but as the complexity grows, the users face serious performance problems. On top of existing geospatial web services we adopt the WSMOLX framework which provides a model to define machine and human-understandable semantic descriptions, full support for mediation and a simple language to choreograph the execution of a composition of several geospatial web services. Our research focus is on the semantic execution and its performance inside the WSMX platform. Our core contributions are a) providing a solution for automated semantic execution of geospatial queries and b) providing a combination of techniques and improvements to the efficiency aspect.</j.0:abstract>
+    <j.0:keyword>Semantic execution</j.0:keyword>
+    <j.0:keyword>Abstract State Machines</j.0:keyword>
+    <j.0:keyword>WSMO/WSML/WSMX</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/raluca-zaharia"/>
+    <j.0:keyword>Semantic Web Services</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Geospatial applications</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/francesco-tarquini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universita-di-pisa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Pisa</rdfs:label>
+    <j.0:name>University of Pisa</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universita-di-pisa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-muenster">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Münster</rdfs:label>
+    <j.0:name>University of Münster</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-muenster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/miriam-baglioni">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-universita-di-pisa-miriam-baglioni"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Miriam Baglioni</rdfs:label>
+    <j.0:name>Miriam Baglioni</j.0:name>
+    <foaf:mbox_sha1sum>c5c17af5aa25b9f5fd539a7f342b77094b098082</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/miriam-baglioni"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lemonia-ragia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/raluca-zaharia">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-deri-nui-galway-raluca-zaharia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Raluca Zaharia</rdfs:label>
+    <j.0:name>Raluca Zaharia</j.0:name>
+    <foaf:mbox_sha1sum>954610edc52be10c4de121b41c41f03022c315b0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/raluca-zaharia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-iowa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Iowa</rdfs:label>
+    <j.0:name>University of Iowa</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-iowa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne-jose-macedo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-macedo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zhixian-yan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne-zhixian-yan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zhixian Yan</rdfs:label>
+    <j.0:name>Zhixian Yan</j.0:name>
+    <foaf:mbox_sha1sum>19c997b045379f0d60e0f898b3b6b460332c6027</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zhixian-yan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eva-klien"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-illinois-at-chicago-isabel-cruz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/isabel-cruz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-illinois-at-chicago"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/chiara-renso"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5">
+    <rdfs:label>Ontology-supported Querying of Geographical Databases</rdfs:label>
+    <j.0:keyword>GeoOntology</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/emiliano-giovannetti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/miriam-baglioni"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5"/>
+    <j.0:keyword>Natural Language Querying System</j.0:keyword>
+    <j.0:keyword>Geographical Database</j.0:keyword>
+    <j.0:title>Ontology-supported Querying of Geographical Databases</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/chiara-renso"/>
+    <j.0:keyword>Geographic Information System</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maria-masserotti"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:abstract>Natural language interface offers a good solution to the problem of querying geographical information systems from non expert users. Queries over geographical data are characterized by requests of localization and typically they use implicit spatial relations between objects. Furthermore, users can be interested in referring to some domain concept not explicitly represented in data. To handle such semantic geospatial queries, we present a methodology that translates natural language queries into spatial SQL statements on a database. This approach is driven by an ontology built upon the spatial database and enriched by general domain concepts and properties to deal with localization of objects. Some examples of the use of the methodology in the urban domain are presented.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/laura-spinsanti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-maine-max-egenhofer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/max-egenhofer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-maine"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/laboratory-of-distributed-multimedia-information-systems-and-applications">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Laboratory of Distributed Multimedia Information Systems and Applications</rdfs:label>
+    <j.0:name>Laboratory of Distributed Multimedia Information Systems and Applications</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/laboratory-of-distributed-multimedia-information-systems-and-applications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-laboratory-of-distributed-multimedia-information-systems-and-applications-michalis-foukarakis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michalis-foukarakis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/laboratory-of-distributed-multimedia-information-systems-and-applications"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-bbn-technologies-dave-kolas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dave-kolas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bbn-technologies"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-wisconsin-madison">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Wisconsin-Madison</rdfs:label>
+    <j.0:name>University of Wisconsin-Madison</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-wisconsin-madison"/>
+    <j.0:name>University of Wisconsin - Madison</j.0:name>
+    <rdfs:label>University of Wisconsin - Madison</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/joerg-hoffman">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-sap-research-joerg-hoffman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jörg Hoffman</rdfs:label>
+    <j.0:name>Jörg Hoffman</j.0:name>
+    <foaf:mbox_sha1sum>2e0f3c5c74774ab6a08d9a39717f4c3dc944d78f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/joerg-hoffman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hiroaki-uchiyama"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-engineering-management-integration-usa-gary-berg-cross">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gary-berg-cross"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/engineering-management-integration-usa"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/advanced-systems-group">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Advanced Systems Group</rdfs:label>
+    <j.0:name>Advanced Systems Group</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/advanced-systems-group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-systems-lab-ricoh-co-ltd-hiroaki-uchiyama">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hiroaki-uchiyama"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/systems-lab-ricoh-co-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-fraunhofer-institute-for-computer-graphics-research-eva-klien">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eva-klien"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fraunhofer-institute-for-computer-graphics-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/francesco-tarquini">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-laquila-francesco-tarquini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Francesco Tarquini</rdfs:label>
+    <j.0:name>Francesco Tarquini</j.0:name>
+    <foaf:mbox_sha1sum>7138902b23d8133e2c1f2ea6e6d013951cdd6452</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/francesco-tarquini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DERI, National University of Ireland</rdfs:label>
+    <j.0:name>DERI, National University of Ireland</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dan-adams">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-scitor-corp-dan-adams"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dan Adams</rdfs:label>
+    <j.0:name>Dan Adams</j.0:name>
+    <foaf:mbox_sha1sum>dea2a7d9db7cc8d506be1f5897c4b7e13b8b32f1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dan-adams"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maria-masserotti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/zhixian-yan"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stefano-spaccapietra"/>
+    <j.0:keyword>trajectory ontology</j.0:keyword>
+    <j.0:abstract>Trajectory data play an important role in analyzing real world applications that involve with movement features, especially those complex natural and social phenomena such as \emph{bird migration}, \emph{transportation management}, \emph{urban planning} and \emph{tourism}. Traditional trajectory modeling mostly focuses on the geometric information, ignoring the concealed semantic geographic and domain knowledge.  As an explicit specification of a shared conceptualization, ontology becomes a popular model to provide formal data semantics for information sharing and reusing. By means of designing a set of ontologies, this paper explores a semantic methodology for modeling and querying trajectory data, to extract the hidden geographic and domain knowledge. The definition of trajectory ontologies can be given at different abstraction levels, including domain-independent geometric ones and application-specific semantic ones. In addition, we propose an evaluation framework to verify the practicability and usability of the proposed trajectory ontologies.</j.0:abstract>
+    <rdfs:label>Trajectory Ontologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christine-parent"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-macedo"/>
+    <j.0:title>Trajectory Ontologies</j.0:title>
+    <j.0:keyword>spatiotemporal</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/scitor-corp">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Scitor Corp</rdfs:label>
+    <j.0:name>Scitor Corp</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/scitor-corp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-national-geospatial-intelligence-agency-beth-driver">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/beth-driver"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-geospatial-intelligence-agency"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-glen-hart">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/glen-hart"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ordnance-survey-of-great-britain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stavros-christodoulakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP Research</rdfs:label>
+    <j.0:name>SAP Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vladik-kreinovich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-goodwin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/raluca-zaharia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-illinois-at-chicago">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Illinois at Chicago</rdfs:label>
+    <j.0:name>University of Illinois at Chicago</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-illinois-at-chicago"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zhixian-yan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-masserotti">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-maria-masserotti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maria Masserotti</rdfs:label>
+    <j.0:name>Maria Masserotti</j.0:name>
+    <foaf:mbox_sha1sum>3c75cbd8681ce39e42b4acc0a334cf235ed032d9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maria-masserotti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stavros-christodoulakis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-laboratory-of-distributed-multimedia-information-systems-and-applications-stavros-christodoulakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stavros Christodoulakis</rdfs:label>
+    <j.0:name>Stavros Christodoulakis</j.0:name>
+    <foaf:mbox_sha1sum>fdda2b740a8ae200b71c4cde681b910879b58177</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stavros-christodoulakis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-traverse-technologies-josh-lieberman">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/josh-lieberman"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/traverse-technologies"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/catherine-dolbear">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-catherine-dolbear"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Catherine Dolbear</rdfs:label>
+    <j.0:name>Catherine Dolbear</j.0:name>
+    <foaf:mbox_sha1sum>5c2c07a1bb0a0ce4c63fd62714ea306794cc68d4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/catherine-dolbear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/emiliano-giovannetti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7">
+    <j.0:keyword>recommendation</j.0:keyword>
+    <j.0:title>TrustMap: Trust Recommendations for Maps</j.0:title>
+    <j.0:keyword>provenance</j.0:keyword>
+    <rdfs:label>TrustMap: Trust Recommendations for Maps</rdfs:label>
+    <j.0:abstract>The web is a rich environment for exchanging spatial information. When spatial information is shared in the form of images, i.e., maps, these images almost never come with meta-information about how they were generated. This kind of meta-information is often called knowledge provenance and access to this information may facilitate users to make informed decisions about the quality of maps. In this paper, we propose TrustMap, a new approach for enhancing maps with trust recommendations. For a given map, TrustMap can generate recommendations from the knowledge provenance and a network of trust relations between sources of information used to derive the map. The paper describes a TrustMap implementation as well as a qualitative evaluation of the current implementation.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <j.0:keyword>trust</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:keyword>map understanding</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicholas-del-rio"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vladik-kreinovich"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alejandro-castaneda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/laurentiu-vasiliu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-maine">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Maine</rdfs:label>
+    <j.0:name>University of Maine</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-maine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kathleen-hornsby">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-iowa-kathleen-hornsby"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kathleen  Hornsby</rdfs:label>
+    <j.0:name>Kathleen  Hornsby</j.0:name>
+    <foaf:mbox_sha1sum>fb680aef3e8e2ebd9354859699ea1db2221f02a5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kathleen-hornsby"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eliseo-clementini">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-laquila-eliseo-clementini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eliseo Clementini</rdfs:label>
+    <j.0:name>Eliseo Clementini</j.0:name>
+    <foaf:mbox_sha1sum>48625e1c35297ae3eba23e08d82a834e55751863</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eliseo-clementini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-paulo-pinheiro-da-silva">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/catherine-dolbear"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/werner-kuhn">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-muenster-werner-kuhn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Werner Kuhn</rdfs:label>
+    <j.0:name>Werner Kuhn</j.0:name>
+    <foaf:mbox_sha1sum>9307d2a32965f1fce1eec99566f860b93c0941a1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/werner-kuhn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eliseo-clementini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-macedo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-wisconsin-madison-nancy-wiegand">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nancy-wiegand"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-wisconsin-madison"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicholas-del-rio"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michalis-foukarakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-goodwin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-john-goodwin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Goodwin</rdfs:label>
+    <j.0:name>John Goodwin</j.0:name>
+    <foaf:mbox_sha1sum>4e6e5f3e9ee7afb2826133bbc3c6695d19674cc4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-goodwin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefano-spaccapietra">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-isi-hec-unil-university-of-lausanne-stefano-spaccapietra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefano Spaccapietra</rdfs:label>
+    <j.0:name>Stefano Spaccapietra</j.0:name>
+    <foaf:mbox_sha1sum>39b5ebe6d8defd6dc5058b43cd7c70f0ee6496eb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefano-spaccapietra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-laquila-francesco-tarquini">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/francesco-tarquini"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-laquila"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-lutz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-european-commission-dg-joint-research-center-michael-lutz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Lutz</rdfs:label>
+    <j.0:name>Michael Lutz</j.0:name>
+    <foaf:mbox_sha1sum>6b4169e940b49b0f8892e9e598b2b7b0ab633d1d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-lutz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/josh-lieberman">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-traverse-technologies-josh-lieberman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Josh Lieberman</rdfs:label>
+    <j.0:name>Josh Lieberman</j.0:name>
+    <foaf:mbox_sha1sum>7496033cfd4ba3747fdec41ca9a489e30e4da269</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/josh-lieberman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dave-kolas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-bbn-technologies-dave-kolas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dave Kolas</rdfs:label>
+    <j.0:name>Dave Kolas</j.0:name>
+    <foaf:mbox_sha1sum>cd8d54e1c3da5e7fb726ea5be6a9ea981fcdd554</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dave-kolas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-laboratory-of-distributed-multimedia-information-systems-and-applications-stavros-christodoulakis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stavros-christodoulakis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/laboratory-of-distributed-multimedia-information-systems-and-applications"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/miriam-baglioni"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/systems-lab-ricoh-co-ltd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Systems Lab, Ricoh Co, LTD</rdfs:label>
+    <j.0:name>Systems Lab, Ricoh Co, LTD</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/systems-lab-ricoh-co-ltd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kddlab-isti-cnr">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>KDDLab ISTI,CNR</rdfs:label>
+    <j.0:name>KDDLab ISTI,CNR</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kddlab-isti-cnr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stavros-christodoulakis"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8"/>
+    <j.0:keyword>semantic</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hiroaki-uchiyama"/>
+    <j.0:title>Geospatial Semantic Context Capturing for Picture Annotation, Retrieval and Visualization in SPIM</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/takuya-imai"/>
+    <rdfs:label>Geospatial Semantic Context Capturing for Picture Annotation, Retrieval and Visualization in SPIM</rdfs:label>
+    <j.0:keyword>spatial</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList"/>
+    <j.0:keyword>ontology</j.0:keyword>
+    <j.0:keyword>context</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michalis-foukarakis"/>
+    <j.0:abstract>Cameras can be very powerful sensors, enabling new user interaction metaphors and functionalities. They are not independent devices anymore and they can interoperate with external resources and services like user personal libraries, GIS systems, semantic GIS applications, semantic RFIDs, digital libraries, etc. In this paper, we present a Framework for the management of Semantic image information related to geospatial context and a system that has been built based on this Framework. Digital picture contents in the digital library can be interrelated with, and understood based on, contextual semantic geospatial information in the form of ontologies that the system manages. We describe the integrated camera system, the calculation and visualization of the contextual parameters, and the management of the semantics of the spatial objects. Finally, we present the implementation of SPIM, a picture management system that exploits spatial semantic contextual knowledge, its retrieval functionality and the visual user interfaces.</j.0:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lemonia-ragia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/james-ressler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-northrop-grumman-james-ressler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>James Ressler</rdfs:label>
+    <j.0:name>James Ressler</j.0:name>
+    <foaf:mbox_sha1sum>bd9ac8aa30c1ddd0a2bf700a97961bdabd0240ca</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/james-ressler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LBD-IC, EPFL - Ecole Polytechnique Federale de Lausanne</rdfs:label>
+    <j.0:name>LBD-IC, EPFL - Ecole Polytechnique Federale de Lausanne</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/glen-hart"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/imagematters">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ImageMatters</rdfs:label>
+    <j.0:name>ImageMatters</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/imagematters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-advanced-systems-group-lemonia-ragia">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lemonia-ragia"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/advanced-systems-group"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-macedo">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne-jose-macedo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jose Macedo</rdfs:label>
+    <j.0:name>Jose Macedo</j.0:name>
+    <foaf:mbox_sha1sum>6337fd05696e92c1a3a52612e437c83f4fead878</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-macedo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christine-parent"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-laquila">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of L'Aquila</rdfs:label>
+    <j.0:name>University of L'Aquila</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-laquila"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/terracognita2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about terracognita2008.</j.2:title>
+    <j.2:created>Tue May 03 19:04:40 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/emiliano-giovannetti">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ilc-cnr-emiliano-giovannetti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Emiliano Giovannetti</rdfs:label>
+    <j.0:name>Emiliano Giovannetti</j.0:name>
+    <foaf:mbox_sha1sum>4c9f3163cf5ade62f7b6e7ab171e71cefaaab04f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/emiliano-giovannetti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/european-commission-dg-joint-research-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>European Commission-DG Joint Research Center</rdfs:label>
+    <j.0:name>European Commission-DG Joint Research Center</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/european-commission-dg-joint-research-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-nicholas-del-rio">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicholas-del-rio"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dave-kolas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michalis-foukarakis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-laboratory-of-distributed-multimedia-information-systems-and-applications-michalis-foukarakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michalis Foukarakis</rdfs:label>
+    <j.0:name>Michalis Foukarakis</j.0:name>
+    <foaf:mbox_sha1sum>a82a7e3d8dfa2785b6714ea17bd69ba501b2db62</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michalis-foukarakis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/takuya-imai">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-systems-lab-ricoh-co-ltd-takuya-imai"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Takuya Imai</rdfs:label>
+    <j.0:name>Takuya Imai</j.0:name>
+    <foaf:mbox_sha1sum>8bec7af20e991cb905d58fbc94fb1dd64b6b4c44</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/takuya-imai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alejandro-castaneda">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-alejandro-castaneda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alejandro Castaneda</rdfs:label>
+    <j.0:name>Alejandro Castaneda</j.0:name>
+    <foaf:mbox_sha1sum>de472d917e7ecdb6db1763c9c9ebdc92e2561f45</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alejandro-castaneda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mike-dean">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-bbn-technologies-mike-dean"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mike Dean</rdfs:label>
+    <j.0:name>Mike Dean</j.0:name>
+    <foaf:mbox_sha1sum>6006a914f7d645142fadf08d9a4e33aee98416d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mike-dean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laurentiu-vasiliu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-deri-nui-galway-laurentiu-vasiliu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laurentiu Vasiliu</rdfs:label>
+    <j.0:name>Laurentiu Vasiliu</j.0:name>
+    <foaf:mbox_sha1sum>58c0e3d72b002b21231abbb9d803de035dfe3023</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laurentiu-vasiliu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-imagematters-harry-chen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/harry-chen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/imagematters"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chiara-renso">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-chiara-renso"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chiara Renso</rdfs:label>
+    <j.0:name>Chiara Renso</j.0:name>
+    <foaf:mbox_sha1sum>5fcb00267c18a255f0738a791e7fce3c3f67159f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chiara-renso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ilc-cnr">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ILC, CNR</rdfs:label>
+    <j.0:name>ILC, CNR</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ilc-cnr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/isabel-cruz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-illinois-at-chicago-isabel-cruz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Isabel Cruz</rdfs:label>
+    <j.0:name>Isabel Cruz</j.0:name>
+    <foaf:mbox_sha1sum>450162ac52a51c1ed888fa843c004bbc77d8e757</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/isabel-cruz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-iowa-kathleen-hornsby">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kathleen-hornsby"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-iowa"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alejandro-castaneda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1">
+    <rdfs:label>Supporting Spatial Semantics with SPARQL</rdfs:label>
+    <j.0:title>Supporting Spatial Semantics with SPARQL</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1"/>
+    <j.0:keyword>SPARQL</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:abstract>Though the intersection of spatial data and semantic web technologies holds significant promise, there are still many challenges before this promise can be realized.  One of these challenges is query representation.  History suggests that an appropriate solution is a specialized query language for spatial data; however, with a broad interpretation of the SPARQL specification and extensions that would be useful outside the spatial realm, one can use SPARQL to query spatial concepts effectively.  This paper establishes a set of desiderata for a query language capable of dealing with spatial Semantic Web-based data, discusses the challenges facing such a query language, and addresses these challenges with straightforward solutions that are broadly applicable.  The effectiveness of these extensions is demonstrated using example queries.</j.0:abstract>
+    <j.0:keyword>query language</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList"/>
+    <j.0:keyword>spatial</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dave-kolas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-universita-di-pisa-miriam-baglioni">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/miriam-baglioni"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universita-di-pisa"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne-zhixian-yan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zhixian-yan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lbd-ic-epfl-ecole-polytechnique-federale-de-lausanne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-alejandro-castaneda">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alejandro-castaneda"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stefano-spaccapietra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/isi-hec-unil-university-of-lausanne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ISI-HEC, UNIL - University of Lausanne</rdfs:label>
+    <j.0:name>ISI-HEC, UNIL - University of Lausanne</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/isi-hec-unil-university-of-lausanne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-vladik-kreinovich">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vladik-kreinovich"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/harry-chen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-imagematters-harry-chen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Harry Chen</rdfs:label>
+    <j.0:name>Harry Chen</j.0:name>
+    <foaf:mbox_sha1sum>80368445d942c6e207c6694353355c3bd37f3e7a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/harry-chen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ordnance-survey-of-great-britain">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ordnance Survey</rdfs:label>
+    <j.0:name>Ordnance Survey</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ordnance-survey-of-great-britain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/glen-hart">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-glen-hart"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Glen Hart</rdfs:label>
+    <j.0:name>Glen Hart</j.0:name>
+    <foaf:mbox_sha1sum>20e382d981f723a765ea9f9541b24b22aad4ab64</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/glen-hart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eva-klien">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-fraunhofer-institute-for-computer-graphics-research-eva-klien"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eva Klien</rdfs:label>
+    <j.0:name>Eva Klien</j.0:name>
+    <foaf:mbox_sha1sum>c809069c30118fe9c165e48079ee75a01581c528</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eva-klien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-john-goodwin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-goodwin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ordnance-survey-of-great-britain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ilc-cnr-emiliano-giovannetti">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emiliano-giovannetti"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ilc-cnr"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-systems-lab-ricoh-co-ltd-takuya-imai">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/takuya-imai"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/systems-lab-ricoh-co-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-deri-nui-galway-laurentiu-vasiliu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/laurentiu-vasiliu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-northrop-grumman-james-ressler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/james-ressler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/northrop-grumman"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-paulo-pinheiro-da-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paulo Pinheiro da Silva</rdfs:label>
+    <j.0:name>Paulo Pinheiro da Silva</j.0:name>
+    <foaf:mbox_sha1sum>b6a3c19dcba51220bd64fb820607884193dbd16c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paulo-pinheiro-da-silva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/traverse-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Traverse Technologies</rdfs:label>
+    <j.0:name>Traverse Technologies</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/traverse-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-deri-nui-galway-raluca-zaharia">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/raluca-zaharia"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-laquila-eliseo-clementini">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eliseo-clementini"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-laquila"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-geospatial-intelligence-agency">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Geospatial-Intelligence Agency</rdfs:label>
+    <j.0:name>National Geospatial-Intelligence Agency</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-geospatial-intelligence-agency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/max-egenhofer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-maine-max-egenhofer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Max Egenhofer</rdfs:label>
+    <j.0:name>Max Egenhofer</j.0:name>
+    <foaf:mbox_sha1sum>102c446b2de82962ce190a751971ba6a95eb3942</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/max-egenhofer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2"/>
+    <j.0:keyword>RDF</j.0:keyword>
+    <j.0:keyword>geographic data</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/glen-hart"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-goodwin"/>
+    <j.0:title>Geographical Linked Data: The Administrative Geography of Great Britain on the Semantic Web</j.0:title>
+    <rdfs:label>Geographical Linked Data: The Administrative Geography of Great Britain on the Semantic Web</rdfs:label>
+    <j.0:keyword>linked data</j.0:keyword>
+    <j.0:keyword>administrative geography</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/catherine-dolbear"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:abstract>The national mapping agency of Great Britain, Ordnance Survey, is investigating how semantic web technologies assist its role as a geographical information provider. A major part of this work involves the development of prototype products and datasets in RDF. This paper discusses the production of an example dataset for the administrative of Great Britain demonstrating the benefits of explicitly encoding topological relations between geographic entities over traditional spatial queries. We also outline how this data can be linked to other datasets on the Linked Data Web and some of the challenges that this produces.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-muenster-werner-kuhn">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/werner-kuhn"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/takuya-imai"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laura-spinsanti">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-laura-spinsanti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laura Spinsanti</rdfs:label>
+    <j.0:name>Laura Spinsanti</j.0:name>
+    <foaf:mbox_sha1sum>c6fb6716e5ea43e61c6105f53a55dc566f373c6e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laura-spinsanti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-ordnance-survey-of-great-britain-catherine-dolbear">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/catherine-dolbear"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ordnance-survey-of-great-britain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/angela-schwering">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-osnabrueck-angela-schwering"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Angela Schwering</rdfs:label>
+    <j.0:name>Angela Schwering</j.0:name>
+    <foaf:mbox_sha1sum>8dc2492cfe8e58028e9730c84462cefd93596081</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/angela-schwering"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-scitor-corp-dan-adams">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dan-adams"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/scitor-corp"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-sap-research-joerg-hoffman">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joerg-hoffman"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-laura-spinsanti">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/laura-spinsanti"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kddlab-isti-cnr"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-maria-masserotti">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maria-masserotti"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kddlab-isti-cnr"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/7"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gary-berg-cross">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-engineering-management-integration-usa-gary-berg-cross"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gary Berg-Cross</rdfs:label>
+    <j.0:name>Gary Berg-Cross</j.0:name>
+    <foaf:mbox_sha1sum>8dd42769398b53b1cb558d91f70c01e2ba91f5e5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gary-berg-cross"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicholas-del-rio">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-nicholas-del-rio"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicholas Del Rio</rdfs:label>
+    <j.0:name>Nicholas Del Rio</j.0:name>
+    <foaf:mbox_sha1sum>9fbb20cd0da82247f71efaec8a3131b778f16eff</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicholas-del-rio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-isi-hec-unil-university-of-lausanne-christine-parent">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christine-parent"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/isi-hec-unil-university-of-lausanne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-bbn-technologies-mike-dean">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mike-dean"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bbn-technologies"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christine-parent">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-isi-hec-unil-university-of-lausanne-christine-parent"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christine Parent</rdfs:label>
+    <j.0:name>Christine Parent</j.0:name>
+    <foaf:mbox_sha1sum>c23ac5c0e8afd147d9a257400568d09cb6b87edd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christine-parent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3">
+    <j.0:abstract>The quality and integrity of spatial data is very important to support interoperability among different systems. To reach this aim integrity rules defined by the application play an important role (for example, constraints between object classes). In the paper, we propose a methodology to define integrity constraints using user level spatial relations between classes of individuals. We will also provide mapping rules from user level relations to geometric level operators to allow the computation of relations.  As a case study, we will define the constraints for the class of rivers and some of its specializations.</j.0:abstract>
+    <j.0:keyword>integrity constraints</j.0:keyword>
+    <j.0:keyword>spatial ontology</j.0:keyword>
+    <j.0:title>Spatial Relations between Classes as Integrity Constraints</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/terra_cognita/2008/proceedings"/>
+    <j.0:keyword>user spatial relations</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3"/>
+    <j.0:keyword>class relations</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/francesco-tarquini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eliseo-clementini"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/3/authorList"/>
+    <rdfs:label>Spatial Relations between Classes as Integrity Constraints</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fraunhofer-institute-for-computer-graphics-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Fraunhofer Institute for Computer Graphics Research</rdfs:label>
+    <j.0:name>Fraunhofer Institute for Computer Graphics Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fraunhofer-institute-for-computer-graphics-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nancy-wiegand">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-wisconsin-madison-nancy-wiegand"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nancy Wiegand</rdfs:label>
+    <j.0:name>Nancy Wiegand</j.0:name>
+    <foaf:mbox_sha1sum>e8118a298ce1fad96098f13a97181f0d72b8376c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nancy-wiegand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vladik-kreinovich">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-university-of-texas-at-el-paso-vladik-kreinovich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vladik Kreinovich</rdfs:label>
+    <j.0:name>Vladik Kreinovich</j.0:name>
+    <foaf:mbox_sha1sum>cbe31f898e1067701852f81a81e1d1a094c3659d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vladik-kreinovich"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/engineering-management-integration-usa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Engineering Management and Integration</rdfs:label>
+    <j.0:name>Engineering Management and Integration</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/engineering-management-integration-usa"/>
+    <j.0:name>Engineering Management &amp; Integration, USA</j.0:name>
+    <rdfs:label>Engineering Management &amp; Integration, USA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/terracognita2008/data.semanticweb.org/workshop/terra_cognita/2008/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-european-commission-dg-joint-research-center-michael-lutz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-lutz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/european-commission-dg-joint-research-center"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hiroaki-uchiyama">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-systems-lab-ricoh-co-ltd-hiroaki-uchiyama"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hiroaki Uchiyama</rdfs:label>
+    <j.0:name>Hiroaki Uchiyama</j.0:name>
+    <foaf:mbox_sha1sum>b3be77a5f14aaed9d86d6065b9d3b6a900b8cf6f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hiroaki-uchiyama"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-isi-hec-unil-university-of-lausanne-stefano-spaccapietra">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefano-spaccapietra"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/isi-hec-unil-university-of-lausanne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/northrop-grumman">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Northrop Grumman</rdfs:label>
+    <j.0:name>Northrop Grumman</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/northrop-grumman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bbn-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BBN Technologies</rdfs:label>
+    <j.0:name>BBN Technologies</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bbn-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-osnabrueck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Osnabrück</rdfs:label>
+    <j.0:name>University of Osnabrück</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-osnabrueck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/terracognita2008-kddlab-isti-cnr-chiara-renso">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chiara-renso"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kddlab-isti-cnr"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/Terra Cognita 2008/terra_cognita/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

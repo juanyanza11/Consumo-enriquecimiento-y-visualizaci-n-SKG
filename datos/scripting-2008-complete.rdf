@@ -1,0 +1,790 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/soeren-auer">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sören Auer</rdfs:label>
+    <cofunc:name>Sören Auer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/soeren-auer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/uldis-bojars">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Uldis Bojars</rdfs:label>
+    <cofunc:name>Uldis Bojars</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/uldis-bojars"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laurian-gridinoc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laurian Gridinoc</rdfs:label>
+    <cofunc:name>Laurian Gridinoc</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laurian-gridinoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>RDF in JSON</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/keith-alexander"/>
+    <cofunc:title>RDF in JSON</cofunc:title>
+    <cofunc:abstract>This paper outlines the design of a data structure for RDF serialisable in JSON, and describes why it is significant for developing with RDF and scripting languages.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eero-hyvoenen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eero Hyvoenen</rdfs:label>
+    <cofunc:name>Eero Hyvoenen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>RDF2FS - A Unix File System RDF Store</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-sintek"/>
+    <cofunc:title>RDF2FS - A Unix File System RDF Store</cofunc:title>
+    <cofunc:abstract>RDF2FS is a script that translates an arbitrary RDF graph intoa directory structure in a (Unix) file system, which enablesSemantic Web applications without the need of havinga dedicated RDF store.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/5"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gunnar-aastrand-grimnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michele-barbera"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-emilio-labra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gunnar-aastrand-grimnes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michele-nucci">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michele Nucci</rdfs:label>
+    <cofunc:name>Michele Nucci</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michele-nucci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-sintek">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Sintek</rdfs:label>
+    <cofunc:name>Michael Sintek</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-sintek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu d'Aquin</rdfs:label>
+    <cofunc:name>Mathieu d'Aquin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14">
+    <cofunc:title>Using JavaScript RDFa Widgets for model/view separation inside read/write websites</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sebastian-hellmann"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sebastian-dietzold"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/14"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList"/>
+    <cofunc:abstract>As more and more websites start to embed RDFa content in their web application view, the need arises to provide a more extensive way to view and edit this semantic content independently from the remainder of the application. We present a JavaScript API that allows the independent creation of editing widgets for embedded RDFa, which adds a new edge to Web development in the context of the Semantic Web. As an extra addition, the API also provides sound update methods which allows for on-the-spot model synchronization between client and server.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-peklo"/>
+    <rdfs:label>Using JavaScript RDFa Widgets for model/view separation inside read/write websites</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-cyganiak">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Richard Cyganiak</rdfs:label>
+    <cofunc:name>Richard Cyganiak</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/richard-cyganiak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-schandl">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Schandl</rdfs:label>
+    <cofunc:name>Thomas Schandl</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-schandl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-breslin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Breslin</rdfs:label>
+    <cofunc:name>John Breslin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-breslin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-hahn"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList"/>
+    <rdfs:label>The Talia library platform - Rapidly building a digital library on Rails</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michele-nucci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/4"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <cofunc:abstract>Talia is a web-based distributed digital library and publishingsystem, designed for the scholarly research in philosophy. Talia isbased on semantic web technology; it's being developed with the Rubyon Rails web framework.Rails is a relatively new environment, which allows developers to easilycreate well-structured web applications. By combining it's power withsemantic web technology, and leveraging on existing solutions like ActiveRDF,it is possible to quickly create a full-featured semantic libraryplatform, from scratch, in a short time.Talia does not aim at creating new semantic web technology as such, butat providing practical solutions for embedding the existing technology inmodern web applications.This paper focuses on a few select features of Talia to show the possibilities.</cofunc:abstract>
+    <cofunc:title>The Talia library platform - Rapidly building a digital library on Rails</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michele-barbera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/laurian-gridinoc"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-hahn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-hahn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thomas-schandl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/benjamin-nowack"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-sintek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gunnar-aastrand-grimnes">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gunnar Aastrand Grimnes</rdfs:label>
+    <cofunc:name>Gunnar Aastrand Grimnes</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gunnar-aastrand-grimnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/sfsw2008/scripting/2008">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>4th Workshop on Scripting for the Semantic Web</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/13/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ruby Semantic Web Pipes</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-hahn"/>
+    <cofunc:title>Ruby Semantic Web Pipes</cofunc:title>
+    <cofunc:abstract>This is a scripting challenge entry. It's a simple but easy re-implemetation of the Semantic Web Pipes presented by Giovanni Tummarello and Christian Morbidoni, making them available for easy scripting in Ruby. Unfortunately there's no online demo at the time of submission, but the complete source code is available at http://svn.talia.discovery-project.eu/talia-intern/playground/ruby_pipes/trunk via svn.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/13"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michele-barbera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sebastian-hellmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>SPARQLBot - The Semantic Web Command Line</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/benjamin-nowack"/>
+    <cofunc:title>SPARQLBot - The Semantic Web Command Line</cofunc:title>
+    <cofunc:abstract>SPARQLBot is an RDF-driven agent that loads structured information from the Web and reacts to user-defined questions and commands via an IRC interface. The bot is implemented using a small number of PHP scripts and ARC, an open-source PHP/MySQL-based RDF system for storage and query functionality.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-emilio-labra">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jose Emilio Labra</rdfs:label>
+    <cofunc:name>Jose Emilio Labra</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-emilio-labra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tuukka-hastrup"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stephane-corlosquet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/sfsw2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about sfsw2008.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:28 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tuukka-hastrup"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/uldis-bojars"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+    <rdfs:label>A Distributed Semantic Microblogging Platform</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <cofunc:abstract>The application showcases the ideas of a distributed, Semantic-Web enabled, microblogging architecture, providing a way to leverage microblogging to the Semantic Web.</cofunc:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/12"/>
+    <cofunc:title>A Distributed Semantic Microblogging Platform</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-peklo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-hausenblas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:abstract>When building a linked-data dataset for humans and machines, a range of issues emerges. In this paper we discuss our findings regarding the implementation of riese (http://riese.joanneum.at), the RDFized and interlinked version of the Eurostat data. The contribution of our work is twofold: On the one hand we propose a new way of creating semantic links, labelled as User Contributed Interlinking, on the other hand we discuss Web 2.0 integration issues.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <rdfs:label>Scripting User Contributed Interlinking</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yves-raimond"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-halb"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/6"/>
+    <cofunc:title>Scripting User Contributed Interlinking</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/uldis-bojars"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wolfgang-halb">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Wolfgang Halb</rdfs:label>
+    <cofunc:name>Wolfgang Halb</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/wolfgang-halb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/uldis-bojars"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/richard-cyganiak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-hahn">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel Hahn</rdfs:label>
+    <cofunc:name>Daniel Hahn</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-hahn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-peklo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Peklo</rdfs:label>
+    <cofunc:name>Martin Peklo</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-peklo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1">
+    <cofunc:title>XSLT+SPARQL: Scripting the Semantic Web with SPARQL embedded into XSLT stylesheets</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-emilio-labra"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/1"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList"/>
+    <rdfs:label>XSLT+SPARQL: Scripting the Semantic Web with SPARQL embedded into XSLT stylesheets</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ivan-herman"/>
+    <cofunc:abstract>Scripting the Semantic Web requires to access and transform RDF data. We present XSLT+SPARQL, a set of extension functions for XSLT which allow stylesheets to directly access RDF data, independently of any serialization syntax, by means of SPARQL queries. Using these functions, XSLT stylesheets can retrieve, query, merge and transform data from the semantic web. We illustrate the functionality of our proposal with an example script which creates XHTML pages from the contents of DBpedia.</cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sergio-fernandez">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sergio Fernandez</rdfs:label>
+    <cofunc:name>Sergio Fernandez</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sergio-fernandez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/11"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tuukka-hastrup"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/uldis-bojars"/>
+    <cofunc:abstract>While microblogging quickly gain a lot of interest in the Web 2.0 community, it still not have been leverage to the Semantic Web unlike blogs and wikis.In this paper, we will describe the features, methods and the architecture of a distributed Semantic-Web microblogging system, as well as the implementation of a firt prototype of that kind of tool that provide ways to leverage microblogging to the Linked Data Web.</cofunc:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+    <cofunc:title>Microblogging: A Semantic Web and Distributed Approach</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <rdfs:label>Microblogging: A Semantic Web and Distributed Approach</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>World of WebCraft - Mashing up World of Warcraft and the Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/knud-moeller"/>
+    <cofunc:title>World of WebCraft - Mashing up World of Warcraft and the Web</cofunc:title>
+    <cofunc:abstract>This short paper presents World of WebCraft, a set of tools which together allow players of the MMORPG World of Warcraft to generate photoblog-like Web representations of their in-game avatars. This is achieved by periodically logging information of the location of the avatar during the game, matching this information with in-game screenshots and then uploading them to Flickr, using machine-tags as annotations. Finally, an additional Web application uses the machine-tagged pictures to generate the photoblog.The tools are implemented using a combination of Lua and Ruby (two scripting languages), as well as Objective-C.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stephane-corlosquet">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stephane Corlosquet</rdfs:label>
+    <cofunc:name>Stephane Corlosquet</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stephane-corlosquet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-dietzold">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Dietzold</rdfs:label>
+    <cofunc:name>Sebastian Dietzold</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-dietzold"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tuukka-hastrup"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tuukka-hastrup">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tuukka Hastrup</rdfs:label>
+    <cofunc:name>Tuukka Hastrup</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tuukka-hastrup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-halb"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/12/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-bizer">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christian Bizer</rdfs:label>
+    <cofunc:name>Christian Bizer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-bizer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/cosmin-basca"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-hausenblas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Hausenblas</rdfs:label>
+    <cofunc:name>Michael Hausenblas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-hausenblas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10">
+    <cofunc:title>Neologism: Easy Vocabulary Publishing</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <cofunc:abstract>Creating, documenting, publishing and maintaining an RDF Schema vocabulary is a complex, time-consuming task. This makes vocabulary maintainers reluctant to evolve their creations quickly in response to user feedback; it prevents use of RDF for casual, ad-hoc data publication about niche topics; it leads to poorly documented vocabularies, and contributes to poor compliance of vocabularies with best-practice recommendations. Neologism is a web-based vocabulary editor and publishing system that dramatically reduces the time required to create, publish and modify vocabularies. By removing a lot of pain from this process, Neologism will contribute to a generally more interesting, relevant and standards-compliant Semantic Web.</cofunc:abstract>
+    <rdfs:label>Neologism: Easy Vocabulary Publishing</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thomas-schandl"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/10/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/10"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/richard-cyganiak"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stephane-corlosquet"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/cosmin-basca"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/keith-alexander"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>MOAW - URI's Everywhere</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:title>MOAW - URI's Everywhere</cofunc:title>
+    <cofunc:abstract>MOAW (pronounce like mauve: |m~ov|) can be seen as a URI suggestion tool, building on the "auto-completion" feature made popular by Web 2.0 websites and Google keyword suggestion. Basically, MOAW can be attached to any text field (HTML input element) so that, while typing, suggestions of URIs would appear that can be selected to replace the corresponding word. The URIs suggested by MOAW are discovered thanks to the Watson Semantic Web Gateway.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/8"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/laurian-gridinoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sebastian-dietzold"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/keith-alexander">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Keith Alexander</rdfs:label>
+    <cofunc:name>Keith Alexander</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/keith-alexander"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/knud-moeller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-hausenblas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kim-viljanen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kim Viljanen</rdfs:label>
+    <cofunc:name>Kim Viljanen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kim-viljanen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michele-barbera"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michele-barbera">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michele Barbera</rdfs:label>
+    <cofunc:name>Michele Barbera</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michele-barbera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/knud-moeller">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Knud Moeller</rdfs:label>
+    <cofunc:name>Knud Moeller</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/knud-moeller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <rdfs:label>Cooking HTTP content negotiation with Vapour</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ivan-frade"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/3"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>Cooking HTTP content negotiation with Vapour</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList"/>
+    <cofunc:abstract>The Semantic Web is built upon a distributed amount of knowledge published on the Web. But this vision can not be implemented without some basic norms and rules of publishing and making machine-understandable all this data. Special mention must be given the publication of RDF vocabularies for the importance that they have in the Semantic Web architecture. In this paper we describe a light scripting web-based application that validates some of these rules. We think that practical experimentation permits illustrating and discussing some problems of these mechanisms.</cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-heath">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tom Heath</rdfs:label>
+    <cofunc:name>Tom Heath</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-heath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/benjamin-nowack">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Benjamin Nowack</rdfs:label>
+    <cofunc:name>Benjamin Nowack</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/benjamin-nowack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ivan-frade">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ivan Frade</rdfs:label>
+    <cofunc:name>Ivan Frade</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ivan-frade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michele-nucci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-hellmann">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Hellmann</rdfs:label>
+    <cofunc:name>Sebastian Hellmann</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-hellmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/diego-berrueta">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Diego Berrueta</rdfs:label>
+    <cofunc:name>Diego Berrueta</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/diego-berrueta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yves-raimond">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yves Raimond</rdfs:label>
+    <cofunc:name>Yves Raimond</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yves-raimond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/scripting/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/scripting/2008/paper/2"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <rdfs:label>Publishing and Using Ontologies as Mash-Up Services</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:abstract>The Semantic Web is based on using ontologies for enabling semantically disambiguated data exchange between distributed systems on the web. This requires efficient means for publishing ontologies on the web to ensure the availability, sharing and acceptance of the ontologies. Support services are needed for utilizing ontologies easily and cost-effectively in applications and legacy systems lacking ontology support.To address these vital needs, this paper presents the ONKI ontology service which provides ready-to-use "mash-up" functionalities, such as semantic disambiguation, concept finding and concept fetching as ready-to-use web widgets for adding ontology support to e.g. HTML forms using JavaScript. Two implementations of the ONKI Server are presented: ONKI-SKOS for ontologies presented in the Simple Knowledge Organization System (SKOS) language and ONKI-Geo for geographical ontologies with a map interface. The presented ONKI systems are operational on the web, used in the National Finnish Ontology Service. They have been successfully used in several pilot applications.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:title>Publishing and Using Ontologies as Mash-Up Services</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/cosmin-basca">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Cosmin Basca</rdfs:label>
+    <cofunc:name>Cosmin Basca</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/cosmin-basca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexandre-passant">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexandre Passant</rdfs:label>
+    <cofunc:name>Alexandre Passant</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexandre-passant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jouni-tuominen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jouni Tuominen</rdfs:label>
+    <cofunc:name>Jouni Tuominen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ivan-herman">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ivan Herman</rdfs:label>
+    <cofunc:name>Ivan Herman</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ivan-herman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ivan-herman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ivan-frade"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yves-raimond"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+</rdf:RDF>

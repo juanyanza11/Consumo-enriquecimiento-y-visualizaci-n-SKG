@@ -1,0 +1,1212 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yohei-seki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-baidu-com-inc-zhengyu-niu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zhengyu-niu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/baidu-com-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-tom-chao-zhou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-chao-zhou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ashwin-ram">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-college-of-computing-georgia-tech-ashwin-ram"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ashwin Ram</rdfs:label>
+    <j.0:name>Ashwin Ram</j.0:name>
+    <j.0:givenName>Ashwin</j.0:givenName>
+    <j.0:familyName>Ram</j.0:familyName>
+    <foaf:mbox_sha1sum>e513d26c405d1f5cea7d3e68972326a16eaffb1b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ashwin-ram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gideon-dror">
+    <j.0:familyName>Dror</j.0:familyName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-academic-college-of-tel-aviv-yaffo-gideon-dror"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gideon-dror"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-gideon-dror"/>
+    <j.0:givenName>Gideon</j.0:givenName>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <foaf:mbox_sha1sum>98e984f2be6dae7b714ad69d499b317fbd8db964</foaf:mbox_sha1sum>
+    <j.0:name>Gideon Dror</j.0:name>
+    <rdfs:label>Gideon Dror</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-gideon-dror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-r-lyu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-michael-r-lyu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael R. Lyu</rdfs:label>
+    <j.0:name>Michael R. Lyu</j.0:name>
+    <j.0:givenName>Michael</j.0:givenName>
+    <j.0:familyName>Lyu</j.0:familyName>
+    <foaf:mbox_sha1sum>9f9f65ba73fdd6c31eee0ea3c604ef20e5a07a62</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-r-lyu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-mounia-lalmas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mounia-lalmas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yoelle-maarek">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-yoelle-maarek"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-yoelle-maarek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yoelle Maarek</rdfs:label>
+    <j.0:name>Yoelle Maarek</j.0:name>
+    <j.0:givenName>Yoelle</j.0:givenName>
+    <j.0:familyName>Maarek</j.0:familyName>
+    <foaf:mbox_sha1sum>1518b4afd9eb80228d235b4b03e5a5bead572994</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yoelle-maarek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fatemeh-riahi"/>
+    <j.0:keyword>Expert Recommendation</j.0:keyword>
+    <j.0:keyword>Community Question Answering</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mahdi-shafiei"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/evangelos-milios"/>
+    <j.0:keyword>Language Model</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/zainab-zolaktaf"/>
+    <j.0:title>Finding Expert Users in Community Question Answering</j.0:title>
+    <j.0:keyword>Topic Modeling</j.0:keyword>
+    <j.0:abstract>Community Question Answering (CQA) websites provide a rapidly growing source of information in many areas. This rapid growth while offering new opportunities, puts forward new challenges. In most CQA implementations, there is little effort in directing new questions to the right group of experts. This means that experts are not be provided with questions matching their expertise, and therefore new matching questions may be missed and not receive a proper answer. We focus on finding experts for a newly posted question. We investigate the suitability of two statistical topic models for solving this issue and compare these methods against more traditional Information Retrieval approaches. We show that for a dataset constructed from the Stackoverflow website, these topic models outperform other methods in retrieving a candidate set of best experts for a question. We also show that the Segmented Topic Model gives consistently better performance compared to the Latent Dirichlet Allocation Model.</j.0:abstract>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList"/>
+    <j.0:keyword>TF-IDF</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/9"/>
+    <rdfs:label>Finding Expert Users in Community Question Answering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-elad-yom-tov">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/elad-yom-tov"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-mounia-lalmas">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mounia-lalmas"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-emory-university-eugene-agichtein">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eugene-agichtein"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/emory-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-marti-hearst">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/marti-hearst"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/saurav-sahay"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-chirag-shah">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/chirag-shah"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1">
+    <j.0:keyword>Question Routing</j.0:keyword>
+    <j.0:abstract>Community-based Question and Answering (CQA) services have brought users to a new era of knowledge dissemination by allowing users to ask questions and to answer other users’ questions. However, due to the fast increasing of posted questions and the lack of an effective way to find interesting questions, there is a serious gap between posted questions and potential answerers. This gap may degrade a CQA service’s performance as well as reduce users’ loyalty to the system. To bridge the gap, we present a new approach to Question Routing, which aims at routing questions to participants who are likely to provide answers. We consider the problem of question routing as a classification task, and develop a variety of local and global features which capture different aspects of questions, users, and their relations.Our experimental results obtained from an evaluation over the Yahoo! Answers dataset demonstrate high feasibility of question routing. We also perform a systematical comparison on how different types of features contribute to the final result and show that question-user relationship features play a key role in improving the overall performance.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tom-chao-zhou"/>
+    <rdfs:label>A Classification-based Approach to Question Routing in Community Question Answering</rdfs:label>
+    <j.0:keyword>Community Question Answering</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <j.0:keyword>Classification</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/1"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-r-lyu"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>A Classification-based Approach to Question Routing in Community Question Answering</j.0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/barley-mak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-carmel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-ibm-research-laboratory-haifa-david-carmel"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-david-carmel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Carmel</rdfs:label>
+    <j.0:name>David Carmel</j.0:name>
+    <j.0:givenName>David</j.0:givenName>
+    <j.0:familyName>Carmel</j.0:familyName>
+    <foaf:mbox_sha1sum>1a57b254e7b3ce5de041fe84eed934fdc3cb128c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-carmel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zhengyu-niu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-michael-r-lyu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-r-lyu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ryen-w-white">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-microsoft-research-ryen-w-white"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-ryen-w-white"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ryen W. White</rdfs:label>
+    <j.0:name>Ryen W. White</j.0:name>
+    <j.0:givenName>Ryen</j.0:givenName>
+    <j.0:familyName>White</j.0:familyName>
+    <foaf:mbox_sha1sum>5434a788846eaf506a9873896010590088e6cb94</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ryen-w-white"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-rutgers-university-chirag-shah">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chirag-shah"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rutgers-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/noriko-kando"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-meredith-morris">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/meredith-morris"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/atsushi-otsuka"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-tat-seng-chua">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tat-seng-chua"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-yohei-seki">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yohei-seki"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/graduate-school-of-library-information-and-media-s"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/baichuan-li">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-baichuan-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Baichuan Li</rdfs:label>
+    <j.0:name>Baichuan Li</j.0:name>
+    <j.0:givenName>Baichuan</j.0:givenName>
+    <j.0:familyName>Li</j.0:familyName>
+    <foaf:mbox_sha1sum>c936c5ebc36ad1d3980e0b112ca42494a0ad6dd7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/baichuan-li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-chao-zhou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-tom-chao-zhou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tom Chao Zhou</rdfs:label>
+    <j.0:name>Tom Chao Zhou</j.0:name>
+    <j.0:givenName>Tom</j.0:givenName>
+    <j.0:familyName>Zhou</j.0:familyName>
+    <foaf:mbox_sha1sum>fb3cb7e66aada4913bada6d7294d51b3b7ff37d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-chao-zhou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-gideon-dror">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gideon-dror"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-zainab-zolaktaf">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zainab-zolaktaf"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dalhousie-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/noriko-kando">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-national-institute-of-informatics-japan-noriko-kando"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Noriko Kando</rdfs:label>
+    <j.0:name>Noriko Kando</j.0:name>
+    <j.0:givenName>Noriko</j.0:givenName>
+    <j.0:familyName>Kando</j.0:familyName>
+    <foaf:mbox_sha1sum>bc13eb592d800f2042539087561ced97fc88a6d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/noriko-kando"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/emory-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Emory University</rdfs:label>
+    <j.0:name>Emory University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/emory-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-r-lyu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/barley-mak"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-r-lyu"/>
+    <j.0:title>Analyzing and Predicting Question Quality in Community Question Answering Services</j.0:title>
+    <j.0:keyword>Question Quality</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/baichuan-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Analysis</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tan-jin"/>
+    <j.0:keyword>Prediction</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/2"/>
+    <j.0:abstract>Users tend to ask and answer questions in community question answering (CQA) service to seek information and share knowledge. A corollary is that myriad of questions and answers appear in CQA service. Accordingly, volumes of studies have been taken to explore the answer quality so as to provide a preliminary screening for better answers. However, to our knowledge, less attention has so far been paid to question quality in CQA. Knowing question quality provides us with finding and recommending good questions together with identifying bad ones which hinder the CQA service. In this paper, we are conducting two studies to investigate the question quality issue. The first study analyzes the factors of question quality and finds that the interaction between askers and topics results in the differences of question quality. Based on this finding, in the second study we propose a Mutual Reinforcement-based Label Propagation (MRLP) algorithm to predict question quality. We experiment with Yahoo! Answers data and the results demonstrate the effectiveness of our algorithm.</j.0:abstract>
+    <rdfs:label>Analyzing and Predicting Question Quality in Community Question Answering Services</rdfs:label>
+    <j.0:keyword>Community Question Answering</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-school-of-information-university-of-california-berkeley-marti-hearst">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marti-hearst"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/school-of-information-university-of-california-berkeley"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-baichuan-li">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/baichuan-li"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zhengyu-niu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-baidu-com-inc-zhengyu-niu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zhengyu Niu</rdfs:label>
+    <j.0:name>Zhengyu Niu</j.0:name>
+    <j.0:givenName>Zhengyu</j.0:givenName>
+    <j.0:familyName>Niu</j.0:familyName>
+    <foaf:mbox_sha1sum>9bdef1e88ef7f2dbbb9f156284abbc2ed2d83a8a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zhengyu-niu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/man-lan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/school-of-information-university-of-california-berkeley">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>School of Information, University of California, Berkeley</rdfs:label>
+    <j.0:name>School of Information, University of California, Berkeley</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/school-of-information-university-of-california-berkeley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/oleg-rokhlenko"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/man-lan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-man-lan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Man Lan</rdfs:label>
+    <j.0:name>Man Lan</j.0:name>
+    <j.0:givenName>Man</j.0:givenName>
+    <j.0:familyName>Lan</j.0:familyName>
+    <foaf:mbox_sha1sum>3292fc8462ef79550245b6d3f5072556a91e7753</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/man-lan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-man-lan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/man-lan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/east-china-normal-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Chinese University of Hong Kong</rdfs:label>
+    <j.0:name>The Chinese University of Hong Kong</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-chinese-university-of-hong-kong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tetsuji-satoh">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-tetsuji-satoh"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tetsuji Satoh</rdfs:label>
+    <j.0:name>Tetsuji Satoh</j.0:name>
+    <j.0:givenName>Tetsuji</j.0:givenName>
+    <j.0:familyName>Satoh</j.0:familyName>
+    <foaf:mbox_sha1sum>5ce3a481b6e47a4833ac193dbef6d79b1efc6a17</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tetsuji-satoh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/rutgers-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Rutgers University</rdfs:label>
+    <j.0:name>Rutgers University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/rutgers-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tom-chao-zhou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/idan-szpektor"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zhimin-zhou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/yahoo-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Yahoo!</rdfs:label>
+    <j.0:name>Yahoo!</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/yahoo-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-hongyuan-zha">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/hongyuan-zha"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/saurav-sahay">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-georgia-institute-of-technology-saurav-sahay"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Saurav Sahay</rdfs:label>
+    <j.0:name>Saurav Sahay</j.0:name>
+    <j.0:givenName>Saurav</j.0:givenName>
+    <j.0:familyName>Sahay</j.0:familyName>
+    <foaf:mbox_sha1sum>b34efb1973e0e536e21ee2948eab558787262edf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/saurav-sahay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-microsoft-research-ryen-w-white">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ryen-w-white"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/irwin-king">
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-irwin-king"/>
+    <foaf:mbox_sha1sum>e25722e9ae345770557781eca7b2b3d9c85224f4</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>d9432dc3cbc7b1fe1a33e6874b10b2893d071212</foaf:mbox_sha1sum>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-irwin-king"/>
+    <j.0:familyName>King</j.0:familyName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/irwin-king"/>
+    <j.0:givenName>Irwin</j.0:givenName>
+    <rdfs:label>Irwin King</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-at-t-labs-research-usa-the-chinese-university-of-hong-kong-irwin-king"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:name>Irwin King</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-microsoft-research-meredith-morris">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/meredith-morris"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-elad-yom-tov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/elad-yom-tov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-david-carmel">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/david-carmel"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-academic-college-of-tel-aviv-yaffo-gideon-dror">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gideon-dror"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-academic-college-of-tel-aviv-yaffo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chirag-shah">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-rutgers-university-chirag-shah"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-chirag-shah"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chirag Shah</rdfs:label>
+    <j.0:name>Chirag Shah</j.0:name>
+    <j.0:givenName>Chirag</j.0:givenName>
+    <j.0:familyName>Shah</j.0:familyName>
+    <foaf:mbox_sha1sum>c84ea539e4afdc5a7a77934f935c987ebcd7f81b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chirag-shah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ashwin-ram"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/graduate-school-of-library-information-and-media-s">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Graduate School of Library, Information and Media Studies, University of Tsukuba</rdfs:label>
+    <j.0:name>Graduate School of Library, Information and Media Studies, University of Tsukuba</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/graduate-school-of-library-information-and-media-s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-barley-mak">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/barley-mak"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/dalhousie-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Dalhousie University</rdfs:label>
+    <j.0:name>Dalhousie University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/dalhousie-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-atsushi-otsuka">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/atsushi-otsuka"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/graduate-school-of-library-information-and-media-s"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-birkbeck-university-of-london-long-chen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/long-chen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/birkbeck-university-of-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-national-institute-of-informatics-japan-noriko-kando">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/noriko-kando"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dan-pelleg">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-dan-pelleg"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-dan-pelleg"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dan Pelleg</rdfs:label>
+    <j.0:name>Dan Pelleg</j.0:name>
+    <j.0:givenName>Dan</j.0:givenName>
+    <j.0:familyName>Pelleg</j.0:familyName>
+    <foaf:mbox_sha1sum>4f379ec36ac567dd54208fdc014ec5dbab8c2d3b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dan-pelleg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/baidu-com-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Baidu.com, Inc.</rdfs:label>
+    <j.0:name>Baidu.com, Inc.</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/baidu-com-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dan-pelleg"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ibm-research-laboratory-haifa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IBM Research Lab in Haifa</rdfs:label>
+    <j.0:name>IBM Research Lab in Haifa</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ibm-research-laboratory-haifa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-dan-pelleg">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dan-pelleg"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11">
+    <j.0:keyword>churn prediction</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/11"/>
+    <j.0:keyword>online user behavior</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dan-pelleg"/>
+    <j.0:title>Churn Prediction in New Users of Yahoo! Answers</j.0:title>
+    <j.0:abstract>One of the important targets of community-based question answering (CQA)services, such as Yahoo! Answers, Quora and Baidu Zhidao, is to maintain and evenincrease the number of active answerers, that is the users who provide answersto open questions. The reasoning is that they are the engine behind satisfiedaskers, which is the overall goal behind CQA. Yet, this task is not an easy one.Indeed, our empirical observation shows that many users provide just one or twoanswers and then leave.In this work we try to detect answerers that are about to quit, a task known aschurn prediction, but unlike prior work, we focus on new users. To address thetask of churn prediction in new users, we extract a variety of features to modelthe behavior of Yahoo! Answers users over the first week of their activity, including personal information, rate of activity, and social interaction with other users. Several classifiers trained on the data show that there is a statisticallysignificant signal for discriminating between users who are likely to churn andthose who are not. A detailed feature analysis shows that the two most importantsignals are the total number of answers given by the user, closely related tothe motivation of the user, and attributes related to the amount of recognitiongiven to the user, measured in counts of best answers, thumbs up and positiveresponses by the asker.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/idan-szpektor"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/oleg-rokhlenko"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gideon-dror"/>
+    <j.0:keyword>community question answering</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList"/>
+    <rdfs:label>Churn Prediction in New Users of Yahoo! Answers</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/cqa2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about cqa2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:47 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/georgia-institute-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Georgia Institute of Technology</rdfs:label>
+    <j.0:name>Georgia Institute of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/georgia-institute-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Institute of Informatics</rdfs:label>
+    <j.0:name>National Institute of Informatics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-institute-of-informatics-japan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <j.0:keyword>Answer ranking</j.0:keyword>
+    <j.0:keyword>User profile infromation</j.0:keyword>
+    <j.0:title>Exploiting user profile information for answer ranking in cQA</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yue-lu"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/man-lan"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/zhengyu-niu"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/5"/>
+    <j.0:abstract>Answer ranking is very important for cQA services due to the high variance in the quality of answers. Most existing works in this area focus on using various features or employing machine learning techniques to address this problem. Only a few of them noticed and involved user profile information in this particular task. In this work, we assume the close relationship between user profile information and the quality of their answers under the ground truth that user information records the user behaviors and histories as a summary. Thus, we exploited the effectiveness of three categories of user profile information, i.e. engagement-related, authority-related and level-related, on answer ranking in cQA. Different from previous work, we only employed the information which is easy to extract without any limitations, such as user privacy. Experimental results on Yahoo! Answers manner questions showed that our system by using the user profile information achieved comparable or even better results over the state-of-the-art baseline system. Moreover, we found that the picture existence of a user in cQA community contributed more than other information in the answer ranking task.</j.0:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList"/>
+    <rdfs:label>Exploiting user profile information for answer ranking in cQA</rdfs:label>
+    <j.0:keyword>Commnuity-Question Answering</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/zhimin-zhou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/baichuan-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-ryen-w-white">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ryen-w-white"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/idan-szpektor">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-idan-szpektor"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Idan Szpektor</rdfs:label>
+    <j.0:name>Idan Szpektor</j.0:name>
+    <j.0:givenName>Idan</j.0:givenName>
+    <j.0:familyName>Szpektor</j.0:familyName>
+    <foaf:mbox_sha1sum>00956de6e2c4d8ac686cebcae35666848f96ef9a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/idan-szpektor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/birkbeck-university-of-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Birkbeck,University of London</rdfs:label>
+    <j.0:name>Birkbeck,University of London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/birkbeck-university-of-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gideon-dror"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-yoelle-maarek">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/yoelle-maarek"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/long-chen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-eugene-agichtein">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eugene-agichtein"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-fatemeh-riahi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fatemeh-riahi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dalhousie-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fatemeh-riahi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-university-of-singapore">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National University of Singapore</rdfs:label>
+    <j.0:name>National University of Singapore</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-university-of-singapore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tan-jin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-tan-jin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tan Jin</rdfs:label>
+    <j.0:name>Tan Jin</j.0:name>
+    <j.0:givenName>Tan</j.0:givenName>
+    <j.0:familyName>Jin</j.0:familyName>
+    <foaf:mbox_sha1sum>94aefd3515ad8326ba9d5951af0972188557fbc8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tan-jin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zhimin-zhou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-zhimin-zhou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zhimin Zhou</rdfs:label>
+    <j.0:name>Zhimin Zhou</j.0:name>
+    <j.0:givenName>Zhimin</j.0:givenName>
+    <j.0:familyName>Zhou</j.0:familyName>
+    <foaf:mbox_sha1sum>2a1a8143a469e2c7bc247f9c5bfeb6ca1ae39014</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zhimin-zhou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/microsoft-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Microsoft Research</rdfs:label>
+    <j.0:name>Microsoft Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/microsoft-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6">
+    <j.0:abstract>Community Question Answering (CQA) services, such as Yahoo! Answers, are specifically designed to address the innate limitation of Web search engines by helping users obtain information from a community. Understanding the user intent of questions would enable a CQA system identify similar questions, find relevant answers, and recommend potential answerers more effectively and efficiently. In this paper, we propose to classify questions into three categories according to their underlying user intent: subjective, objective, and social. In order to identify the user intent of a new question, we build a predictive model through machine learning based on both text and metadata features. Our investigation reveals that these two types of features are conditionally independent and each of them is sufficient for prediction. Therefore they can be exploited as two views in co-training - a semi-supervised learning framework - to make use of a large amount of unlabelled questions, in addition to the small set of manually labelled questions, for enhanced question classification. The preliminary experimental results show that co-training works significantly better than simply pooling these two types of features together.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <j.0:keyword>Semi-Supervised Learning</j.0:keyword>
+    <j.0:keyword>User Intent</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Co-training</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/6"/>
+    <j.0:title>Understanding User Intent in Community Question Answering</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6/authorList"/>
+    <j.0:keyword>Community Question Answering</j.0:keyword>
+    <rdfs:label>Understanding User Intent in Community Question Answering</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/long-chen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tan-jin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mounia-lalmas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-mounia-lalmas"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-mounia-lalmas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mounia Lalmas</rdfs:label>
+    <j.0:name>Mounia Lalmas</j.0:name>
+    <j.0:givenName>Mounia</j.0:givenName>
+    <j.0:familyName>Lalmas</j.0:familyName>
+    <foaf:mbox_sha1sum>fa04c1a512caf60fbde2cce055da132aff0d84e4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mounia-lalmas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/yahoo-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Yahoo! Research</rdfs:label>
+    <j.0:name>Yahoo! Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/yahoo-research"/>
+    <j.0:name>Yahoo Research</j.0:name>
+    <rdfs:label>Yahoo Research</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marti-hearst">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-school-of-information-university-of-california-berkeley-marti-hearst"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-marti-hearst"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marti Hearst</rdfs:label>
+    <j.0:name>Marti Hearst</j.0:name>
+    <j.0:givenName>Marti</j.0:givenName>
+    <j.0:familyName>Hearst</j.0:familyName>
+    <foaf:mbox_sha1sum>f9333e47411db5317c567ea4791a575704dbc284</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marti-hearst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eugene-agichtein">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-emory-university-eugene-agichtein"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-eugene-agichtein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eugene Agichtein</rdfs:label>
+    <j.0:name>Eugene Agichtein</j.0:name>
+    <j.0:givenName>Eugene</j.0:givenName>
+    <j.0:familyName>Agichtein</j.0:familyName>
+    <foaf:mbox_sha1sum>f14fe6ee88aeb71f962e0169288a98003cffe2fc</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eugene-agichtein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-college-of-computing-georgia-tech-ashwin-ram">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ashwin-ram"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/college-of-computing-georgia-tech"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zainab-zolaktaf"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hongyuan-zha">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-georgia-institute-of-technology-hongyuan-zha"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-hongyuan-zha"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hongyuan Zha</rdfs:label>
+    <j.0:name>Hongyuan Zha</j.0:name>
+    <j.0:givenName>Hongyuan</j.0:givenName>
+    <j.0:familyName>Zha</j.0:familyName>
+    <foaf:mbox_sha1sum>0beb171273f38d7f59abf670924f61b86784bd60</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hongyuan-zha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-chair-gideon-dror">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gideon-dror"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zainab-zolaktaf">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-zainab-zolaktaf"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zainab Zolaktaf</rdfs:label>
+    <j.0:name>Zainab Zolaktaf</j.0:name>
+    <j.0:givenName>Zainab</j.0:givenName>
+    <j.0:familyName>Zolaktaf</j.0:familyName>
+    <foaf:mbox_sha1sum>b67c0066df57f435ceda92382ad35364a1b03dd4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zainab-zolaktaf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13">
+    <j.0:keyword>Social Search</j.0:keyword>
+    <j.0:keyword>User Modeling</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/saurav-sahay"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Socio-semantic Conversational Information Access</rdfs:label>
+    <j.0:keyword>Content based Recommendation</j.0:keyword>
+    <j.0:title>Socio-semantic Conversational Information Access</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList"/>
+    <j.0:keyword>Semantic Search</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/13"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ashwin-ram"/>
+    <j.0:abstract>We develop an innovative approach to delivering relevant information using a combination of socio-semantic search and filtering approaches. The goal is to facilitate timely and relevant information access through the medium of conversations by mixing past community specific conversational knowledge and web information access to recommend and connect users and information together. Conversational Information Access is a socio-semantic search and recommendation activity with the goal to interactively engage people in conversations by receiving agent supported recommendations. It is useful because people engage in online social discussions unlike a solitary search; the agent brings in relevant information as well as identifies relevant users; participants provide feedback during the conversation that the agent uses to improve it's recommendations.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/13/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-yoelle-maarek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yoelle-maarek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mahdi-shafiei">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-mahdi-shafiei"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mahdi Shafiei</rdfs:label>
+    <j.0:name>Mahdi Shafiei</j.0:name>
+    <j.0:givenName>Mahdi</j.0:givenName>
+    <j.0:familyName>Shafiei</j.0:familyName>
+    <foaf:mbox_sha1sum>65a934796dd95898e6f928a0161b8bbeb5667213</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mahdi-shafiei"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-georgia-institute-of-technology-hongyuan-zha">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hongyuan-zha"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/georgia-institute-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-oleg-rokhlenko">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oleg-rokhlenko"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-evangelos-milios">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/evangelos-milios"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dalhousie-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-irwin-king">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-ibm-research-laboratory-haifa-david-carmel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-carmel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ibm-research-laboratory-haifa"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-idan-szpektor">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/idan-szpektor"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-tan-jin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tan-jin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-academic-college-of-tel-aviv-yaffo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Academic College of Tel-Aviv-Yaffo</rdfs:label>
+    <j.0:name>The Academic College of Tel-Aviv-Yaffo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-academic-college-of-tel-aviv-yaffo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-r-lyu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yohei-seki">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-yohei-seki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yohei Seki</rdfs:label>
+    <j.0:name>Yohei Seki</j.0:name>
+    <j.0:givenName>Yohei</j.0:givenName>
+    <j.0:familyName>Seki</j.0:familyName>
+    <foaf:mbox_sha1sum>56608241e864d52da5b6d6a222dd5f97ee589b7e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yohei-seki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-tetsuji-satoh">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tetsuji-satoh"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/graduate-school-of-library-information-and-media-s"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/long-chen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-birkbeck-university-of-london-long-chen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Long Chen</rdfs:label>
+    <j.0:name>Long Chen</j.0:name>
+    <j.0:givenName>Long</j.0:givenName>
+    <j.0:familyName>Chen</j.0:familyName>
+    <foaf:mbox_sha1sum>1c84a9452bde59c200f0d9793ac4505dcb1b139f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/long-chen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/atsushi-otsuka">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-graduate-school-of-library-information-and-media-s-atsushi-otsuka"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Atsushi Otsuka</rdfs:label>
+    <j.0:name>Atsushi Otsuka</j.0:name>
+    <j.0:givenName>Atsushi</j.0:givenName>
+    <j.0:familyName>Otsuka</j.0:familyName>
+    <foaf:mbox_sha1sum>7c2eda6c7ba957a3b52b18bb9de873069c0537b7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/atsushi-otsuka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-national-university-of-singapore-tat-seng-chua">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tat-seng-chua"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-university-of-singapore"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/elad-yom-tov">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-research-elad-yom-tov"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-elad-yom-tov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Elad Yom-Tov</rdfs:label>
+    <j.0:name>Elad Yom-Tov</j.0:name>
+    <j.0:givenName>Elad</j.0:givenName>
+    <j.0:familyName>Yom-Tov</j.0:familyName>
+    <foaf:mbox_sha1sum>584787934bce82c1f9b93109652b92eb57419604</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/elad-yom-tov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-mahdi-shafiei">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mahdi-shafiei"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dalhousie-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mahdi-shafiei"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oleg-rokhlenko">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-yahoo-inc-oleg-rokhlenko"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oleg Rokhlenko</rdfs:label>
+    <j.0:name>Oleg Rokhlenko</j.0:name>
+    <j.0:givenName>Oleg</j.0:givenName>
+    <j.0:familyName>Rokhlenko</j.0:familyName>
+    <foaf:mbox_sha1sum>edbb324f579aafa744c825954df7cff5fa17806b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oleg-rokhlenko"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fatemeh-riahi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-fatemeh-riahi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fatemeh Riahi</rdfs:label>
+    <j.0:name>Fatemeh Riahi</j.0:name>
+    <j.0:givenName>Fatemeh</j.0:givenName>
+    <j.0:familyName>Riahi</j.0:familyName>
+    <foaf:mbox_sha1sum>dd0808685222c28d5a5507a9315f66034773a8b6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fatemeh-riahi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/east-china-normal-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>East China Normal University</rdfs:label>
+    <j.0:name>East China Normal University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/east-china-normal-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/evangelos-milios">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-dalhousie-university-evangelos-milios"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Evangelos Milios</rdfs:label>
+    <j.0:name>Evangelos Milios</j.0:name>
+    <j.0:givenName>Evangelos</j.0:givenName>
+    <j.0:familyName>Milios</j.0:familyName>
+    <foaf:mbox_sha1sum>c7c1c77e56eade3c51daac2419a03a225f98b612</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/evangelos-milios"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-zhimin-zhou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zhimin-zhou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/east-china-normal-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tat-seng-chua">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-national-university-of-singapore-tat-seng-chua"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-tat-seng-chua"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tat-Seng Chua</rdfs:label>
+    <j.0:name>Tat-Seng Chua</j.0:name>
+    <j.0:givenName>Tat-Seng</j.0:givenName>
+    <j.0:familyName>Chua</j.0:familyName>
+    <foaf:mbox_sha1sum>110bce0871c8680abc7b504b443028c0b5805ce1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tat-seng-chua"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-irwin-king">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/barley-mak">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-the-chinese-university-of-hong-kong-barley-mak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Barley Mak</rdfs:label>
+    <j.0:name>Barley Mak</j.0:name>
+    <j.0:givenName>Barley</j.0:givenName>
+    <j.0:familyName>Mak</j.0:familyName>
+    <foaf:mbox_sha1sum>4f74ede76cc0f67513822890d4a39a212403a516</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/barley-mak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yue-lu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-yue-lu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yue Lu</rdfs:label>
+    <j.0:name>Yue Lu</j.0:name>
+    <j.0:givenName>Yue</j.0:givenName>
+    <j.0:familyName>Lu</j.0:familyName>
+    <foaf:mbox_sha1sum>ae2f84be326706bf9e4df02b9f70edc1e2c274b6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yue-lu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8">
+    <j.0:keyword>Community QA</j.0:keyword>
+    <j.0:keyword>latent dirichlet allocation</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/cqa/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tetsuji-satoh"/>
+    <j.0:keyword>category</j.0:keyword>
+    <j.0:keyword>query expansion</j.0:keyword>
+    <j.0:title>QAque: Faceted Query Expansion techniques for Exploratory Search using Community QA Resources</j.0:title>
+    <j.0:keyword>faceted search</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cqa/2012/paper/8"/>
+    <j.0:keyword>seasonality</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/noriko-kando"/>
+    <j.0:abstract>Recently, query suggestions are quite useful in web searches. Most of them provide additional and correct terms based on the initial query entered by users. However, users can not be satisfied with them, when user has ambiguous or diverse information requests. In those cases, faceted query expansions along with their usage are quite efficient.In this paper, faceted query expansion methods using Community QuestionAnswering(CQA) resources are proposed. CQA is one of the social networkservice(SNS) which aims to share user knowledge. In a CQA site, users can post their questions in a suitable category. And others pick up and answer the questions according to the category framework. Thus, the "category" in CQA makes "facet" of query expansion. In addition, the season of question posting plays a important role in understanding its context. Thus, the "seasonality" makes another "facet" of query expansion.Therefore, we implement the two-dimensional faceted query expansion methods based on the results of LDA( Latent Dirichlet Allocation ) analysis to the CQA resources. Moreover, the question-articles deriving query expansion will be provided for choosing appropriate terms by users.Our sophisticated evaluations using actual and long-term CQA resources, such as "Yahoo! CHIEBUKURO", demonstrate that most part of CQA questions are posted in periodicity and bursts.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yohei-seki"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/atsushi-otsuka"/>
+    <rdfs:label>QAque: Faceted Query Expansion techniques for Exploratory Search using Community QA Resources</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/2/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/meredith-morris">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-microsoft-research-meredith-morris"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-meredith-morris"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Meredith Morris</rdfs:label>
+    <j.0:name>Meredith Morris</j.0:name>
+    <j.0:givenName>Meredith</j.0:givenName>
+    <j.0:familyName>Morris</j.0:familyName>
+    <foaf:mbox_sha1sum>33bc6a6249b9afb53a147af9f29353679c78480d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/meredith-morris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/cqa2012-programme-committee-member-dan-pelleg">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dan-pelleg"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/cqa2012/cqa/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/5/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yue-lu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-east-china-normal-university-yue-lu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yue-lu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/east-china-normal-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-at-t-labs-research-usa-the-chinese-university-of-hong-kong-irwin-king">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/irwin-king"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/at-t-labs-research-usa-the-chinese-university-of-hong-kong"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/college-of-computing-georgia-tech">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>College of Computing, Georgia Tech</rdfs:label>
+    <j.0:name>College of Computing, Georgia Tech</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/college-of-computing-georgia-tech"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/at-t-labs-research-usa-the-chinese-university-of-hong-kong">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>AT&amp;T Labs Research, USA &amp; The Chinese University of Hong Kong</rdfs:label>
+    <j.0:name>AT&amp;T Labs Research, USA &amp; The Chinese University of Hong Kong</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/at-t-labs-research-usa-the-chinese-university-of-hong-kong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/9/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/evangelos-milios"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cqa2012/data.semanticweb.org/workshop/cqa/2012/paper/8/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tetsuji-satoh"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cqa2012-georgia-institute-of-technology-saurav-sahay">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/saurav-sahay"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/georgia-institute-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/CQA2012/cqa/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

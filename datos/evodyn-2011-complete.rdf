@@ -1,0 +1,1411 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1">
+    <cofunc:keyword>web usage mining</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList"/>
+    <cofunc:keyword>linked data</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/1"/>
+    <cofunc:keyword>ontology maintenance</cofunc:keyword>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <rdfs:label>Statistical Analysis of Web of Data Usage</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-luczak-roesch"/>
+    <cofunc:title>Statistical Analysis of Web of Data Usage</cofunc:title>
+    <cofunc:abstract>The Linked Data initiative gained momentum inside as well as outside of theresearch community. Thus, it is already an accepted research issue to investigate usage mining in the context ofthe Web of Data from various perspectives. We are currently working onan approach that applies such usage mining methods and analysis to support ontology and datasetmaintenance tasks. This paper presents one part of this work, namely a methodto detect errors or weaknesses within ontologies used for Linked Data populationbased on statistics and network visualizations. We contribute a detailed description of a log file preprocessing algorithm for Web of Data endpoints, a set of statistical measures that help to visualize different usage aspects, and an examplary analysis of one of the most prominent Linked Data set -- DBpedia -- aimed to show the feasibility and the potential of our approach.</cofunc:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-bischoff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-timothy-redmond">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kostyantyn-shchekotykhin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dietrich-rebholz-schuhmann">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-european-bioinformatics-institute-dietrich-rebholz-schuhmann"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-dietrich-rebholz-schuhmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dietrich Rebholz-Schuhmann</rdfs:label>
+    <cofunc:name>Dietrich Rebholz-Schuhmann</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dietrich-rebholz-schuhmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kavitha-srinivas">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-ibm-research-kavitha-srinivas"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-kavitha-srinivas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kavitha Srinivas</rdfs:label>
+    <cofunc:name>Kavitha Srinivas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kavitha-srinivas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bhavani-thuraisingham">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-utd-bhavani-thuraisingham"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bhavani Thuraisingham</rdfs:label>
+    <cofunc:name>Bhavani Thuraisingham</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bhavani-thuraisingham"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University</rdfs:label>
+    <cofunc:name>Stanford University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+    <cofunc:name>Stanford</cofunc:name>
+    <rdfs:label>Stanford</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-luczak-roesch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12">
+    <cofunc:keyword>OWL</cofunc:keyword>
+    <cofunc:keyword>Ontology Evolution</cofunc:keyword>
+    <cofunc:title>Learning Vague Concepts for the Semantic Web</cofunc:title>
+    <cofunc:keyword>Ontology Change</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ewan-klein"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paolo-pareti"/>
+    <cofunc:abstract>Ontologies can be a powerful tool for structuring knowledge, and they are currently the subject of extensive research. Updating the contents of an ontology or improving its interoperability with other ontologies is an important but difficult process. In this paper, we focus on the presence of vague concepts, which are pervasive in  natural language, within the framework of formal ontologies. We will adopt a framework  in which vagueness is captured via numerical restrictions that can be automatically adjusted. Since updating vague concepts, either through ontology alignment or ontology evolution, can lead to inconsistent sets of axioms, we define and implement a method to detecting and repairing such inconsistencies in a local fashion.</cofunc:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/12"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>Vagueness</cofunc:keyword>
+    <cofunc:keyword>Ontology Alignment</cofunc:keyword>
+    <rdfs:label>Learning Vague Concepts for the Semantic Web</rdfs:label>
+    <cofunc:keyword>Ontology Repair</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/dublin-city-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Dublin City University</rdfs:label>
+    <cofunc:name>Dublin City University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/dublin-city-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-philipp-fleiss">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/philipp-fleiss"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/alpen-adria-universitaet"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/csiro-australia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CSIRO Australian E-Health Research Centre</rdfs:label>
+    <cofunc:name>CSIRO Australian E-Health Research Centre</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/csiro-australia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alessandro-artale">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-free-university-of-bolzano-bozen-faculty-of-computer-science-alessandro-artale"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-alessandro-artale"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alessandro Artale</rdfs:label>
+    <cofunc:name>Alessandro Artale</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alessandro-artale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-tania-tudorache">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-livia-predoiu">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/livia-predoiu"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-xerox-research-centre-europe-agnes-sandor">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/agnes-sandor"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/xerox-research-centre-europe"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-magdeburg">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Magdeburg</rdfs:label>
+    <cofunc:name>University of Magdeburg</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-magdeburg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/cartic-ramakrishnan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-cartic-ramakrishnan"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-cartic-ramakrishnan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Cartic Ramakrishnan</rdfs:label>
+    <cofunc:name>Cartic Ramakrishnan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/cartic-ramakrishnan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/patrick-rodler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rafael-s.-goncalves"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/patrick-rodler">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-patrick-rodler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Patrick Rodler</rdfs:label>
+    <cofunc:name>Patrick Rodler</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/patrick-rodler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-kmi-the-open-university-uk-mathieu-daquin"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu D'Aquin</rdfs:label>
+    <cofunc:name>Mathieu D'Aquin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-university-of-queensland">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>School of ITEE, The University of Queensland</rdfs:label>
+    <cofunc:name>School of ITEE, The University of Queensland</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-university-of-queensland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-tim-clark">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-bischoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vaibhav-khadilkar">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-vaibhav-khadilkar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vaibhav Khadilkar</rdfs:label>
+    <cofunc:name>Vaibhav Khadilkar</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vaibhav-khadilkar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DERI, National University of Ireland, Galway</rdfs:label>
+    <cofunc:name>DERI, National University of Ireland, Galway</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+    <cofunc:name>DERI - National University of Ireland, Galway</cofunc:name>
+    <rdfs:label>DERI - National University of Ireland, Galway</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-eduard-hovy">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eduard-hovy"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-mathieu-daquin">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/grigoris-antoniou">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-grigoris-antoniou"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-grigoris-antoniou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Grigoris Antoniou</rdfs:label>
+    <cofunc:name>Grigoris Antoniou</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/grigoris-antoniou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gerhard-friedrich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-alessandro-artale">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/alessandro-artale"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/forth-ics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Computer Science, FORTH</rdfs:label>
+    <cofunc:name>Institute of Computer Science, FORTH</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/forth-ics"/>
+    <cofunc:name>FORTH-ICS</cofunc:name>
+    <rdfs:label>FORTH-ICS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3">
+    <cofunc:abstract>Knowing about language evolution can significantly help to reveal lost information and help access documents containing language that has long since been forgotten. In this position paper we will report on our methods for finding word senses and show how these can be used to reveal important information about their evolution over time. We discuss the weaknesses of current approaches and outline future work to overcome these weaknesses. </cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nina-tahmasebi"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thomas-risse"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <cofunc:keyword>clustering</cofunc:keyword>
+    <cofunc:keyword>language evolution</cofunc:keyword>
+    <cofunc:keyword>word sense discrimination</cofunc:keyword>
+    <rdfs:label>Towards automatic language evolution tracking, A study on word sense tracking</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/3"/>
+    <cofunc:title>Towards automatic language evolution tracking, A study on word sense tracking</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/bijan-parsia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-edinburgh-ewan-klein">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ewan-klein"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-edinburgh"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-armin-haller">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/armin-haller"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Joint Workshop on Knowledge Evolution and Ontology Dynamics</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jeff-z-pan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-aberdeen-jeff-z-pan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jeff Z. Pan</rdfs:label>
+    <cofunc:name>Jeff Z. Pan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jeff-z-pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tim-clark">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-massachusetts-general-hospital-department-of-neurology-tim-clark"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-harvard-medical-school-department-of-neuro-tim-clark"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-tim-clark"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tim Clark</rdfs:label>
+    <cofunc:name>Tim Clark</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tim-clark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/l3s-research-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>L3S Research Center</rdfs:label>
+    <cofunc:name>L3S Research Center</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/l3s-research-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/griffith-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Griffith University</rdfs:label>
+    <cofunc:name>Griffith University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/griffith-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rafael-s.-goncalves">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-rafael-s.-goncalves"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rafael S. Gonçalves</rdfs:label>
+    <cofunc:name>Rafael S. Gonçalves</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rafael-s.-goncalves"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/philipp-fleiss"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/enrico-motta">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-kmi-the-open-university-uk-enrico-motta"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Enrico Motta</rdfs:label>
+    <cofunc:name>Enrico Motta</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/enrico-motta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bijan-parsia">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-bijan-parsia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bijan Parsia</rdfs:label>
+    <cofunc:name>Bijan Parsia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bijan-parsia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-grigoris-antoniou">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/grigoris-antoniou"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ulrike-sattler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-kostyantyn-shchekotykhin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kostyantyn-shchekotykhin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/alpen-adria-universitaet"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-grigoris-antoniou">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/grigoris-antoniou"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-dimitris-plexousakis">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dimitris-plexousakis"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-freie-universitaet-berlin-networked-information-systems-markus-luczak-roesch">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-luczak-roesch"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin-networked-information-systems"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nina-tahmasebi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gully-burns">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-gully-burns"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gully Burns</rdfs:label>
+    <cofunc:name>Gully Burns</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gully-burns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yalemisew-abgaz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yalemisew-abgaz">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-yalemisew-abgaz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yalemisew Abgaz</rdfs:label>
+    <cofunc:name>Yalemisew Abgaz</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yalemisew-abgaz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-rafael-s.-goncalves">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rafael-s.-goncalves"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/free-university-of-bolzano-bozen-faculty-of-computer-science">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Free University of Bolzano-Bozen, Faculty of Computer Science</rdfs:label>
+    <cofunc:name>Free University of Bolzano-Bozen, Faculty of Computer Science</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/free-university-of-bolzano-bozen-faculty-of-computer-science"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-risse">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-thomas-risse"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Risse</rdfs:label>
+    <cofunc:name>Thomas Risse</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-risse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-renata-wassermann">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/renata-wassermann"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/harvard-medical-school-department-of-neuro">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Harvard Medical School</rdfs:label>
+    <cofunc:name>Harvard Medical School</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/harvard-medical-school-department-of-neuro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zhisheng-huang">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-vrije-universiteit-amsterdam-the-netherlands-zhisheng-huang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zhisheng Huang</rdfs:label>
+    <cofunc:name>Zhisheng Huang</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zhisheng-huang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-yalemisew-abgaz">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yalemisew-abgaz"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dublin-city-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-meraka-institute-csir-thomas-meyer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-meyer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/meraka-institute-csir"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-nina-tahmasebi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nina-tahmasebi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-dimitris-plexousakis">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dimitris-plexousakis"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-cartic-ramakrishnan">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/cartic-ramakrishnan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/3/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thomas-risse"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-jyothsna-rachapalli">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jyothsna-rachapalli"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-dallas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-cartic-ramakrishnan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/cartic-ramakrishnan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/information-sciences-institute-university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-buitelaar">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-deri-nui-galway-paul-buitelaar"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-paul-buitelaar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Buitelaar</rdfs:label>
+    <cofunc:name>Paul Buitelaar</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/muhammad-javed"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-deri-nui-galway-vit-novacek">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vit-novacek"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/natalya-noy">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-natalya-noy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Natasha Noy</rdfs:label>
+    <cofunc:name>Natasha Noy</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tania-tudorache">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-tania-tudorache"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-tania-tudorache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tania Tudorache</rdfs:label>
+    <cofunc:name>Tania Tudorache</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-aberdeen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Aberdeen</rdfs:label>
+    <cofunc:name>University of Aberdeen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-aberdeen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/claus-pahl">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-claus-pahl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Claus Pahl</rdfs:label>
+    <cofunc:name>Claus Pahl</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/claus-pahl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dimitris-plexousakis">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-dimitris-plexousakis"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-dimitris-plexousakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dimitris Plexousakis</rdfs:label>
+    <cofunc:name>Dimitris Plexousakis</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dimitris-plexousakis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-european-bioinformatics-institute-dietrich-rebholz-schuhmann">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dietrich-rebholz-schuhmann"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/european-bioinformatics-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-magdeburg-livia-predoiu">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/livia-predoiu"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-magdeburg"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-genomics-and-systems-biology-university-of-chicago">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Genomics and Systems Biology, University of Chicago</rdfs:label>
+    <cofunc:name>Institute of Genomics and Systems Biology, University of Chicago</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-genomics-and-systems-biology-university-of-chicago"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eduard-hovy">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-eduard-hovy"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-eduard-hovy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ed Hovy</rdfs:label>
+    <cofunc:name>Ed Hovy</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eduard-hovy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/information-sciences-institute-university-of-southern-california">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ISI / University of Southern California</rdfs:label>
+    <cofunc:name>ISI / University of Southern California</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/information-sciences-institute-university-of-southern-california"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dept-of-medicine-and-human-genetics-university-of-chicago-andrey-rzhetsky">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrey-rzhetsky"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dept-of-medicine-and-human-genetics-university-of-chicago"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jyothsna-rachapalli">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-jyothsna-rachapalli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jyothsna Rachapalli</rdfs:label>
+    <cofunc:name>Jyothsna Rachapalli</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jyothsna-rachapalli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-eduard-hovy">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eduard-hovy"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/information-sciences-institute-university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vinay-chaudhri">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-sri-international-vinay-chaudhri"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-vinay-chaudhri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vinay Chaudhri</rdfs:label>
+    <cofunc:name>Vinay Chaudhri</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vinay-chaudhri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tudor-groza">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-the-university-of-queensland-tudor-groza"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tudor Groza</rdfs:label>
+    <cofunc:name>Tudor Groza</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tudor-groza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kostyantyn-shchekotykhin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-kostyantyn-shchekotykhin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kostyantyn Shchekotykhin</rdfs:label>
+    <cofunc:name>Kostyantyn Shchekotykhin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kostyantyn-shchekotykhin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-csiro-ict-canberra-armin-haller">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/armin-haller"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/csiro-ict-canberra"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-vrije-universiteit-amsterdam-the-netherlands-zhisheng-huang">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zhisheng-huang"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-bischoff">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-freie-universitaet-berlin-networked-information-systems-markus-bischoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Markus Bischoff</rdfs:label>
+    <cofunc:name>Markus Bischoff</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/markus-bischoff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-sri-international-vinay-chaudhri">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vinay-chaudhri"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-ibm-research-kavitha-srinivas">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kavitha-srinivas"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ibm-research"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-patrick-rodler">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/patrick-rodler"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/alpen-adria-universitaet"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-dietrich-rebholz-schuhmann">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dietrich-rebholz-schuhmann"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-aberdeen-jeff-z-pan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jeff-z-pan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-aberdeen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-free-university-of-bolzano-bozen-faculty-of-computer-science-alessandro-artale">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alessandro-artale"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/free-university-of-bolzano-bozen-faculty-of-computer-science"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin-networked-information-systems">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Freie Universität Berlin, Networked Information Systems</rdfs:label>
+    <cofunc:name>Freie Universität Berlin, Networked Information Systems</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin-networked-information-systems"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gerhard-friedrich">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-gerhard-friedrich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gerhard Friedrich</rdfs:label>
+    <cofunc:name>Gerhard Friedrich</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gerhard-friedrich"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-computation-institute-university-of-chicago-andrey-rzhetsky">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrey-rzhetsky"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/computation-institute-university-of-chicago"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-information-sciences-institute-university-of-southern-california-gully-burns">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gully-burns"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/information-sciences-institute-university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/livia-predoiu">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-magdeburg-livia-predoiu"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-livia-predoiu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Livia Predoiu</rdfs:label>
+    <cofunc:name>Livia Predoiu</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/livia-predoiu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ulrike-sattler">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-ulrike-sattler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ulrike Sattler</rdfs:label>
+    <cofunc:name>Ulrike Sattler</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ulrike-sattler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ewan-klein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-claus-pahl">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/claus-pahl"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dublin-city-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vaibhav-khadilkar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/computation-institute-university-of-chicago">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Computation Institute, University of Chicago</rdfs:label>
+    <cofunc:name>Computation Institute, University of Chicago</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/computation-institute-university-of-chicago"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-freie-universitaet-berlin-networked-information-systems-markus-bischoff">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-bischoff"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin-networked-information-systems"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-vinay-chaudhri">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/vinay-chaudhri"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/massachusetts-general-hospital-department-of-neurology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Massachusetts General Hospital, Department of Neurology, Boston, MA, USA</rdfs:label>
+    <cofunc:name>Massachusetts General Hospital, Department of Neurology, Boston, MA, USA</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/massachusetts-general-hospital-department-of-neurology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paolo-pareti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/12/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/xerox-research-centre-europe">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Xerox Research Centre Europe</rdfs:label>
+    <cofunc:name>Xerox Research Centre Europe</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/xerox-research-centre-europe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-csiro-australia-michael-lawley">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-lawley"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/csiro-australia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paolo-pareti">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-edinburgh-paolo-pareti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paolo Pareti</rdfs:label>
+    <cofunc:name>Paolo Pareti</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paolo-pareti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-kewen-wang">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kewen-wang"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-giorgos-flouris">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/giorgos-flouris"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jyothsna-rachapalli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-lawley">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-csiro-australia-michael-lawley"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-michael-lawley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Lawley</rdfs:label>
+    <cofunc:name>Michael Lawley</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-lawley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-michael-lawley">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michael-lawley"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/muhammad-javed">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-muhammad-javed"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Muhammad Javed</rdfs:label>
+    <cofunc:name>Muhammad Javed</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/muhammad-javed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-natalya-noy">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/dept-of-medicine-and-human-genetics-university-of-chicago">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Dept. of Medicine and Human Genetics, University of Chicago</rdfs:label>
+    <cofunc:name>Dept. of Medicine and Human Genetics, University of Chicago</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/dept-of-medicine-and-human-genetics-university-of-chicago"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/evodyn2011">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about evodyn2011.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:50 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/alpen-adria-universitaet">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Alpen Adria Universität</rdfs:label>
+    <cofunc:name>Alpen Adria Universität</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/alpen-adria-universitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philipp-fleiss">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-philipp-fleiss"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philipp Fleiss</rdfs:label>
+    <cofunc:name>Philipp Fleiss</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philipp-fleiss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-utd-bhavani-thuraisingham">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/bhavani-thuraisingham"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/utd"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/bhavani-thuraisingham"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/timothy-redmond">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-stanford-university-timothy-redmond"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Timothy Redmond</rdfs:label>
+    <cofunc:name>Timothy Redmond</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ewan-klein">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-edinburgh-ewan-klein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ewan Klein</rdfs:label>
+    <cofunc:name>Ewan Klein</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ewan-klein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-vaibhav-khadilkar">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vaibhav-khadilkar"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-dallas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-harvard-medical-school-department-of-neuro-tim-clark">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/harvard-medical-school-department-of-neuro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-alpen-adria-universitaet-gerhard-friedrich">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gerhard-friedrich"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/alpen-adria-universitaet"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giorgos-flouris">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-forth-ics-giorgos-flouris"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giorgos Flouris</rdfs:label>
+    <cofunc:name>Giorgos Flouris</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giorgos-flouris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-kavitha-srinivas">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kavitha-srinivas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-murat-kantarcioglu">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/murat-kantarcioglu"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-dallas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-institute-of-genomics-and-systems-biology-university-of-chicago-andrey-rzhetsky">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrey-rzhetsky"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-genomics-and-systems-biology-university-of-chicago"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vit-novacek">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-deri-nui-galway-vit-novacek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vit Novacek</rdfs:label>
+    <cofunc:name>Vit Novacek</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vit-novacek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-agnes-sandor">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/agnes-sandor"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/claus-pahl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sri-international">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SRI International</rdfs:label>
+    <cofunc:name>SRI International</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sri-international"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/murat-kantarcioglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-meyer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-meraka-institute-csir-thomas-meyer"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-thomas-meyer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Meyer</rdfs:label>
+    <cofunc:name>Thomas Meyer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-meyer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-thomas-risse">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-risse"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-the-university-of-queensland-tudor-groza">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tudor-groza"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-university-of-queensland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ibm-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IBM Research</rdfs:label>
+    <cofunc:name>IBM Research</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ibm-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dublin-city-university-muhammad-javed">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/muhammad-javed"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dublin-city-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-griffith-university-kewen-wang">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kewen-wang"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/griffith-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-bijan-parsia">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/bijan-parsia"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/evodyn2011/iswc/2011">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5">
+    <rdfs:label>RETRO: A Framework for Semantics Preserving SQL-to-SPARQL Translation</rdfs:label>
+    <cofunc:title>RETRO: A Framework for Semantics Preserving SQL-to-SPARQL Translation</cofunc:title>
+    <cofunc:keyword>RDF</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/5"/>
+    <cofunc:keyword>RDBMS</cofunc:keyword>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vaibhav-khadilkar"/>
+    <cofunc:keyword>Semantic Web</cofunc:keyword>
+    <cofunc:keyword>SQL</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5/authorList"/>
+    <cofunc:keyword>Query Translation</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jyothsna-rachapalli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bhavani-thuraisingham"/>
+    <cofunc:keyword>SPARQL</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/murat-kantarcioglu"/>
+    <cofunc:keyword>Database Interoperability</cofunc:keyword>
+    <cofunc:abstract>There have been several attempts to make RDBMS and RDFstores inter-operate. The most popular one, D2RQ, has explored onedirection i.e. to look at RDBMS through RDF lenses. In this paper wepresent RETRO, which investigates the reverse direction i.e. to look atRDF through Relational lenses. RETRO generates a relational schemafrom an RDF store, enabling a user to query RDF data using SQL.A significant advantage of this direction in-addition to interoperabilityis that it makes numerous relational tools developed over past severaldecades, available to the RDF stores. In order to provide interoperabilitybetween these two DB systems one needs to resolve the heterogeneitybetween their respective data models and include schema mapping, datamapping and query mapping in the transformation process [1]. However,like D2RQ, RETRO chooses not to physically transform the data anddeals only with schema mapping and query mapping. RETRO’s schemamapping derives a domain specific relational schema from RDF dataand its query mapping transforms an SQL query over the schema into aprovably equivalent SPARQL query, which in-turn is executed upon theRDF store. Since RETRO is a read-only framework, its query mappinguses only a relevant and relationally complete subset of SQL. A proofof correctness of this transformation is given based on compositionalsemantics of the two query languages.</cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-manchester-uk-ulrike-sattler">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ulrike-sattler"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-kmi-the-open-university-uk-enrico-motta">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-tania-tudorache">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Knowledge Media Institute, The Open University</rdfs:label>
+    <cofunc:name>Knowledge Media Institute, The Open University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kewen-wang">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-griffith-university-kewen-wang"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-kewen-wang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kewen Wang</rdfs:label>
+    <cofunc:name>Kewen Wang</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kewen-wang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/meraka-institute-csir">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Meraka</rdfs:label>
+    <cofunc:name>Meraka</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/meraka-institute-csir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-andrey-rzhetsky">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/andrey-rzhetsky"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/utd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UTD</rdfs:label>
+    <cofunc:name>UTD</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/utd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-edinburgh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Edinburgh</rdfs:label>
+    <cofunc:name>University of Edinburgh</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-edinburgh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-sao-paulo-renata-wassermann">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/renata-wassermann"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sao-paulo"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-luczak-roesch">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-freie-universitaet-berlin-networked-information-systems-markus-luczak-roesch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Markus Luczak-Rösch</rdfs:label>
+    <cofunc:name>Markus Luczak-Rösch</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/markus-luczak-roesch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-kmi-the-open-university-uk-mathieu-daquin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-sao-paulo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Sao Paulo</rdfs:label>
+    <cofunc:name>University of Sao Paulo</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-sao-paulo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrey-rzhetsky">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-computation-institute-university-of-chicago-andrey-rzhetsky"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-institute-of-genomics-and-systems-biology-university-of-chicago-andrey-rzhetsky"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-dept-of-medicine-and-human-genetics-university-of-chicago-andrey-rzhetsky"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-andrey-rzhetsky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrey Rzhetsky</rdfs:label>
+    <cofunc:name>Andrey Rzhetsky</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrey-rzhetsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-deri-nui-galway-paul-buitelaar">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-buitelaar"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-paul-buitelaar">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/paul-buitelaar"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Manchester</rdfs:label>
+    <cofunc:name>University of Manchester</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7">
+    <rdfs:label>Graph-based Discovery of Ontology Change Patterns</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/7"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/muhammad-javed"/>
+    <cofunc:keyword>Change Log Graph.</cofunc:keyword>
+    <cofunc:title>Graph-based Discovery of Ontology Change Patterns</cofunc:title>
+    <cofunc:keyword>Pattern Discovery Algorithm</cofunc:keyword>
+    <cofunc:abstract>Ontologies can support a variety of purposes, ranging fromcapturing conceptual knowledge to the organisation of digital contentand information. However, information systems are always subject tochange and ontology change management can pose challenges. We investigateontology change representation and discovery of change patterns.Ontology changes are formalised as graph-based change logs. We useattributed graphs, which are typed over a generic graph with node andedge attribution.We analyse ontology change logs, represented as graphs,and identify frequent change sequences. Such sequences are applied as a reference in order to discover reusable, often domain-specific and usage driven change patterns. We describe the pattern discovery algorithms and measure their performance using experimental results.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/claus-pahl"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yalemisew-abgaz"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/7/authorList"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <cofunc:keyword>Ontology Change Representation</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>Ontology Evolution</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/agnes-sandor">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-xerox-research-centre-europe-agnes-sandor"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-agnes-sandor"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Agnes Sandor</rdfs:label>
+    <cofunc:name>Agnes Sandor</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/agnes-sandor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/murat-kantarcioglu">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-texas-at-dallas-murat-kantarcioglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Murat Kantarcioglu</rdfs:label>
+    <cofunc:name>Murat Kantarcioglu</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/murat-kantarcioglu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-enrico-motta">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-massachusetts-general-hospital-department-of-neurology-tim-clark">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/massachusetts-general-hospital-department-of-neurology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-texas-at-dallas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The University of Texas at Dallas</rdfs:label>
+    <cofunc:name>University of Texas at Dallas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-texas-at-dallas"/>
+    <cofunc:name>The University of Texas at Dallas</cofunc:name>
+    <cofunc:name>The University Of Texas Dallas</cofunc:name>
+    <rdfs:label>The University Of Texas Dallas</rdfs:label>
+    <rdfs:label>University of Texas at Dallas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <rdfs:label>Protege 4 Difference Engine</rdfs:label>
+    <cofunc:keyword>Version Control</cofunc:keyword>
+    <cofunc:keyword>Evolving</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/10"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <cofunc:keyword>Ontology</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/10/authorList"/>
+    <cofunc:title>Protege 4 Difference Engine</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <cofunc:keyword>Collaborative</cofunc:keyword>
+    <cofunc:abstract>As ontologies evolve, it becomes important to be able to dis-cover how they have changed over time. In the recent past there havebeen a few very useful tools based on the Manchester OWL API thataddress this issue. However, these new tools do not take into accounthow to align entities in two ontologies when the names of the entitieshave changed. In this case, we need to be able to discover the alignmentbetween the entities in the two ontologies before can match up the struc-tures in the two ontologies. In this paper, we describe a highly optimizedpluggable difference engine that searches for alignments between entitiesin different ontology versions and applies those alignments to display thedifferences in the ontologies. We discuss our experiences applying thetools to a selection of ontologies from the BioPortal ontology reposi-tory, including the performance and accuracy of the tool.</cofunc:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/european-bioinformatics-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>European Bioinformatics Institute</rdfs:label>
+    <cofunc:name>European Bioinformatics Institute</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/european-bioinformatics-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/armin-haller">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-csiro-ict-canberra-armin-haller"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-armin-haller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Armin Haller</rdfs:label>
+    <cofunc:name>Armin Haller</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/armin-haller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije University of Amsterdam</rdfs:label>
+    <cofunc:name>Vrije University of Amsterdam</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-stefan-dietze">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-thomas-meyer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/thomas-meyer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/evodyn2011/evodyn/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-edinburgh-paolo-pareti">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paolo-pareti"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-edinburgh"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/EvoDyn2011/evodyn/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nina-tahmasebi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-nina-tahmasebi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nina Tahmasebi</rdfs:label>
+    <cofunc:name>Nina Tahmasebi</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nina-tahmasebi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/csiro-ict-canberra">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CSIRO ICT Canberra</rdfs:label>
+    <cofunc:name>CSIRO ICT Canberra</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/csiro-ict-canberra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11">
+    <rdfs:label>Facilitating the Analysis of Ontology Differences</rdfs:label>
+    <cofunc:keyword>OWL</cofunc:keyword>
+    <cofunc:keyword>SNOMED CT</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bijan-parsia"/>
+    <cofunc:keyword>Ontology Evolution</cofunc:keyword>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <cofunc:abstract>The analysis of changes between OWL ontologies (in the form of a diff) is an important service for ontology engineering. A purely syntactic analysis of changes is insufficient to distinguish between changes that have logical impact and those that do not. The current state of the art in semantic diffing ignores logically ineffectual changes and lacks any further characterisation of even significant changes. We present and demonstrate a diff method based on an exhaustive categorisation of effectual and ineffectual changes between ontologies. In order to verify the applicability of our approach we apply it to 88 versions of the National Cancer Institute (NCI) Thesaurus (NCIt), and 5 versions of SNOMED CT, demonstrating that all categories are realized throughout the corpus. Based on the outcome of these studies we argue that the devised categorisation of changes is helpful for ontology engineers and their understanding of changes carried out between ontologies.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ulrike-sattler"/>
+    <cofunc:keyword>Diff</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/11/authorList"/>
+    <cofunc:keyword>Ontologies</cofunc:keyword>
+    <cofunc:keyword>NCI Thesaurus</cofunc:keyword>
+    <cofunc:title>Facilitating the Analysis of Ontology Differences</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rafael-s.-goncalves"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9">
+    <cofunc:keyword>query selection</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/philipp-fleiss"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/9/authorList"/>
+    <cofunc:keyword>description logic</cofunc:keyword>
+    <cofunc:abstract>Sequential ontology debugging aims to the efficient discrimination between diagnoses. By querying additional information the debugger can gradually reduce the number of diagnoses to be considered by the user. The selection of the best queries is of central importance for minimizing diagnosis costs. If prior fault probabilities are available, the best results are achieved by entropy based selection methods.However, given some weakly justified priors these methods bravely suggest suboptimal queries. In such a case, it is more efficient to use a no-risk method which prefers queries that eliminate 50% of diagnoses independently of any fault probabilities. However, choosing the appropriate method in advance is impossible because the quality of given priors cannot be assessed before additional information is queried.In this paper we propose a method which combines advantages of both approaches. On the one hand the method takes into account available fault probabilities and the user</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/patrick-rodler"/>
+    <rdfs:label>Balancing brave and cautious query strategies in ontology debugging</rdfs:label>
+    <cofunc:keyword>ontology debugging</cofunc:keyword>
+    <cofunc:title>Balancing brave and cautious query strategies in ontology debugging</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/evodyn/2011/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kostyantyn-shchekotykhin"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gerhard-friedrich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>diagnosis</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/evodyn/2011/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renata-wassermann">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-university-of-sao-paulo-renata-wassermann"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/evodyn2011-programme-committee-member-renata-wassermann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renata Wassermann</rdfs:label>
+    <cofunc:name>Renata Wassermann</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renata-wassermann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-dietze">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/evodyn2011-l3s-research-center-stefan-dietze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Dietze</rdfs:label>
+    <cofunc:name>Stefan Dietze</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-dietze"/>
+  </rdf:Description>
+</rdf:RDF>

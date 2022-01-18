@@ -1,0 +1,366 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:on="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andreas-schultz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nigel-shadbolt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-domingue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/cold2010">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about cold2010.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:39 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/cold/2010/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lynda-hardman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nigel-shadbolt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/cold2010/cold/2010">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>First International Workshop on Consuming Linked Data (COLD2010)</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/cold/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tim-finin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olaf-hartig">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-humboldt-universitaet-zu-berlin-olaf-hartig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/BizerEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/juergen-umbrich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ian-millard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/carsten-saathoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/varish-mulwad"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/manuel-salvadores"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/robert-isele"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andriy-nikolov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dong-liu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-university-of-texas-at-austin-juan-sequeda">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/juan-sequeda"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-austin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/COLD2010/cold/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/reto-krummenacher"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/manuel-salvadores"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anupam-joshi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/raphael-troncy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-humboldt-universitaet-zu-berlin-olaf-hartig">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olaf-hartig"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/humboldt-universitaet-zu-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/COLD2010/cold/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hugh-glaser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anja-jentzsch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-karlsruhe-institute-of-technology-andreas-harth">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andreas-harth"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/karlsruhe-institute-of-technology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/COLD2010/cold/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-harth">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-karlsruhe-institute-of-technology-andreas-harth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gianluca-correndo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-hausenblas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NortonEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/barry-norton"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/NikolovEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/UmbrichEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/CorrendoEtAlPaper/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/TroncyEtAlPaper/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andre-fialho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/LiuEtAlPaper/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MulwadEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zareen-syed"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/MillardEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ian-millard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/juan-sequeda">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/cold2010-university-of-texas-at-austin-juan-sequeda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/cold2010/data.semanticweb.org/workshop/cold/2010/IseleEtAlPaper/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+</rdf:RDF>

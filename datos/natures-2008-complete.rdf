@@ -1,0 +1,817 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-flavius-frasincar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/flavius-frasincar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/erasmus-university-rotterdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-christophe-gueret">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christophe-gueret"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-f-aldana-montes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/yahoo-research-barcelona">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Yahoo! Research Barcelona</rdfs:label>
+    <j.0:name>Yahoo! Research Barcelona</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/yahoo-research-barcelona"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/natures/2008/paper/main/6"/>
+    <j.0:keyword>document frequency times inverse term frequency (DF-ITF) weighting scheme</j.0:keyword>
+    <j.0:abstract>The success of the Semantic Web research is dependent upon the construction of complete and reliable domain ontologies. In this paper we describe an unsupervised framework for domain ontology enrichment based on mining domain text corpora. Specifically, we enrich the hierarchical backbone of an existing ontology, i.e. its taxonomy, with new domain-specific concepts. The framework is based on an extended model of hierarchical self-organizing maps. As being founded on an unsupervised neural network architecture, the framework can be applied to different languages and domains. Terms extracted by mining a text corpus encode contextual content information, in a distributional vector space. The enrichment behaves like a classification of the extracted terms into the existing taxonomy by attaching them as hyponyms for the nodes of the taxonomy. The experiments reported are in the “Lonely Planet” tourism domain. The taxonomy and the corpus are the ones proposed in the PASCAL ontology learning and population challenge. The experimental results prove that the quality of the enrichment is improved by using semantics based vector representations for the classified (newly added) terms, like the document category histograms (DCH) and the document frequency times inverse term frequency (DF-ITF) weighting scheme.</j.0:abstract>
+    <rdfs:label>Text-Based Ontology Enrichment Using Hierarchical Self-organizing Maps</rdfs:label>
+    <j.0:keyword>unsupervised neural network</j.0:keyword>
+    <j.0:title>Text-Based Ontology Enrichment Using Hierarchical Self-organizing Maps</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ioan-alfred-letia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings"/>
+    <j.0:keyword>taxonomy enrichment</j.0:keyword>
+    <j.0:keyword>document category histograms (DCH)</j.0:keyword>
+    <j.0:keyword>extended growing hierarchical self-organizing maps (Enrich-GHSOM)</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/emil-st-chifu"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-munich-hans-juergen-ohlbach">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hans-juergen-ohlbach"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-munich"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-aberdeen-giorgos-stamou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/giorgos-stamou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-aberdeen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/city-university-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>City University London</rdfs:label>
+    <j.0:name>City University London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/city-university-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-stefan-schlobach">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-schlobach"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oezalp-babaoglu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-universita-di-bologna-oezalp-babaoglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Özalp Babaoglu</rdfs:label>
+    <j.0:name>Özalp Babaoglu</j.0:name>
+    <foaf:mbox_sha1sum>766a86fe88734240b16c3130b23c8b25c92a499a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oezalp-babaoglu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/uzay-kaymak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/erasmus-university-rotterdam">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Erasmus University Rotterdam</rdfs:label>
+    <j.0:name>Erasmus University Rotterdam</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/erasmus-university-rotterdam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-loeser">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-sap-ag-alexander-loeser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Löser</rdfs:label>
+    <j.0:name>Alexander Löser</j.0:name>
+    <foaf:mbox_sha1sum>e8ccd7ec47beae53db45584d8d2a4125a48e55b9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-loeser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-alexander-hogenboom">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alexander-hogenboom"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/erasmus-university-rotterdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-schlobach">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-stefan-schlobach"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Schlobach</rdfs:label>
+    <j.0:name>Stefan Schlobach</j.0:name>
+    <foaf:mbox_sha1sum>77f7b82eb146c1867ee01643ef2eb740c0dc9cc4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList"/>
+    <j.0:keyword>similarity</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings"/>
+    <j.0:keyword>cognition</j.0:keyword>
+    <j.0:abstract>The human mind has been designed to evaluate similarity fast and efficiently. When building/using a data format to make the web content more machine-friendly, can we learn something useful from how the mind represents data? We present four theories psychological theories that tried to solve the problem and how they relate to semantic web practices. Metric models (such as the vector space model and LSA) were the first-comers and still hold important advantages. advances in Bayesian methods  pushed Feature models( e.g., Topics model). Structural mapping models propose that for similarity, shared structure matters more, although the formalisms that express these ideas are still developing. Transformational distance models (e.g., SP model) reduce similarity to information transmission. Topics and SP do not require preexisting classes but still have a long way to go; the need of automatically generating structure is less pressing when one of the driving forces of the semantic web is the creation of ontologies.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-quesada"/>
+    <j.0:title>Human Similarity Theories for the Semantic Web</j.0:title>
+    <j.0:keyword>representation</j.0:keyword>
+    <j.0:keyword>semantics</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Human Similarity Theories for the Semantic Web</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/natures/2008/paper/main/7"/>
+    <j.0:keyword>information extraction</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/clausthal-university-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Clausthal University of Technology</rdfs:label>
+    <j.0:name>Clausthal University of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/clausthal-university-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-technical-university-of-cluj-napoca-ioan-alfred-letia">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ioan-alfred-letia"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/technical-university-of-cluj-napoca"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bernardo-cuenca-grau">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-oxford-bernardo-cuenca-grau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bernardo Cuenca Grau</rdfs:label>
+    <j.0:name>Bernardo Cuenca Grau</j.0:name>
+    <foaf:mbox_sha1sum>59e8dc95f9ae798237361402c2e7349b06979cf6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bernardo-cuenca-grau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/guszti-eiben">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-guszti-eiben"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Guszti Eiben</rdfs:label>
+    <j.0:name>Guszti Eiben</j.0:name>
+    <foaf:mbox_sha1sum>2aef31381e39ad94188545a852f4ba5baae9037c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/guszti-eiben"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/viorel-milea">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-viorel-milea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Viorel Milea</rdfs:label>
+    <j.0:name>Viorel Milea</j.0:name>
+    <foaf:mbox_sha1sum>139ef90859469fc7c0bab041f5372cf6652f3021</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/viorel-milea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</rdfs:label>
+    <j.0:name>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+    <j.0:name>DERI, NUI Galway</j.0:name>
+    <rdfs:label>DERI, NUI Galway</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-andreas-harth">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andreas-harth"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-max-planck-institute-jose-quesada">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-quesada"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christophe-gueret">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-christophe-gueret"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christophe Guéret</rdfs:label>
+    <j.0:name>Christophe Guéret</j.0:name>
+    <foaf:mbox_sha1sum>b35d03b79165699b8aee26174245017a2624d29a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christophe-gueret"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/frank-van-harmelen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-frank-van-harmelen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Frank van Harmelen</rdfs:label>
+    <j.0:name>Frank van Harmelen</j.0:name>
+    <foaf:mbox_sha1sum>61c8d2dcc50fab61e7f66101bd4d063d8ab4124d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/frank-van-harmelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-rudolph">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institut-aifb-universitaet-karlsruhe-sebastian-rudolph"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Rudolph</rdfs:label>
+    <j.0:name>Sebastian Rudolph</j.0:name>
+    <foaf:mbox_sha1sum>f0cf8dd927b4146e5125662d1cfdfc2b2757fbda</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-rudolph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-oxford">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Oxford</rdfs:label>
+    <j.0:name>University of Oxford</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-oxford"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universita-di-bologna">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Università di Bologna</rdfs:label>
+    <j.0:name>Università di Bologna</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universita-di-bologna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-martijn-schut">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martijn-schut"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-cognitive-science-university-of-osnabrueck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Cognitive Science, University of Osnabrück</rdfs:label>
+    <j.0:name>Institute of Cognitive Science, University of Osnabrück</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-cognitive-science-university-of-osnabrueck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-enrique-alba">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/enrique-alba"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-malaga"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/technical-university-of-cluj-napoca">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Technical University of Cluj-Napoca</rdfs:label>
+    <j.0:name>Technical University of Cluj-Napoca</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/technical-university-of-cluj-napoca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-clausthal-university-of-technology-barbara-hammer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/barbara-hammer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/clausthal-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-birmingham">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Birmingham</rdfs:label>
+    <j.0:name>University of Birmingham</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-birmingham"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/axel-polleres">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-axel-polleres"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Axel Polleres</rdfs:label>
+    <j.0:name>Axel Polleres</j.0:name>
+    <foaf:mbox_sha1sum>35a8d4858ba240996a6f71836d93fbfdcd2b4843</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-ag">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP</rdfs:label>
+    <j.0:name>SAP</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-ag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-axel-polleres">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/axel-polleres"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-harth">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-andreas-harth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andreas Harth</rdfs:label>
+    <j.0:name>Andreas Harth</j.0:name>
+    <foaf:mbox_sha1sum>349ba1da7307ffb78517ae557ade1dd5177a6dbb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andreas-harth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/barbara-hammer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-clausthal-university-of-technology-barbara-hammer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Barbara Hammer</rdfs:label>
+    <j.0:name>Barbara Hammer</j.0:name>
+    <foaf:mbox_sha1sum>4bf15eaeadc63f9f50275977c0e863bf76413f93</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/barbara-hammer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-uzay-kaymak">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/uzay-kaymak"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/erasmus-university-rotterdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institut-aifb-universitaet-karlsruhe-pascal-hitzler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pascal-hitzler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-munich">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ludwig-Maximilians - Universität München</rdfs:label>
+    <j.0:name>Ludwig-Maximilians - Universität München</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-munich"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-hogenboom">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-alexander-hogenboom"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Hogenboom</rdfs:label>
+    <j.0:name>Alexander Hogenboom</j.0:name>
+    <foaf:mbox_sha1sum>657a501ec0d00dc8423e7b265eb7888a30157c2b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-hogenboom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institut-aifb-universitaet-karlsruhe-sebastian-rudolph">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-rudolph"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hans-juergen-ohlbach">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-munich-hans-juergen-ohlbach"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hans-Jürgen Ohlbach</rdfs:label>
+    <j.0:name>Hans-Jürgen Ohlbach</j.0:name>
+    <foaf:mbox_sha1sum>d65046bf1ee346e4a6462e14ed454978367e272b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hans-juergen-ohlbach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-f-aldana-montes">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-jose-f-aldana-montes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jose F Aldana Montes</rdfs:label>
+    <j.0:name>Jose F Aldana Montes</j.0:name>
+    <foaf:mbox_sha1sum>64a196d9b613e3b7ee838887492fccacde082715</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-f-aldana-montes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-quesada"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2">
+    <rdfs:label>Optimizing Ontology Alignments by Using Genetic Algorithms</rdfs:label>
+    <j.0:keyword>ontology alignment</j.0:keyword>
+    <j.0:abstract>In this work we present GOAL (Genetics for Ontology Alignments) a new approach to compute the optimal ontology alignment function for a given ontology input set. Althought this problem could be solved by an exhaustive search when the number of similarity measures is low, our method is expected to scale better for a high number of measures. Our approach is a genetic algorithm which is able to work with several goals: maximizing the alignment precision, maximizing the alignment recall, maximizing the f-measure or reducing the number of false positives. Moreover, we test it here by combining some cutting-edge similarity measures over a standard benchmark, and the results obtained show several advantages in relation to other techniques.</j.0:abstract>
+    <j.0:keyword>genetic algorithms</j.0:keyword>
+    <j.0:keyword>semantic integration</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-f-aldana-montes"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jorge-martinez-gil"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/enrique-alba"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings"/>
+    <j.0:title>Optimizing Ontology Alignments by Using Genetic Algorithms</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/natures/2008/paper/main/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lael-schooler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-max-planck-institute-for-human-development-lael-schooler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lael Schooler</rdfs:label>
+    <j.0:name>Lael Schooler</j.0:name>
+    <foaf:mbox_sha1sum>df6a70e778b403f7ae54eace0360b79d37c754c9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lael-schooler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicolas-monmarche">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-polytech-tours-universite-francois-rabelais-tours-nicolas-monmarche"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicolas Monmarché</rdfs:label>
+    <j.0:name>Nicolas Monmarché</j.0:name>
+    <foaf:mbox_sha1sum>f364e76e3d2c1e6019e3c65898d408c89b26529b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicolas-monmarche"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-oxford-bernardo-cuenca-grau">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/bernardo-cuenca-grau"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-oxford"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ioan-alfred-letia">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-technical-university-of-cluj-napoca-ioan-alfred-letia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ioan Alfred Letia</rdfs:label>
+    <j.0:name>Ioan Alfred Letia</j.0:name>
+    <foaf:mbox_sha1sum>6903aea0ef19b2b518347288c1169fae41d910dd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ioan-alfred-letia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-internet-ag-christoph-schmitz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-schmitz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/internet-ag"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-jorge-martinez-gil">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jorge-martinez-gil"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-malaga"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-max-planck-institute-for-human-development-lael-schooler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lael-schooler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-human-development"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martijn-schut">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-martijn-schut"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martijn Schut</rdfs:label>
+    <j.0:name>Martijn Schut</j.0:name>
+    <foaf:mbox_sha1sum>e5500bf4116aae9c943079a9c7af08d1161e8a24</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martijn-schut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giorgos-stamou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-aberdeen-giorgos-stamou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giorgos Stamou</rdfs:label>
+    <j.0:name>Giorgos Stamou</j.0:name>
+    <foaf:mbox_sha1sum>ed24f9a731f7d754cfd077da217c483efea94d89</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giorgos-stamou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alexander-hogenboom"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-human-development">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Max Planck Institute for Human Development</rdfs:label>
+    <j.0:name>Max Planck Institute for Human Development</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/max-planck-institute-for-human-development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peyman-nasirifard">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-peyman-nasirifard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peyman Nasirifard</rdfs:label>
+    <j.0:name>Peyman Nasirifard</j.0:name>
+    <foaf:mbox_sha1sum>a98769208add49785928af29bccaa4bbaf29c5be</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peyman-nasirifard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/uzay-kaymak">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-uzay-kaymak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Uzay Kaymak</rdfs:label>
+    <j.0:name>Uzay Kaymak</j.0:name>
+    <foaf:mbox_sha1sum>fde12b4228dc01237c87c32045980da9c31dca19</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/uzay-kaymak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-jose-f-aldana-montes">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-f-aldana-montes"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-malaga"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/natures2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about natures2008.</j.2:title>
+    <j.2:created>Tue May 03 19:04:04 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/natures/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/artur-garcez">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-city-university-london-artur-garcez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Artur Garcez</rdfs:label>
+    <j.0:name>Artur Garcez</j.0:name>
+    <foaf:mbox_sha1sum>b973bf02ec8507a8cbc37ba7f20f137dd8c8abb8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/artur-garcez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-tino">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-birmingham-peter-tino"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Tino</rdfs:label>
+    <j.0:name>Peter Tino</j.0:name>
+    <foaf:mbox_sha1sum>302fe1fc06284fa19144b12a836ce02ba2cf2a81</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-tino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/viorel-milea"/>
+    <j.0:abstract>In this paper we present an approach based on genetic algorithms for determining optimal RDF query paths. The performance of this approach is benchmarked against the performance of a two-phase optimization algorithm. For more complex queries, the genetic algorithm RDFGA generally outperforms two-phase optimization in solution quality, execution time needed, and consistency in performance. Setting a time limit improves the overall performance of RDFGA compared to two-phase optimization even more.</j.0:abstract>
+    <rdfs:label>Genetic Algorithms for RDF Query Path Optimization</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/natures/2008/paper/main/3"/>
+    <j.0:title>Genetic Algorithms for RDF Query Path Optimization</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/flavius-frasincar"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/uzay-kaymak"/>
+    <j.0:keyword>Query optimization</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Genetic Algorithm</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexander-hogenboom"/>
+    <j.0:keyword>RDF</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/max-planck-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Max Planck Institute</rdfs:label>
+    <j.0:name>Max Planck Institute</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/max-planck-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-city-university-london-artur-garcez">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/artur-garcez"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/city-university-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institute-of-cognitive-science-university-of-osnabrueck-kai-uwe-kuehnberger">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kai-uwe-kuehnberger"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-cognitive-science-university-of-osnabrueck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/emil-st-chifu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-technical-university-of-cluj-napoca-emil-st-chifu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Emil St. Chifu</rdfs:label>
+    <j.0:name>Emil St. Chifu</j.0:name>
+    <foaf:mbox_sha1sum>5b3566dd782d3999dd36032dba01f349901fe611</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/emil-st-chifu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pascal-hitzler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institut-aifb-universitaet-karlsruhe-pascal-hitzler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pascal Hitzler</rdfs:label>
+    <j.0:name>Pascal Hitzler</j.0:name>
+    <foaf:mbox_sha1sum>45c8cbd51ea3e90f3296a5e8dc64a2ec7ae7cac3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pascal-hitzler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-yahoo-research-barcelona-peter-mika">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-mika"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research-barcelona"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/internet-ag">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>1&amp;1 Internet AG</rdfs:label>
+    <j.0:name>1&amp;1 Internet AG</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/1-1-internet-ag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-mika">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-yahoo-research-barcelona-peter-mika"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Mika</rdfs:label>
+    <j.0:name>Peter Mika</j.0:name>
+    <foaf:mbox_sha1sum>c0d6551197a0295bfc604841a994d544e0091665</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-mika"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4">
+    <j.0:keyword>trust</j.0:keyword>
+    <j.0:keyword>semantic search engine</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/peyman-nasirifard"/>
+    <j.0:keyword>reasoning</j.0:keyword>
+    <j.0:title>Anatomy of a Semantic Virus</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings"/>
+    <j.0:abstract>In this position paper, I discuss a piece of malicious automated software that can be used by an individual or a group of users for submitting valid random noisy RDF-based data based on predefined schemas/ontologies to Semantic search engines. The result will undermine the utility of semantic searches. I did not implement the whole virus, but checked its feasibility. The open question is whether nature inspired reasoning can address such problems which are more related to information quality aspects.</j.0:abstract>
+    <j.0:keyword>information quality</j.0:keyword>
+    <rdfs:label>Anatomy of a Semantic Virus</rdfs:label>
+    <j.0:keyword>common sense facts</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/natures/2008/paper/main/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/emil-st-chifu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-deri-nui-galway-peyman-nasirifard">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peyman-nasirifard"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-aberdeen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Aberdeen</rdfs:label>
+    <j.0:name>University of Aberdeen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-aberdeen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-universita-di-bologna-oezalp-babaoglu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oezalp-babaoglu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universita-di-bologna"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/flavius-frasincar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jorge-martinez-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-polytech-tours-universite-francois-rabelais-tours-nicolas-monmarche">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicolas-monmarche"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/polytech-tours-universite-francois-rabelais-tours"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/peyman-nasirifard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-frank-van-harmelen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/frank-van-harmelen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-viorel-milea">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/viorel-milea"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/erasmus-university-rotterdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/polytech-tours-universite-francois-rabelais-tours">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Polytech’ Tours, Université François Rabelais Tours</rdfs:label>
+    <j.0:name>Polytech’ Tours, Université François Rabelais Tours</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/polytech-tours-universite-francois-rabelais-tours"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-sap-ag-alexander-loeser">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alexander-loeser"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-ag"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ioan-alfred-letia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit, Amsterdam</rdfs:label>
+    <j.0:name>Vrije Universiteit</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:name>Vrije Universiteit, Amsterdam</j.0:name>
+    <j.0:name>Vrije Universiteit Amsterdam</j.0:name>
+    <rdfs:label>Vrije Universiteit Amsterdam</rdfs:label>
+    <rdfs:label>Vrije Universiteit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/natures/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-malaga">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Málaga</rdfs:label>
+    <j.0:name>University of Málaga</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-malaga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/viorel-milea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-schmitz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-internet-ag-christoph-schmitz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Schmitz</rdfs:label>
+    <j.0:name>Christoph Schmitz</j.0:name>
+    <foaf:mbox_sha1sum>26e71caacb2cfc1436ed82c11990ff8d3ae299d3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-schmitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-birmingham-peter-tino">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-tino"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-birmingham"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/enrique-alba"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-technical-university-of-cluj-napoca-emil-st-chifu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emil-st-chifu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/technical-university-of-cluj-napoca"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute AIFB, University of Karlsruhe</rdfs:label>
+    <j.0:name>Institute AIFB, University of Karlsruhe</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:name>Institut AIFB, Universität Karlsruhe</j.0:name>
+    <j.0:name>AIFB</j.0:name>
+    <rdfs:label>Institut AIFB, Universität Karlsruhe</rdfs:label>
+    <rdfs:label>AIFB</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kai-uwe-kuehnberger">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-institute-of-cognitive-science-university-of-osnabrueck-kai-uwe-kuehnberger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kai-Uwe Kühnberger</rdfs:label>
+    <j.0:name>Kai-Uwe Kühnberger</j.0:name>
+    <foaf:mbox_sha1sum>253f61f0ed0676a445ea4dfee256c477dc881014</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kai-uwe-kuehnberger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-quesada">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-max-planck-institute-jose-quesada"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jose Quesada</rdfs:label>
+    <j.0:name>Jose Quesada</j.0:name>
+    <foaf:mbox_sha1sum>22765899cdf05dae4a9158364e9d1d9666197a20</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-quesada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jorge-martinez-gil">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-jorge-martinez-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jorge Martinez-Gil</rdfs:label>
+    <j.0:name>Jorge Martinez-Gil</j.0:name>
+    <foaf:mbox_sha1sum>893e6eb6c47e8ea17e11618cec3a5eae825da3ac</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jorge-martinez-gil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/flavius-frasincar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-erasmus-university-rotterdam-flavius-frasincar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Flavius Frasincar</rdfs:label>
+    <j.0:name>Flavius Frasincar</j.0:name>
+    <foaf:mbox_sha1sum>3602a236d8c11b0996c055db139913de81f9f262</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/flavius-frasincar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/enrique-alba">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-university-of-malaga-enrique-alba"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Enrique Alba</rdfs:label>
+    <j.0:name>Enrique Alba</j.0:name>
+    <foaf:mbox_sha1sum>dae0e54ca9f64352e26bb9bb19d70c79ae4f0064</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/enrique-alba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/natures2008-vrije-universiteit-amsterdam-the-netherlands-guszti-eiben">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/guszti-eiben"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/NatuReS2008/natures/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1616 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/branimir-wetzstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dimitrios-skoutas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-national-and-technical-university-of-athens-dimitrios-skoutas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dimitrios Skoutas</rdfs:label>
+    <j.0:name>Dimitrios Skoutas</j.0:name>
+    <foaf:mbox_sha1sum>c2c3905ee18fb6ed699f0e1d390dafba156e2fff</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dimitrios-skoutas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christian-leibold"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-economics-prague">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Economics, Prague</rdfs:label>
+    <j.0:name>University of Economics, Prague</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-economics-prague"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-business-application-research-center-barc-carsten-bange">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carsten-bange"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/business-application-research-center-barc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marc-vilain">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-the-mitre-corporation-marc-vilain"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marc Vilain</rdfs:label>
+    <j.0:name>Marc Vilain</j.0:name>
+    <foaf:mbox_sha1sum>a104693e21a1f1f516e24cbacc3f09130a0cb025</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marc-vilain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FZI</rdfs:label>
+    <j.0:name>FZI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fzi-forschungszentrum-informatik"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-davies">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-john-davies"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Davies</rdfs:label>
+    <j.0:name>John Davies</j.0:name>
+    <foaf:mbox_sha1sum>737d6926354e5956f8a3ce371f71d49da4fbe20d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-davies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marcio-napoli">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-marcio-napoli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marcio Napoli</rdfs:label>
+    <j.0:name>Marcio Napoli</j.0:name>
+    <foaf:mbox_sha1sum>f8786be1a41ed44c6c272073e1179e7666106144</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marcio-napoli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/prateek-jain"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marcio-napoli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-wright-state-university-amit-sheth">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/wright-state-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tammo-van-lessen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-roberto-pacheco">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/roberto-pacheco"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-martin-ralbovsky">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-ralbovsky"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-kmi-the-open-university-uk-carlos-pedrinaci">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-ben-azvine">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ben-azvine"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bt-innovate"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-kalina-bontcheva">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kalina-bontcheva"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-tomas-vejlupek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomas-vejlupek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University Of Sheffield</rdfs:label>
+    <j.0:name>University Of Sheffield</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-sheffield-uk"/>
+    <j.0:name>University of Sheffield</j.0:name>
+    <rdfs:label>University of Sheffield</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/poznan-university-of-economics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Poznan University of Economics</rdfs:label>
+    <j.0:name>Poznan University of Economics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/poznan-university-of-economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pawel-lula">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-cracow-university-of-economics-pawel-lula"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pawel Lula</rdfs:label>
+    <j.0:name>Pawel Lula</j.0:name>
+    <foaf:mbox_sha1sum>50b7bb64a96cf0adc9ced9be082b1121497509b8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pawel-lula"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pinar-yolum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-leibold">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-deri-universitaet-innsbruck-christian-leibold"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christian Leibold</rdfs:label>
+    <j.0:name>Christian Leibold</j.0:name>
+    <foaf:mbox_sha1sum>3dbbae53c59e047ef384d341c3233fd9e875cf0b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-leibold"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fernando-benedet-ghisi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-and-technical-university-of-athens">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Technical University of Athens</rdfs:label>
+    <j.0:name>National Technical University of Athens</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-and-technical-university-of-athens"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/peter-yeh"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adam-funk">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-adam-funk"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adam Funk</rdfs:label>
+    <j.0:name>Adam Funk</j.0:name>
+    <foaf:mbox_sha1sum>5d568aebe8cfe9c281b8bc4b9ae5b2d53c3dfe75</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adam-funk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-torino-anna-goy">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anna-goy"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-torino"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-german-research-center-for-artificial-intelligence-dfki-thierry-declerck">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thierry-declerck"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jiri-splichal">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jiri-splichal"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yaoyong-li">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-yaoyong-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yaoyong Li</rdfs:label>
+    <j.0:name>Yaoyong Li</j.0:name>
+    <foaf:mbox_sha1sum>a6e65fd4aa7ebf5eda20f2968ec5d1bad1465231</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yaoyong-li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bogazici-university-hande-zirtiloglu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hande-zirtiloglu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bogazici-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/horacio-saggion"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/khurshid-ahmad">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-trinity-college-dublin-khurshid-ahmad"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Khurshid Ahmad</rdfs:label>
+    <j.0:name>Khurshid Ahmad</j.0:name>
+    <foaf:mbox_sha1sum>dbc6728770f45643cfcc29c63ba86a337a2ec452</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/khurshid-ahmad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-marcio-napoli">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marcio-napoli"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dhiogo-cardoso-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-kunal-verma">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kunal-verma"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/accenture-technology-labs"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-kmi-the-open-university-uk-dave-lambert">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dave-lambert"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-spahn">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sap-research-michael-spahn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Spahn</rdfs:label>
+    <j.0:name>Michael Spahn</j.0:name>
+    <foaf:mbox_sha1sum>e51b767a05a07efb4c30bcc1dd5ddc3794b97b78</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-spahn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kunal-verma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tammo-van-lessen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-stuttgart-tammo-van-lessen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tammo van Lessen</rdfs:label>
+    <j.0:name>Tammo van Lessen</j.0:name>
+    <foaf:mbox_sha1sum>bec6076a76a7ee06ad6b3c88b63dc5757d823dbe</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tammo-van-lessen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marin-dimitrov">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-marin-dimitrov"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-marin-dimitrov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marin Dimitrov</rdfs:label>
+    <j.0:name>Marin Dimitrov</j.0:name>
+    <foaf:mbox_sha1sum>51641a7fd58beeaa1ef051fc449ac909acee21b7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marin-dimitrov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ben-azvine">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-ben-azvine"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ben Azvine</rdfs:label>
+    <j.0:name>Ben Azvine</j.0:name>
+    <foaf:mbox_sha1sum>f160fa2cbdeae28915f11076eea5b7cbe8d38073</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ben-azvine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-fernando-benedet-ghisi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fernando-benedet-ghisi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dave-lambert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jan-nemrava">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jan-nemrava"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kalina-bontcheva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomas-kliegr">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-tomas-kliegr"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomas Kliegr</rdfs:label>
+    <j.0:name>Tomas Kliegr</j.0:name>
+    <foaf:mbox_sha1sum>d7e4e249eb6df573239640178e60194c3adc3992</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomas-kliegr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hande-zirtiloglu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-istanbul-kultur-university-hande-zirtiloglu"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bogazici-university-hande-zirtiloglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hande Zirtiloglu</rdfs:label>
+    <j.0:name>Hande Zirtiloglu</j.0:name>
+    <foaf:mbox_sha1sum>d3e54050b3612f18da3c72358d7536cef25f5d92</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hande-zirtiloglu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/joachim-kleb">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-fzi-forschungszentrum-informatik-joachim-kleb"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Joachim Kleb</rdfs:label>
+    <j.0:name>Joachim Kleb</j.0:name>
+    <foaf:mbox_sha1sum>97e24ac6b26ffcd84da56a617727c64606792c7e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/joachim-kleb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paolo-ceravolo">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universita-degli-studi-di-milano-paolo-ceravolo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paolo Ceravolo</rdfs:label>
+    <j.0:name>Paolo Ceravolo</j.0:name>
+    <foaf:mbox_sha1sum>2fd5fad0ae1fb037fe6c68e3e3322718d5d74bd0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paolo-ceravolo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ontotext-lab">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ontotext Lab.</rdfs:label>
+    <j.0:name>Ontotext Lab.</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ontotext-lab"/>
+    <j.0:name>Ontotext Lab</j.0:name>
+    <rdfs:label>Ontotext Lab</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/adam-funk"/>
+    <j.0:title>Opinion Analysis for Business Intelligence</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/2"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yaoyong-li"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList"/>
+    <j.0:keyword>Business Intelligence</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Opinion Analysis</j.0:keyword>
+    <j.0:keyword>Sentiment Extraction</j.0:keyword>
+    <j.0:abstract>More than ever before, business analysts have access to public forums in which opinions and sentiments about companies, products, and policies are expressed in unstructured form.  Mining information from public sources is of great importance to many business intelligence applications such as credit rating or company reputation.  We have implemented a supervised machine-learning system which uses linguistic information to classify text by rating (good or bad, for example, or 1 to 5 stars).  In an evaluation we have obtained good results in comparison with the state-of-the-art   in opinion mining.  We are further developing the system to classify each text according to a "qualitative variable" category from an ontology specially developed for Business Intelligence (BI).  This work will allow us to generate RDF statements to populate a knowledge base for BI.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/horacio-saggion"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kalina-bontcheva"/>
+    <rdfs:label>Opinion Analysis for Business Intelligence</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christian-leibold"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alex-kass"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10">
+    <j.0:keyword>Consolidation</j.0:keyword>
+    <j.0:keyword>Semantics</j.0:keyword>
+    <j.0:abstract>dentity resolution aims at identifying the newly presented facts and linking them to their previous mentions. Our main hypothesis is that variations of one and the same fact are filterable and even increase the correctness of fact extraction. Our approach to the identity problem has been implemented as Identity Resolution Framework (IdRF). The framework provides a general solution identifying known and new facts in specific domains, and it can be used in different applications for processing of different types of entity. It uses an ontology for internal and resulting knowledge representational formalism. The ontology not only contains the representation of the domain, but also known entities and properties. Apart from extracting information from textual sources, we also exploit structured information available in databases mapping the database schema to the ontology and populating the ontology with existing knowledge. Our main goal is not to advocate one criterion among the others, but to introduce widely applicable solution of the identity resolution problem, we present a set of customizable criteria as well as a mechanism new criteria to be added. We have carried two series of experiments in two different business intelligence domains - company profiling and recruitment - achieving rather encouraging result.</j.0:abstract>
+    <j.0:title>Adopting Ontologies for Multisource Identity Resolution</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/milena-yankova"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hamish-cunningham"/>
+    <j.0:keyword>Ontology-based Information Extaction</j.0:keyword>
+    <j.0:keyword>Identity Resolution</j.0:keyword>
+    <j.0:keyword>Co-reference</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/10"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:keyword>Ontologies</j.0:keyword>
+    <j.0:keyword>Multiple Sources</j.0:keyword>
+    <rdfs:label>Adopting Ontologies for Multisource Identity Resolution</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/horacio-saggion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-alistair-duke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alistair-duke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bt-innovate"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fabiano-duarte-beppler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/krzysztof-wecel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-poznan-university-of-economics-krzysztof-wecel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Krzysztof Wecel</rdfs:label>
+    <j.0:name>Krzysztof Wecel</j.0:name>
+    <foaf:mbox_sha1sum>8d5434270e4061abc2185b20e9381570f8f8c7df</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/krzysztof-wecel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kalina-bontcheva">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-kalina-bontcheva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kalina Bontcheva</rdfs:label>
+    <j.0:name>Kalina Bontcheva</j.0:name>
+    <foaf:mbox_sha1sum>ca40a5f5c913e833a0419992909b3c53354bf853</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kalina-bontcheva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-trinity-college-dublin-khurshid-ahmad">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/khurshid-ahmad"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/trinity-college-dublin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-milena-yankova">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/milena-yankova"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sirma-group"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/celine-van-damme">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-vrije-universiteit-brussel-celine-van-damme"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Celine Van Damme</rdfs:label>
+    <j.0:name>Celine Van Damme</j.0:name>
+    <foaf:mbox_sha1sum>d10e59738d5f8b4df90c85cbdd4648ac05f10017</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/celine-van-damme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/adam-funk"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-dhiogo-cardoso-silva">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dhiogo-cardoso-silva"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dave-lambert">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-kmi-the-open-university-uk-dave-lambert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dave  Lambert</rdfs:label>
+    <j.0:name>Dave  Lambert</j.0:name>
+    <foaf:mbox_sha1sum>99893a456c7ead822e976bb891ce2df999950625</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dave-lambert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-adam-funk">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/adam-funk"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-vrije-universiteit-brussel-celine-van-damme">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/celine-van-damme"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-brussel"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-luchesar-cekov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luchesar-cekov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ontotext-lab"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tomas-kliegr"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/trevor-martin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bristol-university-trevor-martin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Trevor Martin</rdfs:label>
+    <j.0:name>Trevor Martin</j.0:name>
+    <foaf:mbox_sha1sum>ea1f89cd25838b32b18ef84b387c7d9cafd6252a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/trevor-martin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/obi2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about obi2008.</j.2:title>
+    <j.2:created>Tue May 03 19:04:11 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/obi/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-national-and-technical-university-of-athens-dimitrios-skoutas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dimitrios-skoutas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-and-technical-university-of-athens"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-goy">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-torino-anna-goy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anna Goy</rdfs:label>
+    <j.0:name>Anna Goy</j.0:name>
+    <foaf:mbox_sha1sum>7c13a700acdd43a19fcb925707bb087197e2a9af</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anna-goy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yaoyong-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-scheidl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sap-research-stefan-scheidl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Scheidl</rdfs:label>
+    <j.0:name>Stefan Scheidl</j.0:name>
+    <foaf:mbox_sha1sum>56268464b6716315dc3a56b845aa6c557876fdb8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-scheidl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-leomar-todesco">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-jose-leomar-todesco"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>José Leomar Todesco</rdfs:label>
+    <j.0:name>José Leomar Todesco</j.0:name>
+    <foaf:mbox_sha1sum>59559984a219bcab52b5d1228d908cac10ff4c4e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-leomar-todesco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/milena-yankova">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-milena-yankova"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-milena-yankova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Milena Yankova</rdfs:label>
+    <j.0:name>Milena Yankova</j.0:name>
+    <foaf:mbox_sha1sum>ecf3e83694ac7e3c5c3becf379c55aa537d7a1d2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/milena-yankova"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-denilson-sell">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/denilson-sell"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/branimir-wetzstein">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-stuttgart-branimir-wetzstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Branimir Wetzstein</rdfs:label>
+    <j.0:name>Branimir Wetzstein</j.0:name>
+    <foaf:mbox_sha1sum>c53236e6209a71eabef4f58be0d485d8a849a91e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/branimir-wetzstein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jan-nemrava"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-wright-state-university-prateek-jain">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/prateek-jain"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/wright-state-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fabiano-duarte-beppler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-fabiano-duarte-beppler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fabiano Duarte Beppler</rdfs:label>
+    <j.0:name>Fabiano Duarte Beppler</j.0:name>
+    <foaf:mbox_sha1sum>05dd7b24a654378169854ea0ec54ecba81f7fc78</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fabiano-duarte-beppler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jan-rauch">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jan-rauch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jan Rauch</rdfs:label>
+    <j.0:name>Jan Rauch</j.0:name>
+    <foaf:mbox_sha1sum>8aeb4b68e4c21aedf8a0cee52a58763d831cf1fe</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jan-rauch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/denilson-sell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anna-goy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-fabiano-duarte-beppler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fabiano-duarte-beppler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-cracow-university-of-economics-pawel-lula">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pawel-lula"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cracow-university-of-economics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/grazyna-paliwoda-pekosz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/accenture-technology-labs">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Accenture Technology Labs</rdfs:label>
+    <j.0:name>Accenture Technology Labs</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/accenture-technology-labs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-torino">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Torino</rdfs:label>
+    <j.0:name>University of Torino</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-torino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marek-nekvasil">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-marek-nekvasil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marek Nekvasil</rdfs:label>
+    <j.0:name>Marek Nekvasil</j.0:name>
+    <foaf:mbox_sha1sum>7571f9977bcbd3116d6e0fed1491bdd1fc26c935</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marek-nekvasil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/trinity-college-dublin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Trinity College Dublin</rdfs:label>
+    <j.0:name>Trinity College Dublin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/trinity-college-dublin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alistair-duke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-alistair-duke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alistair Duke</rdfs:label>
+    <j.0:name>Alistair Duke</j.0:name>
+    <foaf:mbox_sha1sum>08400e14ca3a777de2721425832cba38c43fbe7a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alistair-duke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bogazici-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Bogazici University</rdfs:label>
+    <j.0:name>Bogazici University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bogazici-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-mitre-corporation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The MITRE Corporation</rdfs:label>
+    <j.0:name>The MITRE Corporation</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-mitre-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hande-zirtiloglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList">
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-4"/>
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-7"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-7"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jan-nemrava">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jan-nemrava"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jan Nemrava</rdfs:label>
+    <j.0:name>Jan Nemrava</j.0:name>
+    <foaf:mbox_sha1sum>ca51737f88a9d026a09a9dbc2e723d896617f209</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jan-nemrava"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bristol-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Bristol University</rdfs:label>
+    <j.0:name>Bristol University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bristol-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-marek-nekvasil">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marek-nekvasil"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-stuttgart-branimir-wetzstein">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/branimir-wetzstein"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-stuttgart"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/diego-magro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-spahn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pawel-lula"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-brussel">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit Brussel</rdfs:label>
+    <j.0:name>Vrije Universiteit Brussel</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-brussel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bristol-university-trevor-martin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/trevor-martin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bristol-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/hewlett-packard-laboratories">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>HP Labs</rdfs:label>
+    <j.0:name>HP Labs</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/hewlett-packard-laboratories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-horacio-saggion">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/horacio-saggion"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-poznan-university-of-economics-krzysztof-wecel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/krzysztof-wecel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/poznan-university-of-economics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fernando-benedet-ghisi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-fernando-benedet-ghisi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fernando Benedet Ghisi</rdfs:label>
+    <j.0:name>Fernando Benedet Ghisi</j.0:name>
+    <foaf:mbox_sha1sum>d7ea2f565ae1c0a7e1a7422baabb2cf371f8d3a2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fernando-benedet-ghisi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-deri-universitaet-innsbruck-marcus-spies">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marcus-spies"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/business-application-research-center-barc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Business Application Research Center (BARC)</rdfs:label>
+    <j.0:name>Business Application Research Center (BARC)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/business-application-research-center-barc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stefan-scheidl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/celine-van-damme"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/grazyna-paliwoda-pekosz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-cracow-university-of-economics-grazyna-paliwoda-pekosz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Grazyna Paliwoda-Pekosz</rdfs:label>
+    <j.0:name>Grazyna Paliwoda-Pekosz</j.0:name>
+    <foaf:mbox_sha1sum>2aca070d989e9fbf8b35ff7abaa6dd3e42b63f41</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/grazyna-paliwoda-pekosz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-alex-kass">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alex-kass"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/accenture-technology-labs"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-hewlett-packard-laboratories-alkis-simitsis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alkis-simitsis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/hewlett-packard-laboratories"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-deri-universitaet-innsbruck-christian-leibold">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christian-leibold"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kunal-verma">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-kunal-verma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kunal Verma</rdfs:label>
+    <j.0:name>Kunal Verma</j.0:name>
+    <foaf:mbox_sha1sum>62e4912c917641080e3784abd21db24fda4ce6e2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kunal-verma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7">
+    <j.0:title>An ontology-based cluster analysis framework</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/grazyna-paliwoda-pekosz"/>
+    <j.0:keyword>Similarity Measures</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pawel-lula"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/7"/>
+    <j.0:keyword>Ontology</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>An ontology-based cluster analysis framework</rdfs:label>
+    <j.0:keyword>Data Mining</j.0:keyword>
+    <j.0:abstract>The main objectives of this paper is to propose a conceptual and software environment in which different aspects of cluster analysis of ontology-based data could be studied. The ontology-based dataset has two core components: description of categories and description of objects and relationships between them. Similarity between objects is defined as an amalgamation function of taxonomic, relationship and attribute similarity. The different measures to calculate similarity can be used. Further research is needed in order to evaluate these measures. The creation of a software tool which allows for classification of ontology-based data and comprehensive analysis of results is essential for the research in the area of ontology-based data mining. Such a tool should be universal, extensible and open. The universality manifests itself in the possibility of processing any data sets described by OWL tailored to meet individual requirements. The system extensibility means that it can be enriched with new elements without the necessity of making changes in its main elements. The openness enables the communications with other data analysis systems. In the paper theoretical aspects of cluster analysis of ontology-based data sets are presented. Next, a framework of cluster analysis system is outlined. Finally, some technical details of the system implementation are discussed.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:keyword>Data Snalysis</j.0:keyword>
+    <j.0:keyword>Cluster Analysis</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList">
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-8"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-7"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-8"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/horacio-saggion"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marek-nekvasil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stephan-grimm"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sirma-group">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Sirma Group Corp.</rdfs:label>
+    <j.0:name>Sirma Group Corp.</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sirma-group"/>
+    <j.0:name>Sirma Group</j.0:name>
+    <rdfs:label>Sirma Group</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universita-degli-studi-di-milano">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universita' degli Studi di Milano</rdfs:label>
+    <j.0:name>Universita' degli Studi di Milano</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universita-degli-studi-di-milano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cracow-university-of-economics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Cracow University of Economics</rdfs:label>
+    <j.0:name>Cracow University of Economics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cracow-university-of-economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thierry-declerck">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-german-research-center-for-artificial-intelligence-dfki-thierry-declerck"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thierry Declerck</rdfs:label>
+    <j.0:name>Thierry Declerck</j.0:name>
+    <foaf:mbox_sha1sum>b20a498a8be8ac4ddfb1d9aca8d07612e99593d3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-7">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-8"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-6"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tomas-vejlupek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vojtech-svatek">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-vojtech-svatek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vojtech Svatek</rdfs:label>
+    <j.0:name>Vojtech Svatek</j.0:name>
+    <foaf:mbox_sha1sum>7b9eaf1b98b973552c075c5f01612546dcebd1d9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vojtech-svatek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alkis-simitsis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-hewlett-packard-laboratories-alkis-simitsis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alkis Simitsis</rdfs:label>
+    <j.0:name>Alkis Simitsis</j.0:name>
+    <foaf:mbox_sha1sum>abd77772541484d4cdb9cdaffb4ad3048d608404</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alkis-simitsis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carsten-bange">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-business-application-research-center-barc-carsten-bange"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carsten Bange</rdfs:label>
+    <j.0:name>Carsten Bange</j.0:name>
+    <foaf:mbox_sha1sum>4048ad0c1c878059df6d7df1dba3db10c3a1583c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carsten-bange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/milena-yankova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alex-kass"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/prateek-jain"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:keyword>Dynamic Business Process</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/8"/>
+    <rdfs:label>Enhancing Process-Adaptation Capabilities with Web-Based Corporate Radar Technologies</rdfs:label>
+    <j.0:keyword>Corporate Radars</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/peter-yeh"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kunal-verma"/>
+    <j.0:keyword>Semantic Modeling</j.0:keyword>
+    <j.0:title>Enhancing Process-Adaptation Capabilities with Web-Based Corporate Radar Technologies</j.0:title>
+    <j.0:keyword>Dynamic Process Adaptation</j.0:keyword>
+    <j.0:abstract>Dynamic business processes are capable of adapting themselves to internal events and lack the ability to adapt to external events. Corporate radar, mines the web for events of interest, perform reasoning, analyze them and represent the events in structured format. In this position paper we advocate and propose an integrated system to enhance the capability of process-adaptation engines, greatly increasing the scope of events they can respond to enhance the capability of process-adaptation engines, greatly increasing the scope of events they can respond to.</j.0:abstract>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/8/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/denilson-sell">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-denilson-sell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Denilson Sell</rdfs:label>
+    <j.0:name>Denilson Sell</j.0:name>
+    <foaf:mbox_sha1sum>e753450bd2b4c0b1f3732160a6ea9d8d195b970d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/denilson-sell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-6">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-7"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-ralbovsky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joachim-kleb"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-yeh">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-peter-yeh"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Yeh</rdfs:label>
+    <j.0:name>Peter Yeh</j.0:name>
+    <foaf:mbox_sha1sum>da7dcfc2d58cf93b5d3eb989163dde997c854656</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-yeh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/diego-magro">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-torino-diego-magro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Diego Magro</rdfs:label>
+    <j.0:name>Diego Magro</j.0:name>
+    <foaf:mbox_sha1sum>51f0ee85c9316adb6d821db7575f6b8d897f49e1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/diego-magro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP Research</rdfs:label>
+    <j.0:name>SAP Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bt-innovate">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BT Innovate</rdfs:label>
+    <j.0:name>BT Innovate</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bt-innovate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alex-kass">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-alex-kass"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alex Kass</rdfs:label>
+    <j.0:name>Alex Kass</j.0:name>
+    <foaf:mbox_sha1sum>795fec1a9601795059507643c1fc8693cb709c5a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alex-kass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9">
+    <j.0:keyword>Information Integration</j.0:keyword>
+    <j.0:keyword>Conceptual Query Design</j.0:keyword>
+    <j.0:keyword>Business Intelligence</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-spahn"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/9"/>
+    <j.0:keyword>Ontology</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joachim-kleb"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stefan-scheidl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/9/authorList"/>
+    <rdfs:label>Supporting Business Intelligence by Providing Ontology-Based End-User Information Self-Service</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stephan-grimm"/>
+    <j.0:keyword>End-User Development</j.0:keyword>
+    <j.0:title>Supporting Business Intelligence by Providing Ontology-Based End-User Information Self-Service</j.0:title>
+    <j.0:abstract>Business users need to analyse changing sets of information to effectively support their working tasks. Due to the complexity of enterprise systems and available tools, especially technically unskilled users face considerable challenges when trying to flexibly retrieve needed data in an ad-hoc manner. As a consequence, available data is limited to information artefacts like queries or reports which have been predefined for them by IT experts. To improve information self-service capabilities of business users, we present an ontology-based architecture and end-user tool, enabling easy data access and query creation for business users. Our approach is based on a semantic middleware integrating data from heterogeneous information systems and providing a comprehensible data model in the form of a business level ontology (BO). We show how our end-user tool Semantic Query Designer (SQD) enables convenient navigation and query building upon the BO, and illustrate its usage and the processing of data over all layers of our system architecture in detail, using a comprehensible use case example. As flexible query creation is a crucial precondition of leveraging the usage of enterprise data, we contribute to the enablement of business users of making better informed decisions, thus increasing effectiveness and efficiency of business processes.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vojtech-svatek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-torino-diego-magro">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/diego-magro"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-torino"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-accenture-technology-labs-peter-yeh">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-yeh"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/accenture-technology-labs"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/prateek-jain">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-wright-state-university-prateek-jain"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Prateek Jain</rdfs:label>
+    <j.0:name>Prateek Jain</j.0:name>
+    <foaf:mbox_sha1sum>de5ee5f6661d6e948785f17c7a2410ce6d162376</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/prateek-jain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/istanbul-kultur-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Istanbul Kultur University</rdfs:label>
+    <j.0:name>Istanbul Kultur University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/istanbul-kultur-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/roberto-pacheco">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-roberto-pacheco"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Roberto Pacheco</rdfs:label>
+    <j.0:name>Roberto Pacheco</j.0:name>
+    <foaf:mbox_sha1sum>2236a24a6cc992e380c78c375fe68d3049c10946</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/roberto-pacheco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sap-research-michael-spahn">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-spahn"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hamish-cunningham"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/wright-state-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Wright State University</rdfs:label>
+    <j.0:name>Wright State University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/wright-state-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jan-rauch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-yaoyong-li">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yaoyong-li"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI</rdfs:label>
+    <j.0:name>DFKI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marcus-spies">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-deri-universitaet-innsbruck-marcus-spies"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marcus Spies</rdfs:label>
+    <j.0:name>Marcus Spies</j.0:name>
+    <foaf:mbox_sha1sum>8a2ee41d72887b7baee8d3c192a147d3225353a6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marcus-spies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jan-rauch">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jan-rauch"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-vojtech-svatek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vojtech-svatek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomas-vejlupek">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-tomas-vejlupek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomas Vejlupek</rdfs:label>
+    <j.0:name>Tomas Vejlupek</j.0:name>
+    <foaf:mbox_sha1sum>9ec025387494f25890cc0ae5be2d1c7c22e6c9b2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomas-vejlupek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Open University</rdfs:label>
+    <j.0:name>The Open University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pinar-yolum">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bogazici-university-pinar-yolum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pinar Yolum</rdfs:label>
+    <j.0:name>Pinar Yolum</j.0:name>
+    <foaf:mbox_sha1sum>5dea020a7a14902bad01a36ded6a2df8036775ea</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pinar-yolum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-marin-dimitrov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marin-dimitrov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sirma-group"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-luchesar-cekov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luchesar-cekov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sirma-group"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-tomas-kliegr">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomas-kliegr"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-economics-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-marin-dimitrov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marin-dimitrov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ontotext-lab"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-hepp">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-the-german-federal-armed-forces-martin-hepp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Hepp</rdfs:label>
+    <j.0:name>Martin Hepp</j.0:name>
+    <foaf:mbox_sha1sum>49e06491d1c02eead2d362e2300fa56d24ed5213</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-hepp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:keyword>OLAP</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-leomar-todesco"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dhiogo-cardoso-silva"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/11"/>
+    <j.0:abstract>Despite the importance of analytical tools to organizations, they still lack the inference power needed to solve the requests of decision makers in a flexible and smarter way. We present a framework called SBI - Semantic Business Intelligence - in which we apply ontologies on the description of business rules and concepts in order to support semantic-analytical functionalities that extend traditional OLAP operations. Such approach enables developers to customize BI solutions according to organization-specific analytical requirements and allows developers to align BI solutions to the latest business analytic requirements. We present how semantic inference is supported using batch and on-the-fly based strategies. In addition, we show how such semantic infrastructure makes the access to heterogeneous data sources transparent. Finally, we illustrate the benefits of our approach through Extracta, an analytical tool that relies on SBI ontologies and modules. Extracta enables an easy access to information and provides novel exploratory funcionalites based on semantics towards faster and smarter decisions.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fabiano-duarte-beppler"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/denilson-sell"/>
+    <j.0:keyword>Heterogeneous Data Sources</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marcio-napoli"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fernando-benedet-ghisi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Ontology</j.0:keyword>
+    <rdfs:label>SBI: A Semantic Framework to Support Analytical Tools</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/roberto-pacheco"/>
+    <j.0:title>SBI: A Semantic Framework to Support Analytical Tools</j.0:title>
+    <j.0:keyword>Business intelligence</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3">
+    <rdfs:label>The Business Knowledge for Customer Relationship Management: an Ontological Perspective</rdfs:label>
+    <j.0:keyword>Formal Modeling</j.0:keyword>
+    <j.0:keyword>Business Knowledge</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Semantic Technologies</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/diego-magro"/>
+    <j.0:title>The Business Knowledge for Customer Relationship Management: an Ontological Perspective</j.0:title>
+    <j.0:keyword>Customer Relationship Management</j.0:keyword>
+    <j.0:abstract>This paper presents some results of an ongoing ontological analysis of the CRM field. In particular, it describes a fragment of O-CREAM, an ontology for CRM based on DOLCE and on other three DOLCE-based modules, i.e. DnS (for the representation of roles and for handling reification), OIO (for modeling information objects, the key concept for representing business knowledge), and OoP (whose notions are used to express the derivation of new business knowledge). Since the business knowledge plays a major role within CRM activities, a significant fragment of O-CREAM is devoted to the formal characterization of notions related to business knowledge; such a fragment is the focus of this paper.</j.0:abstract>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/3/authorList"/>
+    <j.0:keyword>Ontologies</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-goy"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-stuttgart">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Stuttgart</rdfs:label>
+    <j.0:name>University of Stuttgart</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-stuttgart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-stuttgart-tammo-van-lessen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tammo-van-lessen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-stuttgart"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-milena-yankova">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/milena-yankova"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ontotext-lab"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dhiogo-cardoso-silva">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-dhiogo-cardoso-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dhiogo Cardoso Silva</rdfs:label>
+    <j.0:name>Dhiogo Cardoso Silva</j.0:name>
+    <foaf:mbox_sha1sum>214b569f126a7cf59f8fdf2b6e7b4d1a9b822cc9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dhiogo-cardoso-silva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stephan-grimm">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-fzi-forschungszentrum-informatik-stephan-grimm"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stephan Grimm</rdfs:label>
+    <j.0:name>Stephan Grimm</j.0:name>
+    <foaf:mbox_sha1sum>ee78f26b432f046eeda1857ce5cb072a72cb1b1d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stephan-grimm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jiri-splichal">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-jiri-splichal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jiri Splichal</rdfs:label>
+    <j.0:name>Jiri Splichal</j.0:name>
+    <foaf:mbox_sha1sum>f22fe2707299b7a2d652b90dc8f8d623b868b1fc</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jiri-splichal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-ralbovsky">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-economics-prague-martin-ralbovsky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Ralbovsky</rdfs:label>
+    <j.0:name>Martin Ralbovsky</j.0:name>
+    <foaf:mbox_sha1sum>294dd8531b77704fef8d03a314e5e3459d24b101</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-ralbovsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luchesar-cekov">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sirma-group-luchesar-cekov"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-ontotext-lab-luchesar-cekov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Luchesar Cekov</rdfs:label>
+    <j.0:name>Luchesar Cekov</j.0:name>
+    <foaf:mbox_sha1sum>f19ad66a32860a6ecb2cbe3b2e1ebfe7dedba3c3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/luchesar-cekov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-the-german-federal-armed-forces">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of the German Federal Armed Forces</rdfs:label>
+    <j.0:name>University of the German Federal Armed Forces</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-the-german-federal-armed-forces"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hamish-cunningham">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-hamish-cunningham"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hamish Cunningham</rdfs:label>
+    <j.0:name>Hamish Cunningham</j.0:name>
+    <foaf:mbox_sha1sum>fb5cf1828c9604d218e22ab06b11c02cf69eb4f2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hamish-cunningham"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Innsbruck</rdfs:label>
+    <j.0:name>University of Innsbruck</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/amit-sheth">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-wright-state-university-amit-sheth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Amit Sheth</rdfs:label>
+    <j.0:name>Amit Sheth</j.0:name>
+    <foaf:mbox_sha1sum>c903202d3919813029e4dc56efbe0a2b2443074c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/amit-sheth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bogazici-university-pinar-yolum">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pinar-yolum"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bogazici-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-fzi-forschungszentrum-informatik-stephan-grimm">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stephan-grimm"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-cracow-university-of-economics-grazyna-paliwoda-pekosz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/grazyna-paliwoda-pekosz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cracow-university-of-economics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-hamish-cunningham">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hamish-cunningham"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-sheffield-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universita-degli-studi-di-milano-paolo-ceravolo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paolo-ceravolo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universita-degli-studi-di-milano"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/luchesar-cekov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-8">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList/item-7"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jiri-splichal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/horacio-saggion">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-sheffield-uk-horacio-saggion"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Horacio Saggion</rdfs:label>
+    <j.0:name>Horacio Saggion</j.0:name>
+    <foaf:mbox_sha1sum>85be6818d5852d4af1775e73c65f2364aed6583d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/horacio-saggion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-university-of-the-german-federal-armed-forces-martin-hepp">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-hepp"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-the-german-federal-armed-forces"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-universidade-federal-de-santa-catarina-jose-leomar-todesco">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-leomar-todesco"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-sap-research-stefan-scheidl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-scheidl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5">
+    <j.0:keyword>Answer Set Programming</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:abstract>Complaints management is an important application of E-government. Collecting, combining, and ranking citizens' complaints is necessary for effective management. Existing complaints management applications expect the government officials to process each complaint one by one to decide which complaint should be dealt with first. This is time consuming and thus ineffective. To cope with this, we are developing an ontology-based complaints management system to manage complaints.  We have developed a complaints ontology with which the complaints of the citizens can be expressed. Further, by specifying constraints on the complaints, the officials can specify which type of complaints are more important than others. We then apply these constraints on the citizens' complaints using a reasoner. This allows us to prioritize the complaints automatically and rank them based on importance. The government officials can then process the ranked list, knowing that they are dealing with the most urgent complaint at any given time.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hande-zirtiloglu"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/5/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:keyword>Ontologies</j.0:keyword>
+    <rdfs:label>Ranking Semantic Information for E-Government: Complaints Management</rdfs:label>
+    <j.0:title>Ranking Semantic Information for E-Government: Complaints Management</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/5"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pinar-yolum"/>
+    <j.0:keyword>E-Government</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13">
+    <j.0:keyword>Algorithms</j.0:keyword>
+    <j.0:abstract>The information overload in business organizations hampers the information analysis process. Business intelligence tools can be used to analyse large amounts of information, however in most cases they only focus on structured information. More and more companies annotate tags to unstructured information to improve the information retrieval. We propose to exploit tags and tagging data to generate business intelligence. We believe that the analysis of unstructured information for business intelligence purposes can be reduced to analysing tags and tag data. In the paper, we outline the contribution that (1) tags and tag data can produce business intelligence from unstructured information provided that some prerequisites are taken into account, (2) suggest two step-by-step approaches of how existing mining and statistical techniques can be applied on tags and tagged data (3) by means of a tag data set from a European company, we provide preliminary evidence that the proposed approaches applied on corporate tags produce promising results.</j.0:abstract>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/13/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Business Intelligence</j.0:keyword>
+    <rdfs:label>Approaches to Analyse Corporate Tags for Business Intelligence Purposes</rdfs:label>
+    <j.0:keyword>Corporate Tags</j.0:keyword>
+    <j.0:keyword>Unstructured Information</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/13"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/celine-van-damme"/>
+    <j.0:title>Approaches to Analyse Corporate Tags for Business Intelligence Purposes</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-fzi-forschungszentrum-informatik-joachim-kleb">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joachim-kleb"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-6">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-7"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/roberto-pacheco"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-the-mitre-corporation-marc-vilain">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marc-vilain"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-mitre-corporation"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-pedrinaci">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-kmi-the-open-university-uk-carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Pedrinaci</rdfs:label>
+    <j.0:name>Carlos Pedrinaci</j.0:name>
+    <foaf:mbox_sha1sum>c64f9841ebaba8d2ea75552be0400ad2b304b5d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-6">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marin-dimitrov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidade-federal-de-santa-catarina">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidade Federal de Santa Catarina</rdfs:label>
+    <j.0:name>Universidade Federal de Santa Catarina</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidade-federal-de-santa-catarina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-istanbul-kultur-university-hande-zirtiloglu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hande-zirtiloglu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/istanbul-kultur-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6">
+    <j.0:keyword>Competitive Intelligence</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tomas-vejlupek"/>
+    <rdfs:label>Semantic Annotation and Linking of Competitive Intelligence Reports for Business Clusters</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jan-rauch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-ralbovsky"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/6/authorList"/>
+    <j.0:title>Semantic Annotation and Linking of Competitive Intelligence Reports for Business Clusters</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tomas-kliegr"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jan-nemrava"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jiri-splichal"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vojtech-svatek"/>
+    <j.0:keyword>Topic Maps</j.0:keyword>
+    <j.0:keyword>Ontology Engineering</j.0:keyword>
+    <j.0:keyword>Collaborative Annotation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marek-nekvasil"/>
+    <j.0:abstract>Competitive intelligence (CI) is a sub-discipline of business intelligence that supports the decision makers in understanding the competitive environment by means of textual reports prepared based on public resources. CI is particularly demanding in the context of larger business clusters. We report on a long-term project featuring large-scale manual semantic annotation of CI reports wrt. business clusters in several industries. The underlying ontologies are the result of collaborative editing by multiple student teams. The results of annotation are finally merged into CI maps that allow easy access to both the original documents and the knowledge structures.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <j.0:abstract>Business Activity Monitoring (BAM) aims to support the real-time analysis of business processes in order to improve the speed and effectiveness of business operations. Timely providing an integrated high-level view on the evolution and well-being of business activities within enterprises constitutes an obviously highly valuable analytical tool for monitoring, managing and hopefully enhancing businesses. However, the degree of automation currently achieved cannot support the level of reactivity and adaptation demanded by businesses. We argue that the fundamental problem is that moving between the business level and the IT level is hardly automated and suggest an extensive use of semantic technologies as a solution. In particular, we present SENTINEL a Semantic Business Process Monitoring tool that advances the state of the art in BAM by making an extensive use of semantic technologies in order to support the integration and derivation of business level knowledge out of low-level audit trails generated by IT systems.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/obi/2008/proceedings"/>
+    <j.0:title>SENTINEL: A Semantic Business Process Monitoring Tool</j.0:title>
+    <j.0:keyword>Semantic Business Process Management</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/obi/2008/paper/main/14"/>
+    <rdfs:label>SENTINEL: A Semantic Business Process Monitoring Tool</rdfs:label>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/14/authorList"/>
+    <j.0:keyword>Business Activity Monitoring</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tammo-van-lessen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/luchesar-cekov"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marin-dimitrov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/branimir-wetzstein"/>
+    <j.0:keyword>Business Intelligence</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dave-lambert"/>
+    <j.0:keyword>Ontology</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/obi2008-bt-innovate-john-davies">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-davies"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bt-innovate"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/OBI2008/obi/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-7">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/obi2008/data.semanticweb.org/workshop/obi/2008/paper/main/11/authorList/item-6"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-leomar-todesco"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+</rdf:RDF>

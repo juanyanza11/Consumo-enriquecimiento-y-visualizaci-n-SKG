@@ -1,0 +1,1826 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-deborah-mcguinness">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/deborah-mcguinness"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Texas at El Paso</rdfs:label>
+    <cofunc:name>University of Texas at El Paso</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-texas-at-el-paso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stephan-maes">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-stephan-maes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stephan Mäs</rdfs:label>
+    <cofunc:name>Stephan Mäs</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stephan-maes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/lisc2011/lisc/2011">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>1st International Workshop on Linked Science</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-evolutionary-anthropology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Max-Planck Institute for Evolutionary Anthropology</rdfs:label>
+    <cofunc:name>Max-Planck Institute for Evolutionary Anthropology</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/max-planck-institute-for-evolutionary-anthropology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-aman-goel">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aman-goel"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olivier-bodenreider">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-us-national-library-of-medicine-olivier-bodenreider"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Olivier Bodenreider</rdfs:label>
+    <cofunc:name>Olivier Bodenreider</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/olivier-bodenreider"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-mannheim-library">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Mannheim University Library</rdfs:label>
+    <cofunc:name>Mannheim University Library</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-mannheim-library"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University</rdfs:label>
+    <cofunc:name>Stanford University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-mathieu-daquin">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-muenster">
+    <rdfs:label>Institute for Geoinformatics, University of Münster</rdfs:label>
+    <rdfs:label>University of Münster</rdfs:label>
+    <cofunc:name>University of Münster</cofunc:name>
+    <rdfs:label>University of Muenster</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <cofunc:name>University of Muenster</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-muenster"/>
+    <rdfs:label>University of Mnster</rdfs:label>
+    <cofunc:name>University of Mnster</cofunc:name>
+    <cofunc:name>Institute for Geoinformatics, University of Münster</cofunc:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/olivier-bodenreider"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-texas-at-el-paso-paulo-pinheiro-da-silva">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-el-paso"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18">
+    <cofunc:title>Interactively Mapping Data Sources into the Semantic Web</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/shubham-gupta"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maria-muslea"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pedro-szekely"/>
+    <rdfs:label>Interactively Mapping Data Sources into the Semantic Web</rdfs:label>
+    <cofunc:keyword>generating RDF</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-luis-ambite"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/parag-mallick"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/aman-goel"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/18"/>
+    <cofunc:keyword>linked data</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/craig-knoblock"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kristina-lerman"/>
+    <cofunc:keyword>bioinformatics</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-neuroscience-university-of-oregon">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Neuroscience, University of Oregon</rdfs:label>
+    <cofunc:name>Institute of Neuroscience, University of Oregon</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-neuroscience-university-of-oregon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-usc-isi-yolanda-gil">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/usc-isi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kristina-lerman">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-kristina-lerman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kristina Lerman</rdfs:label>
+    <cofunc:name>Kristina Lerman</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kristina-lerman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList">
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-7"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-5"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-1"/>
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-8"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-paulo-pinheiro-da-silva">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-auroop-ganguly">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/auroop-ganguly"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-freie-universitaet-berlin-christian-bizer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-kmi-the-open-university-uk-mathieu-daquin"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu D'Aquin</rdfs:label>
+    <cofunc:name>Mathieu D'Aquin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-mark-schildhauer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mark-schildhauer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-eric-stephan">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eric-stephan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christin-henzen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-christin-henzen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christin Henzen</rdfs:label>
+    <cofunc:name>Christin Henzen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christin-henzen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-simon-scheider">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/simon-scheider"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-kai-eckert">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kai-eckert"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vinh-nguyen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-stasch">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-christoph-stasch"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-christoph-stasch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Stasch</rdfs:label>
+    <cofunc:name>Christoph Stasch</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-stasch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-benno-blumenthal">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/benno-blumenthal"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-luis-ambite">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-jose-luis-ambite"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jose Luis Ambite</rdfs:label>
+    <cofunc:name>Jose Luis Ambite</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-luis-ambite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-jens-ortmann">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jens-ortmann"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-fribourg-philippe-cudre-mauroux">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-fribourg"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-oak-ridge-national-laboratory-line-catherine-pouchard">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/line-catherine-pouchard"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/oak-ridge-national-laboratory"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/frank-van-harmelen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-frank-van-harmelen"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-frank-van-harmelen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Frank Van Harmelen</rdfs:label>
+    <cofunc:name>Frank Van Harmelen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/frank-van-harmelen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stephan-maes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-chris-lynnes">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/chris-lynnes"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-fribourg-philippe-cudre-mauroux"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-philippe-cudre-mauroux"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philippe Cudre-Mauroux</rdfs:label>
+    <cofunc:name>Philippe Cudre-Mauroux</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philippe-cudre-mauroux"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-antoine-isaac">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/antoine-isaac"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/auroop-ganguly">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-oak-ridge-national-laboratory-auroop-ganguly"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-auroop-ganguly"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Auroop Ganguly</rdfs:label>
+    <cofunc:name>Auroop Ganguly</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/auroop-ganguly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paula-mabee">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-south-dakota-paula-mabee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paula Mabee</rdfs:label>
+    <cofunc:name>Paula Mabee</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paula-mabee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Rensselaer Polytechnic Institute</rdfs:label>
+    <cofunc:name>Rensselaer Polytechnic Institute</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/rensselaer-polytechnic-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-john-harney">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/john-harney"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-maria-muslea">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maria-muslea"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tim-clark">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-massachusetts-general-hospital-department-of-neurology-tim-clark"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-harvard-medical-school-department-of-neuro-tim-clark"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-tim-clark"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tim Clark</rdfs:label>
+    <cofunc:name>Tim Clark</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tim-clark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-south-dakota">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of South Dakota</rdfs:label>
+    <cofunc:name>University of South Dakota</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-south-dakota"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/l3s-research-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>L3S Research Center</rdfs:label>
+    <cofunc:name>L3S Research Center</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/l3s-research-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-carsten-kessler">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carsten-kessler"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pedro-szekely"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-shubham-gupta">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/shubham-gupta"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jens-ortmann">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-jens-ortmann"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-jens-ortmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jens Ortmann</rdfs:label>
+    <cofunc:name>Jens Ortmann</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jens-ortmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-fribourg">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Fribourg</rdfs:label>
+    <cofunc:name>University of Fribourg</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-fribourg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-kristina-lerman">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kristina-lerman"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matt-jones">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-california-santa-barbara-matt-jones"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-matt-jones"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matt Jones</rdfs:label>
+    <cofunc:name>Matt Jones</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matt-jones"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jim-myers">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-ccni-rensselaer-polytechnic-institute-jim-myers"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-jim-myers"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jim Myers</rdfs:label>
+    <cofunc:name>Jim Myers</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jim-myers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/matthias-mueller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/open-geospatial-consortium">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Open Geospatial Consortium</rdfs:label>
+    <cofunc:name>Open Geospatial Consortium</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/open-geospatial-consortium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eric-stephan">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-eric-stephan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eric Stephan</rdfs:label>
+    <cofunc:name>Eric Stephan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eric-stephan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-jens-ortmann">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jens-ortmann"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-laura-hollink">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/laura-hollink"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/werner-kuhn">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-werner-kuhn"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-werner-kuhn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Werner Kuhn</rdfs:label>
+    <cofunc:name>Werner Kuhn</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/werner-kuhn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/johnson-mwebaze">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-makerere-university-johnson-mwebaze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Johnson Mwebaze</rdfs:label>
+    <cofunc:name>Johnson Mwebaze</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/johnson-mwebaze"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/timothy-lebo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-timothy-lebo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Timothy Lebo</rdfs:label>
+    <cofunc:name>Timothy Lebo</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/timothy-lebo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-anusuriya-devaraju">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anusuriya-devaraju"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hilmar-lapp"/>
+    <rdfs:label>Similarity between semantic description sets: addressing needs beyond data integration</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/judith-blake"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <cofunc:keyword>semantic similarity</cofunc:keyword>
+    <cofunc:title>Similarity between semantic description sets: addressing needs beyond data integration</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/todd-vision"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/monte-westerfield"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paula-mabee"/>
+    <cofunc:keyword>ontology</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/17"/>
+    <cofunc:keyword>phenotype</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/monash-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Monash University</rdfs:label>
+    <cofunc:name>Monash University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/monash-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/us-national-library-of-medicine">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>US National Library of Medicine</rdfs:label>
+    <cofunc:name>US National Library of Medicine</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/us-national-library-of-medicine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-monash-university-maria-indrawan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maria-indrawan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/monash-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-cynthia-chang">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/cynthia-chang"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chris-lynnes">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-nasa-chris-lynnes"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-chris-lynnes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris Lynnes</rdfs:label>
+    <cofunc:name>Chris Lynnes</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chris-lynnes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-paul-groth">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/paul-groth"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-stephan-maes">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stephan-maes"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tu-dresden"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/craig-knoblock"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-frank-van-harmelen">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/frank-van-harmelen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jim-mccusker">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-jim-mccusker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jim Mccusker</rdfs:label>
+    <cofunc:name>Jim Mccusker</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jim-mccusker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-jose-luis-ambite">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-luis-ambite"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christin-henzen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-jim-myers">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jim-myers"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/nasa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Nasa</rdfs:label>
+    <cofunc:name>Nasa</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/nasa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/cynthia-chang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/parag-mallick">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-stanford-university-parag-mallick"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Parag Mallick</rdfs:label>
+    <cofunc:name>Parag Mallick</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/parag-mallick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hilmar-lapp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-mueller">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-matthias-mueller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Müller</rdfs:label>
+    <cofunc:name>Matthias Müller</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-mueller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/harvard-medical-school-department-of-neuro">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Harvard Medical School</rdfs:label>
+    <cofunc:name>Harvard Medical School</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/harvard-medical-school-department-of-neuro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-peter-fox">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/peter-fox"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/tu-delft">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Delft University of Technology</rdfs:label>
+    <cofunc:name>Delft University of Technology</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/tu-delft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/shubham-gupta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-evolutionary-synthesis-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Evolutionary Synthesis Center</rdfs:label>
+    <cofunc:name>National Evolutionary Synthesis Center</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-evolutionary-synthesis-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-tim-clark">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-south-dakota-paula-mabee">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paula-mabee"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-south-dakota"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/venkatramani-balaji">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-princeton-university-venkatramani-balaji"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-venkatramani-balaji"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Venkatramani Balaji</rdfs:label>
+    <cofunc:name>Venkatramani Balaji</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/venkatramani-balaji"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lars-bernard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-national-evolutionary-synthesis-center-hilmar-lapp">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hilmar-lapp"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-evolutionary-synthesis-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-columbia-university-benno-blumenthal">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/benno-blumenthal"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/columbia-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-venkatramani-balaji">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/venkatramani-balaji"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-lsdis-lab-university-of-georgia-john-harney">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-harney"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lsdis-lab-university-of-georgia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/todd-vision">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-department-of-biology-university-of-north-carolina-chapel-hill-nc-usa-todd-vision"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Todd Vision</rdfs:label>
+    <cofunc:name>Todd Vision</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/todd-vision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2">
+    <rdfs:label>Linked Data for Network Science</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList"/>
+    <cofunc:keyword>linked data</cofunc:keyword>
+    <cofunc:keyword>network analysis</cofunc:keyword>
+    <cofunc:title>Linked Data for Network Science</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paul-groth"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <cofunc:keyword>network science</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>knowledge capture</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-lars-bernard">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lars-bernard"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tu-dresden"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/nceas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>NCEAS</rdfs:label>
+    <cofunc:name>NCEAS</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/nceas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paula-mabee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-nceas-mark-schildhauer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mark-schildhauer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/nceas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/krzysztof-janowicz">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-california-santa-barbara-krzysztof-janowicz"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-krzysztof-janowicz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Krzysztof Janowicz</rdfs:label>
+    <cofunc:name>Krzysztof Janowicz</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/krzysztof-janowicz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-groth">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-paul-groth"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-paul-groth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Groth</rdfs:label>
+    <cofunc:name>Paul Groth</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-groth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/twc-rpi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>TWC/RPI</rdfs:label>
+    <cofunc:name>TWC/RPI</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/twc-rpi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kno-e-sis-wright-state-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Knoesis center, Wright State University</rdfs:label>
+    <cofunc:name>Knoesis center, Wright State University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kno-e-sis-wright-state-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-luis-ambite"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-jim-mccusker">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jim-mccusker"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-georgia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Georgia</rdfs:label>
+    <cofunc:name>University of Georgia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-georgia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/utrecht-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Utrecht University</rdfs:label>
+    <cofunc:name>Utrecht University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/utrecht-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-werner-kuhn">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/werner-kuhn"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/cynthia-chang">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-cynthia-chang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Cynthia Chang</rdfs:label>
+    <cofunc:name>Cynthia Chang</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/cynthia-chang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-6">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/deborah-mcguinness"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-anusuriya-devaraju">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/anusuriya-devaraju"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>knowledge exploration</cofunc:keyword>
+    <cofunc:keyword>experimental data</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/3"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/olivier-bodenreider"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <cofunc:keyword>semantic integration</cofunc:keyword>
+    <cofunc:keyword>hypothesis generation</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/todd-mining"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vinh-nguyen"/>
+    <rdfs:label>The knowledge-driven exploration of integrated biomedical knowledge sources facilitates the generation of new hypotheses</rdfs:label>
+    <cofunc:keyword>scientific literature</cofunc:keyword>
+    <cofunc:title>The knowledge-driven exploration of integrated biomedical knowledge sources facilitates the generation of new hypotheses</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/monte-westerfield"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universitaet-leipzig">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universität Leipzig</rdfs:label>
+    <cofunc:name>Universität Leipzig</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universitaet-leipzig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-mannheim-library-kai-eckert">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kai-eckert"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-mannheim-library"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-6">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-7"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maria-muslea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carsten-kessler">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-carsten-kessler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carsten Keßler</rdfs:label>
+    <cofunc:name>Carsten Keßler</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carsten-kessler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-university-of-arizona">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Arizona</rdfs:label>
+    <cofunc:name>University of Arizona</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-university-of-arizona"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-antoine-isaac">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/antoine-isaac"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-frank-van-harmelen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/frank-van-harmelen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-us-national-library-of-medicine-olivier-bodenreider">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olivier-bodenreider"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/us-national-library-of-medicine"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomi-kauppinen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-tomi-kauppinen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomi Kauppinen</rdfs:label>
+    <cofunc:name>Tomi Kauppinen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomi-kauppinen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-paul-groth">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-groth"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/todd-mining">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-georgia-todd-mining"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Todd Mining</rdfs:label>
+    <cofunc:name>Todd Mining</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/todd-mining"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-simon-scheider">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/simon-scheider"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList"/>
+    <cofunc:keyword>languages</cofunc:keyword>
+    <cofunc:keyword>skos</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/harald-hammarstroem"/>
+    <cofunc:keyword>linguistics</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/4"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <cofunc:keyword>family trees</cofunc:keyword>
+    <rdfs:label>Glottolog/Langdoc: Defining dialects, languages, and language families as collections of resources</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>dialects</cofunc:keyword>
+    <cofunc:keyword>language families</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sebastian-nordhoff"/>
+    <cofunc:title>Glottolog/Langdoc: Defining dialects, languages, and language families as collections of resources</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-l3s-research-center-stefan-dietze">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-pedro-szekely">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pedro-szekely"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/judith-blake"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/deborah-mcguinness">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-deborah-mcguinness"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-deborah-mcguinness"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Deborah L. McGuinness</rdfs:label>
+    <cofunc:name>Deborah L. McGuinness</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/deborah-mcguinness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/columbia-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Columbia University</rdfs:label>
+    <cofunc:name>Columbia University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/columbia-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-nordhoff">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-max-planck-institute-for-evolutionary-anthropology-sebastian-nordhoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Nordhoff</rdfs:label>
+    <cofunc:name>Sebastian Nordhoff</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-nordhoff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/aman-goel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/li-ding">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-li-ding"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Li Ding</rdfs:label>
+    <cofunc:name>Li Ding</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/li-ding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jun-zhao">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-oxford-jun-zhao"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jun Zhao</rdfs:label>
+    <cofunc:name>Jun Zhao</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jun-zhao"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/shubham-gupta">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-shubham-gupta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Shubham Gupta</rdfs:label>
+    <cofunc:name>Shubham Gupta</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/shubham-gupta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/princeton-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Princeton University</rdfs:label>
+    <cofunc:name>Princeton University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/princeton-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-open-geospatial-consortium-luis-bermudez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luis-bermudez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/open-geospatial-consortium"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-southern-california">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Southern California</rdfs:label>
+    <cofunc:name>University of Southern California</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-southern-california"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/damian-gessler">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-the-university-of-arizona-damian-gessler"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-damian-gessler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Damian Gessler</rdfs:label>
+    <cofunc:name>Damian Gessler</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/damian-gessler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/monte-westerfield">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-institute-of-neuroscience-university-of-oregon-monte-westerfield"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Monte Westerfield</rdfs:label>
+    <cofunc:name>Monte Westerfield</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/monte-westerfield"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/soeren-auer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-universitaet-leipzig-soeren-auer"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-soeren-auer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sören Auer</rdfs:label>
+    <cofunc:name>Sören Auer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/soeren-auer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-kno-e-sis-wright-state-university-vinh-nguyen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vinh-nguyen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kno-e-sis-wright-state-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-8">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-7"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/parag-mallick"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/makerere-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Makerere University</rdfs:label>
+    <cofunc:name>Makerere University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/makerere-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-twc-rpi-peter-fox">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-fox"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/twc-rpi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-cybershare-center-university-of-texas-at-el-paso-paulo-pinheiro-da-silva">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cybershare-center-university-of-texas-at-el-paso"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-delft-laura-hollink">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/laura-hollink"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tu-delft"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yolanda-gil">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-usc-isi-yolanda-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yolanda Gil</rdfs:label>
+    <cofunc:name>Yolanda Gil</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yolanda-gil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-max-planck-institute-for-evolutionary-anthropology-harald-hammarstroem">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/harald-hammarstroem"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-evolutionary-anthropology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mark-schildhauer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-nceas-mark-schildhauer"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-mark-schildhauer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mark Schildhauer</rdfs:label>
+    <cofunc:name>Mark Schildhauer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mark-schildhauer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/10"/>
+    <cofunc:keyword>GDI</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/matthias-mueller"/>
+    <cofunc:keyword>linked scientific data</cofunc:keyword>
+    <rdfs:label>Linking the Outcomes of Scientific Research: Requirements from the Perspective of Geosciences</rdfs:label>
+    <cofunc:keyword>scientific geodata infrastructure</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christin-henzen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lars-bernard"/>
+    <cofunc:title>Linking the Outcomes of Scientific Research: Requirements from the Perspective of Geosciences</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stephan-maes"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-luis-bermudez">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/luis-bermudez"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/massachusetts-general-hospital-department-of-neurology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Massachusetts General Hospital, Department of Neurology, Boston, MA, USA</rdfs:label>
+    <cofunc:name>Massachusetts General Hospital, Department of Neurology, Boston, MA, USA</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/massachusetts-general-hospital-department-of-neurology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-oxford-jun-zhao">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jun-zhao"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-oxford"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paul-groth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/usc-isi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>USC/ISI</rdfs:label>
+    <cofunc:name>USC/ISI</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/usc-isi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-christin-henzen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christin-henzen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tu-dresden"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-7">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-8"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/18/authorList/item-6"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kristina-lerman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-matt-jones">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/matt-jones"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-soeren-auer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/soeren-auer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-california-santa-barbara-matt-jones">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matt-jones"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-california-santa-barbara"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-max-planck-institute-for-evolutionary-anthropology-sebastian-nordhoff">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-nordhoff"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-evolutionary-anthropology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-christian-bizer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-craig-knoblock">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/craig-knoblock"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southern-california"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-department-of-biology-university-of-north-carolina-chapel-hill-nc-usa-todd-vision">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/todd-vision"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/department-of-biology-university-of-north-carolina-chapel-hill-nc-usa"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-oxford">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Oxford</rdfs:label>
+    <cofunc:name>University of Oxford</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-oxford"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kerstin-kleese-van-dam">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-kerstin-kleese-van-dam"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kerstin Kleese-Van Dam</rdfs:label>
+    <cofunc:name>Kerstin Kleese-Van Dam</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kerstin-kleese-van-dam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-li-ding">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-wright-state-university-amit-sheth">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/wright-state-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/timothy-lebo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-institute-of-neuroscience-university-of-oregon-monte-westerfield">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/monte-westerfield"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-neuroscience-university-of-oregon"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-the-university-of-arizona-damian-gessler">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/damian-gessler"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-university-of-arizona"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/craig-knoblock">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-craig-knoblock"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Craig A. Knoblock</rdfs:label>
+    <cofunc:name>Craig A. Knoblock</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/craig-knoblock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/judith-blake">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-the-jackson-laboratory-judith-blake"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Judith Blake</rdfs:label>
+    <cofunc:name>Judith Blake</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/judith-blake"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-christoph-stasch">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-stasch"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-princeton-university-venkatramani-balaji">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/venkatramani-balaji"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/princeton-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <cofunc:keyword>Functional Requirements for Bibliographic Resources</cofunc:keyword>
+    <rdfs:label>Where did you hear that? Information and the Sources They Come From</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>Where did you hear that? Information and the Sources They Come From</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jim-mccusker"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/timothy-lebo"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/cynthia-chang"/>
+    <cofunc:keyword>provenance</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/20"/>
+    <cofunc:keyword>Proof Markup Language</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/deborah-mcguinness"/>
+    <cofunc:keyword>trust</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-massachusetts-general-hospital-department-of-neurology-tim-clark">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/massachusetts-general-hospital-department-of-neurology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lsdis-lab-university-of-georgia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LSDIS Lab, University of Georgia</rdfs:label>
+    <cofunc:name>LSDIS Lab, University of Georgia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lsdis-lab-university-of-georgia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/20/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jim-mccusker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-indrawan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-monash-university-maria-indrawan"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-maria-indrawan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maria Indrawan</rdfs:label>
+    <cofunc:name>Maria Indrawan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maria-indrawan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/todd-vision"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/antoine-isaac">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-vrije-universiteit-amsterdam-the-netherlands-antoine-isaac"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-antoine-isaac"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Antoine Isaac</rdfs:label>
+    <cofunc:name>Antoine Isaac</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/antoine-isaac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simon-scheider">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-simon-scheider"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-simon-scheider"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Simon Scheider</rdfs:label>
+    <cofunc:name>Simon Scheider</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/simon-scheider"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ccni-rensselaer-polytechnic-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CCNI/Rensselaer Polytechnic Institute</rdfs:label>
+    <cofunc:name>CCNI/Rensselaer Polytechnic Institute</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ccni-rensselaer-polytechnic-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-harvard-medical-school-department-of-neuro-tim-clark">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tim-clark"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/harvard-medical-school-department-of-neuro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/benno-blumenthal">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-columbia-university-benno-blumenthal"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-benno-blumenthal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Benno Blumenthal</rdfs:label>
+    <cofunc:name>Benno Blumenthal</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/benno-blumenthal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/wright-state-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Kno.e.sis Center, Wright State University</rdfs:label>
+    <cofunc:name>Kno.e.sis Center, Wright State University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/wright-state-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-jackson-laboratory">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Jackson Laboratory</rdfs:label>
+    <cofunc:name>The Jackson Laboratory</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-jackson-laboratory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kai-eckert">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-mannheim-library-kai-eckert"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-kai-eckert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kai Eckert</rdfs:label>
+    <cofunc:name>Kai Eckert</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kai-eckert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/johnson-mwebaze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laura-hollink">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-delft-laura-hollink"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-laura-hollink"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laura Hollink</rdfs:label>
+    <cofunc:name>Laura Hollink</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laura-hollink"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anusuriya-devaraju">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-anusuriya-devaraju"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-anusuriya-devaraju"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anusuriya Devaraju</rdfs:label>
+    <cofunc:name>Anusuriya Devaraju</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anusuriya-devaraju"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-utrecht-university-anita-dewaard">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anita-dewaard"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/utrecht-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-krzysztof-janowicz">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/krzysztof-janowicz"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Knowledge Media Institute, the Open University</rdfs:label>
+    <cofunc:name>Knowledge Media Institute, the Open University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-fox">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-twc-rpi-peter-fox"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-peter-fox"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Fox</rdfs:label>
+    <cofunc:name>Peter Fox</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-fox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/johnson-mwebaze"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lisc/2011/proceedings"/>
+    <cofunc:keyword>provenance</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>scientific computing</cofunc:keyword>
+    <cofunc:keyword>object versioning</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/paper/14"/>
+    <cofunc:keyword>eScience</cofunc:keyword>
+    <cofunc:keyword>data lineage</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/14/authorList"/>
+    <cofunc:title>Supporting Scientific Collaboration Through Class-Based Object Versioning</cofunc:title>
+    <rdfs:label>Supporting Scientific Collaboration Through Class-Based Object Versioning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anita-dewaard">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-utrecht-university-anita-dewaard"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-anita-dewaard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anita De Waard</rdfs:label>
+    <cofunc:name>Anita De Waard</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anita-dewaard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vinh-nguyen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-kno-e-sis-wright-state-university-vinh-nguyen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vinh Nguyen</rdfs:label>
+    <cofunc:name>Vinh Nguyen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vinh-nguyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-california-santa-barbara-krzysztof-janowicz">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/krzysztof-janowicz"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-california-santa-barbara"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-bizer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-freie-universitaet-berlin-christian-bizer"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-christian-bizer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris Bizer</rdfs:label>
+    <cofunc:name>Chris Bizer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-bizer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-tomi-kauppinen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomi-kauppinen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-stefan-dietze">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-stanford-university-parag-mallick">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/parag-mallick"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pedro-szekely">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-pedro-szekely"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pedro Szekely</rdfs:label>
+    <cofunc:name>Pedro Szekely</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pedro-szekely"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cybershare-center-university-of-texas-at-el-paso">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CyberShARE Center, University of Texas at El Paso</rdfs:label>
+    <cofunc:name>CyberShARE Center, University of Texas at El Paso</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cybershare-center-university-of-texas-at-el-paso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-nasa-chris-lynnes">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chris-lynnes"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/nasa"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-kmi-the-open-university-uk-mathieu-daquin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/amit-sheth">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-wright-state-university-amit-sheth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Amit Sheth</rdfs:label>
+    <cofunc:name>Amit Sheth</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/amit-sheth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/line-catherine-pouchard">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-oak-ridge-national-laboratory-line-catherine-pouchard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Line Catherine Pouchard</rdfs:label>
+    <cofunc:name>Line Catherine Pouchard</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/line-catherine-pouchard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sebastian-nordhoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hilmar-lapp">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-national-evolutionary-synthesis-center-hilmar-lapp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hilmar Lapp</rdfs:label>
+    <cofunc:name>Hilmar Lapp</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hilmar-lapp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-philippe-cudre-mauroux">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-makerere-university-johnson-mwebaze">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/johnson-mwebaze"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/makerere-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/department-of-biology-university-of-north-carolina-chapel-hill-nc-usa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Department of Biology, University of North Carolina, Chapel Hill, NC, USA</rdfs:label>
+    <cofunc:name>Department of Biology, University of North Carolina, Chapel Hill, NC, USA</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/department-of-biology-university-of-north-carolina-chapel-hill-nc-usa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-harney">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-lsdis-lab-university-of-georgia-john-harney"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-john-harney"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Harney</rdfs:label>
+    <cofunc:name>John Harney</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-harney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paulo-pinheiro-da-silva">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-texas-at-el-paso-paulo-pinheiro-da-silva"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-cybershare-center-university-of-texas-at-el-paso-paulo-pinheiro-da-silva"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-paulo-pinheiro-da-silva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paulo Pinheiro Da Silva</rdfs:label>
+    <cofunc:name>Paulo Pinheiro Da Silva</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paulo-pinheiro-da-silva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-christoph-stasch">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christoph-stasch"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Freie Universität Berlin</rdfs:label>
+    <cofunc:name>Freie Universität Berlin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lars-bernard">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-lars-bernard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lars Bernard</rdfs:label>
+    <cofunc:name>Lars Bernard</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lars-bernard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/lisc2011">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about lisc2011.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:00 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/lisc/2011/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/oak-ridge-national-laboratory">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Oak Ridge National Laboratory</rdfs:label>
+    <cofunc:name>Oak Ridge National Laboratory</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/oak-ridge-national-laboratory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-rensselaer-polytechnic-institute-timothy-lebo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/timothy-lebo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/amit-sheth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-california-santa-barbara">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of California, Santa Barbara</rdfs:label>
+    <cofunc:name>University of California, Santa Barbara</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-california-santa-barbara"/>
+    <cofunc:name>University of California Santa Barbara</cofunc:name>
+    <rdfs:label>University of California Santa Barbara</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/2/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-maria-indrawan">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/maria-indrawan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/4/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/harald-hammarstroem"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/tu-dresden">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>TU Dresden</rdfs:label>
+    <cofunc:name>TU Dresden</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/tu-dresden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-deborah-mcguinness">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/deborah-mcguinness"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-kerstin-kleese-van-dam">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kerstin-kleese-van-dam"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-muenster-werner-kuhn">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/werner-kuhn"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/harald-hammarstroem">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-max-planck-institute-for-evolutionary-anthropology-harald-hammarstroem"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Harald Hammarström</rdfs:label>
+    <cofunc:name>Harald Hammarström</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/harald-hammarstroem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-tu-dresden-matthias-mueller">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-mueller"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tu-dresden"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit Amsterdam</rdfs:label>
+    <cofunc:name>Vrije Universiteit Amsterdam</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-ccni-rensselaer-polytechnic-institute-jim-myers">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jim-myers"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ccni-rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-muslea">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-maria-muslea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maria Muslea</rdfs:label>
+    <cofunc:name>Maria Muslea</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maria-muslea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-damian-gessler">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/damian-gessler"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-oak-ridge-national-laboratory-auroop-ganguly">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/auroop-ganguly"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/oak-ridge-national-laboratory"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/todd-mining"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-anita-dewaard">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/anita-dewaard"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/lisc2011/iswc/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-the-jackson-laboratory-judith-blake">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/judith-blake"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-jackson-laboratory"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-universitaet-leipzig-soeren-auer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/soeren-auer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-leipzig"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luis-bermudez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-open-geospatial-consortium-luis-bermudez"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-luis-bermudez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Luis Bermudez</rdfs:label>
+    <cofunc:name>Luis Bermudez</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/luis-bermudez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-dietze">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-l3s-research-center-stefan-dietze"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lisc2011-programme-committee-member-stefan-dietze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Dietze</rdfs:label>
+    <cofunc:name>Stefan Dietze</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-dietze"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lisc2011/data.semanticweb.org/workshop/lisc/2011/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aman-goel">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-southern-california-aman-goel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Aman Goel</rdfs:label>
+    <cofunc:name>Aman Goel</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/aman-goel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lisc2011-university-of-georgia-todd-mining">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/todd-mining"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-georgia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/LISC2011/lisc/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

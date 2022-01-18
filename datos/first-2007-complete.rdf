@@ -1,0 +1,696 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/declan-osullivan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-national-university-of-singapore-hong-sang-low">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hong-sang-low"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-university-of-singapore"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eero-hyvoenen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-eero-hyvoenen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/manuel-sanchez-gestido">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-deimos-space-manuel-sanchez-gestido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-onni-valkeapaeae">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/onni-valkeapaeae"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/first2007/first/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>First Industrial Results of Semantic Technologies Workshop</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-6">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christopher-baker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-wee-tiong-ang">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/wee-tiong-ang"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-for-infocomm-research"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-9">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-8"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/teppo-kaensaelae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/inderbir-sidhu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/manuel-sanchez-gestido"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/massimo-ruffolo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-icar-cnr-massimo-ruffolo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-7"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-9"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-8"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-12"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-11"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-10"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-3"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-1"/>
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-9"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-tomi-kauppinen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomi-kauppinen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eetu-maekelae">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-eetu-maekelae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/aidan-boran"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/massimo-ruffolo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/534"/>
+    <cofunc:title>Reusing Human Resources Management Standards for Employment Services</cofunc:title>
+    <rdfs:label>Reusing Human Resources Management Standards for Employment Services</rdfs:label>
+    <cofunc:abstract>Employment Services (ESs) are becoming more and more important for Public Administrations where their social implications on sustainability, workforce mobility and equal opportunities play a fundamental strategic importance for any central or local Government. The EU SEEMP project aims at improving facilitate workers mobility in Europe. Ontologies are used to model descriptions of job offers and curricula; and for facilitating the process of exchanging job offer data and CV data between ES. In this paper we present the methodological approach we followed for reusing existing human resources management standards in the SEEMP project, in order to build a common “language” called Reference Ontology.</cofunc:abstract>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jaime-ramirez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-7">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-8"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-6"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jussi-kurki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-rafael-gonzalez-cabero">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rafael-gonzalez-cabero"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-icar-cnr-massimo-ruffolo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/massimo-ruffolo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/icar-cnr"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-anitha-veeramani">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anitha-veeramani"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-for-infocomm-research"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-wenk"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/luigi-guadagno"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-8">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-9"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-7"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/reetta-sinkkilae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-rajarama-kanagasabai">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rajarama-kanagasabai"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-for-infocomm-research"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-knowledge-and-data-engineering-trinity-college-dublin-vincent-wade">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vincent-wade"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/knowledge-and-data-engineering-trinity-college-dublin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/reuben-wright"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/declan-osullivan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-trinity-college-dublin-declan-osullivan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/wee-tiong-ang"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <cofunc:title>Literature-driven, Ontology-centric Knowledge Navigation for Lipidomics</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hong-sang-low"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-wenk"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/533"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/anitha-veeramani"/>
+    <rdfs:label>Literature-driven, Ontology-centric Knowledge Navigation for Lipidomics</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christopher-baker"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rajarama-kanagasabai"/>
+    <cofunc:abstract>As the semantic web vision continues to proliferate a gap still remains in the full scale adoption of such technologies. The exact reasons for this continue to be the subject of ongoing debate, however, it is likely the emergence of reproducible infrastructure and deployments will expedite its adoption. We illustrate the recognizable added value to life science researchers gained through the  convergence of existing and customized semantic web technologies (content acquisition pipelines supplying legacy unstructured texts,  natural language processing, OWL-DL ontology development and instantiation, reasoning over A-boxes using a visual query tool). The resulting platform allows lipidomic researchers to rapidly navigate large volumes of full-text scientific documents according to recognizable lipid nomenclature, hierarchies and classifications. Specifically we have enabled searches for sentences describing lipid-protein and lipid-disease interactions.</cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-10">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-11"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/robin-lindroos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-deimos-space-reuben-wright">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/reuben-wright"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deimos-space"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-osma-suominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-13"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-s-perez-hernandez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-maria-s-perez-hernandez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529">
+    <cofunc:abstract>Nowadays enterprises request information technologies that leverage structured and unstructured information for providing a single integrated view of business problems in order to foster better business process management and decision making. The growing interest in semantic technologies is due to the limitation of existing enterprise information technologies to answer these new challenging needs. Semantic Web Technologies (SWT), the current open standard approaches to semantic technologies based on semantic web languages, provide some interesting answers to novel enterprise needs by allowing to use domain knowledge within applications. However, SWT aren't well suited for enterprise domain because of some drawbacks and a lack of compatibility with enterprise-class applications. This paper presents the new Semantic Enterprise Technologies (SET) paradigm founded on the idea of Semantic Models that are executable, flexible and agile representation of domain knowledge. Semantic Models are expressed by means of the Codex Language obtained combining Disjunctive Logic Programming (Datalog plus disjunction) and Attribute Grammars both extended by object-oriented and two-dimensional capabilities. Semantic Models enable to exploit domain knowledge for managing both structured and unstructured information. Since the Codex Language derives from the database field, it allows SET to provide advanced semantic capabilities well suited for enterprises. Differences and interoperability issue between SET and SWT are briefly discussed in the paper that shows, also the SET Reference Architecture (SETA), an application example and the business value of SET.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/massimo-ruffolo"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/inderbir-sidhu"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/529"/>
+    <rdfs:label>Semantic Enterprise Technologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/luigi-guadagno"/>
+    <cofunc:title>Semantic Enterprise Technologies</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tuukka-ruotsalo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-tuukka-ruotsalo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/onni-valkeapaeae">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-onni-valkeapaeae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jussi-kurki">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-jussi-kurki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-wenk">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-national-university-of-singapore-markus-wenk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-11">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-12"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-10"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oscar-corcho">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-university-of-manchester-uk-oscar-corcho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wee-tiong-ang">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-wee-tiong-ang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-10"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eetu-maekelae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-boris-villazon-terrazas">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-reetta-sinkkilae">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/reetta-sinkkilae"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anitha-veeramani">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-anitha-veeramani"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-national-university-of-singapore-markus-wenk">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-wenk"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-university-of-singapore"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-12">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-13"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-11"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tuukka-ruotsalo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-tuukka-ruotsalo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tuukka-ruotsalo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <cofunc:abstract>The use of Semantic Grid architecture eases the development of complex, flexible applications, in which several organisations are involved and where resources of diverse nature (data and computing elements) are shared. This is the situation in the Space domain, with an extensive and heterogeneous network of facilities and institutions. There is a strong need to share both data and computational resources for complex processing tasks. One such is monitoring and data analysis for Satellite Missions and this paper presents the Satellite Mission Grid, built in the OntoGrid project as an alternative to the current systems used. Flexibility, scalability, interoperability, extensibility and efficient development were the main advantages found in using a common framework for data sharing and creating a Semantic Data Grid.</cofunc:abstract>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/531"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maria-s-perez-hernandez"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rafael-gonzalez-cabero"/>
+    <cofunc:title>A Semantic Data Grid for Satellite Mission Quality Analysis</cofunc:title>
+    <rdfs:label>A Semantic Data Grid for Satellite Mission Quality Analysis</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/manuel-sanchez-gestido"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/reuben-wright"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-trinity-college-dublin-declan-osullivan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/declan-osullivan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/trinity-college-dublin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-eetu-maekelae">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eetu-maekelae"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-jussi-kurki">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jussi-kurki"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hong-sang-low">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-national-university-of-singapore-hong-sang-low"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/teppo-kaensaelae">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-teppo-kaensaelae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-kim-viljanen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-6">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hong-sang-low"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/first2007/iswc-aswc/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc-aswc/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/first2007">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about first2007.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:54 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/first/2007/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-eero-hyvoenen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olli-alm">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-olli-alm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-13">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-2"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-12"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-asuncion-gomez-perez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/olli-alm"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-jaime-ramirez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jaime-ramirez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rajarama-kanagasabai"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rafael-gonzalez-cabero"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-fourthcodex-inderbir-sidhu">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/inderbir-sidhu"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fourthcodex"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-jouni-tuominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/boris-villazon-terrazas">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-boris-villazon-terrazas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luigi-guadagno">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-fourthcodex-luigi-guadagno"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/osma-suominen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-osma-suominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aidan-boran">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-alcatel-lucent-aidan-boran"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/reuben-wright">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-deimos-space-reuben-wright"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kim-viljanen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-kim-viljanen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-university-of-manchester-uk-oscar-corcho">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-6">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-7"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tomi-kauppinen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/teppo-kaensaelae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/olli-alm"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tomi-kauppinen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/reetta-sinkkilae"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tuukka-ruotsalo"/>
+    <cofunc:title>Enabling the Semantic Web with Ready-to-Use Web Widgets</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList"/>
+    <rdfs:label>Enabling the Semantic Web with Ready-to-Use Web Widgets</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jussi-kurki"/>
+    <cofunc:abstract>A lot of functionality is needed when an application, such as a museum cataloguing system, is extended with semantic capabilities, for example ontological indexing functionality or multi-facet search. To avoid duplicate work and to enable easy and cost-efficient integration of information systems with the Semantic Web, we propose a web widget approach. Here, data sources are combined with functionality into ready-to-use software components that allow adding semantic functionality to systems with just a few lines of code. As a proof of the concept, we present a collection of general semantic web widgets and case applications that use them, such as the ontology server ONKI, the annotation editor SAHA and the culture portal CultureSampo.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eetu-maekelae"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/onni-valkeapaeae"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/501"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/robin-lindroos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jaime-ramirez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-jaime-ramirez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-maria-s-perez-hernandez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maria-s-perez-hernandez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525">
+    <cofunc:abstract>Data Integration refers to the problem of combining data residing at autonomous and heterogeneous sources, and providing users with a unified global view. Ontology-based integration solutions have been advocated but for the case to be made for real deployment of such solutions, the integration effort and performance needs to be characterized. In this paper, we measure the performance of a generalised ontology based integration system using the THALIA integration benchmark. The ontology based integration solution is used to integrate data dynamically across a real telecommunications value chain. An extension of the THALIA benchmark, to take account of the integration effort required, is introduced. We identify the issues impacting the ontology based integration approach and propose further experiments.</cofunc:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/first/2007/papers/525"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>A Case Study of an Ontology-Driven Dynamic Data Integration in a Telecommunications Supply Chain.</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/aidan-boran"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vincent-wade"/>
+    <rdfs:label>A Case Study of an Ontology-Driven Dynamic Data Integration in a Telecommunications Supply Chain.</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/first/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/declan-osullivan"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-olli-alm">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olli-alm"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rafael-gonzalez-cabero">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-rafael-gonzalez-cabero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maria-s-perez-hernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anitha-veeramani"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-deimos-space-manuel-sanchez-gestido">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/manuel-sanchez-gestido"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deimos-space"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vincent-wade">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-knowledge-and-data-engineering-trinity-college-dublin-vincent-wade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/first/2007/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/529"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomi-kauppinen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-tomi-kauppinen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/525/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vincent-wade"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/501/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/onni-valkeapaeae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-fourthcodex-luigi-guadagno">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luigi-guadagno"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fourthcodex"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/533/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/wee-tiong-ang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/531/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-teppo-kaensaelae">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/teppo-kaensaelae"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/helsinki-university-of-technology-tkk-finland"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jouni-tuominen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-jouni-tuominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rajarama-kanagasabai">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-institute-for-infocomm-research-rajarama-kanagasabai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/asuncion-gomez-perez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-universidad-politecnica-de-madrid-asuncion-gomez-perez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/inderbir-sidhu">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-fourthcodex-inderbir-sidhu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/reetta-sinkkilae">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/first2007-helsinki-university-of-technology-tkk-finland-reetta-sinkkilae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/first2007/data.semanticweb.org/workshop/first/2007/papers/534/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jaime-ramirez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/first2007-alcatel-lucent-aidan-boran">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aidan-boran"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/alcatel-lucent"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FIRST2007/first/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

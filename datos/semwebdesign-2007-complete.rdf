@@ -1,0 +1,430 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-osaka-university-japan-kikuo-fujita">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kikuo-fujita"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nigel-r-shadbolt">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-nigel-r-shadbolt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>From Concepts to Design Ontologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pertti-saariluoma"/>
+    <cofunc:title>From Concepts to Design Ontologies</cofunc:title>
+    <cofunc:abstract>The research on engineering knowledge systems is continually evolving. Knowledge is conveyed through the thought processes of engineers. For a resourceful support of engineering design the thought processes must be understood. The aim of this paper is to discuss how to transform conceptual knowledge to design ontologies. We suggest a procedure termed Cartesian reasoning to explicate some intuitive steps in engineering thinking and put them under scrutiny.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/522"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kalevi-nevala"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-baath-chris-mcmahon">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chris-mcmahon"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-baath"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jeremy-yuille">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-rmit-jeremy-yuille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-crowder">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-richard-crowder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Design Concepts in Architecture: the porosity paradigm</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sotirios-kotsopoulos"/>
+    <cofunc:title>Design Concepts in Architecture: the porosity paradigm</cofunc:title>
+    <cofunc:abstract>Presented is a paradigm of how a design concept can be converted into a system of  production rules to generate designs. The rules are expressed by the means of shape grammar formalism. The paradigm demonstrates how porosity a concept transferred from biology, medicine and organic chemistry was implemented by architect Steven Holl and his team in designing the 350-unit student residence Simmons Hall at MIT. In the presentation, spatial algebras, rule schemata and shape rules are used to capture Holl’s version of porosity. It is also provided a discussion on how the semantic web may contribute in communicating design concepts.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/526"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-creativity-cognition-studios-alastair-weakley">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alastair-weakley"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/creativity-cognition-studios"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-tokyo-hideaki-takeda">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hideaki-takeda"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pertti-saariluoma">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-jyvaeskylae-pertti-saariluoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kalevi-nevala"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sanghee-kim"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-osaka-university-japan-yutaka-nomaguchi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yutaka-nomaguchi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hideaki-takeda">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-tokyo-hideaki-takeda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jeremy-yuille"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/injae-shin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-bath-injae-shin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/swindesign2007">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about swindesign2007.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:30 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/richard-crowder"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alastair-weakley"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jeremy-yuille"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>WEB 2.0 in Support of Sketching in Architectural Practice</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/keith-deverell"/>
+    <cofunc:abstract>This position paper describes Scribblr, a web-based system to support remote, shared annotation of architectural images and plans. The paper describes the current work practice of our clients, a large engineering firm in collaboration with an architect in another country. In particular we are concerned with sketching activities which are important in their work. We describe how, by employing Web-2.0 technologies in the development of Scribblr, we have been able to meet the requirements of a traditional paper-based sketching environment, and indeed to add new capabilities. The paper describes the rationale behind our application of modern Web technologies in this prototype.</cofunc:abstract>
+    <cofunc:title>WEB 2.0 in Support of Sketching in Architectural Practice</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/swindesign2007/semwebdesign/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Semantic Web and Web 2.0 in Architectural, Product, Engineering Design Workshop</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gary-wills">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-gary-wills"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chris-mcmahon">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-baath-chris-mcmahon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Some considerations on openness of design information (position paper)</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hideaki-takeda"/>
+    <cofunc:title>Some considerations on openness of design information (position paper)</cofunc:title>
+    <cofunc:abstract>Towards a sustainable society, design of artifacts must be optimized with limited resources on the earth while keeping our life. In order to realize it, I emphasize openness of design information. In this paper, I discuss needs for openness of design information and methods to realize it. I argue why design information should be open and what benefits will result by opening and sharing design information. Opening design information looks difficult considering the current structure of the industries, but I show some possibilities from two aspects of design activities. In software design, open source software is getting accepted as a way of developing software products. I overview it and analyze how it can be applied to artifact design. Then I discuss how such an environment can be built. Identification, representation, and sharing mechanism are crucial. Lastly I summarize discussion with people in the design community. Many people disagree with opening design information, but I dispute with their objections.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kikuo-fujita">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-osaka-university-japan-kikuo-fujita"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-nigel-r-shadbolt">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/chris-mcmahon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alastair-weakley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-oulu-kalevi-nevala">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kalevi-nevala"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-oulu"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/swindesign2007/iswc-aswc/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc-aswc/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kalevi-nevala">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-oulu-kalevi-nevala"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gary-wills"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-richard-crowder">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/richard-crowder"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536">
+    <cofunc:abstract>The design and maintenance of an aero-engine generates a significant amount of documentation. When designing new engines, engineers must obtain knowledge gained from maintenance of existing engines to identify possible areas of concern. Firstly, this paper investigate the use of advanced business intelligence tenchniques to solve the problem of knowledge transfer from maintenance to design of aeroengines. Based on data availability and quality, various models were deployed. An association model was used to uncover hidden trends among parts involved in maintenance events. Classification techniques comprising of various algorithms was employed to determine severity of events. Causes of high severity events that lead to major financial loss was traced with the help of summarization techniques. Secondly this paper compares and evaluates the business intelligence approach to solve the problem of knowledge transfer with solutions available from the Semantic Web. The results obtained provide a compelling need to have data mining support on RDF/OWL-based warehoused data.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <rdfs:label>Data Mining to Support Engineering Design Decision</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gary-wills"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>Data Mining to Support Engineering Design Decision</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/536"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/richard-crowder"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pooja-jadlhav"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sanghee-kim">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-cambridge-university-sanghee-kim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yutaka-nomaguchi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528">
+    <cofunc:title>An Approach to Capture Design-induced Error Using an Ontology</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/injae-shin"/>
+    <cofunc:abstract>As current engineered systems (e.g. aviation systems) have been equipped with automated and computer-based artifacts, human-system interaction has been an important issue. Understanding the infleunce of design on human performance requires phycological theories that explain human behaviour and cognition. One of the challenges of modelling such theories is to identify complex relations between systems and humans including different task perspectives. To address this problem, we have developed an ontology that specifies which relations are better comprehended when assisted with the theories and have used it to model human errors induced by designs. This paper presents the results of developing the ontology using a supporting tool, i.e. PCPACK.</cofunc:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/528"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sanghee-kim"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>An Approach to Capture Design-induced Error Using an Ontology</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/chris-mcmahon"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-cambridge-university-sanghee-kim">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sanghee-kim"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cambridge-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pooja-jadlhav">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-pooja-jadlhav"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-gary-wills">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gary-wills"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/keith-deverell">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-rmit-keith-deverell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/511/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/keith-deverell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>DRIFT: A Framework for Ontology-based Design Support Systems</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kikuo-fujita"/>
+    <cofunc:title>DRIFT: A Framework for Ontology-based Design Support Systems</cofunc:title>
+    <cofunc:abstract>This paper proposes a framework for ontology-based design support systems, called DRIFT (Design Rationale Integration Framework of Three layers), which records, structures and retrieves reflective operations and their relationships in design process. Although an ontology can provide concepts of constant knowledge, such as knowledge about first principles of physical phenomena or prescription of successful design cases, a dynamic aspect of design process is usually out of ontology support. DRIFT automatically captures and manages the whole design argumentation through tracking design operations over an ontology-based design support system. This paper states our position and demonstrates a prototype system of DRIFT to show its performances and effectiveness. </cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/semwebdesign/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/semwebdesign/2007/papers/509"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yutaka-nomaguchi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/536/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pooja-jadlhav"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-rmit-keith-deverell">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/keith-deverell"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rmit"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/509/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kikuo-fujita"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sotirios-kotsopoulos">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-boston-architectural-college-sotirios-kotsopoulos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yutaka-nomaguchi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-osaka-university-japan-yutaka-nomaguchi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alastair-weakley">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-creativity-cognition-studios-alastair-weakley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hideaki-takeda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-jyvaeskylae-pertti-saariluoma">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pertti-saariluoma"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-jyvaeskylae"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-southampton-pooja-jadlhav">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pooja-jadlhav"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/493/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/522/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pertti-saariluoma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-rmit-jeremy-yuille">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jeremy-yuille"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rmit"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-boston-architectural-college-sotirios-kotsopoulos">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sotirios-kotsopoulos"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/boston-architectural-college"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/528/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/injae-shin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swindesign2007-university-of-bath-injae-shin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/injae-shin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bath"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/SWinDESIGN2007/semwebdesign/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swindesign2007/data.semanticweb.org/workshop/semwebdesign/2007/papers/526/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sotirios-kotsopoulos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+</rdf:RDF>

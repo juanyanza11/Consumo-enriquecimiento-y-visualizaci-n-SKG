@@ -1,0 +1,1038 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-leibniz-university-hannover-gianluca-demartini">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/leibniz-university-hannover"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deeplocal-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DeepLocal, Inc.</rdfs:label>
+    <cofunc:name>DeepLocal, Inc.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deeplocal-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-diego-berrueta">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fundacion-ctic"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/advanced-computing-research-centre-university-of-south-australia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Advanced Computing Research Centre, University of South Australia</rdfs:label>
+    <cofunc:name>Advanced Computing Research Centre, University of South Australia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/advanced-computing-research-centre-university-of-south-australia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University</rdfs:label>
+    <cofunc:name>Stanford University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-semsol-benjamin-nowack">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/benjamin-nowack"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semsol"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-joseph-m-katz-graduate-school-of-business-university-of-pittsburgh-brian-s-butler">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/brian-s-butler"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/joseph-m-katz-graduate-school-of-business-university-of-pittsburgh"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sushmita-subramanian">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-intel-corporation-sushmita-subramanian"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sushmita Subramanian</rdfs:label>
+    <cofunc:name>Sushmita Subramanian</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sushmita-subramanian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/silvino-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-lsdis-lab-university-of-georgia-boanerges-aleman-meza">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/boanerges-aleman-meza"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lsdis-lab-university-of-georgia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/titus-schleyer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/claudia-niederee">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-leibniz-university-hannover-claudia-niederee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Claudia Niederée</rdfs:label>
+    <cofunc:name>Claudia Niederée</cofunc:name>
+    <foaf:mbox_sha1sum>e046fd3925aa19faaadebd47f0dcabc5168e7059</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/claudia-niederee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robert-tolksdorf">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-robert-tolksdorf"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robert Tolksdorf</rdfs:label>
+    <cofunc:name>Robert Tolksdorf</cofunc:name>
+    <foaf:mbox_sha1sum>8ada995b49b643cc0417135f10c760f8ac11d238</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robert-tolksdorf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/joseph-m-katz-graduate-school-of-business-university-of-pittsburgh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Joseph M Katz Graduate School of Business, University of Pittsburgh</rdfs:label>
+    <cofunc:name>Joseph M Katz Graduate School of Business, University of Pittsburgh</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/joseph-m-katz-graduate-school-of-business-university-of-pittsburgh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-applied-sciences-northwestern-switzerland-fhnw-school-of-business">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Applied Sciences Northwestern Switzerland (FHNW), School of Business</rdfs:label>
+    <cofunc:name>University of Applied Sciences Northwestern Switzerland (FHNW), School of Business</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-applied-sciences-northwestern-switzerland-fhnw-school-of-business"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/brulant-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Brulant, Inc.</rdfs:label>
+    <cofunc:name>Brulant, Inc.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/brulant-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-the-mitre-corporation-daniel-weiss">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-weiss"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-mitre-corporation"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ora-lassila">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ora Lassila</rdfs:label>
+    <cofunc:name>Ora Lassila</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ora-lassila"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/poznan-university-of-economics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Poznan University of Economics</rdfs:label>
+    <cofunc:name>Poznan University of Economics</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/poznan-university-of-economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/witold-abramowicz">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-poznan-university-of-economics-witold-abramowicz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Witold Abramowicz</rdfs:label>
+    <cofunc:name>Witold Abramowicz</cofunc:name>
+    <foaf:mbox_sha1sum>5cb9885e0b6940c4b558d41b7e8c3979729778e3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/witold-abramowicz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-breslin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deri-nui-galway-john-breslin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Breslin</rdfs:label>
+    <cofunc:name>John Breslin</cofunc:name>
+    <foaf:mbox_sha1sum>9a6b7eefc08fd755d51dd9321aecfcc87992e9a2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-breslin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gregory-mueller">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deeplocal-inc-gregory-mueller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gregory Mueller</rdfs:label>
+    <cofunc:name>Gregory Mueller</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gregory-mueller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DERI, NUI Galway</rdfs:label>
+    <cofunc:name>DERI, NUI Galway</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thomas-eigner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/heiko-spallek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-school-of-dental-medicine-university-of-pittsburgh-titus-schleyer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/titus-schleyer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/school-of-dental-medicine-university-of-pittsburgh"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-ftw-telecommunications-research-center-vienna-anna-v-zhdanova">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anna-v-zhdanova"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ftw-telecommunications-research-center-vienna"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gianluca-demartini">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-leibniz-university-hannover-gianluca-demartini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gianluca Demartini</rdfs:label>
+    <cofunc:name>Gianluca Demartini</cofunc:name>
+    <foaf:mbox_sha1sum>8f44f87f81243f9ebd19e5d2d13607d164bab866</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gianluca-demartini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/talis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Talis Information Limited</rdfs:label>
+    <cofunc:name>Talis Information Limited</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/talis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>The Hoonoh Ontology for describing Trust Relationships in Information Seeking</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <cofunc:title>The Hoonoh Ontology for describing Trust Relationships in Information Seeking</cofunc:title>
+    <cofunc:abstract>When seeking information through mechanisms such as word of mouth, people choose information sources and make trust judgments about these sources based on a range of factors, including the expertise of the source in relevant fields. In this paper we describe the Hoonoh Ontology, a vocabulary for describing these factors and publishing associated data on the Semantic Web. The ontology maps to existing vocabularies such as FOAF and SKOS, and when coupled with appropriate algorithms can be used to populate the Semantic Web with data to support expert finding initiatives.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/11"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-intel-corporation-sushmita-subramanian">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sushmita-subramanian"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/intel-corporation"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lian-shi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-lian-shi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lian Shi</rdfs:label>
+    <cofunc:name>Lian Shi</cofunc:name>
+    <foaf:mbox_sha1sum>7d47a72f5da0e8deee7613f1a05d6826297096fd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lian-shi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paul-buitelaar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/charles-petrie">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-stanford-university-charles-petrie"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Charles Petrie</rdfs:label>
+    <cofunc:name>Charles Petrie</cofunc:name>
+    <foaf:mbox_sha1sum>d5c83cc89fb461a2b5cd99721709f873563e2f42</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/charles-petrie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-adobe-systems-inc-phijarana-rattanathikum">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/phijarana-rattanathikum"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/adobe-systems-inc"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-7">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-8"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-6"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/phijarana-rattanathikum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/axel-polleres">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deri-nui-galway-axel-polleres"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Axel Polleres</rdfs:label>
+    <cofunc:name>Axel Polleres</cofunc:name>
+    <foaf:mbox_sha1sum>776866afe69158abddfa6dbf92aaaf2045bd91a4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deri-nui-galway-john-breslin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deri-nui-galway-axel-polleres">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/axel-polleres"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/intel-corporation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Intel Corporation</rdfs:label>
+    <cofunc:name>Intel Corporation</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/intel-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ftw-telecommunications-research-center-vienna">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ftw. Forschungszentrum Telekommunikation Wien Betriebs GmbH</rdfs:label>
+    <cofunc:name>ftw. Forschungszentrum Telekommunikation Wien Betriebs GmbH</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ftw-telecommunications-research-center-vienna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-advanced-computing-research-centre-university-of-south-australia-markus-stumptner">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-stumptner"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/advanced-computing-research-centre-university-of-south-australia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-stanford-university-charles-petrie">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/charles-petrie"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6">
+    <cofunc:title>Smushing RDF instances: are Alice and Bob the same open source developer?</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/luis-polo"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lian-shi"/>
+    <cofunc:abstract>Analysing RDF data gathered from heterogeneous Semantic Web sources requires a previous step of consolidation in order to remove redundant instances (data smushing). Our aim is to explore and integrate	smushing techniques to improve recall, i.e., to find as many redundant instances as possible. Two approaches to spot resources with the same identity are described: the first one is based on Logics, exploiting OWL	inverse functional properties (IFP); the second one is based on traditional	IR techniques, e.g., resource label comparison. We evaluate experimental results in the context of open source communities.</cofunc:abstract>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/silvino-fernandez"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <rdfs:label>Smushing RDF instances: are Alice and Bob the same open source developer?</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/enrico-motta">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-kmi-the-open-university-uk-enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Enrico Motta</rdfs:label>
+    <cofunc:name>Enrico Motta</cofunc:name>
+    <foaf:mbox_sha1sum>28a0f82609671f47d811e6bee865afb23abfb8db</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/enrico-motta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/m-louisa-poythress">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-brulant-inc-m-louisa-poythress"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>M. Louisa Poythress</rdfs:label>
+    <cofunc:name>M. Louisa Poythress</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/m-louisa-poythress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lsdis-lab-university-of-georgia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LSDIS Lab, University of Georgia</rdfs:label>
+    <cofunc:name>LSDIS Lab, University of Georgia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lsdis-lab-university-of-georgia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+    <cofunc:name>Universidad Politécnica de Madrid</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-lyndon-j-b-nixon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lyndon JB Nixon</rdfs:label>
+    <cofunc:name>Lyndon JB Nixon</cofunc:name>
+    <foaf:mbox_sha1sum>9df7283a72695f1db07b8fe71ec7b9ef0d04fc33</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lyndon-j-b-nixon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/pickme2008/pickme/2008">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>3rd International ExpertFinder Workshop: Personal Identification and Collaborations - Knowledge Mediation and Extraction</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-sergio-fernandez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fundacion-ctic"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-hewlett-packard-laboratories-geetha-manjunath">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/geetha-manjunath"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/hewlett-packard-laboratories"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/semsol">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>semsol</rdfs:label>
+    <cofunc:name>semsol</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/semsol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-brulant-inc-m-louisa-poythress">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/m-louisa-poythress"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/brulant-inc"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI GmbH</rdfs:label>
+    <cofunc:name>DFKI GmbH</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/irene-celino">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-cefriel-irene-celino"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Irene Celino</rdfs:label>
+    <cofunc:name>Irene Celino</cofunc:name>
+    <foaf:mbox_sha1sum>a62cfa4877ae7d8b225f36c1afeeeec08a5316ae</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/irene-celino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-nrc-institute-of-information-technology-harold-boley">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/harold-boley"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/nrc-institute-of-information-technology"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-kmi-the-open-university-uk-enrico-motta">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-8">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-7"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gregory-mueller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fundacion-ctic">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Fundación CTIC</rdfs:label>
+    <cofunc:name>Fundación CTIC</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fundacion-ctic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rajesh-thiagarajan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/heiko-spallek">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-school-of-dental-medicine-university-of-pittsburgh-heiko-spallek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Heiko Spallek</rdfs:label>
+    <cofunc:name>Heiko Spallek</cofunc:name>
+    <foaf:mbox_sha1sum>ea6dec8b5850adbddee85b9ba9f83c1c97f0e28c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/heiko-spallek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/malgorzata-mochol">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-malgorzata-mochol"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Malgorzata Mochol</rdfs:label>
+    <cofunc:name>Malgorzata Mochol</cofunc:name>
+    <foaf:mbox_sha1sum>55b7c25c1f635d7d0cbb1cda0b9fe7b3657e8d6d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/malgorzata-mochol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-talis-tom-heath">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Finding Experts on the Semantic Desktop</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/claudia-niederee"/>
+    <cofunc:title>Finding Experts on the Semantic Desktop</cofunc:title>
+    <cofunc:abstract>Expert retrieval has attracted deep attention because of the huge economical impact it can have on enterprises. The classical dataset on which to perform this task is company intranet (i.e., personal pages, e-mails, documents). We propose a new system for finding experts in the user's desktop content. Looking at private documents and e-mails of the user, the system builds expert profiles for all the people named in the desktop. This allows the search system to focus on the user's topics of interest thus generating satisfactory results on topics well represented on the desktop. We show, with an artificial test collection, how the desktop content is appropriate for finding experts on the topic the user is interested in.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/3"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/titus-schleyer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-school-of-dental-medicine-university-of-pittsburgh-titus-schleyer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Titus Schleyer</rdfs:label>
+    <cofunc:name>Titus Schleyer</cofunc:name>
+    <foaf:mbox_sha1sum>e51f9181e1f7875fffd0ce8eca33b66b27173ea3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/titus-schleyer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-lian-shi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lian-shi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fundacion-ctic"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/nrc-institute-of-information-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>NRC Institute of Information Technology</rdfs:label>
+    <cofunc:name>NRC Institute of Information Technology</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/nrc-institute-of-information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-arcelormittal-asturias-silvino-fernandez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/silvino-fernandez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/arcelormittal-asturias"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/boanerges-aleman-meza">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-lsdis-lab-university-of-georgia-boanerges-aleman-meza"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Boanerges Aleman-Meza</rdfs:label>
+    <cofunc:name>Boanerges Aleman-Meza</cofunc:name>
+    <foaf:mbox_sha1sum>fc40bca7fdcf0c79bd5e339cd6454423dbc3c91b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/boanerges-aleman-meza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-france-telekom-alain-leger">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alain-leger"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/france-telekom"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>KMi, The Open University, UK</rdfs:label>
+    <cofunc:name>KMi, The Open University, UK</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sergio-fernandez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-sergio-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sergio Fernández</rdfs:label>
+    <cofunc:name>Sergio Fernández</cofunc:name>
+    <foaf:mbox_sha1sum>3bb939b9fe7a4e45ec9d65d64074c3b2a4ce317d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sergio-fernandez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-school-of-dental-medicine-university-of-pittsburgh-heiko-spallek">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/heiko-spallek"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/school-of-dental-medicine-university-of-pittsburgh"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/arcelormittal-asturias">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ArcelorMittal Asturias</rdfs:label>
+    <cofunc:name>ArcelorMittal Asturias</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/arcelormittal-asturias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-eigner">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-german-research-center-for-artificial-intelligence-dfki-thomas-eigner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Eigner</rdfs:label>
+    <cofunc:name>Thomas Eigner</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-eigner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lian-shi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/geetha-manjunath">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-hewlett-packard-laboratories-geetha-manjunath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Geetha Manjunath</rdfs:label>
+    <cofunc:name>Geetha Manjunath</cofunc:name>
+    <foaf:mbox_sha1sum>0834d49ed164d57c470f2b6db281e541922ffcef</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/geetha-manjunath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-german-research-center-for-artificial-intelligence-dfki-paul-buitelaar">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-buitelaar"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/pickme2008/pickme/2008/keynote/">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Does Your Mobile Device Need to be Socially Aware? A Semantic Web Perspective</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/keynote/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-weiss"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-german-research-center-for-artificial-intelligence-dfki-thomas-eigner">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-eigner"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-bizer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-christian-bizer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris Bizer</rdfs:label>
+    <cofunc:name>Chris Bizer</cofunc:name>
+    <foaf:mbox_sha1sum>50c02ff93e7d477ace450e3fbddd63d228fb23f3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-bizer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/geetha-manjunath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alain-leger">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-france-telekom-alain-leger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alain Léger</rdfs:label>
+    <cofunc:name>Alain Léger</cofunc:name>
+    <foaf:mbox_sha1sum>9570c18162067dc8c4bea7b4ad45fd002e61b1b8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alain-leger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/adobe-systems-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Adobe Systems Incorporated</rdfs:label>
+    <cofunc:name>Adobe Systems Incorporated</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/adobe-systems-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/silvino-fernandez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-arcelormittal-asturias-silvino-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Silvino Fernández</rdfs:label>
+    <cofunc:name>Silvino Fernández</cofunc:name>
+    <foaf:mbox_sha1sum>4b596681b85ee3709b39250edda9ab122c456431</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/silvino-fernandez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-surrey">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Surrey</rdfs:label>
+    <cofunc:name>University of Surrey</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-surrey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList">
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-5"/>
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-8"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-3"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-4"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-7"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-8"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/titus-schleyer"/>
+    <rdfs:label>Requirements for expertise location systems in biomedical science and the Semantic Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sushmita-subramanian"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/4"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/heiko-spallek"/>
+    <cofunc:abstract>Recent trends in science are increasing the need for researchers to	form collaborations. To date, however, electronic systems have played only a minor role in helping scientists do so. This study used a literature review, and contextual inquiries and semistructured interviews with biomedical scientists to develop a preliminary set of requirements for electronic systems designed to help optimize how biomedical researchers choose collaborators. We then reviewed the requirements in light of emerging research on expertise location using	the Semantic Web. The requirements include aspects such as comprehensive, complete and up-to-date online profiles that are easy to create and maintain; the ability to exploit social networks when searching for collaborators;	information to help gauge the compatibility of personalities and work styles; and recommendations for effective searching and making “non-intuitive” connections between researchers. The Semantic Web offers significant opportunities	for operationalizing the requirements, for instance through aggregating	profile data from disparate sources, annotating contributions to social media using methods such as Semantically Interlinked Online Communities, and concept-based querying using ontologies. Future work should validate the preliminary requirements and explore in detail how the Semantic Web can help address	them.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/m-louisa-poythress"/>
+    <cofunc:title>Requirements for expertise location systems in biomedical science and the Semantic Web</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gregory-mueller"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/brian-s-butler"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/phijarana-rattanathikum"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-weiss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ning-li">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-university-of-surrey-ning-li"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ning Li</rdfs:label>
+    <cofunc:name>Ning Li</cofunc:name>
+    <foaf:mbox_sha1sum>f999bc99913b3999c31035c9b88880d3ccf2e800</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ning-li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-weiss">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-the-mitre-corporation-daniel-weiss"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel Weiss</rdfs:label>
+    <cofunc:name>Daniel Weiss</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-weiss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/pickme2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about pickme2008.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:27 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-poznan-university-of-economics-witold-abramowicz">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/witold-abramowicz"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/poznan-university-of-economics"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/harold-boley">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-nrc-institute-of-information-technology-harold-boley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Harold Boley</rdfs:label>
+    <cofunc:name>Harold Boley</cofunc:name>
+    <foaf:mbox_sha1sum>b48f830ebd65bd258f67216a8ed16dc7b8673e2a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/harold-boley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rajesh-thiagarajan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-advanced-computing-research-centre-university-of-south-australia-rajesh-thiagarajan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rajesh Thiagarajan</rdfs:label>
+    <cofunc:name>Rajesh Thiagarajan</cofunc:name>
+    <foaf:mbox_sha1sum>dac86c6e708d64330dd95b76f79dfcdfcba01242</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rajesh-thiagarajan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-stumptner">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-advanced-computing-research-centre-university-of-south-australia-markus-stumptner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Markus Stumptner</rdfs:label>
+    <cofunc:name>Markus Stumptner</cofunc:name>
+    <foaf:mbox_sha1sum>6631d6102032abec46b1d8ce4f4b71a67bfdbaa2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/markus-stumptner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-buitelaar">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-german-research-center-for-artificial-intelligence-dfki-paul-buitelaar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Buitelaar</rdfs:label>
+    <cofunc:name>Paul Buitelaar</cofunc:name>
+    <foaf:mbox_sha1sum>038e5520604b78661476dd05e0b5ce9c878d2fe8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/diego-berrueta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/holger-wache">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-university-of-applied-sciences-northwestern-switzerland-fhnw-school-of-business-holger-wache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Holger Wache</rdfs:label>
+    <cofunc:name>Holger Wache</cofunc:name>
+    <foaf:mbox_sha1sum>612ab1009b9f9bb7c31f53982a6de846e572dfff</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/holger-wache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/3/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/claudia-niederee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-6">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-7"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/m-louisa-poythress"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-christian-bizer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/phijarana-rattanathikum">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-adobe-systems-inc-phijarana-rattanathikum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Phijarana Rattanathikum</rdfs:label>
+    <cofunc:name>Phijarana Rattanathikum</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/phijarana-rattanathikum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/9/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Topic Extraction from Scientific Literature for Competency Management</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paul-buitelaar"/>
+    <cofunc:title>Topic Extraction from Scientific Literature for Competency Management</cofunc:title>
+    <cofunc:abstract>We describe an approach towards automatic, dynamic and timecritical support for competency management and expertise search through topic extraction from scientific publications. In the use case we present, we focus on the automatic extraction of scientific topics and technologies from publicly available publications using web sites like Google Scholar. We discuss an experiment for our own organization, DFKI, as example of a knowledge organization. The paper presents evaluation results over a sample of 48 DFKI researchers that responded to our request for a-posteriori evaluation of automatically extracted topics. The results of this evaluation are encouraging and provided us with useful feedback for further improving our methods. The extracted topics can be organized in an association network that can be used further to analyze how competencies are interconnected, thereby enabling also a better exchange of expertise and competence between researchers.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/9"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thomas-eigner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-malgorzata-mochol">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/malgorzata-mochol"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Freie Universität Berlin</rdfs:label>
+    <cofunc:name>Freie Universität Berlin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-luis-polo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luis-polo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fundacion-ctic"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-deeplocal-inc-gregory-mueller">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gregory-mueller"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deeplocal-inc"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-mitre-corporation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The MITRE Corporation</rdfs:label>
+    <cofunc:name>The MITRE Corporation</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-mitre-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/school-of-dental-medicine-university-of-pittsburgh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>School of Dental Medicine, University of Pittsburgh</rdfs:label>
+    <cofunc:name>School of Dental Medicine, University of Pittsburgh</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/school-of-dental-medicine-university-of-pittsburgh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-universidad-politecnica-de-madrid-asuncion-gomez-perez">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/asuncion-gomez-perez"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/france-telekom">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>France Telekom</rdfs:label>
+    <cofunc:name>France Telekom</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/france-telekom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/leibniz-university-hannover">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Leibniz Universität Hannover</rdfs:label>
+    <cofunc:name>Leibniz Universität Hannover</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/leibniz-university-hannover"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-heath">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-talis-tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tom Heath</rdfs:label>
+    <cofunc:name>Tom Heath</cofunc:name>
+    <foaf:mbox_sha1sum>1dd0dab717be578c153b8ed70bee284845439706</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-heath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/brian-s-butler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/benjamin-nowack">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-semsol-benjamin-nowack"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Benjamin Nowack</rdfs:label>
+    <cofunc:name>Benjamin Nowack</cofunc:name>
+    <foaf:mbox_sha1sum>9dc29db1837fd2125697e362da67d413a8cea7ab</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/benjamin-nowack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luis-polo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-luis-polo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Luis Polo</rdfs:label>
+    <cofunc:name>Luis Polo</cofunc:name>
+    <foaf:mbox_sha1sum>0d890d1a9d0f725d244e1bb099fee0d89df074a5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/luis-polo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-university-of-applied-sciences-northwestern-switzerland-fhnw-school-of-business-holger-wache">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/holger-wache"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-applied-sciences-northwestern-switzerland-fhnw-school-of-business"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-advanced-computing-research-centre-university-of-south-australia-rajesh-thiagarajan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rajesh-thiagarajan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/advanced-computing-research-centre-university-of-south-australia"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-stumptner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-university-of-surrey-ning-li">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ning-li"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-surrey"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-leibniz-university-hannover-claudia-niederee">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/claudia-niederee"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/leibniz-university-hannover"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2">
+    <cofunc:abstract>Extracting interest profiles of users based on their personal documents is one of the key topics of IR research. However, when these extracted profiles are used in expert finding applications, only naive text-matching techniques are used to rank experts for a given requirement. In this paper, we address this gap and describe multiple techniques to match user profiles for better ranking of experts. We propose new metrics for computing semantic similarity of user profiles using spreading activation networks derived from ontologies. Our pilot evaluation shows that matching algorithms based on bipartite graphs over semantic user profiles	provide the best results. We show that using these techniques, we can find an expert more accurately than other approaches, in particular within the top ranked	results. In applications where a group of candidate users need to be short-listed (say, for a job interview), we get very good precision and recall as well.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rajesh-thiagarajan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/geetha-manjunath"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/pickme/2008/proceedings"/>
+    <rdfs:label>Finding Experts By Semantic Matching of User Profiles</rdfs:label>
+    <cofunc:title>Finding Experts By Semantic Matching of User Profiles</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-stumptner"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/pickme/2008/paper/main/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cefriel">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Cefriel</rdfs:label>
+    <cofunc:name>Cefriel</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cefriel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/diego-berrueta">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-fundacion-ctic-diego-berrueta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Diego Berrueta</rdfs:label>
+    <cofunc:name>Diego Berrueta</cofunc:name>
+    <foaf:mbox_sha1sum>f6db8f44282f0a12cf9279e0c988f1b4cf17fa57</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/diego-berrueta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/hewlett-packard-laboratories">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Hewlett-Packard Laboratories</rdfs:label>
+    <cofunc:name>Hewlett-Packard Laboratories</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/hewlett-packard-laboratories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-robert-tolksdorf">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/robert-tolksdorf"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-freie-universitaet-berlin-lyndon-j-b-nixon">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/luis-polo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/asuncion-gomez-perez">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-universidad-politecnica-de-madrid-asuncion-gomez-perez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Asunción Gómez-Pérez</rdfs:label>
+    <cofunc:name>Asunción Gómez-Pérez</cofunc:name>
+    <foaf:mbox_sha1sum>f929b4dab306ec656affc5136763b6fe14c2347e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-cefriel-irene-celino">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/irene-celino"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cefriel"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PICKME2008/pickme/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/4/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sushmita-subramanian"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/brian-s-butler">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-joseph-m-katz-graduate-school-of-business-university-of-pittsburgh-brian-s-butler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Brian S. Butler</rdfs:label>
+    <cofunc:name>Brian S. Butler</cofunc:name>
+    <foaf:mbox_sha1sum>4786d507520fe074b9172a56c8ea3d61fff41cab</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/brian-s-butler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-v-zhdanova">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/pickme2008-ftw-telecommunications-research-center-vienna-anna-v-zhdanova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anna V. Zhdanova</rdfs:label>
+    <cofunc:name>Anna V. Zhdanova</cofunc:name>
+    <foaf:mbox_sha1sum>c8fc121f308990f7ca964b6621edbceffee577a2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anna-v-zhdanova"/>
+    <cofunc:name>Anna V. Zdhanova</cofunc:name>
+    <rdfs:label>Anna V. Zdhanova</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

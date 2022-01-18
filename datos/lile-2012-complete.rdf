@@ -1,0 +1,1962 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/melody-siadaty"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-department-of-mathematics-and-computer-science-university-of-palermo-biagio-lenzitti">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/biagio-lenzitti"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/department-of-mathematics-and-computer-science-university-of-palermo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentin-groues">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-tudor-research-centre-valentin-groues"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Valentin Grouès</rdfs:label>
+    <j.0:name>Valentin Grouès</j.0:name>
+    <j.0:givenName>Valentin</j.0:givenName>
+    <j.0:familyName>Grouès</j.0:familyName>
+    <foaf:mbox_sha1sum>01fae9fe90873dae18c2abfe78c89d9a91ef5ffe</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/valentin-groues"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-10">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-11"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-petridis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-department-of-mathematics-and-computer-science-university-of-palermo-giovanni-panasci">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/giovanni-panasci"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/department-of-mathematics-and-computer-science-university-of-palermo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nikola-milikic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-nikola-milikic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nikola Milikic</rdfs:label>
+    <j.0:name>Nikola Milikic</j.0:name>
+    <j.0:givenName>Nikola</j.0:givenName>
+    <j.0:familyName>Milikic</j.0:familyName>
+    <foaf:mbox_sha1sum>929599a6f3b92cef71e6ed5fd2772928cf0f6a89</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nikola-milikic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lazaros-ioannidis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-muenster">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute for Geoinformatics, University of Münster</rdfs:label>
+    <j.0:name>Institute for Geoinformatics, University of Münster</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-muenster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eelco-herder">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-eelco-herder"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-eelco-herder"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eelco Herder</rdfs:label>
+    <j.0:name>Eelco Herder</j.0:name>
+    <j.0:givenName>Eelco</j.0:givenName>
+    <j.0:familyName>Herder</j.0:familyName>
+    <foaf:mbox_sha1sum>366cde6de1ad42e5b856925cd25f88c800c6fc48</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eelco-herder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ioannis-antoniou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-ioannis-antoniou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ioannis Antoniou</rdfs:label>
+    <j.0:name>Ioannis Antoniou</j.0:name>
+    <j.0:givenName>Ioannis</j.0:givenName>
+    <j.0:familyName>Antoniou</j.0:familyName>
+    <foaf:mbox_sha1sum>037baa5d9ce7291582beb67de40c2b6024bc3bf0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ioannis-antoniou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30">
+    <rdfs:label>Aggregating Digital Traces into a Semantic-enriched Data Cloud for Informal Learning</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <j.0:keyword>Social Semantic Web</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/30"/>
+    <j.0:keyword>Linked Data</j.0:keyword>
+    <j.0:keyword>Semantic Augmentation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <j.0:abstract>Modern informal learning models require linking experiences in the training environments with experiences in the real-world. However, data about real-world experiences is notoriously hard to collect. Social spaces bring new opportunities to tackle this challenge, supplying digital traces where people talk about their real-world experiences, which can become valuable resource, especially in ill-defined domains which embed multiple interpretations. The paper presents a unique approach to aggregate content from social spaces into a semantic-rich data cloud to facilitate informal learning in ill-defined domains. This pioneers a new way to exploit digital traces about real-world experiences as authentic examples in informal learning contexts. The research effort to date allows us to make some observations about potential of technology and the overall approach, as well as to draw a roadmap with issues for further consideration.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList"/>
+    <j.0:keyword>Adult Informal Learning</j.0:keyword>
+    <j.0:title>Aggregating Digital Traces into a Semantic-enriched Data Cloud for Informal Learning</j.0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sara-de-freitas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-sara-de-freitas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sara de Freitas</rdfs:label>
+    <j.0:name>Sara de Freitas</j.0:name>
+    <j.0:givenName>Sara</j.0:givenName>
+    <j.0:familyName>de Freitas</j.0:familyName>
+    <foaf:mbox_sha1sum>7c74957ba4779f8a5bd7a6dd591abf1f90641f94</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sara-de-freitas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-dhavalkumar-thakker">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-11">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-12"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-10"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sylvester-arnab"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/democritus-university-of-thrace">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Democritus University of Thrace</rdfs:label>
+    <j.0:name>Democritus University of Thrace</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/democritus-university-of-thrace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anastasia-dimou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-mathieu-daquin"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu D'Aquin</rdfs:label>
+    <j.0:name>Mathieu D'Aquin</j.0:name>
+    <j.0:givenName>Mathieu</j.0:givenName>
+    <j.0:familyName>D'Aquin</j.0:familyName>
+    <foaf:mbox_sha1sum>e61cc68181adeb9fbbddc539a6fa01dd24b299c8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-vlad-tanasescu">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/vlad-tanasescu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hannes-ebner">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-royal-institute-of-technology-kth-hannes-ebner"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hannes-ebner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hannes Ebner</rdfs:label>
+    <j.0:name>Hannes Ebner</j.0:name>
+    <j.0:givenName>Hannes</j.0:givenName>
+    <j.0:familyName>Ebner</j.0:familyName>
+    <foaf:mbox_sha1sum>516e7c24a8fb298dfef298b5264b42d72be32f8c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hannes-ebner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lydia-lau">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-lydia-lau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lydia Lau</rdfs:label>
+    <j.0:name>Lydia Lau</j.0:name>
+    <j.0:givenName>Lydia</j.0:givenName>
+    <j.0:familyName>Lau</j.0:familyName>
+    <foaf:mbox_sha1sum>f993ec9814041b4e78510fd4716be7cb9d90e20d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jelena-jovanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/davide-taibi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-national-research-council-of-italy-davide-taibi"/>
+    <rdfs:label>Davide Taibi</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-italian-national-research-council-davide-taibi"/>
+    <foaf:mbox_sha1sum>af81c5913a12003ea4dd36ea824f3ad467cef042</foaf:mbox_sha1sum>
+    <j.0:givenName>Davide</j.0:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/davide-taibi"/>
+    <j.0:name>Davide Taibi</j.0:name>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-davide-taibi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:familyName>Taibi</j.0:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-southampton-thanassis-tiropanis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thanassis-tiropanis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/liaqat-ali">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-sfu-liaqat-ali"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Liaqat Ali</rdfs:label>
+    <j.0:name>Liaqat Ali</j.0:name>
+    <j.0:givenName>Liaqat</j.0:givenName>
+    <j.0:familyName>Ali</j.0:familyName>
+    <foaf:mbox_sha1sum>bf18e52101e8a9d207298e2460b3ca0afecdef7a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/liaqat-ali"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-nikolas-dovrolis">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nikolas-dovrolis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ivana-marenzi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-ivana-marenzi"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-ivana-marenzi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ivana Marenzi</rdfs:label>
+    <j.0:name>Ivana Marenzi</j.0:name>
+    <j.0:givenName>Ivana</j.0:givenName>
+    <j.0:familyName>Marenzi</j.0:familyName>
+    <foaf:mbox_sha1sum>a549eec49dd816ebdbf12ae7afc4c306f8f5f9fc</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ivana-marenzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-information-limited-tom-heath">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-information-limited"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/biagio-lenzitti">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-department-of-mathematics-and-computer-science-university-of-palermo-biagio-lenzitti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Biagio Lenzitti</rdfs:label>
+    <j.0:name>Biagio Lenzitti</j.0:name>
+    <j.0:givenName>Biagio</j.0:givenName>
+    <j.0:familyName>Lenzitti</j.0:familyName>
+    <foaf:mbox_sha1sum>6ac66854e7e4643babc773f070b06260614cd36e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/biagio-lenzitti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-democritus-university-of-thrace-eleni-kaldoudi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eleni-kaldoudi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/democritus-university-of-thrace"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hannes-ebner">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/hannes-ebner"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gianluca-demartini">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-fribourg-gianluca-demartini"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-gianluca-demartini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gianluca Demartini</rdfs:label>
+    <j.0:name>Gianluca Demartini</j.0:name>
+    <j.0:givenName>Gianluca</j.0:givenName>
+    <j.0:familyName>Demartini</j.0:familyName>
+    <foaf:mbox_sha1sum>4d89f6919da4047bbcaad20bad01e1dd62b4578f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gianluca-demartini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-13"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-ivana-marenzi">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ivana-marenzi"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-amal-zouaq">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/amal-zouaq"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/charalampos-bratsas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aristotle-university-of-thessaloniki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aristotle University of Thessaloniki</rdfs:label>
+    <j.0:name>Aristotle University of Thessaloniki</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aristotle-university-of-thessaloniki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-fribourg-philippe-cudre-mauroux"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-philippe-cudre-mauroux"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philippe Cudré-Mauroux</rdfs:label>
+    <j.0:name>Philippe Cudré-Mauroux</j.0:name>
+    <j.0:givenName>Philippe</j.0:givenName>
+    <j.0:familyName>Cudré-Mauroux</j.0:familyName>
+    <foaf:mbox_sha1sum>cd093dfee55f5ac86ec10c79157bff2ad1107ec9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philippe-cudre-mauroux"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-gianluca-demartini">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-fribourg-gianluca-demartini">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-fribourg"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nikolas-dovrolis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-democritus-university-of-thrace-nikolas-dovrolis"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-nikolas-dovrolis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nikolas Dovrolis</rdfs:label>
+    <j.0:name>Nikolas Dovrolis</j.0:name>
+    <j.0:givenName>Nikolas</j.0:givenName>
+    <j.0:familyName>Dovrolis</j.0:familyName>
+    <foaf:mbox_sha1sum>14eaf45f69579f384e2e8c0b97a6442113846291</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nikolas-dovrolis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/l3s-research-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>L3S Research Center</rdfs:label>
+    <j.0:name>L3S Research Center</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/l3s-research-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-hong-quing-yu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hong-quing-yu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-fribourg">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Fribourg</rdfs:label>
+    <j.0:name>University of Fribourg</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-fribourg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-10"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maurice-hendrix"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vlad-tanasescu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-cardiff-university-vlad-tanasescu"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-vlad-tanasescu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vlad Tanasescu</rdfs:label>
+    <j.0:name>Vlad Tanasescu</j.0:name>
+    <j.0:givenName>Vlad</j.0:givenName>
+    <j.0:familyName>Tanasescu</j.0:familyName>
+    <foaf:mbox_sha1sum>e72de5a3c766485ad1c9adfe9e590d340de38e6e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vlad-tanasescu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-justin-leavesley">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/justin-leavesley"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-education-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-millard">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-southampton-david-millard"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-david-millard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Millard</rdfs:label>
+    <j.0:name>David Millard</j.0:name>
+    <j.0:givenName>David</j.0:givenName>
+    <j.0:familyName>Millard</j.0:familyName>
+    <foaf:mbox_sha1sum>865a66cf38a1841c029b484557ec58dbeb6e6945</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-millard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-soeren-auer">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/soeren-auer"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-national-research-council-of-italy-davide-taibi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-research-council-of-italy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-vania-dimitrova">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-8"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-7"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-6"/>
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-8"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Web Science Program, Mathematics Department, Aristotle University of Thessaloniki, Greece</rdfs:label>
+    <j.0:name>Web Science Program, Mathematics Department, Aristotle University of Thessaloniki, Greece</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/aristos-protopsaltis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-eleni-kaldoudi">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eleni-kaldoudi"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/school-of-computing-university-of-leeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>School of Computing, University of Leeds</rdfs:label>
+    <j.0:name>School of Computing, University of Leeds</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/school-of-computing-university-of-leeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ross-singer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-tom-heath">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-simon-fraser-university-marek-hatala">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marek-hatala"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/simon-fraser-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aristos-protopsaltis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-aristos-protopsaltis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Aristos Protopsaltis</rdfs:label>
+    <j.0:name>Aristos Protopsaltis</j.0:name>
+    <j.0:givenName>Aristos</j.0:givenName>
+    <j.0:familyName>Protopsaltis</j.0:familyName>
+    <foaf:mbox_sha1sum>2f460587775d8ff28393867d2dd8a669be5b5e5b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/aristos-protopsaltis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-fribourg-philippe-cudre-mauroux">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-fribourg"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/zoran-jeremic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/panagiotis-bamidis">
+    <j.0:name>Panagiotis Bamidis</j.0:name>
+    <j.0:familyName>Bamidis</j.0:familyName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-lab-of-medical-informatics-medical-school-aristotle-university-of-thessaloniki-panagiotis-bamidis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/panagiotis-bamidis"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-panagiotis-bamidis"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-of-thessaloniki-panagiotis-bamidis"/>
+    <foaf:mbox_sha1sum>1023a721780c3342c27775209d30e00fdde2ad5d</foaf:mbox_sha1sum>
+    <rdfs:label>Panagiotis Bamidis</rdfs:label>
+    <j.0:givenName>Panagiotis</j.0:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ross-singer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-ross-singer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ross Singer</rdfs:label>
+    <j.0:name>Ross Singer</j.0:name>
+    <j.0:givenName>Ross</j.0:givenName>
+    <j.0:familyName>Singer</j.0:familyName>
+    <foaf:mbox_sha1sum>85c9ebe602e138dfdda68500ee05e06059d0f289</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ross-singer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/tudor-research-centre">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Tudor Research Centre</rdfs:label>
+    <j.0:name>Tudor Research Centre</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/tudor-research-centre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-eelco-herder">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eelco-herder"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/biagio-lenzitti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/foaf-project">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FOAF project</rdfs:label>
+    <j.0:name>FOAF project</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/foaf-project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/simon-fraser-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Simon Fraser University</rdfs:label>
+    <j.0:name>Simon Fraser University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/simon-fraser-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nadeem-shabir"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-tudor-research-centre-valentin-groues">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/valentin-groues"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tudor-research-centre"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-nikola-milikic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nikola-milikic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-belgrade"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-universitaet-leipzig-soeren-auer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/soeren-auer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-leipzig"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zoran-jeremic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-zoran-jeremic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zoran Jeremic</rdfs:label>
+    <j.0:name>Zoran Jeremic</j.0:name>
+    <j.0:givenName>Zoran</j.0:givenName>
+    <j.0:familyName>Jeremic</j.0:familyName>
+    <foaf:mbox_sha1sum>b22734dc298b2cc455126e777622d34baf0c746a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zoran-jeremic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-6">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-7"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/liaqat-ali"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hendrik-drachsler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-open-university-of-the-netherlands-hendrik-drachsler"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hendrik-drachsler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hendrik Drachsler</rdfs:label>
+    <j.0:name>Hendrik Drachsler</j.0:name>
+    <j.0:givenName>Hendrik</j.0:givenName>
+    <j.0:familyName>Drachsler</j.0:familyName>
+    <foaf:mbox_sha1sum>7fb4d64755cdd09b86c391729b21a879f3269d72</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hendrik-drachsler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/royal-institute-of-technology-kth">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Royal Institute of Technology (KTH)</rdfs:label>
+    <j.0:name>Royal Institute of Technology (KTH)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/royal-institute-of-technology-kth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-lyndon-j-b-nixon">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/valentin-groues"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jelena-jovanovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-jelena-jovanovic"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-jelena-jovanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jelena Jovanovic</rdfs:label>
+    <j.0:name>Jelena Jovanovic</j.0:name>
+    <j.0:givenName>Jelena</j.0:givenName>
+    <j.0:familyName>Jovanovic</j.0:familyName>
+    <foaf:mbox_sha1sum>5ddd6730daa6dc71c732d2416a378b2dacf99c73</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jelena-jovanovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-lydia-lau">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-dragan-gasevic">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dragan-gasevic"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-stefan-dietze">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-davide-taibi">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/giovanni-panasci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-belgrade">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Belgrade</rdfs:label>
+    <j.0:name>University of Belgrade</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-belgrade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/athabasca-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Athabasca University</rdfs:label>
+    <j.0:name>Athabasca University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/athabasca-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dimitris-spachos">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-of-thessaloniki-dimitris-spachos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dimitris Spachos</rdfs:label>
+    <j.0:name>Dimitris Spachos</j.0:name>
+    <j.0:givenName>Dimitris</j.0:givenName>
+    <j.0:familyName>Spachos</j.0:familyName>
+    <foaf:mbox_sha1sum>0ea1ceb2574c2c5e5d9b543c0b1070e98cef1201</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dimitris-spachos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20">
+    <j.0:keyword>education</j.0:keyword>
+    <j.0:keyword>semantic web</j.0:keyword>
+    <j.0:title>Assembling and Applying an Education Graph based on Learning Resources in Universities</j.0:title>
+    <j.0:abstract>This paper introduces the notion of the education graph, a conceptual representation of the resources and interconnections at the heart of the learning process. We present
+our latest work on the Talis Aspire family of products that, through the use of Linked Data principles and technologies, enables the assembly and application of a rich education graph based on learning resources used in tens of UK universities. Techniques for entity extraction and reconciliation across data sources are presented, in addition to descriptions of recommendation generation from portions of this education graph.</j.0:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/20"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <rdfs:label>Assembling and Applying an Education Graph based on Learning Resources in Universities</rdfs:label>
+    <j.0:keyword>education graph</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ross-singer"/>
+    <j.0:keyword>learning</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList"/>
+    <j.0:keyword>teaching</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/chris-clarke"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/justin-leavesley"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nadeem-shabir"/>
+    <j.0:keyword>linked data</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aristotle-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aristotle University</rdfs:label>
+    <j.0:name>Aristotle University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aristotle-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-democritus-university-of-thrace-nikolas-dovrolis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nikolas-dovrolis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/democritus-university-of-thrace"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ioannis-antoniou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hong-quing-yu">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/hong-quing-yu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/muriel-foulonneau">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-tudor-research-centre-muriel-foulonneau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Muriel Foulonneau</rdfs:label>
+    <j.0:name>Muriel Foulonneau</j.0:name>
+    <j.0:givenName>Muriel</j.0:givenName>
+    <j.0:familyName>Foulonneau</j.0:familyName>
+    <foaf:mbox_sha1sum>de170dbcb94b5f10ec36081ab0f111b880e7f84f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/muriel-foulonneau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-chris-clarke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chris-clarke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-education-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/talis-information-limited">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Talis Systems Ltd</rdfs:label>
+    <j.0:name>Talis Systems Ltd</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/talis-information-limited"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList">
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-11"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-8"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-10"/>
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-9"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-13"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-7"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-12"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-9"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-charalampos-bratsas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/charalampos-bratsas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dragan-gasevic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-6">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-7"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/evangelia-mitsopoulou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universitaet-leipzig">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universität Leipzig</rdfs:label>
+    <j.0:name>Universität Leipzig</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universitaet-leipzig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-vania-dimitrova">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/justin-leavesley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-southampton-david-millard">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-millard"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-heath">
+    <rdfs:label>Tom Heath</rdfs:label>
+    <j.0:givenName>Tom</j.0:givenName>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-tom-heath"/>
+    <foaf:mbox_sha1sum>1dd0dab717be578c153b8ed70bee284845439706</foaf:mbox_sha1sum>
+    <j.0:name>Tom Heath</j.0:name>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-information-limited-tom-heath"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-tom-heath"/>
+    <j.0:familyName>Heath</j.0:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-leeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Leeds</rdfs:label>
+    <j.0:name>University of Leeds</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carsten-kessler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-muenster-carsten-kessler"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carsten-kessler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carsten Keßler</rdfs:label>
+    <j.0:name>Carsten Keßler</j.0:name>
+    <j.0:givenName>Carsten</j.0:givenName>
+    <j.0:familyName>Keßler</j.0:familyName>
+    <foaf:mbox_sha1sum>d010ef2b186e6439a622f2f4ad8305f885495215</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carsten-kessler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/oregon-health-science-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Oregon Health &amp; Science University</rdfs:label>
+    <j.0:name>Oregon Health &amp; Science University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/oregon-health-science-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-dhavalkumar-thakker">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-simon-fraser-university-melody-siadaty">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/melody-siadaty"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/simon-fraser-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-nadeem-shabir">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nadeem-shabir"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-education-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-ross-singer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ross-singer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-education-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sfu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SFU</rdfs:label>
+    <j.0:name>SFU</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sfu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-vrije-universiteit-amsterdam-the-netherlands-lora-aroyo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lora-aroyo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-italian-national-research-council-davide-taibi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/italian-national-research-council"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/30/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-thanassis-tiropanis">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/thanassis-tiropanis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-anastasia-dimou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anastasia-dimou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-melody-siadaty">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/melody-siadaty"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-mathieu-daquin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-panagiotis-bamidis">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/amal-zouaq">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-royal-military-college-of-canada-amal-zouaq"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-amal-zouaq"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Amal Zouaq</rdfs:label>
+    <j.0:name>Amal Zouaq</j.0:name>
+    <j.0:givenName>Amal</j.0:givenName>
+    <j.0:familyName>Zouaq</j.0:familyName>
+    <foaf:mbox_sha1sum>c3bf2cac63d1143642d4108acb2fc9abc10c9ba6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/amal-zouaq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lab-of-medical-informatics-medical-school-aristotle-university-of-thessaloniki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Lab of Medical Informatics, Medical School, Aristotle University of Thessaloniki</rdfs:label>
+    <j.0:name>Lab of Medical Informatics, Medical School, Aristotle University of Thessaloniki</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lab-of-medical-informatics-medical-school-aristotle-university-of-thessaloniki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-hannover">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Hannover</rdfs:label>
+    <j.0:name>University of Hannover</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-hannover"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chris-clarke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-chris-clarke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris Clarke</rdfs:label>
+    <j.0:name>Chris Clarke</j.0:name>
+    <j.0:givenName>Chris</j.0:givenName>
+    <j.0:familyName>Clarke</j.0:familyName>
+    <foaf:mbox_sha1sum>eafbe0eb6839ca74c5633ea17c1f2e4c32c3af44</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chris-clarke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nikola-milikic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ian-dunwell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/20/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/chris-clarke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-carlos-pedrinaci">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-st-george-s-university-of-london-evangelia-mitsopoulou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/evangelia-mitsopoulou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/st-george-s-university-of-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-royal-institute-of-technology-kth-hannes-ebner">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hannes-ebner"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/royal-institute-of-technology-kth"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/justin-leavesley">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-justin-leavesley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Justin Leavesley</rdfs:label>
+    <j.0:name>Justin Leavesley</j.0:name>
+    <j.0:givenName>Justin</j.0:givenName>
+    <j.0:familyName>Leavesley</j.0:familyName>
+    <foaf:mbox_sha1sum>f2ded6cc46c8fbffa411ccad20135a195435f77b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/justin-leavesley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-charalampos-bratsas">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/charalampos-bratsas"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-marek-hatala">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/marek-hatala"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ioannis-antoniou"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lazaros-ioannidis"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/26/authorList"/>
+    <j.0:keyword>Linked Learning.</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/charalampos-bratsas"/>
+    <j.0:abstract>Although interoperability has always been a priority in e-learning, conventional Learning Management Systems are geared mostly towards Standards for Learning Objects exchange and integration among them. They hardly foresee the contingency for integration with other web applications and data. This prevents them, nowadays, from being flexible to adapt to the Linked Data standards emergence and the advent of Semantic Web in general, unless they radically change orientation. In contrast, Wikis, followed by Content Management Systems, proved to be more versatile in complying with the Semantic Web and Linked Data standards. These advancements, together with their modular architecture, turn Wikis and CMSs into a decent choice for modern e-learning solutions. MediaWiki and Drupal were customized and deployed in the Aristotle University of Thessaloniki to assess their potential in exposing the University’s learning resources on the Web of Linked Data in accordance to the Linked Universities Initiative. On the occasion of these two deployments, a thorough comparison of their platforms’ potentials to function as Learning Management Systems took place and is presented on this paper.</j.0:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/26"/>
+    <j.0:keyword>Semantic Wiki</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <j.0:title>Semantic CMS and Wikis as platforms for Linked Learning</j.0:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <j.0:keyword>Linked Data</j.0:keyword>
+    <j.0:keyword>Semantic CMS</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/anastasia-dimou"/>
+    <rdfs:label>Semantic CMS and Wikis as platforms for Linked Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/soeren-auer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-universitaet-leipzig-soeren-auer"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-soeren-auer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Soeren Auer</rdfs:label>
+    <j.0:name>Soeren Auer</j.0:name>
+    <j.0:givenName>Soeren</j.0:givenName>
+    <j.0:familyName>Auer</j.0:familyName>
+    <foaf:mbox_sha1sum>09ac456515dee0896e8eba4b06ae589bef2069cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/soeren-auer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-aristos-protopsaltis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aristos-protopsaltis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-8">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-9"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-7"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dimitris-spachos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/talis-education-ltd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Talis Education Ltd</rdfs:label>
+    <j.0:name>Talis Education Ltd</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/talis-education-ltd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-saskatchewan-christopher-brooks">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christopher-brooks"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-saskatchewan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dan-brickley">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-foaf-project-dan-brickley"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-dan-brickley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dan Brickley</rdfs:label>
+    <j.0:name>Dan Brickley</j.0:name>
+    <j.0:givenName>Dan</j.0:givenName>
+    <j.0:familyName>Brickley</j.0:familyName>
+    <foaf:mbox_sha1sum>748934f32135cfcf6f8c06e253c53442721e15e7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dan-brickley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-open-university-of-the-netherlands-hendrik-drachsler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hendrik-drachsler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/open-university-of-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-winston-salem-state-university-darina-dicheva">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/darina-dicheva"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/winston-salem-state-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/open-university-of-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Open University of the Netherlands</rdfs:label>
+    <j.0:name>Open University of the Netherlands</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/open-university-of-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-lora-aroyo">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/lora-aroyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carlo-torniai">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/carlo-torniai"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anastasia-dimou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-anastasia-dimou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anastasia Dimou</rdfs:label>
+    <j.0:name>Anastasia Dimou</j.0:name>
+    <j.0:givenName>Anastasia</j.0:givenName>
+    <j.0:familyName>Dimou</j.0:familyName>
+    <foaf:mbox_sha1sum>3ca537576cc14f46965df2db64ae234af4c30542</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anastasia-dimou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-7">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-8"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-6"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-zoran-jeremic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zoran-jeremic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-belgrade"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sylvester-arnab">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-sylvester-arnab"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sylvester Arnab</rdfs:label>
+    <j.0:name>Sylvester Arnab</j.0:name>
+    <j.0:givenName>Sylvester</j.0:givenName>
+    <j.0:familyName>Arnab</j.0:familyName>
+    <foaf:mbox_sha1sum>e2b06b59b105ac07518f5e66720db601ecb4f4e0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sylvester-arnab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-sylvester-arnab">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sylvester-arnab"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-lazaros-ioannidis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lazaros-ioannidis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicola-henze">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-hannover-nicola-henze"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-nicola-henze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicola Henze</rdfs:label>
+    <j.0:name>Nicola Henze</j.0:name>
+    <j.0:givenName>Nicola</j.0:givenName>
+    <j.0:familyName>Henze</j.0:familyName>
+    <foaf:mbox_sha1sum>a0baead50d421fb8f80ba8ef961a9bab49080619</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicola-henze"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/panagiotis-petridis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-panagiotis-petridis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Panagiotis Petridis</rdfs:label>
+    <j.0:name>Panagiotis Petridis</j.0:name>
+    <j.0:givenName>Panagiotis</j.0:givenName>
+    <j.0:familyName>Petridis</j.0:familyName>
+    <foaf:mbox_sha1sum>f910b7eb66ee21cc756bb5b380887467b3838c2c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/panagiotis-petridis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24">
+    <rdfs:label>LOD.CS.UNIPA Project: an experience of LOD at the University of Palermo</rdfs:label>
+    <j.0:keyword>Data transformation process</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/24/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/biagio-lenzitti"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/giovanni-panasci"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <j.0:keyword>Academic web data</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:abstract>This paper describes the LOD.CS.UNI.PA Project and its main goal, the transformation process of data already available on the web site of the Computer Science curricula web site at the University of Palermo into data ready to be connected to the LOD. Since 1997 information about bachelor and master degrees in Computer Science at the University of Palermo has been published on the web, and provides a reference point for students, teachers and researchers who have easy access to the information they require. However, the users of the web are now changing; data cannot be published only for human comprehension but intelligent devices also need access to web data and above all they need to understand them. In 2006 Tim Berners Lee presented a star rating system for the data available on the web. Following his five star classification, the aim of the work described in this paper is to raise the level of data concerning degrees in Computer Science at Palermo University, from one star (data available on the web in whatever format), to five stars (data connected to other LOD datasets). So far the data has been transformed to a four star level in which each item has a URL that can be dereferenced, but the final objective of this project is to reach the five star level.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <j.0:keyword>Linked Learning</j.0:keyword>
+    <j.0:title>LOD.CS.UNIPA Project: an experience of LOD at the University of Palermo</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-ioannis-antoniou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ioannis-antoniou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aristotle-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-tom-heath">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis-education-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-7">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-8"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-6"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/aleksandar-giljanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-jelena-jovanovic">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jelena-jovanovic"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-eelco-herder">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eelco-herder"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lora-aroyo">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-vrije-universiteit-amsterdam-the-netherlands-lora-aroyo"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-lora-aroyo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lora Aroyo</rdfs:label>
+    <j.0:name>Lora Aroyo</j.0:name>
+    <j.0:givenName>Lora</j.0:givenName>
+    <j.0:familyName>Aroyo</j.0:familyName>
+    <foaf:mbox_sha1sum>c1544e63d723bb7310c57a36a94dfa75ae9a63c3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lora-aroyo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/muriel-foulonneau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lab-of-medical-physics-medical-school-democritus-university-of-thrace">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Lab of Medical Physics, Medical School, Democritus University of Thrace</rdfs:label>
+    <j.0:name>Lab of Medical Physics, Medical School, Democritus University of Thrace</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lab-of-medical-physics-medical-school-democritus-university-of-thrace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/charalampos-bratsas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-charalampos-bratsas"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-charalampos-bratsas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Charalampos Bratsas</rdfs:label>
+    <j.0:name>Charalampos Bratsas</j.0:name>
+    <j.0:givenName>Charalampos</j.0:givenName>
+    <j.0:familyName>Bratsas</j.0:familyName>
+    <foaf:mbox_sha1sum>3ec78ca7fb221c02494c723f5c072891b529604c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/charalampos-bratsas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-christopher-brooks">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christopher-brooks"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-lab-of-medical-informatics-medical-school-aristotle-university-of-thessaloniki-panagiotis-bamidis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lab-of-medical-informatics-medical-school-aristotle-university-of-thessaloniki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/department-of-mathematics-and-computer-science-university-of-palermo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Department of Mathematics and Computer Science University of Palermo</rdfs:label>
+    <j.0:name>Department of Mathematics and Computer Science University of Palermo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/department-of-mathematics-and-computer-science-university-of-palermo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-8">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList/item-7"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marek-hatala"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-of-thessaloniki-panagiotis-bamidis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aristotle-university-of-thessaloniki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-9">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-8"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sara-de-freitas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-deri-universitaet-innsbruck-lyndon-j-b-nixon"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-lyndon-j-b-nixon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lyndon Nixon</rdfs:label>
+    <j.0:name>Lyndon Nixon</j.0:name>
+    <j.0:givenName>Lyndon</j.0:givenName>
+    <j.0:familyName>Nixon</j.0:familyName>
+    <foaf:mbox_sha1sum>fedfee89e4699ebbd40cfd1aa1c44a1fd0220d7d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lyndon-j-b-nixon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/st-george-s-university-of-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>St George’s University of London</rdfs:label>
+    <j.0:name>St George’s University of London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/st-george-s-university-of-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/melody-siadaty">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-simon-fraser-university-melody-siadaty"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-melody-siadaty"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Melody Siadaty</rdfs:label>
+    <j.0:name>Melody Siadaty</j.0:name>
+    <j.0:givenName>Melody</j.0:givenName>
+    <j.0:familyName>Siadaty</j.0:familyName>
+    <foaf:mbox_sha1sum>ccc423331cb219482df7619dda3023d3eb21a086</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/melody-siadaty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thanassis-tiropanis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-southampton-thanassis-tiropanis"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-thanassis-tiropanis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thanassis Tiropanis</rdfs:label>
+    <j.0:name>Thanassis Tiropanis</j.0:name>
+    <j.0:givenName>Thanassis</j.0:givenName>
+    <j.0:familyName>Tiropanis</j.0:familyName>
+    <foaf:mbox_sha1sum>f8359529f60051cb7f397638a8c21fb8f3dc3d55</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thanassis-tiropanis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-mathieu-daquin">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-ivana-marenzi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ivana-marenzi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/winston-salem-state-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Winston-Salem State University</rdfs:label>
+    <j.0:name>Winston-Salem State University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/winston-salem-state-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carlos-pedrinaci">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-aristotle-university-of-thessaloniki-dimitris-spachos">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dimitris-spachos"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aristotle-university-of-thessaloniki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christopher-brooks">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-saskatchewan-christopher-brooks"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-christopher-brooks"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christopher Brooks</rdfs:label>
+    <j.0:name>Christopher Brooks</j.0:name>
+    <j.0:givenName>Christopher</j.0:givenName>
+    <j.0:familyName>Brooks</j.0:familyName>
+    <foaf:mbox_sha1sum>945b7deb842ae110133bcdfc38ef60bc9e0d885c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christopher-brooks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eleni-kaldoudi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eleni Kaldoudi</rdfs:label>
+    <j.0:familyName>Kaldoudi</j.0:familyName>
+    <foaf:mbox_sha1sum>f90d59c38295363cd5f5ab9dd5b57408587b19e6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eleni-kaldoudi"/>
+    <foaf:mbox_sha1sum>a4f94c2cc8936ff7cdbc4a062a1e397812bf7d21</foaf:mbox_sha1sum>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-lab-of-medical-physics-medical-school-democritus-university-of-thrace-eleni-kaldoudi"/>
+    <j.0:givenName>Eleni</j.0:givenName>
+    <j.0:name>Eleni Kaldoudi</j.0:name>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-democritus-university-of-thrace-eleni-kaldoudi"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-eleni-kaldoudi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-athabasca-university-dragan-gasevic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dragan-gasevic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/athabasca-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marek-hatala">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-simon-fraser-university-marek-hatala"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-marek-hatala"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marek Hatala</rdfs:label>
+    <j.0:name>Marek Hatala</j.0:name>
+    <j.0:givenName>Marek</j.0:givenName>
+    <j.0:familyName>Hatala</j.0:familyName>
+    <foaf:mbox_sha1sum>e7e5dc45bc25134537f32ed3a47bddd70a5aafbc</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marek-hatala"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/coventry-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Coventry University</rdfs:label>
+    <j.0:name>Coventry University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/coventry-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Open University</rdfs:label>
+    <j.0:name>The Open University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+    <j.0:name>Knowledge Media Institute, The Open University</j.0:name>
+    <rdfs:label>Knowledge Media Institute, The Open University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hong-quing-yu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-hong-quing-yu"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hong-quing-yu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hong Quing Yu</rdfs:label>
+    <j.0:name>Hong Quing Yu</j.0:name>
+    <j.0:givenName>Hong</j.0:givenName>
+    <j.0:familyName>Quing Yu</j.0:familyName>
+    <foaf:mbox_sha1sum>942bdf9d7fd28eace575a5c617686cb37ec9d6f2</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hong-quing-yu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vania-dimitrova">
+    <foaf:mbox_sha1sum>7cc69784d029ee785c92685579fe4851a5fc23d7</foaf:mbox_sha1sum>
+    <rdfs:label>Vania Dimitrova</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+    <j.0:name>Vania Dimitrova</j.0:name>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-vania-dimitrova"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-school-of-computing-university-of-leeds-vania-dimitrova"/>
+    <j.0:familyName>Dimitrova</j.0:familyName>
+    <j.0:givenName>Vania</j.0:givenName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-vania-dimitrova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aleksandar-giljanovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-athabasca-university-aleksandar-giljanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Aleksandar Giljanovic</rdfs:label>
+    <j.0:name>Aleksandar Giljanovic</j.0:name>
+    <j.0:givenName>Aleksandar</j.0:givenName>
+    <j.0:familyName>Giljanovic</j.0:familyName>
+    <foaf:mbox_sha1sum>742f806f8e6fef487c250ca846b3e6a4e412850e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/aleksandar-giljanovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-cardiff-university-vlad-tanasescu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vlad-tanasescu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cardiff-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-hendrik-drachsler">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/hendrik-drachsler"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/darina-dicheva">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-winston-salem-state-university-darina-dicheva"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-darina-dicheva"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Darina Dicheva</rdfs:label>
+    <j.0:name>Darina Dicheva</j.0:name>
+    <j.0:givenName>Darina</j.0:givenName>
+    <j.0:familyName>Dicheva</j.0:familyName>
+    <foaf:mbox_sha1sum>925d4e693505510f0f0f2a77373631bed8908a72</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/darina-dicheva"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/aleksandar-giljanovic"/>
+    <j.0:keyword>workplace learning</j.0:keyword>
+    <rdfs:label>Semantic Web and Linked Learning to Support Workplace Learning</rdfs:label>
+    <j.0:keyword>organizational learning</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/melody-siadaty"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/29"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/29/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dragan-gasevic"/>
+    <j.0:abstract>In the last few years, the Social Web has offered new affordances for how learning is conceptualized and supported. Supporting workplace learning, however, faces specific challenges, some in particular due to its informal, contextual and social nature. The in-formal nature of workplace learning requires knowledge workers to be supported in their self-regulatory learning processes, whilst the social side draws attention to the role of collective in those processes. To address these challenges, in this paper we present Learn-B, a workplace learning environment. We also present how we developed and applied a common ontological foundation for the integration of our proposed learning services and existing tools in this environment.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nikola-milikic"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/liaqat-ali"/>
+    <j.0:keyword>linked data</j.0:keyword>
+    <j.0:keyword>self-regulated learning</j.0:keyword>
+    <j.0:title>Semantic Web and Linked Learning to Support Workplace Learning</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jelena-jovanovic"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marek-hatala"/>
+    <j.0:keyword>semantic web technologies</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/zoran-jeremic"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-deri-universitaet-innsbruck-lyndon-j-b-nixon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-southampton">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Southampton</rdfs:label>
+    <j.0:name>University of Southampton</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-southampton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-lab-of-medical-physics-medical-school-democritus-university-of-thrace-eleni-kaldoudi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eleni-kaldoudi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lab-of-medical-physics-medical-school-democritus-university-of-thrace"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>STI International</rdfs:label>
+    <j.0:name>STI International</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nadeem-shabir">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-talis-education-ltd-nadeem-shabir"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nadeem Shabir</rdfs:label>
+    <j.0:name>Nadeem Shabir</j.0:name>
+    <j.0:givenName>Nadeem</j.0:givenName>
+    <j.0:familyName>Shabir</j.0:familyName>
+    <foaf:mbox_sha1sum>0a6eb14743bb54e5433e8f6b24d3e63ac60fa0b6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nadeem-shabir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-dan-brickley">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dan-brickley"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlo-torniai">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-oregon-health-science-university-carlo-torniai"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carlo-torniai"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlo Torniai</rdfs:label>
+    <j.0:name>Carlo Torniai</j.0:name>
+    <j.0:givenName>Carlo</j.0:givenName>
+    <j.0:familyName>Torniai</j.0:familyName>
+    <foaf:mbox_sha1sum>b335cb42a8733486a5b5b782be42ab197015c618</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlo-torniai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ian-dunwell">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-ian-dunwell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ian Dunwell</rdfs:label>
+    <j.0:name>Ian Dunwell</j.0:name>
+    <j.0:givenName>Ian</j.0:givenName>
+    <j.0:familyName>Dunwell</j.0:familyName>
+    <foaf:mbox_sha1sum>b5a0f4343f38f41a16d94d5a2c3ce402ec46f81f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ian-dunwell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-stefan-dietze">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dhavalkumar-thakker">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-leeds-dhavalkumar-thakker"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-dhavalkumar-thakker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dhavalkumar Thakker</rdfs:label>
+    <j.0:name>Dhavalkumar Thakker</j.0:name>
+    <j.0:givenName>Dhavalkumar</j.0:givenName>
+    <j.0:familyName>Thakker</j.0:familyName>
+    <foaf:mbox_sha1sum>2f3e440132b83ebf1243b54f7c2f1040c5bcadd6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-athabasca-university-aleksandar-giljanovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aleksandar-giljanovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/athabasca-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-tudor-research-centre-muriel-foulonneau">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/muriel-foulonneau"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tudor-research-centre"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cardiff-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Cardiff University</rdfs:label>
+    <j.0:name>Cardiff University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cardiff-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-sfu-liaqat-ali">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/liaqat-ali"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sfu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-royal-military-college-of-canada-amal-zouaq">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/amal-zouaq"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/royal-military-college-of-canada"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/italian-national-research-council">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Italian National Research Council</rdfs:label>
+    <j.0:name>Italian National Research Council</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/italian-national-research-council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-12">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-13"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-11"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nikolas-dovrolis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/lile2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about lile2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:59 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/lile/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28">
+    <j.0:title>Common vs. Expert knowledge: making the Semantic Web an educational model</j.0:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Linked Data</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/28/authorList"/>
+    <j.0:keyword>paradata</j.0:keyword>
+    <j.0:keyword>assessment item generation</j.0:keyword>
+    <j.0:abstract>Model based learning uses models to store knowledge in order to
+generate learning resources and adapt learning paths to learners
+and their context. Many domain models are published on the Web
+through linked data, thus providing a collective knowledge base
+that can be reused in the educational domain. However, for these
+models to be usable in an educational context, they must allow
+predicting the learning context in which they can be used. A
+typical indicator of the usability of learning object is their
+difficulty. Predicting the difficulty of an assessment item depends
+both on the construct, i.e., what is assessed, and on the form of the
+item. In this paper, we present several experiments that can
+support the prediction of the difficulty of an assessment item
+generated from a linked data source and the difficulty of the
+underlying item construct. We analyze the results of a test carried
+out with choice items, together with a Web mining approach, in
+order to provide indicators that the factual knowledge is common
+knowledge or expert knowledge in a particular population. Our
+objective is to annotate the semantic models and increase their
+reusability in an educational context.</j.0:abstract>
+    <j.0:keyword>educational model</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/valentin-groues"/>
+    <j.0:keyword>knowledge level</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/28"/>
+    <rdfs:label>Common vs. Expert knowledge: making the Semantic Web an educational model</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/muriel-foulonneau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-research-council-of-italy">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Research Council of Italy</rdfs:label>
+    <j.0:name>National Research Council of Italy</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-research-council-of-italy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lazaros-ioannidis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece-lazaros-ioannidis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lazaros Ioannidis</rdfs:label>
+    <j.0:name>Lazaros Ioannidis</j.0:name>
+    <j.0:givenName>Lazaros</j.0:givenName>
+    <j.0:familyName>Ioannidis</j.0:familyName>
+    <foaf:mbox_sha1sum>4adb2328d2158e230daa123a92809d0abf493961</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lazaros-ioannidis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-sara-de-freitas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sara-de-freitas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-saskatchewan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Saskatchewan</rdfs:label>
+    <j.0:name>University of Saskatchewan</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-saskatchewan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-muenster-carsten-kessler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carsten-kessler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giovanni-panasci">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-department-of-mathematics-and-computer-science-university-of-palermo-giovanni-panasci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giovanni Panascì</rdfs:label>
+    <j.0:name>Giovanni Panascì</j.0:name>
+    <j.0:givenName>Giovanni</j.0:givenName>
+    <j.0:familyName>Panascì</j.0:familyName>
+    <foaf:mbox_sha1sum>ea2d6befbf77fe7250f6881656e2f45e212eedf3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giovanni-panasci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-school-of-computing-university-of-leeds-vania-dimitrova">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/school-of-computing-university-of-leeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-pedrinaci">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-kmi-the-open-university-uk-carlos-pedrinaci"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Pedrinaci</rdfs:label>
+    <j.0:name>Carlos Pedrinaci</j.0:name>
+    <j.0:givenName>Carlos</j.0:givenName>
+    <j.0:familyName>Pedrinaci</j.0:familyName>
+    <foaf:mbox_sha1sum>7dd3dfdb407a46327824fc54ebedcc29caf1c553</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dragan-gasevic">
+    <j.0:familyName>Gaševic</j.0:familyName>
+    <j.0:name>Dragan Gasevic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dragan-gasevic"/>
+    <foaf:mbox_sha1sum>dc1aa93b3699dc66784896fb2bf48ed4b2219526</foaf:mbox_sha1sum>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dragan Gasevic</rdfs:label>
+    <j.0:givenName>Dragan</j.0:givenName>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-dragan-gasevic"/>
+    <rdfs:label>Dragan Gaševic</rdfs:label>
+    <j.0:name>Dragan Gaševic</j.0:name>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-athabasca-university-dragan-gasevic"/>
+    <j.0:familyName>Gasevic</j.0:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-nicola-henze">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nicola-henze"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-ian-dunwell">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ian-dunwell"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-13">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-2"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList/item-12"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eleni-kaldoudi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>VU University Amsterdam</rdfs:label>
+    <j.0:name>VU University Amsterdam</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-maurice-hendrix">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maurice-hendrix"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eleni-kaldoudi"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sara-de-freitas"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nikolas-dovrolis"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-petridis"/>
+    <j.0:keyword>Performance</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-bamidis"/>
+    <j.0:keyword>linked data</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/lile/2012/paper/15"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stefan-dietze"/>
+    <j.0:abstract>mEducator 3.0 is a content sharing solution for medical education, based on Linked Data principles. Through standardization, it enables sharing and discovery of medical information. Unlike mEducator 2.0 which adopted a web 2.0 approach based on ad-hoc Application Programmers Interfaces (APIs), mEducator 3.0 builds upon a collection of Semantic Web Services that federate existing sources of medical and Technology Enhanced Learning (TEL) data. It has a number of different instantiations, allowing flexibility and choice. At present these comprise of a stand-alone web instantiation (Metamorphosis+) and instantiations integrated with the popular systems Drupal, Moodle and OpenLabyrinth. This paper presents the evaluation results of the mEducator 3.0 Linked Data based environment for sharing medical educational resources and focuses on metadata enrichment, conformance to the mEducator requirements and technical performance (of the metamorphosis+ and Drupal instantiations).</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/davide-taibi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Technical Evaluation of The mEducator 3.0 Linked Data-based Environment for Sharing Medical Educational Resources</rdfs:label>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/lile2012/data.semanticweb.org/workshop/lile/2012/paper/15/authorList"/>
+    <j.0:keyword>metadata</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/evangelia-mitsopoulou"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ian-dunwell"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dimitris-spachos"/>
+    <j.0:keyword>medical education</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/lile/2012/proceedings"/>
+    <j.0:keyword>sharing</j.0:keyword>
+    <j.0:title>Technical Evaluation of The mEducator 3.0 Linked Data-based Environment for Sharing Medical Educational Resources</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maurice-hendrix"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sylvester-arnab"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/aristos-protopsaltis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-carsten-kessler">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/carsten-kessler"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-philippe-cudre-mauroux">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/philippe-cudre-mauroux"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-darina-dicheva">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/darina-dicheva"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-foaf-project-dan-brickley">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dan-brickley"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/foaf-project"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-oregon-health-science-university-carlo-torniai">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlo-torniai"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/oregon-health-science-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maurice-hendrix">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-maurice-hendrix"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maurice Hendrix</rdfs:label>
+    <j.0:name>Maurice Hendrix</j.0:name>
+    <j.0:givenName>Maurice</j.0:givenName>
+    <j.0:familyName>Hendrix</j.0:familyName>
+    <foaf:mbox_sha1sum>5a7822d5004057bf345037605b503a4d9d0ce111</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maurice-hendrix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-coventry-university-panagiotis-petridis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-petridis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/coventry-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-hannover-nicola-henze">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicola-henze"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-hannover"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-university-of-belgrade-jelena-jovanovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jelena-jovanovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-belgrade"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/LiLe2012/lile/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/evangelia-mitsopoulou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-st-george-s-university-of-london-evangelia-mitsopoulou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Evangelia Mitsopoulou</rdfs:label>
+    <j.0:name>Evangelia Mitsopoulou</j.0:name>
+    <j.0:givenName>Evangelia</j.0:givenName>
+    <j.0:familyName>Mitsopoulou</j.0:familyName>
+    <foaf:mbox_sha1sum>651b9953a66b78d4eb8e6d745a9adcb2ba7249c7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/evangelia-mitsopoulou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/royal-military-college-of-canada">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Royal Military College of Canada</rdfs:label>
+    <j.0:name>Royal Military College of Canada</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/royal-military-college-of-canada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-committee-member-david-millard">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/david-millard"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/lile2012/lile/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-dietze">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/lile2012-l3s-research-center-stefan-dietze"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/lile2012-programme-chair-stefan-dietze"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Dietze</rdfs:label>
+    <j.0:name>Stefan Dietze</j.0:name>
+    <j.0:givenName>Stefan</j.0:givenName>
+    <j.0:familyName>Dietze</j.0:familyName>
+    <foaf:mbox_sha1sum>ee6dc5ffc8da2b150fab3da1bcf3d788011c3312</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-dietze"/>
+  </rdf:Description>
+</rdf:RDF>

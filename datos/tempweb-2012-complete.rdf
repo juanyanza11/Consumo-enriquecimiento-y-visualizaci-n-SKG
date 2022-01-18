@@ -1,0 +1,1301 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/athens-university-of-economics-and-business">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Athens University of Economics and Business</rdfs:label>
+    <j.0:name>Athens University of Economics and Business</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/athens-university-of-economics-and-business"/>
+    <j.0:name>Athens University of Economics &amp; Business</j.0:name>
+    <rdfs:label>Athens University of Economics &amp; Business</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/imf">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IMF</rdfs:label>
+    <j.0:name>IMF</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/imf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/margarita-karkali"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-computer-and-automation-research-institute-hungarian-academy-of-sciences-andras-a-benczur">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andras-a-benczur"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/computer-and-automation-research-institute-hungarian-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/scott-kirkpatrick">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-huji-scott-kirkpatrick"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-scott-kirkpatrick"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Scott Kirkpatrick</rdfs:label>
+    <j.0:name>Scott Kirkpatrick</j.0:name>
+    <j.0:givenName>Scott</j.0:givenName>
+    <j.0:familyName>Kirkpatrick</j.0:familyName>
+    <foaf:mbox_sha1sum>6468b98b6431c606b3d1005921343e8c416e2d7c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/scott-kirkpatrick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-masahiro-inoue">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/masahiro-inoue"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kyoto-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/erdal-kuzey">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-erdal-kuzey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Erdal Kuzey</rdfs:label>
+    <j.0:name>Erdal Kuzey</j.0:name>
+    <j.0:givenName>Erdal</j.0:givenName>
+    <j.0:familyName>Kuzey</j.0:familyName>
+    <foaf:mbox_sha1sum>b7aa869a200fa614e75bc35ee4289d6675929b90</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/erdal-kuzey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-nikos-ntarmos">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nikos-ntarmos"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/frank-mccown">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-harding-university-frank-mccown"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-frank-mccown"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Frank Mccown</rdfs:label>
+    <j.0:name>Frank Mccown</j.0:name>
+    <j.0:givenName>Frank</j.0:givenName>
+    <j.0:familyName>Mccown</j.0:familyName>
+    <foaf:mbox_sha1sum>f03a5e28417fccd2448faec81d142b84fad0409e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/frank-mccown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ricardo-campos">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-polytechnic-institute-of-tomar-ricardo-campos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ricardo Campos</rdfs:label>
+    <j.0:name>Ricardo Campos</j.0:name>
+    <j.0:givenName>Ricardo</j.0:givenName>
+    <j.0:familyName>Campos</j.0:familyName>
+    <foaf:mbox_sha1sum>c53181301716655007b987eb90faee19a0e1deeb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ricardo-campos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kyoto-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Kyoto University</rdfs:label>
+    <j.0:name>Kyoto University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kyoto-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/masashi-toyoda">
+    <j.0:familyName>Toyoda</j.0:familyName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-masashi-toyoda"/>
+    <foaf:mbox_sha1sum>3584ebd9ee26bd5c5ac3075c0161e44f2291f4fd</foaf:mbox_sha1sum>
+    <j.0:givenName>Masashi</j.0:givenName>
+    <j.0:name>Masashi Toyoda</j.0:name>
+    <rdfs:label>Masashi Toyoda</rdfs:label>
+    <foaf:mbox_sha1sum>265ff069df1de1eaf69a39ab4fdc98fa8d8817d4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/masashi-toyoda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-masashi-toyoda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-huji-scott-kirkpatrick">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/scott-kirkpatrick"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/huji"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/roi-blanco">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-unknown-roi-blanco"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-roi-blanco"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Roi Blanco</rdfs:label>
+    <j.0:name>Roi Blanco</j.0:name>
+    <j.0:givenName>Roi</j.0:givenName>
+    <j.0:familyName>Blanco</j.0:familyName>
+    <foaf:mbox_sha1sum>adf69612f64a39dc0fb242f882df9958bf7b45ad</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/roi-blanco"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-harding-university-frank-mccown">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/frank-mccown"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/harding-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-sandeep-pandey">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sandeep-pandey"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-institut-telecom-telecom-paristech-cnrs-ltci-pierre-senellart">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pierre-senellart"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-telecom-telecom-paristech-cnrs-ltci"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/masahiro-inoue">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-masahiro-inoue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Masahiro Inoue</rdfs:label>
+    <j.0:name>Masahiro Inoue</j.0:name>
+    <j.0:givenName>Masahiro</j.0:givenName>
+    <j.0:familyName>Inoue</j.0:familyName>
+    <foaf:mbox_sha1sum>dc597d3f4f091e30fd12c1c840bb9d71476e26fe</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/masahiro-inoue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-washington-eytan-adar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eytan-adar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-washington"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gerhard-weikum">
+    <j.0:givenName>Gerhard</j.0:givenName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-gerhard-weikum"/>
+    <foaf:mbox_sha1sum>f1b5aab0cb717d9e791d598e03d8a1b048bc6cf0</foaf:mbox_sha1sum>
+    <j.0:name>Gerhard Weikum</j.0:name>
+    <rdfs:label>Gerhard Weikum</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-gerhard-weikum"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gerhard-weikum"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-gerhard-weikum"/>
+    <foaf:mbox_sha1sum>01890832a114c2c21ff2218ccf7ba8cf45e23ff8</foaf:mbox_sha1sum>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:familyName>Weikum</j.0:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/internet-memory-foundation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Internet Memory Foundation</rdfs:label>
+    <j.0:name>Internet Memory Foundation</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/internet-memory-foundation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-washington">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Washington</rdfs:label>
+    <j.0:name>University of Washington</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-washington"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jannik-stroetgen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-gertz"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/omar-alonso"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList"/>
+    <rdfs:label>Identification of Top Relevant Temporal Expressions in Documents</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+    <j.0:abstract>Temporal information is very common in textual documents, and thus, identifying, normalizing, and organizing temporal expressions is an important task in IR. Although there are some tools for temporal tagging, there is a lack in research focusing on the relevance of temporal expressions. Besides counting their frequency and verifying whether they satisfy a temporal search query, temporal expressions are often considered in isolation only. There are no methods to calculate the relevance of temporal expressions, neither in general nor with respect to a query. In this paper, we present an approach to identify top relevant temporal expressions in documents using expression-, document-, corpus-, and query-based features. We present two relevance functions: one to calculate relevance scores for temporal expressions in general, and one with respect to a search query, which consists of a textual part, a temporal part, or both. Using two evaluation scenarios, we demonstrate the effectiveness of our approach.</j.0:abstract>
+    <j.0:keyword>relevance scoring</j.0:keyword>
+    <j.0:title>Identification of Top Relevant Temporal Expressions in Documents</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/23"/>
+    <j.0:keyword>temporal information</j.0:keyword>
+    <j.0:keyword>ranking</j.0:keyword>
+    <j.0:keyword>snippets</j.0:keyword>
+    <j.0:keyword>temporal expressions</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-ricardo-baeza-yates">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ricardo-baeza-yates"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35">
+    <j.0:keyword>fresh keywords</j.0:keyword>
+    <j.0:keyword>web personalization</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vassilis-plachouras"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/margarita-karkali"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/35"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michalis-vazirgiannis"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/costas-stefanatos"/>
+    <j.0:title>Keeping Keywords Fresh: A BM25 Variation for Personalized Keyword Extraction</j.0:title>
+    <j.0:keyword>keyword extraction</j.0:keyword>
+    <rdfs:label>Keeping Keywords Fresh: A BM25 Variation for Personalized Keyword Extraction</rdfs:label>
+    <j.0:abstract>Keyword extraction from web pages is essential to various
+text mining tasks including contextual advertising, recom-
+mendation selection, user proling and personalization. For
+example, extracted keywords in contextual advertising are
+used to match advertisements with the web page currently
+browsed by a user. Most of the keyword extraction methods
+mainly rely on the content of a single web page, ignoring the
+browsing history of a user, and hence, potentially leading to
+the same advertisements or recommendations.
+In this work we propose a new feature scoring algorithm
+for web page terms extraction that, assuming a recent brows-
+ing history per user, takes into account the freshness of key-
+words in the current page as means of shifting users interests.
+We propose BM25H, a variant of BM25 scoring function,
+implemented on the client-side, that takes into account the
+user browsing history and suggests keywords relevant to the
+currently browsed page, but also fresh with respect to the
+user's recent browsing history. In this way, for each web page
+we obtain a set of keywords, representing the time shifting
+interests of the user. BM25H avoids repetitions of keywords
+which may be simply domain specic stop-words, or may re-
+sult in matching the same ads or similar recommendations.
+Our experimental results show that BM25H achieves more
+than 70% in precision at 20 extracted keywords (based on
+human blind evaluation) and outperforms our baselines (TF
+and BM25 scoring functions), while it succeeds in keeping
+extracted keywords fresh compared to recent user history.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/computer-and-automation-research-institute-hungarian-academy-of-sciences">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Computer and Automation Research Institute, Hungarian Academy of Sciences</rdfs:label>
+    <j.0:name>Computer and Automation Research Institute, Hungarian Academy of Sciences</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/computer-and-automation-research-institute-hungarian-academy-of-sciences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michael-gertz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vassilis-plachouras"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-andras-a-benczur">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/andras-a-benczur"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-julien-masanes">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/julien-masanes"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pierre-senellart">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-institut-telecom-telecom-paristech-cnrs-ltci-pierre-senellart"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-pierre-senellart"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pierre Senellart</rdfs:label>
+    <j.0:name>Pierre Senellart</j.0:name>
+    <j.0:givenName>Pierre</j.0:givenName>
+    <j.0:familyName>Senellart</j.0:familyName>
+    <foaf:mbox_sha1sum>daf67765e539d7543bc273d5bd3952ac77673a47</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pierre-senellart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vassilis-plachouras">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-presans-vassilis-plachouras"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vassilis Plachouras</rdfs:label>
+    <j.0:name>Vassilis Plachouras</j.0:name>
+    <j.0:givenName>Vassilis</j.0:givenName>
+    <j.0:familyName>Plachouras</j.0:familyName>
+    <foaf:mbox_sha1sum>7d156013fff49596c80090edde790c1f8b5cc039</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vassilis-plachouras"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gael-dias">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-caen-gael-dias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gaël Dias</rdfs:label>
+    <j.0:name>Gaël Dias</j.0:name>
+    <j.0:givenName>Gaël</j.0:givenName>
+    <j.0:familyName>Dias</j.0:familyName>
+    <foaf:mbox_sha1sum>e14275e4e06993bedaee169bf40db81303f01504</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gael-dias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-masashi-toyoda">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/masashi-toyoda"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-gerhard-weikum">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gerhard-weikum"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-roi-blanco">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/roi-blanco"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adam-jatowt">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-adam-jatowt"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-adam-jatowt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adam Jatowt</rdfs:label>
+    <j.0:name>Adam Jatowt</j.0:name>
+    <j.0:givenName>Adam</j.0:givenName>
+    <j.0:familyName>Jatowt</j.0:familyName>
+    <foaf:mbox_sha1sum>f47c4d88e54139b089dce542c6b5e82c90f09b18</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adam-jatowt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/keishi-tajima">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-keishi-tajima"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Keishi Tajima</rdfs:label>
+    <j.0:name>Keishi Tajima</j.0:name>
+    <j.0:givenName>Keishi</j.0:givenName>
+    <j.0:familyName>Tajima</j.0:familyName>
+    <foaf:mbox_sha1sum>22af1e9f6ff5fec189a6b5851d11f89bf0154603</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/keishi-tajima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/harding-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Harding University</rdfs:label>
+    <j.0:name>Harding University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/harding-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-geerajit-rattanaritnont">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/geerajit-rattanaritnont"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kjetil-norvaag">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-ntnu-kjetil-norvaag"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-kjetil-norvaag"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kjetil Nørvåg</rdfs:label>
+    <j.0:name>Kjetil Nørvåg</j.0:name>
+    <j.0:givenName>Kjetil</j.0:givenName>
+    <j.0:familyName>Nørvåg</j.0:familyName>
+    <foaf:mbox_sha1sum>b9e33e35059865067d2ce9e448745575e66ca704</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kjetil-norvaag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-keishi-tajima">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/keishi-tajima"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kyoto-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-marc-spaniol">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marc-spaniol"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-informatics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-kyoto-university-adam-jatowt">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/adam-jatowt"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kyoto-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList"/>
+    <j.0:keyword>Dating Implicit Temporal Queries</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/celia-nunes"/>
+    <j.0:keyword>Temporal Information Retrieval</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gael-dias"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/34"/>
+    <j.0:abstract>Generically, search engines fail to understand the users’ temporal intents, when expressed by means of implicit temporal queries. This causes the retrieval of less relevant information and prevents users to be aware of the possible temporal dimension of the query results. In this paper, we aim to develop a language-independent model that tackles the temporal dimensions of a query and identifies its most relevant time periods. For this purpose, we propose a temporal similarity measure capable of associating relevant date(s) to a given query and filter out irrelevant ones. Our approach is based on the exploitation of temporal information from web content, particularly within the set of k-top retrieved web snippets returned in response to a query. We are particularly focused on extracting year dates, which are a kind of temporal information that often appears in this type of collections. We evaluate our methodology, over a set of real-world text temporal queries, which are clear concepts (i.e. queries which are non-ambiguous in concept and temporal in their  purpose). Experiments show that determining the most relevant dates related to any given implicit temporal query can be improved with a new temporal similarity measure compared to baseline methods.</j.0:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Enriching Temporal Query Understanding through Date Identification: How to Tag Implicit Temporal Queries?</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alipio-jorge"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ricardo-campos"/>
+    <j.0:keyword>Temporal Query Understanding</j.0:keyword>
+    <j.0:title>Enriching Temporal Query Understanding through Date Identification: How to Tag Implicit Temporal Queries?</j.0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-presans-vassilis-plachouras">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vassilis-plachouras"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/presans"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/omar-alonso"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/klaus-berberich">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-klaus-berberich"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-klaus-berberich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Klaus Berberich</rdfs:label>
+    <j.0:name>Klaus Berberich</j.0:name>
+    <j.0:givenName>Klaus</j.0:givenName>
+    <j.0:familyName>Berberich</j.0:familyName>
+    <foaf:mbox_sha1sum>b5e2697f7c9877ed37b9f9b32ed6b08d3a40c4ee</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/klaus-berberich"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/polytechnic-institute-of-tomar">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Polytechnic Institute of Tomar</rdfs:label>
+    <j.0:name>Polytechnic Institute of Tomar</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/polytechnic-institute-of-tomar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/margarita-karkali">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-athens-university-of-economics-and-business-margarita-karkali"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Margarita Karkali</rdfs:label>
+    <j.0:name>Margarita Karkali</j.0:name>
+    <j.0:givenName>Margarita</j.0:givenName>
+    <j.0:familyName>Karkali</j.0:familyName>
+    <foaf:mbox_sha1sum>8e5cc9273b9d7548065ecacd504bdab5f0b15dd4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/margarita-karkali"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-omar-alonso">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/omar-alonso"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/computer-science-dept-u-of-ioannina-greece">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Computer Science Dept., U. of Ioannina, Greece</rdfs:label>
+    <j.0:name>Computer Science Dept., U. of Ioannina, Greece</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/computer-science-dept-u-of-ioannina-greece"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/geerajit-rattanaritnont">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-geerajit-rattanaritnont"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Geerajit Rattanaritnont</rdfs:label>
+    <j.0:name>Geerajit Rattanaritnont</j.0:name>
+    <j.0:givenName>Geerajit</j.0:givenName>
+    <j.0:familyName>Rattanaritnont</j.0:familyName>
+    <foaf:mbox_sha1sum>14f33a9fbfe7f68209c45e06c06993c4f0eaae3b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/geerajit-rattanaritnont"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-kjetil-norvaag">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kjetil-norvaag"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-caen-gael-dias">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gael-dias"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-caen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/keishi-tajima"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-heidelberg-university-michael-gertz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-gertz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/heidelberg-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-polytechnic-institute-of-tomar-ricardo-campos">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ricardo-campos"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/polytechnic-institute-of-tomar"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/department-of-informatics-aueb">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Department of Informatics, AUEB</rdfs:label>
+    <j.0:name>Department of Informatics, AUEB</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/department-of-informatics-aueb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/torsten-suel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-torsten-suel"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-torsten-suel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Torsten Suel</rdfs:label>
+    <j.0:name>Torsten Suel</j.0:name>
+    <j.0:givenName>Torsten</j.0:givenName>
+    <j.0:familyName>Suel</j.0:familyName>
+    <foaf:mbox_sha1sum>8893fbc3deb631ad45a92c950167edee2ef4cb23</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/torsten-suel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/erdal-kuzey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-frank-mccown">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/frank-mccown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/l3s-research-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>L3S Research Center</rdfs:label>
+    <j.0:name>L3S Research Center</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/l3s-research-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ricardo-campos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/presans">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Presans</rdfs:label>
+    <j.0:name>Presans</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/presans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29">
+    <j.0:title>Noise Robust Detection of the Emergence and Spread of Topics on the Web</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList"/>
+    <j.0:abstract>As the same information appears on many Web pages, we often want to know which page is the first one that discussed it, or how the information has spread on the Web as time passes.  In this paper, we develop two methods: a method of detecting the first page that discussed the given information, and a method of generating a graph showing how the number of pages discussing it has changed along the timeline.  To extract such information, we need to determine which pages discuss the given topic, and also need to determine when these pages were created.  For the former step, we design a metric for estimating inclusion degree between information and a page.  For the latter step, we develop a technique of extracting creation timestamps on web pages.  Although timestamp extraction is a crucial component in temporal Web analysis, no research has shown how to do it in detail.  Both steps are, however, still error-prone.  In order to improve noise elimination, we examine not only the properties of each page, but also temporal relationship between pages.  If temporal relationship between some candidate page and other pages are unlikely in typical patterns of information spread on the Web, we eliminate the candidate page as a noise.  Results of our experiments show that our methods achieve high precision and can be used for practical use.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/keishi-tajima"/>
+    <j.0:keyword>timestamp extraction</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+    <rdfs:label>Noise Robust Detection of the Emergence and Spread of Topics on the Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/masahiro-inoue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>information provenance</j.0:keyword>
+    <j.0:keyword>information propagation</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andras-a-benczur">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-computer-and-automation-research-institute-hungarian-academy-of-sciences-andras-a-benczur"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-andras-a-benczur"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andras A. Benczur</rdfs:label>
+    <j.0:name>Andras A. Benczur</j.0:name>
+    <j.0:givenName>Andras</j.0:givenName>
+    <j.0:familyName>Benczur</j.0:familyName>
+    <foaf:mbox_sha1sum>8d0c49540f79c6dc87f92a92741cce31efd166d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andras-a-benczur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/old-dominion-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Old Dominion University</rdfs:label>
+    <j.0:name>Old Dominion University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/old-dominion-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/celia-nunes">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-beira-interior-celia-nunes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Célia Nunes</rdfs:label>
+    <j.0:name>Célia Nunes</j.0:name>
+    <j.0:givenName>Célia</j.0:givenName>
+    <j.0:familyName>Nunes</j.0:familyName>
+    <foaf:mbox_sha1sum>08e9980789d23ef2e75852e56e21e0c2dfc92014</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/celia-nunes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-marc-spaniol">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/marc-spaniol"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-torsten-suel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/torsten-suel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-beira-interior-celia-nunes">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/celia-nunes"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-beira-interior"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/heidelberg-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Heidelberg University</rdfs:label>
+    <j.0:name>Heidelberg University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/heidelberg-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-ricardo-baeza-yates">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ricardo-baeza-yates"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-caen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Caen</rdfs:label>
+    <j.0:name>University of Caen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-caen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-heidelberg-university-jannik-stroetgen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jannik-stroetgen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/heidelberg-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-athens-university-of-economics-and-business-margarita-karkali">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/margarita-karkali"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/athens-university-of-economics-and-business"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/29/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/masahiro-inoue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/geerajit-rattanaritnont"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-nelson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-old-dominion-university-michael-nelson"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-michael-nelson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Nelson</rdfs:label>
+    <j.0:name>Michael Nelson</j.0:name>
+    <j.0:givenName>Michael</j.0:givenName>
+    <j.0:familyName>Nelson</j.0:familyName>
+    <foaf:mbox_sha1sum>c75e522ac3753ebc7e559ba81c645a14dd67ab7d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-nelson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/masaru-kitsuregawa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-masaru-kitsuregawa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Masaru Kitsuregawa</rdfs:label>
+    <j.0:name>Masaru Kitsuregawa</j.0:name>
+    <j.0:givenName>Masaru</j.0:givenName>
+    <j.0:familyName>Kitsuregawa</j.0:familyName>
+    <foaf:mbox_sha1sum>7057ac629724a86d461a9a5df6e734a824bdd760</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/masaru-kitsuregawa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-porto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Porto</rdfs:label>
+    <j.0:name>University of Porto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-porto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-gerhard-weikum">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gerhard-weikum"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-informatics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28">
+    <j.0:keyword>Information diffusion</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/masashi-toyoda"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+    <j.0:abstract>Nowadays people can share useful information on social networking sites such as Facebook and Twitter. The information is spread over the networks when it is forwarded or copied repeatedly from friends to friends. This phenomenon is so called "information cascade", and has been studied long time since it sometimes has an impact on the real world. Various social activities tends to have different ways of cascade on the social networks. Our focus in this study is on characterizing the cascade patterns according to users' influence and posting behaviors in various topics. The cascade patterns could be useful for various organizations to consider the strategy of public relations activities. We explore four measures which are cascade ratio, tweet ratio, time of tweet, and exposure curve. Our results show that hashtags in different topics have different cascade patterns in term of these measures. However, some hashtags even in the same topic have different cascade patterns. We discover that such kind of hidden relationship between topics can be surprisingly revealed by using only our four measures rather than considering tweet contents. Finally, our results also show that cascade ratio and time of tweet are the most effective measures to distinguish cascade patterns in different topics.</j.0:abstract>
+    <j.0:keyword>Microblog</j.0:keyword>
+    <rdfs:label>Analyzing Patterns of Information Cascades based on Users' Influence and Posting Behaviors</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Twitter</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/masaru-kitsuregawa"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/geerajit-rattanaritnont"/>
+    <j.0:keyword>Social network</j.0:keyword>
+    <j.0:keyword>Information cascade</j.0:keyword>
+    <j.0:title>Analyzing Patterns of Information Cascades based on Users' Influence and Posting Behaviors</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-sandeep-pandey">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/sandeep-pandey"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-scott-kirkpatrick">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/scott-kirkpatrick"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-thomas-risse">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/thomas-risse"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/23/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jannik-stroetgen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30">
+    <j.0:title>Extraction of Temporal Facts and Events from Wikipedia</j.0:title>
+    <j.0:keyword>Temporal Knowledge</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/erdal-kuzey"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/paper/30"/>
+    <j.0:keyword>Information Extraction</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/tempweb/2012/proceedings"/>
+    <rdfs:label>Extraction of Temporal Facts and Events from Wikipedia</rdfs:label>
+    <j.0:keyword>Ontologies</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:abstract>Recently, large-scale knowledge bases have been constructed by automatically extracting relational facts from text. Unfortunately, most of the current knowledge  bases focus on static facts and ignore the temporal dimension. However, the vast majority of facts are evolving with time or are valid only during a particular time period. Thus, time is a significant dimension that should be included in knowledge bases.In this paper, we introduce a complete information extraction framework that harvests temporal facts and events from semi-structured data and free text of Wikipedia articles to create a temporal ontology. First, we extend a temporal data representation model by making it aware of events. Second, we develop an information extraction method which harvests temporal facts and events from Wikipedia infoboxes,  categories, lists, and article titles in order to build a temporal knowledge base. Third, we show how the system can use its extracted knowledge for further growing the knowledge base.We demonstrate the effectiveness of our proposed methods through several experiments. We extracted more than one million temporal facts with precision over 90% for extraction from semi-structured data and almost 70% for extraction from text.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gerhard-weikum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alipio-jorge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jannik-stroetgen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-heidelberg-university-jannik-stroetgen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jannik Strötgen</rdfs:label>
+    <j.0:name>Jannik Strötgen</j.0:name>
+    <j.0:givenName>Jannik</j.0:givenName>
+    <j.0:familyName>Strötgen</j.0:familyName>
+    <foaf:mbox_sha1sum>6e338a1272b8afddc9dea242fcd7aa20e0f7d6ad</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jannik-stroetgen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-gerhard-weikum">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gerhard-weikum"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/costas-stefanatos">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-athens-university-of-economics-and-business-costas-stefanatos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Costas Stefanatos</rdfs:label>
+    <j.0:name>Costas Stefanatos</j.0:name>
+    <j.0:givenName>Costas</j.0:givenName>
+    <j.0:familyName>Stefanatos</j.0:familyName>
+    <foaf:mbox_sha1sum>bad83e2376f32e89b9a48bc998c0445af1515ed5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/costas-stefanatos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/unknown">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>(unknown)</rdfs:label>
+    <j.0:name>(unknown)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/unknown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-erdal-kuzey">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/erdal-kuzey"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-unknown-peter-triantafillou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-triantafillou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-srikanta-bedathur">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/srikanta-bedathur"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sandeep-pandey">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-sandeep-pandey"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-sandeep-pandey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sandeep Pandey</rdfs:label>
+    <j.0:name>Sandeep Pandey</j.0:name>
+    <j.0:givenName>Sandeep</j.0:givenName>
+    <j.0:familyName>Pandey</j.0:familyName>
+    <foaf:mbox_sha1sum>3da4a9c36f2d37a0fe17368d696f9fa88c7f89f6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sandeep-pandey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eytan-adar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-washington-eytan-adar"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-eytan-adar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eytan Adar</rdfs:label>
+    <j.0:name>Eytan Adar</j.0:name>
+    <j.0:givenName>Eytan</j.0:givenName>
+    <j.0:familyName>Adar</j.0:familyName>
+    <foaf:mbox_sha1sum>28c4b7d44fc6930ea19504a408ceed7da0632390</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eytan-adar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-internet-memory-foundation-julien-masanes">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/julien-masanes"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/internet-memory-foundation"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/huji">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>HUJI</rdfs:label>
+    <j.0:name>HUJI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/huji"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-risse">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-l3s-research-center-thomas-risse"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-thomas-risse"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Risse</rdfs:label>
+    <j.0:name>Thomas Risse</j.0:name>
+    <j.0:givenName>Thomas</j.0:givenName>
+    <j.0:familyName>Risse</j.0:familyName>
+    <foaf:mbox_sha1sum>3fd21e67e9f9cec78fd1af39382c26b04b24fbb8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-risse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/masashi-toyoda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-imf-philippe-rigaux">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/philippe-rigaux"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/imf"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institut-telecom-telecom-paristech-cnrs-ltci">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institut Télécom; Télécom ParisTech; CNRS LTCI</rdfs:label>
+    <j.0:name>Institut Télécom; Télécom ParisTech; CNRS LTCI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institut-telecom-telecom-paristech-cnrs-ltci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-l3s-research-center-thomas-risse">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-risse"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-klaus-berberich">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/klaus-berberich"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-informatics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alipio-jorge">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-porto-alipio-jorge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alípio Jorge</rdfs:label>
+    <j.0:name>Alípio Jorge</j.0:name>
+    <j.0:givenName>Alípio</j.0:givenName>
+    <j.0:familyName>Jorge</j.0:familyName>
+    <foaf:mbox_sha1sum>4efe88e11c77128256d1260d3fe21f26dfce511b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alipio-jorge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-michalis-vazirgiannis">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michalis-vazirgiannis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philippe-rigaux">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-imf-philippe-rigaux"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-philippe-rigaux"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philippe Rigaux</rdfs:label>
+    <j.0:name>Philippe Rigaux</j.0:name>
+    <j.0:givenName>Philippe</j.0:givenName>
+    <j.0:familyName>Rigaux</j.0:familyName>
+    <foaf:mbox_sha1sum>b4fc65cb26d506f9d58dd8eaeb1462391ae198f6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philippe-rigaux"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-peter-triantafillou">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/peter-triantafillou"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gael-dias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/max-planck-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Max Planck Institute</rdfs:label>
+    <j.0:name>Max Planck Institute</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/max-planck-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/srikanta-bedathur">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-srikanta-bedathur"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-srikanta-bedathur"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Srikanta Bedathur</rdfs:label>
+    <j.0:name>Srikanta Bedathur</j.0:name>
+    <j.0:givenName>Srikanta</j.0:givenName>
+    <j.0:familyName>Bedathur</j.0:familyName>
+    <foaf:mbox_sha1sum>377b45dc52cd85619d125595a7bc74b460c875cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/srikanta-bedathur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/omar-alonso">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-microsoft-omar-alonso"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-omar-alonso"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Omar Alonso</rdfs:label>
+    <j.0:name>Omar Alonso</j.0:name>
+    <j.0:givenName>Omar</j.0:givenName>
+    <j.0:familyName>Alonso</j.0:familyName>
+    <foaf:mbox_sha1sum>a2e4b0a7b4e4b49d933ab5c2857cce5bfdd47b24</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/omar-alonso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-unknown-roi-blanco">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/roi-blanco"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-porto-alipio-jorge">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alipio-jorge"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-pierre-senellart">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/pierre-senellart"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/arnd-christian-koenig">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-microsoft-research-arnd-christian-koenig"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-arnd-christian-koenig"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Arnd Christian König</rdfs:label>
+    <j.0:name>Arnd Christian König</j.0:name>
+    <j.0:givenName>Arnd</j.0:givenName>
+    <j.0:familyName>König</j.0:familyName>
+    <foaf:mbox_sha1sum>061bb173075bc5560ab3e057875aef01483c78f9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/arnd-christian-koenig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/microsoft-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Microsoft Research</rdfs:label>
+    <j.0:name>Microsoft Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/microsoft-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-department-of-informatics-aueb-michalis-vazirgiannis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michalis-vazirgiannis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/department-of-informatics-aueb"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/28/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/masaru-kitsuregawa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gerhard-weikum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michalis-vazirgiannis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-department-of-informatics-aueb-michalis-vazirgiannis"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-michalis-vazirgiannis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michalis Vazirgiannis</rdfs:label>
+    <j.0:name>Michalis Vazirgiannis</j.0:name>
+    <j.0:givenName>Michalis</j.0:givenName>
+    <j.0:familyName>Vazirgiannis</j.0:familyName>
+    <foaf:mbox_sha1sum>600f85df806e1a898f5fcc4fd3b776f8365992ea</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michalis-vazirgiannis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/yahoo-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Yahoo! Research</rdfs:label>
+    <j.0:name>Yahoo! Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/yahoo-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-srikanta-bedathur">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/srikanta-bedathur"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-informatics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/30/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-klaus-berberich">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/klaus-berberich"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-eytan-adar">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eytan-adar"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/costas-stefanatos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/julien-masanes">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-internet-memory-foundation-julien-masanes"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-julien-masanes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Julien Masanes</rdfs:label>
+    <j.0:name>Julien Masanes</j.0:name>
+    <j.0:givenName>Julien</j.0:givenName>
+    <j.0:familyName>Masanes</j.0:familyName>
+    <foaf:mbox_sha1sum>9689e0eaafffdb998d6ec951ee72d3a986be5c4e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/julien-masanes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-university-of-tokyo-masaru-kitsuregawa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/masaru-kitsuregawa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-arnd-christian-koenig">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/arnd-christian-koenig"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ntnu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Norwegian University of Science and Technology</rdfs:label>
+    <j.0:name>Norwegian University of Science and Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ntnu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-philippe-rigaux">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/philippe-rigaux"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ricardo-baeza-yates">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-yahoo-research-ricardo-baeza-yates"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-ricardo-baeza-yates"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ricardo Baeza-Yates</rdfs:label>
+    <j.0:name>Ricardo Baeza-Yates</j.0:name>
+    <j.0:givenName>Ricardo</j.0:givenName>
+    <j.0:familyName>Baeza-Yates</j.0:familyName>
+    <foaf:mbox_sha1sum>21e323f1da1813fd1703d3a824675d5e63465b70</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ricardo-baeza-yates"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-microsoft-research-arnd-christian-koenig">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/arnd-christian-koenig"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marc-spaniol">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-max-planck-institute-for-informatics-marc-spaniol"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-chair-marc-spaniol"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marc Spaniol</rdfs:label>
+    <j.0:name>Marc Spaniol</j.0:name>
+    <j.0:givenName>Marc</j.0:givenName>
+    <j.0:familyName>Spaniol</j.0:familyName>
+    <foaf:mbox_sha1sum>bf2659d691b3876f65ddbefb84d2019bb8b52ea8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marc-spaniol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/tempweb2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about tempweb2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:39 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/tempweb/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-gertz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-heidelberg-university-michael-gertz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Gertz</rdfs:label>
+    <j.0:name>Michael Gertz</j.0:name>
+    <j.0:givenName>Michael</j.0:givenName>
+    <j.0:familyName>Gertz</j.0:familyName>
+    <foaf:mbox_sha1sum>1224c35410cd261fb99cb125d9351e8df476781e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-gertz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-michael-nelson">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michael-nelson"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-adam-jatowt">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/adam-jatowt"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/35/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/michalis-vazirgiannis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-computer-science-dept-u-of-ioannina-greece-nikos-ntarmos">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nikos-ntarmos"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/computer-science-dept-u-of-ioannina-greece"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-masashi-toyoda">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/masashi-toyoda"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/tempweb2012/data.semanticweb.org/workshop/tempweb/2012/paper/34/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/celia-nunes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-athens-university-of-economics-and-business-costas-stefanatos">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/costas-stefanatos"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/athens-university-of-economics-and-business"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-triantafillou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-unknown-peter-triantafillou"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-peter-triantafillou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Triantafillou</rdfs:label>
+    <j.0:name>Peter Triantafillou</j.0:name>
+    <j.0:givenName>Peter</j.0:givenName>
+    <j.0:familyName>Triantafillou</j.0:familyName>
+    <foaf:mbox_sha1sum>da61513d39abe2e5c06cca5975f9728b5ca086b8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-triantafillou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-tokyo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Tokyo</rdfs:label>
+    <j.0:name>University of Tokyo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-tokyo"/>
+    <j.0:name>The University of Tokyo</j.0:name>
+    <rdfs:label>The University of Tokyo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/max-planck-institute-for-informatics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Max-Planck-Institut für Informatik</rdfs:label>
+    <j.0:name>Max-Planck-Institut für Informatik</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/max-planck-institute-for-informatics"/>
+    <j.0:name>Max-Planck Institute for Informatics</j.0:name>
+    <rdfs:label>Max-Planck Institute for Informatics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-torsten-suel">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/torsten-suel"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/tempweb2012/tempweb/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-microsoft-omar-alonso">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/omar-alonso"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/microsoft"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/microsoft">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Microsoft</rdfs:label>
+    <j.0:name>Microsoft</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/microsoft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-ntnu-kjetil-norvaag">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kjetil-norvaag"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ntnu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-old-dominion-university-michael-nelson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-nelson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/old-dominion-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/TempWeb 2012/tempweb/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-beira-interior">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Beira Interior</rdfs:label>
+    <j.0:name>University of Beira Interior</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-beira-interior"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nikos-ntarmos">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/tempweb2012-computer-science-dept-u-of-ioannina-greece-nikos-ntarmos"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/tempweb2012-programme-committee-member-nikos-ntarmos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nikos Ntarmos</rdfs:label>
+    <j.0:name>Nikos Ntarmos</j.0:name>
+    <j.0:givenName>Nikos</j.0:givenName>
+    <j.0:familyName>Ntarmos</j.0:familyName>
+    <foaf:mbox_sha1sum>4b634405a2e60a8d294f9cd2db6815e529e5f9e0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nikos-ntarmos"/>
+  </rdf:Description>
+</rdf:RDF>

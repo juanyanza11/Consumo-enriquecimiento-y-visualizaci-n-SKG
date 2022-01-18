@@ -1,0 +1,828 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paul-kalmar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-jan-pomikalek">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jan-pomikalek"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefan-evert">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-osnabrueck-stefan-evert"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-stefan-evert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefan Evert</rdfs:label>
+    <j.0:name>Stefan Evert</j.0:name>
+    <j.0:givenName>Stefan</j.0:givenName>
+    <j.0:familyName>Evert</j.0:familyName>
+    <foaf:mbox_sha1sum>17610849081978e5c1d2bd2af223e0bd6b21142a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefan-evert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-niekrasz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-john-niekrasz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Niekrasz</rdfs:label>
+    <j.0:name>John Niekrasz</j.0:name>
+    <j.0:givenName>John</j.0:givenName>
+    <j.0:familyName>Niekrasz</j.0:familyName>
+    <foaf:mbox_sha1sum>3cc042a636032d0c4c9f86a584037f308cf1fff3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-niekrasz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tobias-roth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tulay-muezzinoglu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-tulay-muezzinoglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tulay Muezzinoglu</rdfs:label>
+    <j.0:name>Tulay Muezzinoglu</j.0:name>
+    <j.0:givenName>Tulay</j.0:givenName>
+    <j.0:familyName>Muezzinoglu</j.0:familyName>
+    <foaf:mbox_sha1sum>9064fed51866f25fe08cd6b64c5ee8d21a80fe28</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tulay-muezzinoglu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ghent-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ghent University</rdfs:label>
+    <j.0:name>Ghent University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ghent-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marco-brunello">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-leeds-marco-brunello"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marco Brunello</rdfs:label>
+    <j.0:name>Marco Brunello</j.0:name>
+    <j.0:givenName>Marco</j.0:givenName>
+    <j.0:familyName>Brunello</j.0:familyName>
+    <foaf:mbox_sha1sum>24bd005d47da196b630bbc7da9954b398dbf9de6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marco-brunello"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-gilles-maurice-de-schryver">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gilles-maurice-de-schryver"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Understanding the composition of parallel corpora from the web</rdfs:label>
+    <j.0:abstract>Although it is fundamental to have a good fit between the text typology of training data and to-be-translated data in machine translation, there is a lack of studies on analysing parallel data under this point of view. This paper describes some studies made with the aim of understanding the composition of parallel corpora, in particular by using topic modeling.</j.0:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/3"/>
+    <j.0:keyword>machine translation</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+    <j.0:keyword>web as corpus</j.0:keyword>
+    <j.0:keyword>parallel corpora</j.0:keyword>
+    <j.0:keyword>topic modeling</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList"/>
+    <j.0:title>Understanding the composition of parallel corpora from the web</j.0:title>
+    <j.0:keyword>camera-ready version</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marco-brunello"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList"/>
+    <j.0:keyword>evaluation</j.0:keyword>
+    <rdfs:label>Not Just Bigger: Towards Better-Quality Web Corpora</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yannick-versley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/2"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yana-panchenko"/>
+    <j.0:title>Not Just Bigger: Towards Better-Quality Web Corpora</j.0:title>
+    <j.0:keyword>corpus building</j.0:keyword>
+    <j.0:keyword>boilerplate removal</j.0:keyword>
+    <j.0:abstract>For the acquisition of common-sense knowledge as well as as a way to
+answer linguistic questions regarding actual language usage, the breadth
+and depth of the World Wide Web has been welcomed to supplement large
+text corpora (usually from newspapers) as a useful resource.
+
+Previous research using Web corpora for either knowledge acquisition or information extraction
+has sometimes shown them to be less useful than newspaper or
+newswire corpora. More than a-priori criticism from corpus linguists on
+the difficulty of assuring balanced text composition and/or text quality does,
+these empirical results underline the importance of assessing and improving
+the quality of Web corpora to ensure their usefulness in real-world tasks.
+
+In this paper, we present our own pipeline for Web corpora, which includes
+improvements regarding content-sensitive boilerplate detection as well as
+language filtering for mixed-language documents, and provide a task-based
+evaluation of the combination of corpora and (non-linguistic and linguistic)
+preprocessing between more standard types of large corpora (newspaper and Wikipedia)
+and different Web corpora.
+
+While our current results are focused on German-language Web corpora,
+both the content-sensitive boilerplate detection and our method of
+evaluation by constructing an artificial thesaurus from a wordnet
+are applicable to many other languages.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-stefan-evert">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/stefan-evert"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-osnabrueck-stefan-evert">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefan-evert"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-osnabrueck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yannick-versley">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-univ-tuebingen-yannick-versley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yannick Versley</rdfs:label>
+    <j.0:name>Yannick Versley</j.0:name>
+    <j.0:givenName>Yannick</j.0:givenName>
+    <j.0:familyName>Versley</j.0:familyName>
+    <foaf:mbox_sha1sum>335bc318ace254ac1505e47476e8565647775188</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yannick-versley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-ian-auty">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ian-auty"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lancaster-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-cedrick-fairon">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/cedrick-fairon"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/william-fletcher">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-u-s-naval-academy-william-fletcher"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-william-fletcher"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>William Fletcher</rdfs:label>
+    <j.0:name>William Fletcher</j.0:name>
+    <j.0:givenName>William</j.0:givenName>
+    <j.0:familyName>Fletcher</j.0:familyName>
+    <foaf:mbox_sha1sum>7f597cc460bf7470144cee3e8cce3d7aa5e7c546</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/william-fletcher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vit-suchomel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-masaryk-university-brno-czech-republic-vit-suchomel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vít Suchomel</rdfs:label>
+    <j.0:name>Vít Suchomel</j.0:name>
+    <j.0:givenName>Vít</j.0:givenName>
+    <j.0:familyName>Suchomel</j.0:familyName>
+    <foaf:mbox_sha1sum>8b244a797023364880eedb6c6fb7bf7dc5e25ba5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vit-suchomel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-uoleeds-serge-sharoff">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/serge-sharoff"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/uoleeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-u-s-naval-academy-william-fletcher">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/william-fletcher"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/u-s-naval-academy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/faculty-of-informatics-masaryk-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Faculty of Informatics, Masaryk University</rdfs:label>
+    <j.0:name>Faculty of Informatics, Masaryk University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/faculty-of-informatics-masaryk-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tulay-muezzinoglu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-william-fletcher">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/william-fletcher"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/u-s-naval-academy">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>U. S. Naval Academy</rdfs:label>
+    <j.0:name>U. S. Naval Academy</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/u-s-naval-academy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lexical-computing-ltd-adam-kilgarriff">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/adam-kilgarriff"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lexical-computing-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/4"/>
+    <j.0:keyword>web crawling</j.0:keyword>
+    <j.0:keyword>corpus</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vit-suchomel"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+    <rdfs:label>Efficient Web Crawling for Large Text Corpora</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>text corpus</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList"/>
+    <j.0:title>Efficient Web Crawling for Large Text Corpora</j.0:title>
+    <j.0:keyword>crawler</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jan-pomikalek"/>
+    <j.0:keyword>web corpus</j.0:keyword>
+    <j.0:abstract>Many researchers use texts from the web, an easy source of linguistic data in a great variety of languages. Building both large and good quality text corpora is the challenge
+we face nowadays. In this paper we describe how to deal with ineﬃcient data downloading and how to focus crawling on text rich web domains. The idea has been successfully
+implemented in SpiderLing. We present eﬃciency ﬁgures from crawling texts in American Spanish, Czech, Japanese, Russian, Tajik Persian, Turkish and the sizes of the resulting corpora.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lancaster-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Lancaster University</rdfs:label>
+    <j.0:name>Lancaster University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lancaster-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-basel">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Basel</rdfs:label>
+    <j.0:name>University of Basel</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-basel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-leeds-marco-brunello">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marco-brunello"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/serge-sharoff">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-uoleeds-serge-sharoff"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-serge-sharoff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Serge Sharoff</rdfs:label>
+    <j.0:name>Serge Sharoff</j.0:name>
+    <j.0:givenName>Serge</j.0:givenName>
+    <j.0:familyName>Sharoff</j.0:familyName>
+    <foaf:mbox_sha1sum>abadf528a60532a2977d6b242b53ad48e981080b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/serge-sharoff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ed-chow">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-ed-chow"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ed Chow</rdfs:label>
+    <j.0:name>Ed Chow</j.0:name>
+    <j.0:givenName>Ed</j.0:givenName>
+    <j.0:familyName>Chow</j.0:familyName>
+    <foaf:mbox_sha1sum>f326262a182537fb0274026ea82c74814c94a44a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ed-chow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-bologna-at-forli-silvia-bernardini">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/silvia-bernardini"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bologna-at-forli"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-niekrasz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-silvia-bernardini">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/silvia-bernardini"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/uoleeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UoLeeds</rdfs:label>
+    <j.0:name>UoLeeds</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/uoleeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/wac7">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about wac7.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:52 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gregory-grefenstette">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-exalead-gregory-grefenstette"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-gregory-grefenstette"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gregory Grefenstette</rdfs:label>
+    <j.0:name>Gregory Grefenstette</j.0:name>
+    <j.0:givenName>Gregory</j.0:givenName>
+    <j.0:familyName>Grefenstette</j.0:familyName>
+    <foaf:mbox_sha1sum>a138fbddc686da69b2f9921ced5ff3f1914b775f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gregory-grefenstette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/cedrick-fairon">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-universite-catholique-de-louvain-cedrick-fairon"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-cedrick-fairon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Cédrick Fairon</rdfs:label>
+    <j.0:name>Cédrick Fairon</j.0:name>
+    <j.0:givenName>Cédrick</j.0:givenName>
+    <j.0:familyName>Fairon</j.0:familyName>
+    <foaf:mbox_sha1sum>1a05dc7cb36b3c121894a00f1ee139287ea9e72e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/cedrick-fairon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-paul-kalmar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-kalmar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-rayson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-paul-rayson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Rayson</rdfs:label>
+    <j.0:name>Paul Rayson</j.0:name>
+    <j.0:givenName>Paul</j.0:givenName>
+    <j.0:familyName>Rayson</j.0:familyName>
+    <foaf:mbox_sha1sum>5d9707eeedbf17af50f96b2c0a3fa96c94b8dee6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-rayson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-dayne-freitag">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dayne-freitag"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-adam-kilgarriff">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/adam-kilgarriff"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-faculty-of-informatics-masaryk-university-jan-pomikalek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jan-pomikalek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/faculty-of-informatics-masaryk-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sri-international">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SRI International</rdfs:label>
+    <j.0:name>SRI International</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sri-international"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-univ-tuebingen-yana-panchenko">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yana-panchenko"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/univ-tuebingen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universite-catholique-de-louvain">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Université Catholique de Louvain</rdfs:label>
+    <j.0:name>Université Catholique de Louvain</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universite-catholique-de-louvain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-paul-rayson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-rayson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lancaster-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jan-pomikalek">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-faculty-of-informatics-masaryk-university-jan-pomikalek"/>
+    <foaf:mbox_sha1sum>400ae228402c6a6cce7b7bfb24bbac6bf8719d87</foaf:mbox_sha1sum>
+    <j.0:name>Jan Pomikálek</j.0:name>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <rdfs:label>Jan Pomikalek</rdfs:label>
+    <rdfs:label>Jan Pomikálek</rdfs:label>
+    <j.0:givenName>Jan</j.0:givenName>
+    <j.0:familyName>Pomikálek</j.0:familyName>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lexical-computing-ltd-jan-pomikalek"/>
+    <j.0:familyName>Pomikalek</j.0:familyName>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-jan-pomikalek"/>
+    <j.0:name>Jan Pomikalek</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jan-pomikalek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paul-rayson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-gregory-grefenstette">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/gregory-grefenstette"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/univ-tuebingen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Univ. Tübingen</rdfs:label>
+    <j.0:name>Univ. Tübingen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/univ-tuebingen"/>
+    <j.0:name>Univ. Tuebingen</j.0:name>
+    <rdfs:label>Univ. Tuebingen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7">
+    <j.0:keyword>frequency</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/7"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paul-rayson"/>
+    <j.0:keyword>search engines</j.0:keyword>
+    <rdfs:label>Can Google count? Estimating search engine result consistency</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ian-auty"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>Can Google count? Estimating search engine result consistency</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+    <j.0:keyword>Web as corpus</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/oliver-charles"/>
+    <j.0:abstract>In the last ten years, corpus and computational linguists have begun to source language samples from the Web. A standard pipeline has emerged for compilation of the ‘web as corpus’ including crawling, filtering, de-duplication, tokenising, indexing etc. However, there are certain areas where building a large enough corpus even from the web is not feasible, and it is tempting to use result counts derived from search engines to overcome the sparse data problem. In this paper we explore the stability of these search engine result counts for both multiword expressions and single words. Commercial search engines employ a range of techniques to estimate the counts, and thus it is important that researchers understand the implications and how to minimize this instability. Through a variety of different experiments and analysis, we investigate exactly how this stability manifests itself, and conclude with a set of guidelines on how future projects can ensure they are using accurate frequency data from search engines. Search engine result reliability will also have impact on corpora sourced from the web using the web as corpus paradigm.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/silvia-bernardini">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-bologna-at-forli-silvia-bernardini"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-silvia-bernardini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Silvia Bernardini</rdfs:label>
+    <j.0:name>Silvia Bernardini</j.0:name>
+    <j.0:givenName>Silvia</j.0:givenName>
+    <j.0:familyName>Bernardini</j.0:familyName>
+    <foaf:mbox_sha1sum>97814edf14da37603466a337dbb6a0386befbe36</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/silvia-bernardini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marco-brunello"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-universite-catholique-de-louvain-cedrick-fairon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/cedrick-fairon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universite-catholique-de-louvain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oliver-charles">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-oliver-charles"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oliver Charles</rdfs:label>
+    <j.0:name>Oliver Charles</j.0:name>
+    <j.0:givenName>Oliver</j.0:givenName>
+    <j.0:familyName>Charles</j.0:familyName>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oliver-charles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bologna-at-forli">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Bologna at Forli</rdfs:label>
+    <j.0:name>University of Bologna at Forli</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bologna-at-forli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-oliver-charles">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oliver-charles"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lancaster-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-univ-tuebingen-yannick-versley">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yannick-versley"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/univ-tuebingen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-masaryk-university-brno-czech-republic-vit-suchomel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vit-suchomel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/masaryk-university-brno-czech-republic"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-exalead-gregory-grefenstette">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gregory-grefenstette"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/exalead"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lexical-computing-ltd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Lexical Computing Ltd.</rdfs:label>
+    <j.0:name>Lexical Computing Ltd.</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lexical-computing-ltd"/>
+    <j.0:name>Lexical Computing Ltd</j.0:name>
+    <rdfs:label>Lexical Computing Ltd</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-john-niekrasz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-niekrasz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/masaryk-university-brno-czech-republic">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Masaryk University, Brno, Czech Republic</rdfs:label>
+    <j.0:name>Masaryk University, Brno, Czech Republic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/masaryk-university-brno-czech-republic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-ed-chow">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ed-chow"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ed-chow"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ian-auty"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-kalmar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-paul-kalmar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Kalmar</rdfs:label>
+    <j.0:name>Paul Kalmar</j.0:name>
+    <j.0:givenName>Paul</j.0:givenName>
+    <j.0:familyName>Kalmar</j.0:familyName>
+    <foaf:mbox_sha1sum>b1c7750da4fb36a16bca2c639c45937cce40d860</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-kalmar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adam-kilgarriff">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lexical-computing-ltd-adam-kilgarriff"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-adam-kilgarriff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adam Kilgarriff</rdfs:label>
+    <j.0:name>Adam Kilgarriff</j.0:name>
+    <j.0:givenName>Adam</j.0:givenName>
+    <j.0:familyName>Kilgarriff</j.0:familyName>
+    <foaf:mbox_sha1sum>f1b02c47905dfedaadcaf09c628256f4a24971d7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adam-kilgarriff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>collocations</j.0:keyword>
+    <j.0:keyword>German language</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/5"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+    <j.0:keyword>corpus linguistics</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/5/authorList"/>
+    <j.0:keyword>regional variation</j.0:keyword>
+    <j.0:abstract>The Standard German collocation "berührende Worte" (touching words) is only used in Austria. Yet, it consists of exclusively Common German component words. It is the combination that makes it a regional variant - one on a purely collocational level.
+
+One of the goals in our German collocations dictionary project is to describe regional variation in the collocations collected. The main tool for this is a web corpus divided into three subcorpora. Each of them contains web pages from a different country code top-level domain (Austria, Germany and Switzerland). 
+
+Our method of variation recognition using a web corpus is compared to previously used resources. Advantages, disadvantages and results of the web-corpus approach are discussed. Given that the extent of regional variation in German collocations and its structuring into collocational, lexical and syntactical variation has been unknown, we present first estimates in that respect.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tobias-roth"/>
+    <j.0:title>Using Web Corpora for the Recognition of Regional Variation in Standard German Collocations</j.0:title>
+    <rdfs:label>Using Web Corpora for the Recognition of Regional Variation in Standard German Collocations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-basel-tobias-roth">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tobias-roth"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-basel"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yannick-versley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-leeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Leeds</rdfs:label>
+    <j.0:name>University of Leeds</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vit-suchomel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ian-auty">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lancaster-university-ian-auty"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ian Auty</rdfs:label>
+    <j.0:name>Ian Auty</j.0:name>
+    <j.0:givenName>Ian</j.0:givenName>
+    <j.0:familyName>Auty</j.0:familyName>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ian-auty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dayne-freitag">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-dayne-freitag"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dayne Freitag</rdfs:label>
+    <j.0:name>Dayne Freitag</j.0:name>
+    <j.0:givenName>Dayne</j.0:givenName>
+    <j.0:familyName>Freitag</j.0:familyName>
+    <foaf:mbox_sha1sum>4803a2221bc79898cf52fd6dc7ef436b0048024d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dayne-freitag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/7/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/oliver-charles"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/exalead">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Exalead</rdfs:label>
+    <j.0:name>Exalead</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/exalead"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-lexical-computing-ltd-jan-pomikalek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jan-pomikalek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lexical-computing-ltd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dayne-freitag"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jan-pomikalek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dayne-freitag"/>
+    <j.0:keyword>information diffusion</j.0:keyword>
+    <j.0:keyword>social media</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ed-chow"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wac7/2012/paper/6"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wac7/2012/proceedings"/>
+    <j.0:title>A corpus of online discussions for research into linguistic memes</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tulay-muezzinoglu"/>
+    <j.0:keyword>memes</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/6/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paul-kalmar"/>
+    <j.0:abstract>We describe a 460-million word corpus of online discussions. The data
+are collected from public news websites and community-of-interest
+Internet forums, and are designed to support research on the
+propagation of socially relevant ideas, a.k.a., "memes." A structural
+and statistical description of the corpus is given, and the employed
+methods of website monitoring, collection, and extraction are
+described. We also present preliminary linguistic research on the
+corpus. We show that the corpus represents language from a wide
+variety of social and psychological communities, that discussion
+structure and popularity can be predicted in large part from lexical
+analysis, and that standard epidemiological models provide good fit
+for diachronic patterns of population-level lexical adoption.</j.0:abstract>
+    <rdfs:label>A corpus of online discussions for research into linguistic memes</rdfs:label>
+    <j.0:keyword>socio-linguistics</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-niekrasz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wac7-programme-chair-serge-sharoff">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/serge-sharoff"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wac7/wac7/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-ghent-university-gilles-maurice-de-schryver">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gilles-maurice-de-schryver"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ghent-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gilles-maurice-de-schryver">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-ghent-university-gilles-maurice-de-schryver"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wac7-programme-committee-member-gilles-maurice-de-schryver"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gilles-Maurice De Schryver</rdfs:label>
+    <j.0:name>Gilles-Maurice De Schryver</j.0:name>
+    <j.0:givenName>Gilles-Maurice</j.0:givenName>
+    <j.0:familyName>De Schryver</j.0:familyName>
+    <foaf:mbox_sha1sum>cc3ff67f752bfb53c6522d81038793647095e76a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gilles-maurice-de-schryver"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yana-panchenko">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-univ-tuebingen-yana-panchenko"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yana Panchenko</rdfs:label>
+    <j.0:name>Yana Panchenko</j.0:name>
+    <j.0:givenName>Yana</j.0:givenName>
+    <j.0:familyName>Panchenko</j.0:familyName>
+    <foaf:mbox_sha1sum>e27a0f8d8f25533c65a853ee31f8d8aaf0002185</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yana-panchenko"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wac7-sri-international-tulay-muezzinoglu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tulay-muezzinoglu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WAC7/wac7/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wac7/data.semanticweb.org/workshop/wac7/2012/paper/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yana-panchenko"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tobias-roth">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wac7-university-of-basel-tobias-roth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tobias Roth</rdfs:label>
+    <j.0:name>Tobias Roth</j.0:name>
+    <j.0:givenName>Tobias</j.0:givenName>
+    <j.0:familyName>Roth</j.0:familyName>
+    <foaf:mbox_sha1sum>964c167c12741700c1090eae7c26180daf9f69e9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tobias-roth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-osnabrueck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Osnabrück</rdfs:label>
+    <j.0:name>University of Osnabrück</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-osnabrueck"/>
+  </rdf:Description>
+</rdf:RDF>

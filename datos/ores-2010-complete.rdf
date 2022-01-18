@@ -1,0 +1,1418 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kalle-tomingas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kalle Tomingas</rdfs:label>
+    <cofunc:name>Kalle Tomingas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kalle-tomingas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renars-liepins">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renārs Liepiņš</rdfs:label>
+    <cofunc:name>Renārs Liepiņš</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renars-liepins"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-luts"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-stanford-university-mark-a-musen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mark-a-musen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/najla-sassi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Najla Sassi</rdfs:label>
+    <cofunc:name>Najla Sassi</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/najla-sassi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:abstract></cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mikko-salonoja"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/3"/>
+    <rdfs:label>Linked Open Ontology Services</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList"/>
+    <cofunc:title>Linked Open Ontology Services</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University</rdfs:label>
+    <cofunc:name>Stanford University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eero-hyvoenen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-aalto-university-fi-eero-hyvoenen"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-helsinki-eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eero Hyvönen</rdfs:label>
+    <cofunc:name>Eero Hyvönen</cofunc:name>
+    <foaf:mbox_sha1sum>2516dd9c72bc37b375b21b6a790160168634d50e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philippe-martin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philippe Martin</rdfs:label>
+    <cofunc:name>Philippe Martin</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philippe-martin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-muenster">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universität Münster</rdfs:label>
+    <cofunc:name>Universität Münster</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-muenster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-domingue">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Domingue</rdfs:label>
+    <cofunc:name>John Domingue</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-domingue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/karlis-cerans"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dave-lambert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simone-braun">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Simone Braun</rdfs:label>
+    <cofunc:name>Simone Braun</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/simone-braun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/larissa-freitas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Larissa Freitas</rdfs:label>
+    <cofunc:name>Larissa Freitas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/larissa-freitas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mark-a-musen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-stanford-university-mark-a-musen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mark Musen</rdfs:label>
+    <cofunc:name>Mark Musen</cofunc:name>
+    <foaf:mbox_sha1sum>60602b405f9d456ffc0e30d22d535100159b7874</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-alexander-garcia-castro">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/alexander-garcia-castro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ores2010/ores/2010"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/organising-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/arturs-sprogis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Artūrs Sproģis</rdfs:label>
+    <cofunc:name>Artūrs Sproģis</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/arturs-sprogis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fluid-operations">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Fluid Operations</rdfs:label>
+    <cofunc:name>Fluid Operations</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fluid-operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-kmi-the-open-university-uk-mathieu-daquin"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu d'Aquin</rdfs:label>
+    <cofunc:name>Mathieu d'Aquin</cofunc:name>
+    <foaf:mbox_sha1sum>e61cc68181adeb9fbbddc539a6fa01dd24b299c8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <rdfs:label>A User Interface for Ontology Repositories</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList"/>
+    <cofunc:abstract></cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>A User Interface for Ontology Repositories</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mikko-salonoja"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dionysia-kontotasiou">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dionysia Kontotasiou</rdfs:label>
+    <cofunc:name>Dionysia Kontotasiou</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dionysia-kontotasiou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/janis-barzdins">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jānis Bārzdiņš</rdfs:label>
+    <cofunc:name>Jānis Bārzdiņš</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/janis-barzdins"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/renke-fahl-spiewack"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-aalto-university-fi-eero-hyvoenen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aalto-university-fi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/renars-liepins"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maria-maleshkova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Johannes Kepler University Linz</rdfs:label>
+    <cofunc:name>Johannes Kepler University Linz</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/johannes-kepler-university-linz-austria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giuseppe-nicosia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giuseppe Nicosia</rdfs:label>
+    <cofunc:name>Giuseppe Nicosia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giuseppe-nicosia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/leo-obrst">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-the-mitre-corporation-leo-obrst"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Leo J. Obrst</rdfs:label>
+    <cofunc:name>Leo J. Obrst</cofunc:name>
+    <foaf:mbox_sha1sum>206849f07b39136bc7948f40da94c22ddb105c67</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/leo-obrst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/poznan-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Poznań University</rdfs:label>
+    <cofunc:name>Poznań University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/poznan-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>SOBOLEO – A Repository for Living Ontologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <cofunc:title>SOBOLEO – A Repository for Living Ontologies</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/1"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-kim-viljanen">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ores2010/ores/2010"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/organising-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Rensselaer Polytechnic Institute</rdfs:label>
+    <cofunc:name>Rensselaer Polytechnic Institute</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/rensselaer-polytechnic-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renke-fahl-spiewack">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renke Fahl-Spiewack</rdfs:label>
+    <cofunc:name>Renke Fahl-Spiewack</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renke-fahl-spiewack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-fluid-operations-peter-haase">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-haase"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fluid-operations"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aalto-university-fi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aalto University</rdfs:label>
+    <cofunc:name>Aalto University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aalto-university-fi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-luts"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dong-liu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-helsinki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Helsinki</rdfs:label>
+    <cofunc:name>University of Helsinki</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-helsinki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/janis-barzdins"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/beracah-yankama">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Beracah Yankama</rdfs:label>
+    <cofunc:name>Beracah Yankama</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/beracah-yankama"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/patrick-maue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kalle-tomingas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jussi-kurki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jussi Kurki</rdfs:label>
+    <cofunc:name>Jussi Kurki</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jussi-kurki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/guntis-barzdins">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Guntis Bārzdiņš</rdfs:label>
+    <cofunc:name>Guntis Bārzdiņš</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/guntis-barzdins"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Collaborative Metadata Editor Integrated with Ontology Services and Faceted Portals</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:title>Collaborative Metadata Editor Integrated with Ontology Services and Faceted Portals</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/2"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jussi-kurki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vyacheslav-zholudev"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/klaus-reichling"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martins-zviedris"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dionisis-kehagias">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dionisis Kehagias</rdfs:label>
+    <cofunc:name>Dionisis Kehagias</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dionisis-kehagias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-lange">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-jacobs-university-bremen-christoph-lange"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-christoph-lange"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Lange</rdfs:label>
+    <cofunc:name>Christoph Lange</cofunc:name>
+    <foaf:mbox_sha1sum>9590b8b4c24d188c0aa801b9dcd449879bbb8c98</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-lange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/guntis-barzdins"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/karlis-cerans">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kārlis Čerāns</rdfs:label>
+    <cofunc:name>Kārlis Čerāns</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/karlis-cerans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vyacheslav-zholudev">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vyacheslav Zholudev</rdfs:label>
+    <cofunc:name>Vyacheslav Zholudev</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vyacheslav-zholudev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alejandro-llaves"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ontology Repository for User Interaction</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martins-zviedris"/>
+    <cofunc:title>Ontology Repository for User Interaction</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dave-lambert">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Lambert</rdfs:label>
+    <cofunc:name>David Lambert</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dave-lambert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-luts">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-eliko-tak-martin-luts"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Luts</rdfs:label>
+    <cofunc:name>Martin Luts</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-luts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList"/>
+    <cofunc:title>CONSISTOLOGY: A Semantic Tool to Support Ontology Evolution and Consistency</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/7"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:abstract></cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/najla-sassi"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/faiez-gargouri"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/wassim-jaziri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>CONSISTOLOGY: A Semantic Tool to Support Ontology Evolution and Consistency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-aalto-university-fi-kim-viljanen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aalto-university-fi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-bremen-alexander-garcia-castro">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alexander-garcia-castro"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/larissa-freitas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sandro-hawke">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-w3c-sandro-hawke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sandro Hawke</rdfs:label>
+    <cofunc:name>Sandro Hawke</cofunc:name>
+    <foaf:mbox_sha1sum>2c098f780abf7f05166243a541edeb966dfbd596</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sandro-hawke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/faiez-gargouri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thore-fechner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Previewing OWL Changes and Refactorings Using a Flexible XML Database</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <cofunc:title>Previewing OWL Changes and Refactorings Using a Flexible XML Database</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/8"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vyacheslav-zholudev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mike-dean">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-bbn-technologies-mike-dean"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mike Dean</rdfs:label>
+    <cofunc:name>Mike Dean</cofunc:name>
+    <foaf:mbox_sha1sum>6006a914f7d645142fadf08d9a4e33aee98416d0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mike-dean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15">
+    <cofunc:abstract></cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/anderson-bestteti"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:title>Using extended metadata model OMV and metrics in OntoLP Portal</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/15"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/renata-vieira"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/larissa-freitas"/>
+    <rdfs:label>Using extended metadata model OMV and metrics in OntoLP Portal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-rensselaer-polytechnic-institute-li-ding">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mick-kerrigan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mick Kerrigan</rdfs:label>
+    <cofunc:name>Mick Kerrigan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mick-kerrigan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/renata-vieira"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jacek-kopecky">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jacek Kopecky</rdfs:label>
+    <cofunc:name>Jacek Kopecky</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jacek-kopecky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/ores2010/ores/2010/keynote/">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Open Ontology Repository</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/keynote/"/>
+    <rdfs:label>BioPortal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/barry-norton">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Barry Norton</rdfs:label>
+    <cofunc:name>Barry Norton</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/barry-norton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/natalya-noy">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-stanford-university-natalya-noy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Natasha Noy</rdfs:label>
+    <cofunc:name>Natasha Noy</cofunc:name>
+    <foaf:mbox_sha1sum>7d8b34490f91ef43b84489a7630394b04a8c2c21</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/klaus-reichling">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Klaus Reichling</rdfs:label>
+    <cofunc:name>Klaus Reichling</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/klaus-reichling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-6">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-domingue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anderson-bestteti">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anderson Bestteti</rdfs:label>
+    <cofunc:name>Anderson Bestteti</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anderson-bestteti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/patrick-maue">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Patrick Maué</rdfs:label>
+    <cofunc:name>Patrick Maué</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/patrick-maue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/northeastern-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Northeastern University</rdfs:label>
+    <cofunc:name>Northeastern University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/northeastern-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/renke-fahl-spiewack"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/18"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18/authorList"/>
+    <rdfs:label>A pan-European repository: SEMIC.EU as the point of reference for eGovernment ontologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/klaus-reichling"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-luts"/>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:title>A pan-European repository: SEMIC.EU as the point of reference for eGovernment ontologies</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/janis-barzdins"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList"/>
+    <cofunc:title>OWLGrEd: a UML Style Graphical Editor for OWL</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/renars-liepins"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/guntis-barzdins"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/arturs-sprogis"/>
+    <cofunc:abstract></cofunc:abstract>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/5"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>OWLGrEd: a UML Style Graphical Editor for OWL</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/karlis-cerans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-mitre-corporation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>MITRE Corporation</rdfs:label>
+    <cofunc:name>MITRE Corporation</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-mitre-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-bateman">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-bremen-john-bateman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Bateman</rdfs:label>
+    <cofunc:name>John Bateman</cofunc:name>
+    <foaf:mbox_sha1sum>ca0ddad0940e188a2844b14ba968d8a195939dba</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-bateman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-stanford-university-natalya-noy">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-helsinki-jouni-tuominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-helsinki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/arturs-sprogis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomi-kauppinen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-muenster-tomi-kauppinen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomi Kauppinen</rdfs:label>
+    <cofunc:name>Tomi Kauppinen</cofunc:name>
+    <foaf:mbox_sha1sum>0c135e38d8998089dd79a2f430f8449bf6591332</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomi-kauppinen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-northeastern-university-kenneth-baclawski">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kenneth-baclawski"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/northeastern-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nigam-shah">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nigam Shah</rdfs:label>
+    <cofunc:name>Nigam Shah</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nigam-shah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17">
+    <cofunc:title>Evaluation Framework for Ontology Development and Management Methodologies</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <rdfs:label>Evaluation Framework for Ontology Development and Management Methodologies</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dionisis-kehagias"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/17"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dimitrios-tzovaras"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dionysia-kontotasiou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-poznan-university-raul-palma">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/raul-palma"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/poznan-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6">
+    <rdfs:label>OREMP: Ontology Reasoning Engine for Molecular Pathways</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/beracah-yankama"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/c-forbes-dewey-jr"/>
+    <cofunc:title>OREMP: Ontology Reasoning Engine for Molecular Pathways</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/giuseppe-nicosia"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/renato-umeton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-kmi-the-open-university-uk-mathieu-daquin">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-haase">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-fluid-operations-peter-haase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Haase</rdfs:label>
+    <cofunc:name>Peter Haase</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renata-vieira">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renata Vieira</rdfs:label>
+    <cofunc:name>Renata Vieira</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renata-vieira"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-the-mitre-corporation-leo-obrst">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/leo-obrst"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-mitre-corporation"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kenneth-baclawski">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-northeastern-university-kenneth-baclawski"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ken Baclawski</rdfs:label>
+    <cofunc:name>Ken Baclawski</cofunc:name>
+    <foaf:mbox_sha1sum>29e2b7efbdbf448c562511b67d42d3a46f974a3a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kenneth-baclawski"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/w3c">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>W3C</rdfs:label>
+    <cofunc:name>W3C</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/w3c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bbn-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BBN</rdfs:label>
+    <cofunc:name>BBN</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bbn-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/li-ding">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-rensselaer-polytechnic-institute-li-ding"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Li Ding</rdfs:label>
+    <cofunc:name>Li Ding</cofunc:name>
+    <foaf:mbox_sha1sum>a7d0967c21ba8952ab0443bf822750d4c44afe2c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/li-ding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-eliko-tak-martin-luts">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-luts"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/eliko-tak"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jacek-kopecky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wolfram-woess">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-johannes-kepler-university-linz-austria-wolfram-woess"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Wolfram Wöß</rdfs:label>
+    <cofunc:name>Wolfram Wöß</cofunc:name>
+    <foaf:mbox_sha1sum>2eba0701fe5433b19ad31316f2aec87c44334946</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/wolfram-woess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-vrije-universiteit-amsterdam-the-netherlands-antoine-isaac">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/antoine-isaac"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dionysia-kontotasiou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alejandro-llaves"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thore-fechner"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/patrick-maue"/>
+    <cofunc:title>Context-aware access to ontologies on the Web</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/11"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11/authorList"/>
+    <rdfs:label>Context-aware access to ontologies on the Web</rdfs:label>
+    <cofunc:abstract></cofunc:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/faiez-gargouri">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Faiez Gargouri</rdfs:label>
+    <cofunc:name>Faiez Gargouri</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/faiez-gargouri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-kohlhase">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-jacobs-university-bremen-michael-kohlhase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Kohlhase</rdfs:label>
+    <cofunc:name>Michael Kohlhase</cofunc:name>
+    <foaf:mbox_sha1sum>cc75a6c34248d4eb498a577dffa4287a69e8fe92</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-kohlhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thore-fechner">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thore Fechner</rdfs:label>
+    <cofunc:name>Thore Fechner</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thore-fechner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/adrian-marte"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/eliko-tak">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ELIKO TAK</rdfs:label>
+    <cofunc:name>ELIKO TAK</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/eliko-tak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Jacobs University Bremen</rdfs:label>
+    <cofunc:name>Jacobs University Bremen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/jacobs-university-bremen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10">
+    <cofunc:abstract></cofunc:abstract>
+    <rdfs:label>iServe: a Linked Services Publishing Platform</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/10"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-domingue"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dave-lambert"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dong-liu"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:title>iServe: a Linked Services Publishing Platform</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maria-maleshkova"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jacek-kopecky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dimitrios-tzovaras"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/c-forbes-dewey-jr"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mikko-salonoja">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mikko Salonoja</rdfs:label>
+    <cofunc:name>Mikko Salonoja</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mikko-salonoja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-maleshkova">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maria Maleshkova</rdfs:label>
+    <cofunc:name>Maria Maleshkova</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-johannes-kepler-university-linz-austria-wolfram-woess">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/wolfram-woess"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <cofunc:abstract></cofunc:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/barry-norton"/>
+    <rdfs:label>On the Use of Transformation and Linked Data Principles in a Generic Repository for Semantic Web Services</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mick-kerrigan"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/9"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/adrian-marte"/>
+    <cofunc:title>On the Use of Transformation and Linked Data Principles in a Generic Repository for Semantic Web Services</cofunc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-muenster-tomi-kauppinen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomi-kauppinen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-muenster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ontology Repositories with Only One Large Shared Cooperatively-built and Evaluated Ontology</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/philippe-martin"/>
+    <cofunc:title>Ontology Repositories with Only One Large Shared Cooperatively-built and Evaluated Ontology</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/barry-norton"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renato-umeton">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renato Umeton</rdfs:label>
+    <cofunc:name>Renato Umeton</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renato-umeton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wassim-jaziri">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Wassim Jaziri</rdfs:label>
+    <cofunc:name>Wassim Jaziri</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/wassim-jaziri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-garcia-castro">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-bremen-alexander-garcia-castro"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-alexander-garcia-castro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander García Castro</rdfs:label>
+    <cofunc:name>Alexander García Castro</cofunc:name>
+    <foaf:mbox_sha1sum>5f84327bfd387f1db9c26d39fe2962ab92e0b6cc</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-jacobs-university-bremen-christoph-lange">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/najla-sassi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/giuseppe-nicosia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/antoine-zimmermann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mikko-salonoja"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/philippe-martin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bremen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universität Bremen</rdfs:label>
+    <cofunc:name>Universität Bremen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bremen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/ores2010/ores/2010">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>1st Workshop on Ontology Repositories and Editors for the Semantic Web</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Semantic Interoperability Framework for Estonian Public Sector's E-Services Integration</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kalle-tomingas"/>
+    <cofunc:title>Semantic Interoperability Framework for Estonian Public Sector's E-Services Integration</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/13"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-luts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/antoine-isaac">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-vrije-universiteit-amsterdam-the-netherlands-antoine-isaac"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Antoine Isaac</rdfs:label>
+    <cofunc:name>Antoine Isaac</cofunc:name>
+    <foaf:mbox_sha1sum>b3f1e62e330cd51c8d2bc7d275d11ed9f4345caa</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/antoine-isaac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ontology Recommendation for the Data Publishers</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/antoine-zimmermann"/>
+    <cofunc:title>Ontology Recommendation for the Data Publishers</cofunc:title>
+    <cofunc:abstract></cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ores/2010/paper/main/12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dionisis-kehagias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anderson-bestteti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-bbn-technologies-mike-dean">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mike-dean"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bbn-technologies"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mikko-salonoja"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mick-kerrigan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/beracah-yankama"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/wassim-jaziri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/ores2010">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about ores2010.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:24 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/ores/2010/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/janne-saarela">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-profium-ltd-janne-saarela"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Janne Saarela</rdfs:label>
+    <cofunc:name>Janne Saarela</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/janne-saarela"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Open University</rdfs:label>
+    <cofunc:name>The Open University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-profium-ltd-janne-saarela">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/janne-saarela"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/profium-ltd"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dimitrios-tzovaras">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dimitrios Tzovaras</rdfs:label>
+    <cofunc:name>Dimitrios Tzovaras</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dimitrios-tzovaras"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-jacobs-university-bremen-michael-kohlhase">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-kohlhase"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentin-zacharias">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Valentin Zacharias</rdfs:label>
+    <cofunc:name>Valentin Zacharias</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/valentin-zacharias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-w3c-sandro-hawke">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sandro-hawke"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/w3c"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adrian-marte">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adrian Marte</rdfs:label>
+    <cofunc:name>Adrian Marte</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adrian-marte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alejandro-llaves">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alejandro Llaves</rdfs:label>
+    <cofunc:name>Alejandro Llaves</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alejandro-llaves"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/renato-umeton"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jussi-kurki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-mathieu-daquin">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ores2010/ores/2010"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/organising-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/raul-palma">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-poznan-university-raul-palma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Raúl Palma</rdfs:label>
+    <cofunc:name>Raúl Palma</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/raul-palma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martins-zviedris">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martins Zviedris</rdfs:label>
+    <cofunc:name>Martins Zviedris</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martins-zviedris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-christoph-lange">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ores2010/ores/2010"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/organising-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/profium-ltd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Profium Ltd.</rdfs:label>
+    <cofunc:name>Profium Ltd.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/profium-ltd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kim-viljanen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-aalto-university-fi-kim-viljanen"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ores2010-organising-committee-member-kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kim Viljanen</rdfs:label>
+    <cofunc:name>Kim Viljanen</cofunc:name>
+    <foaf:mbox_sha1sum>238c1b33e0e3ed5f6e17dfbf5f0e31991692156f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kim-viljanen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/c-forbes-dewey-jr">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>C. Forbes Dewey Jr.</rdfs:label>
+    <cofunc:name>C. Forbes Dewey Jr.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/c-forbes-dewey-jr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/ores/2010/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/7"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/4"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/2"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/14"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/5"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/12"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/17"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/15"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/8"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/6"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/1"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/18"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/16"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/13"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ores2010/data.semanticweb.org/workshop/ores/2010/paper/main/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-pedrinaci">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Pedrinaci</rdfs:label>
+    <cofunc:name>Carlos Pedrinaci</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit</rdfs:label>
+    <cofunc:name>Vrije Universiteit</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-bremen-john-bateman">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-bateman"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-helsinki-eero-hyvoenen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-helsinki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ORES2010/ores/2010"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dong-liu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dong Liu</rdfs:label>
+    <cofunc:name>Dong Liu</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dong-liu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jouni-tuominen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ores2010-university-of-helsinki-jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jouni Tuominen</rdfs:label>
+    <cofunc:name>Jouni Tuominen</cofunc:name>
+    <foaf:mbox_sha1sum>05b1e6decfa94b6b5c06c7624930d9e988abb070</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/antoine-zimmermann">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Antoine Zimmermann</rdfs:label>
+    <cofunc:name>Antoine Zimmermann</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/antoine-zimmermann"/>
+  </rdf:Description>
+</rdf:RDF>

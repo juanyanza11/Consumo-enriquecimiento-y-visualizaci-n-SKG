@@ -1,0 +1,435 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-ringelstein">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-koblenz-landau-christoph-ringelstein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ignacio-alamillo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-nejdl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-daniel-olmedilla">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-olmedilla"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/peas2007">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about peas2007.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:26 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/peas/2007/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Logging in Distributed Workflows</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/steffen-staab"/>
+    <cofunc:title>Logging in Distributed Workflows</cofunc:title>
+    <cofunc:abstract>Business needs are nowadays frequently realized by business workflows spanning multiple organizations. Current infrastructures, such as SOA, support this trend on the implementation side. As a side effect these issues of privacy and data protection arise, because data is shipped across organizational boundaries.  At the same time increased awareness about protection of privacy and IPR have lead to comprehensive contractual and legal constructs - including the information of services consumers about the ways their data is handled. We propose to solve such information requests in widely distributed workflow executions by gathering the related information during the execution and attaching it directly to the processed data. Together with the data this information is passed through the workflow and at the end it is returned to the service consumer.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/442"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christoph-ringelstein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Semantic-Driven Enforcement of Rights Delegation Policies via the Combination of Rules and Ontologies</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yuh-jong-hu"/>
+    <cofunc:title>Semantic-Driven Enforcement of Rights Delegation Policies via the Combination of Rules and Ontologies</cofunc:title>
+    <cofunc:abstract>We show that the semantic formal model for Open Digital Right Language (ODRL)-based rights 
+delegation policies can be enforced and expressed as a combination of ontologies and rules, e.g., Semantic Web Rule Language (SWRL). Based on ODRL's expressions and data dictionary, a rights delegation ontology is proposed in this study. Furthermore, we express the rights delegation policy as a set of ontology statements, rules, and facts for usage and transfer rights delegation. When verifying ODRL formal semantics, our SWRL approach is superior to the generic restricted First Order Logic (FOL) model because we have an understandable formal semantics of policies for automatic machine processing and a higher expressive power for policy compliance checking. On the other hand, the rights delegation semantics shown as a generic full FOL might have a higher complexity of license verification, which results in a  policy compliance checking that is possibly undecidable. A real usage rights delegation scenario for digital content is demonstrated in order to justify the feasibility of our formal semantic model for digital rights delegation. We hope this study will shed some light on future sensitive information usage and delegation rights controlled from a privacy protection perspective.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/414"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-ekaterini-ioannou">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ekaterini-ioannou"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yolanda-gil">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-usc-isi-yolanda-gil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/peas2007/iswc-aswc/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc-aswc/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-hong-kong-baptist-university-william-cheung">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/william-cheung"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/hong-kong-baptist-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kai-kin-chan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-agencia-catalana-de-certificacio-ignacio-alamillo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ignacio-alamillo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/agencia-catalana-de-certificacio"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/peas2007/peas/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Semantic Web Privacy Enforcement and Accountability Workshop</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/william-cheung">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-hong-kong-baptist-university-william-cheung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ekaterini-ioannou">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-ekaterini-ioannou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kai-kin-chan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-hong-kong-baptist-university-kai-kin-chan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-chavarri">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-s21sec-labs-daniel-chavarri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/steffen-staab"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-chavarri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steffen-staab">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-koblenz-landau-steffen-staab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-olmedilla"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/weisen-guo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-dlut-weisen-guo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-koblenz-landau-christoph-ringelstein">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-ringelstein"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-koblenz-landau"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-national-chengchi-university-yuh-jong-hu">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yuh-jong-hu"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-chengchi-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <rdfs:label>Privacy Enforcement in Data Analysis Workflows</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/415"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/varun-ratnakar"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kai-kin-chan"/>
+    <cofunc:abstract>Collaborative e-Science projects commonly require data analysis to be performed on distributed data sets which may contain sensitive information. In addition to the credential-based privacy protection, ensuring proper handling of computerized data for disclosure and analysis is particularly essential in e-Science. In this paper, we propose a semantic approach for enforcing it through workflow systems. We define privacy preservation and analysis-relevant terms as ontologies and incorporate them into a proposed policy framework to represent and enforce the policies. We believe that workflow systems with the proposed privacy-awareness incorporated could ease the scientists in setting up privacy polices that suit for different types of collaborative research projects and can help them in safeguarding the privacy of sensitive data throughout the data analysis lifecycle.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/william-cheung"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>Privacy Enforcement in Data Analysis Workflows</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <rdfs:label>Privacy and Capability Management for the European eIDM Framework </rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/447"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ignacio-alamillo"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mario-reyes-de-los-mozos"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-chavarri"/>
+    <cofunc:abstract>The natural evolution of eGovernment is to go beyond the management of identities and therefore it is necessary to manage people, companies or organizations, and their capabilities to interact with Public Administrations. When developing an application based on an eID management system, this management issue must be tackled within each application (i.e. demonstrate the capability of one person to act, demonstrate the economical reliability, demonstrate his professional status, etc ...) and is normally based on the local jurisdiction. The objective of the present paper is to introduce a distributed system for the privacy-enhanced management of the capabilities associated to a person within the EU framework, independently from the origin and destination EU member state. The core of this system is the intelligence of the Capabilities Resolution Nodes (CRN) to cope with the complexity of the capability resolution and the capability sources discovery in the pan-European scenario. A European Capacity Resolution Network will be able to grow up the interoperability of the digital identities provided and valid in each member state and will answer the question “is this person, identified with this digital identity and who is described by those attributes, allowed to carry out this legal act in this country according to its law?”. </cofunc:abstract>
+    <cofunc:title>Privacy and Capability Management for the European eIDM Framework </cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/arne-koesling"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-usc-isi-yolanda-gil">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/usc-isi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yolanda-gil"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-s21sec-labs-daniel-chavarri">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-chavarri"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/s21sec-labs"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yuh-jong-hu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/arne-koesling">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-arne-koesling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-dlut-weisen-guo">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/weisen-guo"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dlut"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-koblenz-landau-steffen-staab">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steffen-staab"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-koblenz-landau"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-s21sec-labs-mario-reyes-de-los-mozos">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mario-reyes-de-los-mozos"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/s21sec-labs"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/442/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christoph-ringelstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Recommendation Privacy Protection in Trust-based Knowledge Sharing Network</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/steven-kraines"/>
+    <cofunc:title>Recommendation Privacy Protection in Trust-based Knowledge Sharing Network</cofunc:title>
+    <cofunc:abstract>Trust can be applied to knowledge sharing on a distributed network of knowledge source agents. Each agent represents a person who trusts some other agents. Based on these trust-relationships, an agent can infer the trustworthiness of an unknown agent by asking trusted agents for recommendations. However, the person represented by an agent may not be willing to share his or her individual opinion about the trustwor-thiness of a particular agent to agents that do not protect information privacy. A solution for this issue is proposed using three kinds of privacy policies: generosity, caution, and non-cooperation. An agent that adopts the caution policy towards another agent will hide the details of the trust recommendation path. An analysis shows the effect of the privacy policies on the calculated reliabilities of the recommended trust values.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/347"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/weisen-guo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/juri-de-coi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-hong-kong-baptist-university-kai-kin-chan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kai-kin-chan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/hong-kong-baptist-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-tokyo-steven-kraines">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steven-kraines"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/william-cheung"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-arne-koesling">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/arne-koesling"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/juri-de-coi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-juri-de-coi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-usc-isi-varun-ratnakar">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/varun-ratnakar"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/usc-isi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wolfgang-nejdl">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-wolfgang-nejdl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yuh-jong-hu">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-national-chengchi-university-yuh-jong-hu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-olmedilla">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-daniel-olmedilla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steven-kraines">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-university-of-tokyo-steven-kraines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/varun-ratnakar">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-usc-isi-varun-ratnakar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mario-reyes-de-los-mozos">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-s21sec-labs-mario-reyes-de-los-mozos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mario-reyes-de-los-mozos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-olmedilla"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/juri-de-coi"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ekaterini-ioannou"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/peas/2007/papers/433"/>
+    <cofunc:title>Access Control for Sharing Semantic Data across Desktops</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/arne-koesling"/>
+    <cofunc:abstract>Personal Information Management (PIM) systems aim to provide convenient access to all data and metadata on a desktop to the user itself as well as the co-workers. Obviously, sharing desktop data with co-workers raises privacy and access control issues which have to be addressed. In this paper we discuss these issues, and present appropriate solutions. In line with the architecture of current PIM systems, our solutions cover all semantic data shared in such a context, i.e. all desktop resources as well as other data structures created by the system, such as metadata in an RDF store and inverted index entries created for efficient textual search. We discuss different kinds of policies to specify protection for desktop data and metadata, and describe our access control system to express and execute these policies efficiently. Additionally, we describe the extension of an existing PIM system, Beagle++, with our approach, as well as our experiments, with convincing results on performance and scalability.</cofunc:abstract>
+    <rdfs:label>Access Control for Sharing Semantic Data across Desktops</rdfs:label>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/peas/2007/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-nejdl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/weisen-guo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/347/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/steven-kraines"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/433/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ekaterini-ioannou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/414/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ignacio-alamillo">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-agencia-catalana-de-certificacio-ignacio-alamillo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/415/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/varun-ratnakar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-wolfgang-nejdl">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-nejdl"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/peas2007-l3s-research-center-juri-de-coi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/juri-de-coi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/PEAS2007/peas/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/peas2007/data.semanticweb.org/workshop/peas/2007/papers/447/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+</rdf:RDF>

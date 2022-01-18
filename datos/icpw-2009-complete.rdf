@@ -1,0 +1,1435 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/elio-toppano">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Elio Toppano</rdfs:label>
+    <j.0:name>Elio Toppano</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/elio-toppano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-markus-luczak-roesch">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-luczak-roesch"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-johannes-kepler-university-linz-austria-andreas-langegger">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andreas-langegger"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kecheng-liu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/humboldt-universitaet-zu-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Humboldt Universität zu Berlin</rdfs:label>
+    <j.0:name>Humboldt Universität zu Berlin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/humboldt-universitaet-zu-berlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kai-hakkarainen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kai Hakkarainen</rdfs:label>
+    <j.0:name>Kai Hakkarainen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kai-hakkarainen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-mcauley">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John McAuley</rdfs:label>
+    <j.0:name>John McAuley</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-mcauley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kai-hakkarainen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robert-tolksdorf">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-robert-tolksdorf"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robert Tolksdorf</rdfs:label>
+    <j.0:name>Robert Tolksdorf</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robert-tolksdorf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/icpw2009">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about icpw2009.</j.2:title>
+    <j.2:created>Tue May 03 19:01:12 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/conference/icpw/2009/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-axel-polleres">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/axel-polleres"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sami-paavola">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sami Paavola</rdfs:label>
+    <j.0:name>Sami Paavola</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sami-paavola"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hans-weigand"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-reading-kecheng-liu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kecheng-liu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-reading"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-the-mitre-corporation-leo-obrst">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/leo-obrst"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-mitre-corporation"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freiburg-university-hospital">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universitätsklinikum Freiburg</rdfs:label>
+    <j.0:name>Universitätsklinikum Freiburg</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freiburg-university-hospital"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/communitsense">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CommunitSense</rdfs:label>
+    <j.0:name>CommunitSense</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/communitsense"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-schandl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-semantic-web-company-thomas-schandl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Schandl</rdfs:label>
+    <j.0:name>Thomas Schandl</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-schandl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-hohenheim">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University Hohenheim</rdfs:label>
+    <j.0:name>University Hohenheim</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-hohenheim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tassilo-pellegrini">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-semantic-web-company-tassilo-pellegrini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tassilo Pellegrini</rdfs:label>
+    <j.0:name>Tassilo Pellegrini</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tassilo-pellegrini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-adrian-paschke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/adrian-paschke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DERI Galway</rdfs:label>
+    <j.0:name>DERI Galway</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ritva-engestroem"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>JKU Linz</rdfs:label>
+    <j.0:name>JKU Linz</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/johannes-kepler-university-linz-austria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/leo-obrst">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-the-mitre-corporation-leo-obrst"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Leo Obrst</rdfs:label>
+    <j.0:name>Leo Obrst</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/leo-obrst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vito-roberto"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-robert-tolksdorf">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/robert-tolksdorf"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2">
+    <rdfs:label>Knowledge Practices, Epistemic Technologies, and Pragmatic Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sami-paavola"/>
+    <j.0:title>Knowledge Practices, Epistemic Technologies, and Pragmatic Web</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kai-hakkarainen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/timo-honkela"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pasi-pohjola"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ritva-engestroem"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/2"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/milan-milanovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-humboldt-universitaet-zu-berlin-milan-milanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Milan Milanovic</rdfs:label>
+    <j.0:name>Milan Milanovic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/milan-milanovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sami-paavola"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aman-shakya">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-national-institute-of-informatics-japan-aman-shakya"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Aman Shakya</rdfs:label>
+    <j.0:name>Aman Shakya</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/aman-shakya"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dave-lewis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dave Lewis</rdfs:label>
+    <j.0:name>Dave Lewis</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dave-lewis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-peterson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-boab-interactive-david-peterson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Peterson</rdfs:label>
+    <j.0:name>David Peterson</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-peterson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dave-lewis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-zelitchenko">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Zelitchenko</rdfs:label>
+    <j.0:name>Alexander Zelitchenko</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-zelitchenko"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/heiko-hornung">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Heiko Hornung</rdfs:label>
+    <j.0:name>Heiko Hornung</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/heiko-hornung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/riichiro-mizoguchi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-osaka-university-japan-riichiro-mizoguchi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>R. Mizoguchi</rdfs:label>
+    <j.0:name>R. Mizoguchi</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>5th AIS SigPrag International Conference on Pragmatic Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/adrian-paschke"/>
+    <j.0:title>5th AIS SigPrag International Conference on Pragmatic Web</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/1"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hans-weigand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-lange">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-jacobs-university-bremen-christoph-lange"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Lange</rdfs:label>
+    <j.0:name>Christoph Lange</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-lange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-national-institute-of-informatics-japan-aman-shakya">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aman-shakya"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/danny-ayers">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-talis-danny-ayers"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Danny Ayers</rdfs:label>
+    <j.0:name>Danny Ayers</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/danny-ayers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/openlink-software">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>OpenLink Software</rdfs:label>
+    <j.0:name>OpenLink Software</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/openlink-software"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-illinois">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Illinois</rdfs:label>
+    <j.0:name>University of Illinois</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-illinois"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pasi-pohjola"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-texas-at-austin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Texas at Austin</rdfs:label>
+    <j.0:name>University of Texas at Austin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-texas-at-austin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/malgorzata-mochol">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-malgorzata-mochol"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Malgorzata Mochol</rdfs:label>
+    <j.0:name>Malgorzata Mochol</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/malgorzata-mochol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universitaet-leipzig-sebastian-dietzold">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-dietzold"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-leipzig"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-talis-danny-ayers">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/danny-ayers"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sun-microsystems">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SUN Microsystems</rdfs:label>
+    <j.0:name>SUN Microsystems</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sun-microsystems"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-german-research-center-for-artificial-intelligence-dfki-leo-sauermann">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/leo-sauermann"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/nrc-institute-of-information-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>NRC Institute of Information Technology</rdfs:label>
+    <j.0:name>NRC Institute of Information Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/nrc-institute-of-information-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-boab-interactive-david-peterson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-peterson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/boab-interactive"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-langegger">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-johannes-kepler-university-linz-austria-andreas-langegger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andreas Langegger</rdfs:label>
+    <j.0:name>Andreas Langegger</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andreas-langegger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-dietzold">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universitaet-leipzig-sebastian-dietzold"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Dietzold</rdfs:label>
+    <j.0:name>Sebastian Dietzold</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-dietzold"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/timo-honkela"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/c-baranauskas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>C. Baranauskas</rdfs:label>
+    <j.0:name>C. Baranauskas</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/c-baranauskas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olaf-hartig">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-humboldt-universitaet-zu-berlin-olaf-hartig"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Olaf Hartig</rdfs:label>
+    <j.0:name>Olaf Hartig</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/olaf-hartig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/detecon-international">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DETECON International</rdfs:label>
+    <j.0:name>DETECON International</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/detecon-international"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zoran-jeremic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-military-academy-belgrade-serbia-zoran-jeremic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zoran Jeremic</rdfs:label>
+    <j.0:name>Zoran Jeremic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zoran-jeremic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steffen-staab">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-koblenz-landau-steffen-staab"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Steffen Staab</rdfs:label>
+    <j.0:name>Steffen Staab</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/steffen-staab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/elena-paslaru-bontas-simperl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-elena-paslaru-bontas-simperl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Elena Simperl</rdfs:label>
+    <j.0:name>Elena Simperl</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/elena-paslaru-bontas-simperl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/orri-erling">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-openlink-software-orri-erling"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Orri Erling</rdfs:label>
+    <j.0:name>Orri Erling</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/orri-erling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-semantic-web-company-tassilo-pellegrini">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tassilo-pellegrini"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-web-company"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jelena-jovanovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-belgrade-jelena-jovanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jelena Jovanovic</rdfs:label>
+    <j.0:name>Jelena Jovanovic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jelena-jovanovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/harold-boley">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-nrc-institute-of-information-technology-harold-boley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Harold Boley</rdfs:label>
+    <j.0:name>Harold Boley</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/harold-boley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/timo-honkela">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Timo Honkela</rdfs:label>
+    <j.0:name>Timo Honkela</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/timo-honkela"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/tilburg-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University Tilburg</rdfs:label>
+    <j.0:name>University Tilburg</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/tilburg-university"/>
+    <j.0:name>Tilburg University</j.0:name>
+    <rdfs:label>Tilburg University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-richard-cyganiak">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/richard-cyganiak"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/barry-norton">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-kmi-the-open-university-uk-barry-norton"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Barry Norton</rdfs:label>
+    <j.0:name>Barry Norton</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/barry-norton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-belgrade">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Belgrade</rdfs:label>
+    <j.0:name>University of Belgrade</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-belgrade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-salzburg-research-violeta-damjanovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/violeta-damjanovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/salzburg-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ivan-jelinek">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-czech-technical-university-in-prague-ivan-jelinek"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ivan Jelinek</rdfs:label>
+    <j.0:name>Ivan Jelinek</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ivan-jelinek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mareike-schoop">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-hohenheim-mareike-schoop"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mareike Schoop</rdfs:label>
+    <j.0:name>Mareike Schoop</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mareike-schoop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-reading">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Reading</rdfs:label>
+    <j.0:name>University of Reading</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-reading"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-elena-paslaru-bontas-simperl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/elena-paslaru-bontas-simperl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-tobias-buerger">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tobias-buerger"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bundeswehr-university-munich-germany">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universitaet der Bundeswehr</rdfs:label>
+    <j.0:name>Universitaet der Bundeswehr</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bundeswehr-university-munich-germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Intention Broadcasting - A Model for Computer-Mediated Intention Sharing and Coordination</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/richard-von-kaufmann"/>
+    <j.0:title>Intention Broadcasting - A Model for Computer-Mediated Intention Sharing and Coordination</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-mitre-corporation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>MITRE Corporation</rdfs:label>
+    <j.0:name>MITRE Corporation</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-mitre-corporation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-zagreb-sandra-lovrencic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sandra-lovrencic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-zagreb"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kecheng-liu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-reading-kecheng-liu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kecheng Liu</rdfs:label>
+    <j.0:name>Kecheng Liu</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kecheng-liu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universitaet-leipzig">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universität Leipzig</rdfs:label>
+    <j.0:name>Universität Leipzig</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universitaet-leipzig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-heath">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-talis-tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tom Heath</rdfs:label>
+    <j.0:name>Tom Heath</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-heath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-klusch">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-german-research-center-for-artificial-intelligence-dfki-matthias-klusch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Klusch</rdfs:label>
+    <j.0:name>Matthias Klusch</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-klusch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-military-academy-belgrade-serbia-zoran-jeremic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zoran-jeremic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/military-academy-belgrade-serbia"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ronald-stamper">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-twente-ronald-stamper"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ronald Stamper</rdfs:label>
+    <j.0:name>Ronald Stamper</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ronald-stamper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kevin-feeney">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kevin Feeney</rdfs:label>
+    <j.0:name>Kevin Feeney</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kevin-feeney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-osaka-university-japan-riichiro-mizoguchi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adrian-benfell">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adrian Benfell</rdfs:label>
+    <j.0:name>Adrian Benfell</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adrian-benfell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-samwald">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-matthias-samwald"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Samwald</rdfs:label>
+    <j.0:name>Matthias Samwald</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-samwald"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Defining a Pragmatic Based Web-service Discovery Mechanism</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/adrian-benfell"/>
+    <j.0:title>Defining a Pragmatic Based Web-service Discovery Mechanism</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/10"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kecheng-liu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/osaka-university-japan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Osaka University</rdfs:label>
+    <j.0:name>Osaka University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/structured-dynamics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Structured Dynamics</rdfs:label>
+    <j.0:name>Structured Dynamics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/structured-dynamics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-sun-microsystems-peter-reiser">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-reiser"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sun-microsystems"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/m-cecilia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>M. Cecilia</rdfs:label>
+    <j.0:name>M. Cecilia</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/m-cecilia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/klaus-tochtermann">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Klaus Tochtermann</rdfs:label>
+    <j.0:name>Klaus Tochtermann</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/klaus-tochtermann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universite-paris-sud-xi-orsay">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Université Paris-Sud XI Orsay</rdfs:label>
+    <j.0:name>Université Paris-Sud XI Orsay</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universite-paris-sud-xi-orsay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-v-zhdanova">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-ftw-telecommunications-research-center-vienna-anna-v-zhdanova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anna Zhdanova</rdfs:label>
+    <j.0:name>Anna Zhdanova</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anna-v-zhdanova"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/soeren-auer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universitaet-leipzig-soeren-auer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Soeren Auer</rdfs:label>
+    <j.0:name>Soeren Auer</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/soeren-auer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pasi-pohjola">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pasi Pohjola</rdfs:label>
+    <j.0:name>Pasi Pohjola</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pasi-pohjola"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marco-schorlemmer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/military-academy-belgrade-serbia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Military Academy, Belgrade, Serbia</rdfs:label>
+    <j.0:name>Military Academy, Belgrade, Serbia</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/military-academy-belgrade-serbia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marco-schorlemmer">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marco Schorlemmer</rdfs:label>
+    <j.0:name>Marco Schorlemmer</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marco-schorlemmer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Web 2.010 - Social Network "Make Difference Together with Pragmatic Description of Projects in the Standard of European Commission's Framework Programme</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexander-zelitchenko"/>
+    <j.0:title>Web 2.010 - Social Network "Make Difference Together with Pragmatic Description of Projects in the Standard of European Commission's Framework Programme</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-de-moor">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-communitsense-aldo-de-moor"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Aldo de Moor</rdfs:label>
+    <j.0:name>Aldo de Moor</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/aldo-de-moor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/holger-stenzhorn">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freiburg-university-hospital-holger-stenzhorn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Holger Stenzhorn</rdfs:label>
+    <j.0:name>Holger Stenzhorn</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/holger-stenzhorn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paola-di-maio"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ralf-heese">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-ralf-heese"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ralf Heese</rdfs:label>
+    <j.0:name>Ralf Heese</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ralf-heese"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/manuel-atencia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-structured-dynamics-michael-k-bergman">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-k-bergman"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/structured-dynamics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adrian-paschke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-adrian-paschke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adrian Paschke</rdfs:label>
+    <j.0:name>Adrian Paschke</j.0:name>
+    <foaf:mbox_sha1sum>c352377f5d48b16e5e29253acaee884ebce39d74</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adrian-paschke"/>
+    <foaf:mbox_sha1sum>8a239993d8c7c27a6e99b20033e179cfd0012f72</foaf:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/semantic-web-company">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Semantic Web Company</rdfs:label>
+    <j.0:name>Semantic Web Company</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/semantic-web-company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-talis-tom-heath">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-hohenheim-mareike-schoop">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mareike-schoop"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-hohenheim"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-cyganiak">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-richard-cyganiak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Richard Cyganiak</rdfs:label>
+    <j.0:name>Richard Cyganiak</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/richard-cyganiak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Jacobs Universität Bremen</rdfs:label>
+    <j.0:name>Jacobs Universität Bremen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/jacobs-university-bremen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>A Semiotic Framework for Ontology Development</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vito-roberto"/>
+    <j.0:title>A Semiotic Framework for Ontology Development</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/7"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/elio-toppano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-k-bergman">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-structured-dynamics-michael-k-bergman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mike Bergman</rdfs:label>
+    <j.0:name>Mike Bergman</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-k-bergman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-reiser">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-sun-microsystems-peter-reiser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Reiser</rdfs:label>
+    <j.0:name>Peter Reiser</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-reiser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-technomathematics-research-foundation-rejandra-akerkar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rejandra-akerkar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/technomathematics-research-foundation"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-zagreb">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Zagreb</rdfs:label>
+    <j.0:name>University of Zagreb</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-zagreb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-salzburg-research-christoph-wieser">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-wieser"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/salzburg-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-von-kaufmann">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Richard von Kaufmann</rdfs:label>
+    <j.0:name>Richard von Kaufmann</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/richard-von-kaufmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universite-paris-sud-xi-orsay-milan-stankovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/milan-stankovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universite-paris-sud-xi-orsay"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/talis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Talis</rdfs:label>
+    <j.0:name>Talis</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/talis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-belgrade-jelena-jovanovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jelena-jovanovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-belgrade"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/m-cecilia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-tilburg-university-hans-weigand">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hans-weigand"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tilburg-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paola-di-maio">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-strathclyde-university-paola-di-maio"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paola DiMaio</rdfs:label>
+    <j.0:name>Paola DiMaio</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paola-di-maio"/>
+    <j.0:name>Paola Di Maio</j.0:name>
+    <rdfs:label>Paola Di Maio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tobias-buerger">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-tobias-buerger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tobias Buerger</rdfs:label>
+    <j.0:name>Tobias Buerger</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tobias-buerger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vito-roberto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vito Roberto</rdfs:label>
+    <j.0:name>Vito Roberto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vito-roberto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/axel-polleres">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-axel-polleres"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Axel Polleres</rdfs:label>
+    <j.0:name>Axel Polleres</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ftw-telecommunications-research-center-vienna">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FTW Vienna</rdfs:label>
+    <j.0:name>FTW Vienna</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ftw-telecommunications-research-center-vienna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-texas-at-austin-juan-f-sequeda">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/juan-f-sequeda"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-texas-at-austin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/c-baranauskas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-twente">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Twente</rdfs:label>
+    <j.0:name>University of Twente</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-twente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-ralf-heese">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ralf-heese"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-lyndon-j-b-nixon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lyndon Nixon</rdfs:label>
+    <j.0:name>Lyndon Nixon</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lyndon-j-b-nixon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Toward Pragmatic Dimensions of Knowledge Reuse and Learning on the Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paola-di-maio"/>
+    <j.0:title>Toward Pragmatic Dimensions of Knowledge Reuse and Learning on the Web</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/strathclyde-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Strathclyde University</rdfs:label>
+    <j.0:name>Strathclyde University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/strathclyde-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/9"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI</rdfs:label>
+    <j.0:name>DFKI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-koblenz-landau">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Koblenz-Landau</rdfs:label>
+    <j.0:name>University of Koblenz-Landau</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-koblenz-landau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-ftw-telecommunications-research-center-vienna-anna-v-zhdanova">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anna-v-zhdanova"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ftw-telecommunications-research-center-vienna"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/leo-sauermann">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-german-research-center-for-artificial-intelligence-dfki-leo-sauermann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Leo Sauermann</rdfs:label>
+    <j.0:name>Leo Sauermann</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/leo-sauermann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-detecon-international-christoph-tempich">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-tempich"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/detecon-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kevin-feeney"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-tempich">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-detecon-international-christoph-tempich"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Tempich</rdfs:label>
+    <j.0:name>Christoph Tempich</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-tempich"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>KMI Open University</rdfs:label>
+    <j.0:name>KMI Open University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/phillip-obermeir">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-phillip-obermeir"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Phillip Obermeir</rdfs:label>
+    <j.0:name>Phillip Obermeir</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/phillip-obermeir"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-humboldt-universitaet-zu-berlin-milan-milanovic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/milan-milanovic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/humboldt-universitaet-zu-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Institute of Informatics</rdfs:label>
+    <j.0:name>National Institute of Informatics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-institute-of-informatics-japan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-twente-ronald-stamper">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ronald-stamper"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ethnomethodology as an Influence on Community-Centred Design</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dave-lewis"/>
+    <j.0:title>Ethnomethodology as an Influence on Community-Centred Design</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/4"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-mcauley"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kevin-feeney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-semantic-web-company-thomas-schandl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-schandl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-web-company"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-hepp">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-bundeswehr-university-munich-germany-martin-hepp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Hepp</rdfs:label>
+    <j.0:name>Martin Hepp</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-hepp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/boab-interactive">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BoaB Interactive</rdfs:label>
+    <j.0:name>BoaB Interactive</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/boab-interactive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-luczak-roesch">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-markus-luczak-roesch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Markus Luczak-Roesch</rdfs:label>
+    <j.0:name>Markus Luczak-Roesch</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/markus-luczak-roesch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-strathclyde-university-paola-di-maio">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paola-di-maio"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/strathclyde-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freiburg-university-hospital-holger-stenzhorn">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/holger-stenzhorn"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freiburg-university-hospital"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-koblenz-landau-steffen-staab">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steffen-staab"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-koblenz-landau"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/heiko-hornung"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/roxana-girju">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-illinois-roxana-girju"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Roxana Girju</rdfs:label>
+    <j.0:name>Roxana Girju</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/roxana-girju"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-mcauley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-nrc-institute-of-information-technology-harold-boley">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/harold-boley"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/nrc-institute-of-information-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/elio-toppano"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-bundeswehr-university-munich-germany-martin-hepp">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-hepp"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bundeswehr-university-munich-germany"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-illinois-roxana-girju">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/roxana-girju"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-illinois"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/8/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alexander-zelitchenko"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-universitaet-innsbruck-lyndon-j-b-nixon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lyndon-j-b-nixon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/czech-technical-university-in-prague">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Czech Technical University in Prague</rdfs:label>
+    <j.0:name>Czech Technical University in Prague</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/czech-technical-university-in-prague"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>STI International</rdfs:label>
+    <j.0:name>STI International</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+    <j.0:name>STI Innsbruck</j.0:name>
+    <rdfs:label>STI Innsbruck</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-jacobs-university-bremen-christoph-lange">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-kmi-the-open-university-uk-barry-norton">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/barry-norton"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/3/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>An Interaction Design Perspective on the Pragmatic Web: Preliminary Thoughts</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/c-baranauskas"/>
+    <j.0:title>An Interaction Design Perspective on the Pragmatic Web: Preliminary Thoughts</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/3"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/heiko-hornung"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/m-cecilia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/violeta-damjanovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-salzburg-research-violeta-damjanovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Violeta Damjanovic</rdfs:label>
+    <j.0:name>Violeta Damjanovic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/violeta-damjanovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-czech-technical-university-in-prague-ivan-jelinek">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ivan-jelinek"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/czech-technical-university-in-prague"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hans-weigand"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wernher-behrendt">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Wernher Behrendt</rdfs:label>
+    <j.0:name>Wernher Behrendt</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/wernher-behrendt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Freie Universitaet Berlin, Germany</rdfs:label>
+    <j.0:name>Freie Universitaet Berlin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin"/>
+    <j.0:name>Freie Universitaet Berlin, Germany</j.0:name>
+    <j.0:name>FU Berlin</j.0:name>
+    <rdfs:label>FU Berlin</rdfs:label>
+    <rdfs:label>Freie Universitaet Berlin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-wieser">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-salzburg-research-christoph-wieser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Wieser</rdfs:label>
+    <j.0:name>Christoph Wieser</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-wieser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/milan-stankovic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universite-paris-sud-xi-orsay-milan-stankovic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Milan Stankovic</rdfs:label>
+    <j.0:name>Milan Stankovic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/milan-stankovic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-communitsense-aldo-de-moor">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aldo-de-moor"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/communitsense"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hans-weigand">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-tilburg-university-hans-weigand"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hans Weigand</rdfs:label>
+    <j.0:name>Hans Weigand</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hans-weigand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ritva-engestroem">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ritva Engeström</rdfs:label>
+    <j.0:name>Ritva Engeström</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ritva-engestroem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sandra-lovrencic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-zagreb-sandra-lovrencic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sandra Lovrencic</rdfs:label>
+    <j.0:name>Sandra Lovrencic</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sandra-lovrencic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/6/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Reaching Semantic Agreements through Interaction</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/manuel-atencia"/>
+    <j.0:title>Reaching Semantic Agreements through Interaction</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marco-schorlemmer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-german-research-center-for-artificial-intelligence-dfki-matthias-klusch">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-klusch"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-humboldt-universitaet-zu-berlin-olaf-hartig">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olaf-hartig"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/humboldt-universitaet-zu-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-phillip-obermeir">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/phillip-obermeir"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-deri-nui-galway-matthias-samwald">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-samwald"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/adrian-paschke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-freie-universitaet-berlin-malgorzata-mochol">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/malgorzata-mochol"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/juan-f-sequeda">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-university-of-texas-at-austin-juan-f-sequeda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Juan Sequeda</rdfs:label>
+    <j.0:name>Juan Sequeda</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/juan-f-sequeda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/adrian-benfell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-universitaet-leipzig-soeren-auer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/soeren-auer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-leipzig"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/11/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/richard-von-kaufmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rejandra-akerkar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-technomathematics-research-foundation-rejandra-akerkar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rejandra Akerkar</rdfs:label>
+    <j.0:name>Rejandra Akerkar</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rejandra-akerkar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/icpw2009/paper/main/5/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Value Modeling for the Pragmatic Web - the Case of Social Advertising</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hans-weigand"/>
+    <j.0:title>Value Modeling for the Pragmatic Web - the Case of Social Advertising</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/ICPW/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/ICPW/2009/paper/main/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/salzburg-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Salzburg Research</rdfs:label>
+    <j.0:name>Salzburg Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/salzburg-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/technomathematics-research-foundation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Technomathematics Research Foundation</rdfs:label>
+    <j.0:name>Technomathematics Research Foundation</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/technomathematics-research-foundation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/icpw2009-openlink-software-orri-erling">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/orri-erling"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/openlink-software"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/ICPW 2009/icpw/2009"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/manuel-atencia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Manuel Atencia</rdfs:label>
+    <j.0:name>Manuel Atencia</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/manuel-atencia"/>
+  </rdf:Description>
+</rdf:RDF>

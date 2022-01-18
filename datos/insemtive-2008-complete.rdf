@@ -1,0 +1,824 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-bt-innovate-nicholas-john-kings">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicholas-john-kings"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bt-innovate"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-foaf-project-dan-brickley">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dan-brickley"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/foaf-project"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tabin-hasan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-talis-tom-heath">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tom-heath"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/talis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University, USA</rdfs:label>
+    <j.0:name>Stanford University, USA</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fuyuki-ishikawa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FZI, Germany</rdfs:label>
+    <j.0:name>FZI, Germany</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fzi-forschungszentrum-informatik"/>
+    <j.0:name>FZI</j.0:name>
+    <rdfs:label>FZI</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dan-brickley">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-foaf-project-dan-brickley"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dan Brickley</rdfs:label>
+    <j.0:name>Dan Brickley</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dan-brickley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-simone-braun">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marta-sabou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-kmi-the-open-university-uk-marta-sabou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marta Sabou</rdfs:label>
+    <j.0:name>Marta Sabou</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marta-sabou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hideaki-takeda">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-hideaki-takeda"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-hideaki-takeda"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hideaki Takeda</rdfs:label>
+    <j.0:name>Hideaki Takeda</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hideaki-takeda"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simone-braun">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-simone-braun"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Simone Braun</rdfs:label>
+    <j.0:name>Simone Braun</j.0:name>
+    <foaf:mbox_sha1sum>126a93c041c139a245c725a26927b0372861f01a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/simone-braun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-hans-joerg-happel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hans-joerg-happel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-hideaki-takeda">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hideaki-takeda"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jan-top">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-jan-top"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jan Top</rdfs:label>
+    <j.0:name>Jan Top</j.0:name>
+    <foaf:mbox_sha1sum>f1e1d09075304b7fabc2477c75628988bbeb41dd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jan-top"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/shinichi-honiden"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tabin-hasan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-trento-italy-tabin-hasan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tabin Hasan</rdfs:label>
+    <j.0:name>Tabin Hasan</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tabin-hasan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mats-jontell">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institute-of-ontology-sahlgrenska-academy-goeteborg-university-mats-jontell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mats Jontell</rdfs:label>
+    <j.0:name>Mats Jontell</j.0:name>
+    <foaf:mbox_sha1sum>c75375de31222829610b2a87de7b944ee88c4d6b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mats-jontell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/anthony-jameson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-skoevde">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Skövde</rdfs:label>
+    <j.0:name>University of Skövde</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-skoevde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institute-of-ontology-sahlgrenska-academy-goeteborg-university-mats-jontell">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mats-jontell"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institute-of-ontology-sahlgrenska-academy-goeteborg-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university-olof-torgersson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olof-torgersson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-andreas-schmidt">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andreas-schmidt"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-yukino-baba">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yukino-baba"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/talis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Talis</rdfs:label>
+    <j.0:name>Talis</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/talis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olof-torgersson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university-olof-torgersson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Olof Torgersson</rdfs:label>
+    <j.0:name>Olof Torgersson</j.0:name>
+    <foaf:mbox_sha1sum>691ecaf1638e9b156f959f20b80dd12a486c0cc3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/olof-torgersson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bt-innovate">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BT</rdfs:label>
+    <j.0:name>BT</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bt-innovate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/chide-groenouwe"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/goeran-falkman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hans-joerg-happel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-cnr-istc-italy-valentina-presutti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Valentina Presutti</rdfs:label>
+    <j.0:name>Valentina Presutti</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/valentina-presutti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chide-groenouwe">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-chide-groenouwe"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chide Groenouwe</rdfs:label>
+    <j.0:name>Chide Groenouwe</j.0:name>
+    <foaf:mbox_sha1sum>020abbdf6d4d7a266be02b446127b49566b0b147</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chide-groenouwe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marie-gustafsson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-skoevde-marie-gustafsson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marie Gustafsson</rdfs:label>
+    <j.0:name>Marie Gustafsson</j.0:name>
+    <foaf:mbox_sha1sum>2c22a57f36fe795c4134f6f0d7444744ca1f6d2a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marie-gustafsson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Towards a Constitution Based Game for Fostering Fluency in “SemanticWeb Writing”</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jan-top"/>
+    <j.0:title>Towards a Constitution Based Game for Fostering Fluency in “SemanticWeb Writing”</j.0:title>
+    <j.0:abstract>The Semantic Web (SW) is still far from realising its full potential,partly because it is still lacking enough high quality SW representations of information.We argue that a step in the right direction is fostering people’s capability to fluently create high quality SW representations of the information they generate during problem solving processes. To foster such a capability, we propose a game in which teams compete in creating the best translations of texts into SW representations. Although playing the game is in itself already a way to foster such a capability, we moreover pursue learning from the game which are the most successful translation strategies (embodied by “constitutions”) so that they can also be used by people outside a game setting.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/1"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/chide-groenouwe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eyal-oren">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-eyal-oren"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eyal Oren</rdfs:label>
+    <j.0:name>Eyal Oren</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eyal-oren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-alcala-de-henares-sinuhe-arroyo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sinuhe-arroyo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-alcala-de-henares"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-skoevde-goeran-falkman">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/goeran-falkman"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-skoevde"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fbk-irst-anthony-jameson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anthony-jameson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fbk-irst"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-freie-universitaet-berlin-christian-bizer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christian-bizer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-fuyuki-ishikawa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fuyuki-ishikawa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-valentin-zacharias">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2">
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+    <j.0:title>Bridging the Motivation Gap for Individual Annotators: What Can We Learn From Photo Annotation Systems?</j.0:title>
+    <j.0:abstract>The importance of incentives and socially based motivation for metadata generation should not distract attention entirely from the need to design tools for metadata generation that use every means available to maximize the efficiency and intrinsic motivation of the individual annotator. The popular application domain of (individual) photo management has recently given rise to a number of strategies and methods that can serve as a source of inspiration for the design of metadata generation support for the semantic web. This position paper offers a brief synthesis of relevant work that is intended to serve as a basis for the representation of this perspective at the Insemtive 2008 workshop.</j.0:abstract>
+    <rdfs:label>Bridging the Motivation Gap for Individual Annotators: What Can We Learn From Photo Annotation Systems?</rdfs:label>
+    <j.0:keyword>Query Optimization</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/anthony-jameson"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tabin-hasan"/>
+    <j.0:keyword>SPARQL</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/2"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <j.0:keyword>Basic Graph Pattern Optimization</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-schmidt">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-andreas-schmidt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andreas Schmidt</rdfs:label>
+    <j.0:name>Andreas Schmidt</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andreas-schmidt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yukino-baba"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marie-gustafsson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yukino-baba">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-yukino-baba"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yukino Baba</rdfs:label>
+    <j.0:name>Yukino Baba</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yukino-baba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/shinichi-honiden">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-shinichi-honiden"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-shinichi-honiden"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Shinichi Honiden</rdfs:label>
+    <j.0:name>Shinichi Honiden</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/shinichi-honiden"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-alcala-de-henares">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Alcala de Henares</rdfs:label>
+    <j.0:name>University of Alcala de Henares</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-alcala-de-henares"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/katharina-siorpaes">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-deri-universitaet-innsbruck-katharina-siorpaes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Katharina Siorpaes</rdfs:label>
+    <j.0:name>Katharina Siorpaes</j.0:name>
+    <foaf:mbox_sha1sum>9e0cf1db7ae7fea47ab28f639f63aa4f799e7b8c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/katharina-siorpaes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-hideaki-takeda">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hideaki-takeda"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-shinichi-honiden">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/shinichi-honiden"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mats-jontell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Open University, UK</rdfs:label>
+    <j.0:name>Open University, UK</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+    <j.0:name>Open University</j.0:name>
+    <rdfs:label>Open University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-schaffert">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-salzburg-research-sebastian-schaffert"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Schaffert</rdfs:label>
+    <j.0:name>Sebastian Schaffert</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-schaffert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Growing the Semantic Web with Inverse Semantic Search</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hans-joerg-happel"/>
+    <j.0:title>Growing the Semantic Web with Inverse Semantic Search</j.0:title>
+    <j.0:abstract>Many use cases for the SemanticWeb assume the availability of public metadata. However, research has not yet addressed in a satisfactory manner why and how metadata is published on the Semantic Web. We analyze several reasons and barriers for creating and sharing semantic metadata. In particular, we address the issue of how metadata from private spaces can diffuse into the public Semantic Web. Therefore we introduce the concept of inverse semantic search – an approach which aggregates information needs to motivate information providers to share private metadata.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Institute of Informatics</rdfs:label>
+    <j.0:name>National Institute of Informatics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-institute-of-informatics-japan"/>
+    <j.0:name>NII</j.0:name>
+    <rdfs:label>NII</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-deri-universitaet-innsbruck-elena-paslaru-bontas-simperl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/elena-paslaru-bontas-simperl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/foaf-project">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FOAF Project</rdfs:label>
+    <j.0:name>FOAF Project</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/foaf-project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentin-zacharias">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-valentin-zacharias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Valentin Zacharias</rdfs:label>
+    <j.0:name>Valentin Zacharias</j.0:name>
+    <foaf:mbox_sha1sum>641d33ac81d5e4afddca5102950a76ee177b4f88</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/valentin-zacharias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/insemtive2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about insemtive2008.</j.2:title>
+    <j.2:created>Tue May 03 19:03:55 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ilya-zaihrayeu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-trento-italy-ilya-zaihrayeu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ilya Zaihrayeu</rdfs:label>
+    <j.0:name>Ilya Zaihrayeu</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ilya-zaihrayeu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-bizer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-freie-universitaet-berlin-christian-bizer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris Bizer</rdfs:label>
+    <j.0:name>Chris Bizer</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-bizer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-skoevde-marie-gustafsson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marie-gustafsson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-skoevde"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/goeran-falkman">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-skoevde-goeran-falkman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Göran Falkman</rdfs:label>
+    <j.0:name>Göran Falkman</j.0:name>
+    <foaf:mbox_sha1sum>eb60b7b3a7b175972b9a4c5b1cc21642654e75fa</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/goeran-falkman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jan-top"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institute-of-ontology-sahlgrenska-academy-goeteborg-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Ontology, Sahlgrenska Academy, Göteborg University</rdfs:label>
+    <j.0:name>Institute of Ontology, Sahlgrenska Academy, Göteborg University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institute-of-ontology-sahlgrenska-academy-goeteborg-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicholas-john-kings">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-bt-innovate-nicholas-john-kings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nick Kings</rdfs:label>
+    <j.0:name>Nick Kings</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicholas-john-kings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/elena-paslaru-bontas-simperl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-deri-universitaet-innsbruck-elena-paslaru-bontas-simperl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Elena Simperl</rdfs:label>
+    <j.0:name>Elena Simperl</j.0:name>
+    <foaf:mbox_sha1sum>09814d21068fb5bacc73c395dfd09780f462748a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/elena-paslaru-bontas-simperl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/olof-torgersson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4">
+    <rdfs:label>Tackling the Curse of Prepayment – Collaborative Knowledge Formalization Beyond Lightweight</rdfs:label>
+    <j.0:keyword>web 2.0</j.0:keyword>
+    <j.0:keyword>People Powered Search</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>collaborative knowledge formalization</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/4"/>
+    <j.0:abstract>This paper argues for collaborative incremental augmentation of text retrieval as an approach that can be used to immediately show the benefits of relatively heavyweight knowledge formalization in the context of Web 2.0 style collaborative knowledge formalization. Such an approach helps to overcome the “Curse of Prepayment”; i.e. the hitherto necessary very large initial investment in formalization tasks before any benefit of Semantic Web technologies is visible. Some initial ideas about the architecture of such a system are presented and it is placed within the overall emerging trend of “people powered search”.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <j.0:keyword>Semantic Wikis</j.0:keyword>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4/authorList"/>
+    <j.0:title>Tackling the Curse of Prepayment – Collaborative Knowledge Formalization Beyond Lightweight</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>STI, University of Innsbruck, Austria</rdfs:label>
+    <j.0:name>STI, University of Innsbruck, Austria</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-salzburg-research-sebastian-schaffert">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-schaffert"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/salzburg-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institut-aifb-universitaet-karlsruhe-denny-vrandecic">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/denny-vrandecic"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-trento-italy">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Trento, Italy</rdfs:label>
+    <j.0:name>University of Trento, Italy</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-trento-italy"/>
+    <j.0:name>University of Trento</j.0:name>
+    <rdfs:label>University of Trento</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-kmi-the-open-university-uk-marta-sabou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marta-sabou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-jan-top">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jan-top"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institut-aifb-universitaet-karlsruhe-peter-haase">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-haase"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tania-tudorache">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-stanford-university-tania-tudorache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tania Tudorache</rdfs:label>
+    <j.0:name>Tania Tudorache</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-eyal-oren">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eyal-oren"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fbk-irst">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Fondazione Bruno Kessler</rdfs:label>
+    <j.0:name>Fondazione Bruno Kessler</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fbk-irst"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cnr-istc-italy">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Cognitive Sciences and Technology (CNR), Italy</rdfs:label>
+    <j.0:name>Institute of Cognitive Sciences and Technology (CNR), Italy</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cnr-istc-italy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-kmi-the-open-university-uk-carlos-pedrinaci">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-trento-italy-tabin-hasan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tabin-hasan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-trento-italy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-trento-italy-ilya-zaihrayeu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ilya-zaihrayeu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-trento-italy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Freie Universität Berlin, Germany</rdfs:label>
+    <j.0:name>Freie Universität Berlin, Germany</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hans-joerg-happel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fzi-forschungszentrum-informatik-hans-joerg-happel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hans-Jörg Happel</rdfs:label>
+    <j.0:name>Hans-Jörg Happel</j.0:name>
+    <foaf:mbox_sha1sum>cc20a32692c256e3aa01513d72d6ceaa2c59169c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hans-joerg-happel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-stanford-university-tania-tudorache">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/5"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/5/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/olof-torgersson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>Case Sharing and Ontology Structuring in an Online Oral Medicine Community</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/goeran-falkman"/>
+    <rdfs:label>Case Sharing and Ontology Structuring in an Online Oral Medicine Community</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marie-gustafsson"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mats-jontell"/>
+    <j.0:abstract>The Swedish Oral Medicine Web (SOMWeb) is an online system built to support knowledge sharing between oral medicine practitioners who hold monthly telephone conferences to discuss difficult and interesting cases. Semantic Web technologies are used to model the templates used for case entry, the ontology of values used in filling in cases, and community data. To study the practitioners’ use and perceptions of the collaboration and the SOMWeb system, we have used observations of teleconferences, interviews with participants, and an online questionnaire.These are analyzed to provide a picture of the participants’ opinions about the structured case entry and why they contribute or do not contribute cases. This is followed by a discussion on future work where the value ontology is made available for community editing and structuring, and incentives for user contributions to this process.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-deri-universitaet-innsbruck-katharina-siorpaes">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/katharina-siorpaes"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tom-heath">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-talis-tom-heath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tom Heath</rdfs:label>
+    <j.0:name>Tom Heath</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tom-heath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-cnr-istc-italy-valentina-presutti">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cnr-istc-italy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-pedrinaci">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-kmi-the-open-university-uk-carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Pedrinaci</rdfs:label>
+    <j.0:name>Carlos Pedrinaci</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sinuhe-arroyo">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-alcala-de-henares-sinuhe-arroyo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sinuhe Arroyo</rdfs:label>
+    <j.0:name>Sinuhe Arroyo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sinuhe-arroyo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-university-of-tokyo-shinichi-honiden">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/shinichi-honiden"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit Amsterdam</rdfs:label>
+    <j.0:name>Vrije Universiteit Amsterdam</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:name>VU Amsterdam</j.0:name>
+    <rdfs:label>VU Amsterdam</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/denny-vrandecic">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institut-aifb-universitaet-karlsruhe-denny-vrandecic"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Denny Vrandecic</rdfs:label>
+    <j.0:name>Denny Vrandecic</j.0:name>
+    <foaf:mbox_sha1sum>f289692d248278ba786537d1b07f00284967379d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/denny-vrandecic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6">
+    <j.0:title>Extracting Time and Location Concepts Related to Tags</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/shinichi-honiden"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yukino-baba"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/insemtive/2008/paper/main/6"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fuyuki-ishikawa"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/insemtive2008/data.semanticweb.org/workshop/insemtive/2008/paper/main/6/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Extracting Time and Location Concepts Related to Tags</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/insemtive/2008/proceedings"/>
+    <j.0:abstract>Folksonomy is a method of classifying content, and it iswidely used in some web services. It allows users to choose tags (keywords or terms assigned to specific content) freely and to search content by referring to the tags. Compared to existing classification methods, folksonomy reflects the users’ intention more directly because of its unlimited vocabulary and multiple tags for one content item. Moreover, it has a useful characteristic where tags represent the description of the content. Although tags are intended to be a rich semantic description of web content, machines cannot understand what the tags mean because they are just keywords. We describe a method to extract the concept related to the tag in a machine-understandable way by focusing on the features of content annotated with each tag. In particular, we target the problem of extracting the temporal and spatial concepts of the tags on Flickr, a popular photo sharing service by looking at the date and location distributions of photos for each tag. We evaluated the concept extracting method on a snapshot of actual Flickr data and show that it can identify a tags’ concept in a manner similar to the way a person can.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-vrije-universiteit-amsterdam-the-netherlands-chide-groenouwe">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chide-groenouwe"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/INSEMTIVE2008/insemtive/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-tokyo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University Tokyo, Japan</rdfs:label>
+    <j.0:name>University Tokyo, Japan</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-tokyo"/>
+    <j.0:name>The University of Tokyo</j.0:name>
+    <rdfs:label>The University of Tokyo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>AIFB, Universität Karlsruhe, Germany</rdfs:label>
+    <j.0:name>AIFB, Universität Karlsruhe, Germany</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:name>AIFB</j.0:name>
+    <rdfs:label>AIFB</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-haase">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-institut-aifb-universitaet-karlsruhe-peter-haase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Haase</rdfs:label>
+    <j.0:name>Peter Haase</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/salzburg-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Salzburg Research, Austria</rdfs:label>
+    <j.0:name>Salzburg Research, Austria</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/salzburg-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fuyuki-ishikawa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-national-institute-of-informatics-japan-fuyuki-ishikawa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fuyuki Ishikawa</rdfs:label>
+    <j.0:name>Fuyuki Ishikawa</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fuyuki-ishikawa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Department of Computer Science and Engineering, Chalmers, University of Technology/Göteborg University</rdfs:label>
+    <j.0:name>Department of Computer Science and Engineering, Chalmers, University of Technology/Göteborg University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anthony-jameson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/insemtive2008-fbk-irst-anthony-jameson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anthony Jameson</rdfs:label>
+    <j.0:name>Anthony Jameson</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anthony-jameson"/>
+  </rdf:Description>
+</rdf:RDF>

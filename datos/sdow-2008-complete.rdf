@@ -1,0 +1,227 @@
+<rdf:RDF
+    xmlns:cfp="http://sw.deri.org/2005/08/conf/cfp.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:rss="http://purl.org/rss/1.0/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/8">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/8/authorList"/>
+    <rdfs:label xml:lang="en">Semantify del.icio.us: automatically turn your tags into senses</rdfs:label>
+    <cofunc:title xml:lang="en">Semantify del.icio.us: automatically turn your tags into senses</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/8"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/francesco-ronzano"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-marchetti"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maurizio-tesconi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/salvatore-minutoli"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/6">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/6/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">Wikipedia Mining for Triple Extraction Enhanced by Co-reference Resolution</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kotaro-nakayama"/>
+    <cofunc:title xml:lang="en">Wikipedia Mining for Triple Extraction Enhanced by Co-reference Resolution</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/4">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/4"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <rdfs:label xml:lang="en">Expressing Argumentative Discussions in Social Media Sites</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-breslin"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/uldis-bojars"/>
+    <cofunc:title xml:lang="en">Expressing Argumentative Discussions in Social Media Sites</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tudor-groza"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/siegfried-handschuh"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/4/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/2">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/2/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">LODr -- A Linking Open Data Tagging System</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+    <cofunc:title xml:lang="en">LODr -- A Linking Open Data Tagging System</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/5/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/sdow2008@en/sdow/2008">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label xml:lang="en">1st Social Data on the Web workshop</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/4/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/3/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/1/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/2/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/11/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/10/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/11">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/11/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">RDFohloh, a RDF wrapper of Ohloh</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sergio-fernandez"/>
+    <cofunc:title xml:lang="en">RDFohloh, a RDF wrapper of Ohloh</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/sdow2008@en">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about sdow2008@en.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:28 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/9">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/9/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">Modeling Online Presence</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/milan-stankovic"/>
+    <cofunc:title xml:lang="en">Modeling Online Presence</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/7">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/7/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">Getting to Me – Exporting Semantic Social Network from Facebook</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/matthew-rowe"/>
+    <cofunc:title xml:lang="en">Getting to Me – Exporting Semantic Social Network from Facebook</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/7"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fabio-ciravegna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/5">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/5"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mylene-leitzelman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/5/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/patrick-grohan"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michel-buffa"/>
+    <cofunc:title xml:lang="en">A state of the art on Social Network Analysis and its applications on a semantic web</cofunc:title>
+    <rdfs:label xml:lang="en">A state of the art on Social Network Analysis and its applications on a semantic web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/guillaume-ereteo"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fabien-gandon"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/peter-sander"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/3">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/3/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">Combining Social Music and Semantic Web for music-related recommender systems</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yves-raimond"/>
+    <cofunc:title xml:lang="en">Combining Social Music and Semantic Web for music-related recommender systems</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/3"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexandre-passant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/1">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rebecca-montanari"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alessandra-toninelli"/>
+    <rdfs:label xml:lang="en">Towards Socially Aware Mobile Phones</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/1/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/deepali-khushraj"/>
+    <cofunc:title xml:lang="en">Towards Socially Aware Mobile Phones</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/1"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ora-lassila"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/2"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/5"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/9"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/4"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/8"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/1"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/6"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/3"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/6/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/7/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/8/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/9/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/10">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/sdow2008@en/data.semanticweb.org/workshop/sdow/2008/paper/10/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label xml:lang="en">Towards Opinion Mining Through Tracing Discussions on the Web</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/selver-softic"/>
+    <cofunc:title xml:lang="en">Towards Opinion Mining Through Tracing Discussions on the Web</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/sdow/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/sdow/2008/paper/10"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/michael-hausenblas"/>
+  </rdf:Description>
+</rdf:RDF>

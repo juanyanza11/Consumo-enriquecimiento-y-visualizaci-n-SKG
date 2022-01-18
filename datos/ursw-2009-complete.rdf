@@ -1,0 +1,646 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marcelo-ladeira"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>An Algorithm for Learning with Probabilistic Description Logics</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fabio-g-cozman"/>
+    <j.0:title>An Algorithm for Learning with Probabilistic Description Logics</j.0:title>
+    <j.0:abstract>Probabilistic Description Logics are the basis of ontologies in the Semantic Web. Knowledge representation and reasoning for these logics have been extensively explored in the last years; less attention has been paid to techniques that learn ontologies from data. In this paper we report on algorithms that learn probabilistic concepts and roles. We present an initial effort towards semi-automated learning using probabilistic methods. We combine ILP (Inductive Logic Programming) methods and a probabilistic classifier algorithm (search for candidate hypotheses is conducted by a Noisy-OR classifier). Preliminary results on a real world dataset are presented.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/4"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-eduardo-ochoa-luna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/floriana-esposito">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Floriana Esposito</rdfs:label>
+    <j.0:name>Floriana Esposito</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/floriana-esposito"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giorgos-stoilos">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giorgos Stoilos</rdfs:label>
+    <j.0:name>Giorgos Stoilos</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giorgos-stoilos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ben-yaghlane"/>
+    <j.0:keyword>directed evidential network</j.0:keyword>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <j.0:keyword>OWL</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/8"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/amira-essaid"/>
+    <j.0:abstract>The OWL is a language for representing ontologies but it is unable to capture the uncertainty about the concepts for a domain. To address the problem of representing uncertainty, we propose in this paper, the theoretical aspects of our tool BeliefOWL which is based on evidential approach. It focuses on translating an ontology into a directed evidential network by applying a set of structural translation rules. Once the network is constructed, belief masses will be assigned to the different nodes in order to propagate uncertainties later.</j.0:abstract>
+    <j.0:keyword>ontology representation</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList"/>
+    <rdfs:label>BeliefOWL: an Evidential Representation in OWL Ontology</rdfs:label>
+    <j.0:keyword>ontology</j.0:keyword>
+    <j.0:title>BeliefOWL: an Evidential Representation in OWL Ontology</j.0:title>
+    <j.0:keyword>Dempster-Shafer theory</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bart-gajderowicz">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bart Gajderowicz</rdfs:label>
+    <j.0:name>Bart Gajderowicz</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bart-gajderowicz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/livia-predoiu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Livia Predoiu</rdfs:label>
+    <j.0:name>Livia Predoiu</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/livia-predoiu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/georg-gottlob"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-nickles">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Nickles</rdfs:label>
+    <j.0:name>Matthias Nickles</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-nickles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-eduardo-ochoa-luna">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>José Eduardo Ochoa Luna</rdfs:label>
+    <j.0:name>José Eduardo Ochoa Luna</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-eduardo-ochoa-luna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/siyao-zheng">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Siyao Zheng</rdfs:label>
+    <j.0:name>Siyao Zheng</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/siyao-zheng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-pool">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Pool</rdfs:label>
+    <j.0:name>Michael Pool</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-pool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ben-yaghlane">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ben Yaghlane</rdfs:label>
+    <j.0:name>Ben Yaghlane</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ben-yaghlane"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pavel-smrz">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pavel Smrz</rdfs:label>
+    <j.0:name>Pavel Smrz</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pavel-smrz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/claudia-damato"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fernando-bobillo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fernando Bobillo</rdfs:label>
+    <j.0:name>Fernando Bobillo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fernando-bobillo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/trevor-martin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Trevor Martin</rdfs:label>
+    <j.0:name>Trevor Martin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/trevor-martin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/amira-essaid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Amira Essaid</rdfs:label>
+    <j.0:name>Amira Essaid</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/amira-essaid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fabio-g-cozman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fabio-g-cozman">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fabio G. Cozman</rdfs:label>
+    <j.0:name>Fabio G. Cozman</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fabio-g-cozman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ben-yaghlane"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicola-fanizzi"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/georg-gottlob"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bettina-fazzinga"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Combining Semantic Web Search with the Power of Inductive Reasoning</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thomas-lukasiewicz"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList"/>
+    <j.0:title>Combining Semantic Web Search with the Power of Inductive Reasoning</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/3"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/claudia-damato"/>
+    <j.0:abstract>Extensive research activities are recently directed towards the Semantic Web as a future form of the Web. Consequently, Web search as the key technology of the Web is evolving towards some novel form of Semantic Web search. A very promising recent approach to such SemanticWeb search is based on combining standard Web search with ontological background knowledge and using standard Web search engines as the main inference motor of Semantic Web search. In this paper, we propose to further enhance this approach to Semantic Web search by the use of inductive reasoning techniques. This adds especially the important ability to handle inconsistencies, noise, and incompleteness, which are very likely to occur in distributed and heterogeneous environments, such as the Web. We report on a prototype implementation of the new approach and extensive experimental results.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/laecio-santos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dave-reynolds"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList/item-1">
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kathryn-b-laskey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList"/>
+    <j.0:keyword>Linked open data</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dave-reynolds"/>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <rdfs:label>Position paper: Uncertainty reasoning for linked data</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/7"/>
+    <j.0:abstract>Linked open data offers a set of design patterns and conventions for sharing data across the semantic web. In this position paper we enumerate some key uncertainty representation issues which apply to linked data and suggest approaches to tackling them. We suggest the need for vocabularies to enable representation of link certainty, to handle ambiguous or imprecise values and to express sets of assumptions based on named graph combinators.</j.0:abstract>
+    <j.0:keyword>uncertainty reasoning</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <j.0:title>Position paper: Uncertainty reasoning for linked data</j.0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/johanna-voelker">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Johanna Voelker</rdfs:label>
+    <j.0:name>Johanna Voelker</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/johanna-voelker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thomas-lukasiewicz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-henrique-ribeiro">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Henrique Ribeiro</rdfs:label>
+    <j.0:name>Carlos Henrique Ribeiro</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-henrique-ribeiro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anders-l-madsen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anders L. Madsen</rdfs:label>
+    <j.0:name>Anders L. Madsen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anders-l-madsen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/bart-gajderowicz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rommel-carvalho">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rommel Carvalho</rdfs:label>
+    <j.0:name>Rommel Carvalho</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rommel-carvalho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sergej-sizov">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sergej Sizov</rdfs:label>
+    <j.0:name>Sergej Sizov</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sergej-sizov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-lukasiewicz">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Lukasiewicz</rdfs:label>
+    <j.0:name>Thomas Lukasiewicz</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-lukasiewicz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicola-fanizzi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marcelo-ladeira">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marcelo Ladeira</rdfs:label>
+    <j.0:name>Marcelo Ladeira</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marcelo-ladeira"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/georg-gottlob">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Georg Gottlob</rdfs:label>
+    <j.0:name>Georg Gottlob</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/georg-gottlob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/claudia-damato"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-eduardo-ochoa-luna"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rommel-carvalho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/amira-essaid"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-robertson">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dave Robertson</rdfs:label>
+    <j.0:name>Dave Robertson</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-robertson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kathryn-b-laskey">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kathryn B. Laskey</rdfs:label>
+    <j.0:name>Kathryn B. Laskey</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kathryn-b-laskey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/floriana-esposito"/>
+    <rdfs:label>Evidential Nearest-Neighbors Classification for Inductive ABox Reasoning</rdfs:label>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicola-fanizzi"/>
+    <j.0:title>Evidential Nearest-Neighbors Classification for Inductive ABox Reasoning</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/2"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/claudia-damato"/>
+    <j.0:abstract>In the line of our investigation on inductive methods for Semantic Web reasoning, we propose an alternative way for approximate ABox reasoning based on the analogical principle of the nearest-neighbors. Once neighbors of a test individual are selected, a combination rule descending from the Dempster-Shafer theory can join together the evidence provided by the neighbor individuals. We show how to exploit the procedure for determining unknown class- and role-memberships or fillers for datatype properties which may be the basis for many further ABox inductive reasoning algorithms.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/trevor-martin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Axiomatic First-Order Probability</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kathryn-b-laskey"/>
+    <j.0:abstract>Most languages for the Semantic Web have their logical basis in some fragment of first-order logic. Thus, integrating first-order logic with probability is fundamental for representing and reasoning with uncertainty in the semantic web. Defining semantics for probability logics presents a dilemma: a logic that assigns a real-valued probability to any first-order sentence cannot be axiomatized and lacks a complete proof theory. This paper develops a first-order axiomatic theory of probability in which probability is formalized as a function mapping Gödel numbers to elements of a real closed field. The resulting logic is fully first-order and recursively axiomatizable, and therefore has a complete proof theory. This gives rise to a plausible reasoning logic with a number of desirable properties: the logic can represent arbitrarily fine-grained degrees of plausibility intermediate between proof and disproof; all mathematical and logical assumptions can be explicitly represented as finite computational structures accessible to automated reasoners; contradictions can be discovered in finite time; and the logic supports learning from observation.</j.0:abstract>
+    <j.0:keyword>probability</j.0:keyword>
+    <j.0:keyword>first-order logic</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList"/>
+    <j.0:title>Axiomatic First-Order Probability</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kathryn-b-laskey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-vojtas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Vojtas</rdfs:label>
+    <j.0:name>Peter Vojtas</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-vojtas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicola-fanizzi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicola Fanizzi</rdfs:label>
+    <j.0:name>Nicola Fanizzi</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicola-fanizzi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-6">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/shou-matsumoto"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/umberto-straccia">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Umberto Straccia</rdfs:label>
+    <j.0:name>Umberto Straccia</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/umberto-straccia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/silvia-calegari">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Silvia Calegari</rdfs:label>
+    <j.0:name>Silvia Calegari</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/silvia-calegari"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paulo-c-g-costa">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paulo C. G. Costa</rdfs:label>
+    <j.0:name>Paulo C. G. Costa</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paulo-c-g-costa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/claudia-damato">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Claudia d'Amato</rdfs:label>
+    <j.0:name>Claudia d'Amato</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/claudia-damato"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrei-majidian">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrei Majidian</rdfs:label>
+    <j.0:name>Andrei Majidian</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrei-majidian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dave-reynolds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dave Reynolds</rdfs:label>
+    <j.0:name>Dave Reynolds</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dave-reynolds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jeff-z-pan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jeff Z. Pan</rdfs:label>
+    <j.0:name>Jeff Z. Pan</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jeff-z-pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bettina-fazzinga">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bettina Fazzinga</rdfs:label>
+    <j.0:name>Bettina Fazzinga</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bettina-fazzinga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList/item-1"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-6"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alireza-sadeghian"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/siyao-zheng"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicola-fanizzi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alireza-sadeghian">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alireza Sadeghian</rdfs:label>
+    <j.0:name>Alireza Sadeghian</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alireza-sadeghian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1">
+    <j.0:keyword>ontology matching</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <j.0:abstract>The popularity of ontologies for representing the semantics behind many real-world domains has created a growing pool of ontologies on various topics. While different ontologists, experts, and organizations create the vast majority of ontologies, often for closed world systems, their domains frequently overlap in an open world system, such as the Semantic Web. These overlapping ontologies sometimes model similar or matching theories, that may be inconsistent. To assist in the reuse of these ontologies, this paper describes a technique for enriching manually created ontologies by supplementing them with inductively derived rules, and reducing the number of inconsistencies. The derived rules are translated from decision trees created by executing a tree based data mining algorithm with probability measures over the data being modeled. These rules can be used to revise the ontology adding a higher level of granularity, in order to identify possible similarities missed by the original ontologists. We then discuss how this may be applied to ontology matching. We demonstrate the application of our technique by presenting an example, and discuss how various data types may be treated to generalize the semantics of an ontology for an open world system.</j.0:abstract>
+    <j.0:keyword>probabilistic ontology</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alireza-sadeghian"/>
+    <rdfs:label>Ontology Granulation Through Inductive Decision Trees</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/1"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1/authorList"/>
+    <j.0:title>Ontology Granulation Through Inductive Decision Trees</j.0:title>
+    <j.0:keyword>ontology granulation</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bart-gajderowicz"/>
+    <j.0:keyword>decision trees</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yung-peng">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yung Peng</rdfs:label>
+    <j.0:name>Yung Peng</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yung-peng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/ursw2009">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about ursw2009.</j.2:title>
+    <j.2:created>Tue May 03 19:04:48 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/shou-matsumoto"/>
+    <j.0:keyword>knowledge fusion</j.0:keyword>
+    <rdfs:label>Probabilistic Ontology and Knowledge Fusion for Procurement Fraud Detection in Brazil</rdfs:label>
+    <j.0:keyword>ontology</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>UnBBayes</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marcelo-ladeira"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/laecio-santos"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paulo-c-g-costa"/>
+    <j.0:keyword>probabilistic ontology</j.0:keyword>
+    <j.0:keyword>MEBN</j.0:keyword>
+    <j.0:keyword>procurement fraud detection</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <j.0:keyword>PR-OWL</j.0:keyword>
+    <j.0:abstract>To cope with society’s demand for transparency and corruption prevention, the Brazilian Federal General Comptroller (CGU) has carried out a number of actions, including: awareness campaigns aimed at the private sector; campaigns to educate the public; research initiatives; and regular inspections and audits of municipalities and states. Although CGU has collected information from hundreds of different sources - Revenue Agency, Federal Police, and others - the process of fusing all this data has not been efficient enough to meet the needs of CGU’s decision makers. Therefore, it is natural to change the focus from data fusion to knowledge fusion. As a consequence, traditional syntactic methods must be augmented with techniques that represent and reason with the semantics of databases. However, commonly used approaches fail to deal with uncertainty, a dominant characteristic in corruption prevention. This paper presents the use of Probabilistic OWL (PR-OWL) to design and test a model that performs information fusion to detect possible frauds in procurements involving Federal money. To design this model, a recently developed tool for creating PR-OWL ontologies was used with support from PR-OWL specialists and careful guidance from a fraud detection specialist from CGU.</j.0:abstract>
+    <j.0:title>Probabilistic Ontology and Knowledge Fusion for Procurement Fraud Detection in Brazil</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/5"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rommel-carvalho"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kathryn-b-laskey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/shou-matsumoto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Shou Matsumoto</rdfs:label>
+    <j.0:name>Shou Matsumoto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/shou-matsumoto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/paulo-c-g-costa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/siyao-zheng"/>
+    <j.0:keyword>creative knowledge discovery</j.0:keyword>
+    <j.0:keyword>fuzzy taxonomy</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andrei-majidian"/>
+    <j.0:keyword>uncertainty in Semantic Web</j.0:keyword>
+    <j.0:abstract>A systematic form of creative knowledge discovery is outlined, requiring taxonomies to generalise knowledge structures and mappings between taxonomies to find parallels between knowledge structures from different domains. These share many of the features needed to handle uncertainty in the semantic web, and results will be relevant to the URSW community.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings"/>
+    <rdfs:label>Fuzzy Taxonomies for Creative Knowledge Discovery</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>Fuzzy Taxonomies for Creative Knowledge Discovery</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ursw/2009/paper/main/9"/>
+    <j.0:keyword>fuzzy association rules</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/trevor-martin"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/guilin-qi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Guilin Qi</rdfs:label>
+    <j.0:name>Guilin Qi</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/guilin-qi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-tolk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andreas Tolk</rdfs:label>
+    <j.0:name>Andreas Tolk</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andreas-tolk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kenneth-j-laskey">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kenneth J. Laskey</rdfs:label>
+    <j.0:name>Kenneth J. Laskey</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kenneth-j-laskey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/floriana-esposito"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/bettina-fazzinga"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/ursw/2009/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/7"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/8"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ursw2009/data.semanticweb.org/workshop/ursw/2009/paper/main/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andrei-majidian"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laecio-santos">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laécio Santos</rdfs:label>
+    <j.0:name>Laécio Santos</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laecio-santos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-sanchez">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel Sánchez</rdfs:label>
+    <j.0:name>Daniel Sánchez</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-sanchez"/>
+  </rdf:Description>
+</rdf:RDF>

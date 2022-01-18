@@ -1,0 +1,286 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gianluca-demartini">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-l3s-research-center-gianluca-demartini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/emanuele-della-valle"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/hanmin-jung"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/irene-celino"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ryutaro-ichise">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-national-institute-of-informatics-japan-ryutaro-ichise"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-kmitnb-thailand-natenapa-sriharee">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/natenapa-sriharee"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmitnb-thailand"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/emanuele-della-valle">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-emanuele-della-valle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Finding Topic-centric Identified Experts based on Full Text Analysis</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/hanmin-jung"/>
+    <cofunc:title>Finding Topic-centric Identified Experts based on Full Text Analysis</cofunc:title>
+    <cofunc:abstract>This paper shows a method for finding topic-centric experts from open access metadata and full text documents. Topic-centric information including experts is served on OntoFrame, which is a Semantic Web-based academic research information service supporting R&amp;D activities. URI scheme-based OntoFrame provides three entity pages: topic, person, and event. ‘Persons by Topic’ in topic page lists up topic-centric identified experts. SPARQL query is used to re-trieve them from RDF triple store through backward chaining. We gathered CiteSeer open access metadata and full text documents with the amount of about 110,000 papers. Using about 160,000 abundant topics, OntoFrame now serves topic-centric identified experts and relevant information acquired by full text analysis.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007/papers/515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/emanuele-della-valle"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings"/>
+    <rdfs:label>Towards a Semantic Contact Management</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/francesco-corcoglioniti"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/irene-celino"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007/papers/428"/>
+    <cofunc:title>Towards a Semantic Contact Management</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:abstract>Many organizations face every day the problem of effectively managing their contacts (customers, suppliers, partners, etc.), in terms of communication, clustering, networking, analysis, and so on. Our company decided to cope with this issue by gathering the requirements for Contact Management and by designing and developing a prototype, called GeCo, to fit Cefriel needs. During the development of this application, which ran in parallel with some research projects dealing with Semantic Web technologies, we recognized that the addition of some "semantics", both in the data modeling and in the tool design, would help a lot in solving the open issues for the general problem of Contact Management. In this paper we summarize the main criticalities in managing contacts and we suggest how Semantic Web technologies can contribute to their successful solution.</cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Finding Experts by Link Prediction in Co-authorship Networks</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/milen-pavlov"/>
+    <cofunc:title>Finding Experts by Link Prediction in Co-authorship Networks</cofunc:title>
+    <cofunc:abstract>Research collaborations are always encouraged, as they often yield good results. However, the researcher network contains massive amounts of experts in various disciplines and it is difficult for the individual researcher to decide which experts will match his own expertise best. As a result, collaboration outcomes are often uncertain and research teams are poorly organized. We propose a method for building link predictors in networks, where nodes can represent researchers and links - collaborations. In this case, predictors might offer good suggestions for future collaborations. We test our method on a researcher co-authorship network and obtain link predictors of encouraging accuracy. This leads us to believe our method could be useful in building and maintaining strong research teams. It could also help with choosing vocabulary for expert description, since link predictors contain implicit information about which structural attributes of the network are important with respect to the link prediction problem.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007/papers/507"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ryutaro-ichise"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/milen-pavlov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-irene-celino">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/irene-celino"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cefriel"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-emanuele-della-valle">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emanuele-della-valle"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cefriel"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/fews2007">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about fews2007.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:53 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/fews/2007/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-university-of-waterloo-milen-pavlov">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/milen-pavlov"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-waterloo"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/francesco-corcoglioniti">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-francesco-corcoglioniti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-l3s-research-center-gianluca-demartini">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/l3s-research-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/natenapa-sriharee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/515/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ravikarn-punnarut">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-king-mongkuts-institute-of-technology-north-bangkok-ravikarn-punnarut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/francesco-corcoglioniti"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-francesco-corcoglioniti">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/francesco-corcoglioniti"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cefriel"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-national-institute-of-informatics-japan-ryutaro-ichise">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ryutaro-ichise"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-informatics-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Finding Experts Using Wikipedia</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gianluca-demartini"/>
+    <cofunc:title>Finding Experts Using Wikipedia</cofunc:title>
+    <cofunc:abstract>When we want to find experts on the Web we might want to search where the knowledge is created by the users. One of such knowledge repository is Wikipedia. People expertises are described in Wikipedia pages and also the Wikipedia users can be considered experts on the topics they produce content on. In this paper we propose algorithms to find experts in Wikipedia. The two different approaches are finding experts in the Wikipedia content or among the Wikipedia users.
+We also use semantics from WordNet and Yago in order to disambiguate expertise topics and to improve the  retrieval effectiveness. In the end, we show how our methodology  can be implemented in a system in order to improve the expert retrieval effectiveness.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007/papers/500"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/500/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Constructing Semantic Campus for Academic Collaboration</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/natenapa-sriharee"/>
+    <cofunc:title>Constructing Semantic Campus for Academic Collaboration</cofunc:title>
+    <cofunc:abstract>This paper proposes a methodology for constructing Semantic Campus, a Semantic Web application that represents the social network of the academics in the university, King Mongkut’s Institute of Technology North Bangkok. Semantic Campus is constructed by extracting data that is available on the web site of the university. The extracted data is analyzed with respect to its association to terms defined in an ontology and associations between people in the university to reveal whether or not one academic knows another. We also discuss relation analysis that considers direct and indirect association of the campus-based resources (i.e. knowledge about the people) contained in Semantic Campus. Such analysis can be used, for example, to find specific experts in the university and research interests shared by a number of academics.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/fews/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007/papers/463"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ravikarn-punnarut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/428/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-king-mongkuts-institute-of-technology-north-bangkok-ravikarn-punnarut">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ravikarn-punnarut"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/king-mongkuts-institute-of-technology-north-bangkok"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/fews2007/fews/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Finding Experts on the Web with Semantics Workshop</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/fews/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/natenapa-sriharee">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-kmitnb-thailand-natenapa-sriharee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/507/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ryutaro-ichise"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/fews2007/data.semanticweb.org/workshop/fews/2007/papers/463/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ravikarn-punnarut"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/irene-celino">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-cefriel-irene-celino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/milen-pavlov">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-university-of-waterloo-milen-pavlov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hanmin-jung">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-kisti-hanmin-jung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/fews2007/iswc-aswc/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc-aswc/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/fews2007-kisti-hanmin-jung">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hanmin-jung"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kisti"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/FEWS2007/fews/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

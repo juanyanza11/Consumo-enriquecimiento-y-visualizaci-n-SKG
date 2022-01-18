@@ -1,0 +1,692 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/floriana-esposito">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-bari-floriana-esposito"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Floriana Esposito</rdfs:label>
+    <j.0:name>Floriana Esposito</j.0:name>
+    <foaf:mbox_sha1sum>e11d3c3bab0abac8725bcfe1aaa2511f49f79713</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/floriana-esposito"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-aberdeen-jeff-z-pan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jeff-z-pan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-aberdeen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-sonntag">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-german-research-center-for-artificial-intelligence-dfki-daniel-sonntag"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel Sonntag</rdfs:label>
+    <j.0:name>Daniel Sonntag</j.0:name>
+    <foaf:mbox_sha1sum>defd58582d0124ecc531d61cd00fb7f2a6016df1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-sonntag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-simon-fraser-university-james-delgrande">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/james-delgrande"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/simon-fraser-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-nicolas-rotstein">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicolas-rotstein"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-nacional-del-sur-uns"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universitaet-karlsruhe-guilin-qi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/guilin-qi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/meraka-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Meraka Institute</rdfs:label>
+    <j.0:name>Meraka Institute</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/meraka-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicolas-rotstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/iwod2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about iwod2008.</j.2:title>
+    <j.2:created>Tue May 03 19:03:56 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-mannheim-heiner-stuckenschmidt">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/heiner-stuckenschmidt"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-mannheim"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jon-atle-gulla">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-ntnu-jon-atle-gulla"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jon Atle Gulla</rdfs:label>
+    <j.0:name>Jon Atle Gulla</j.0:name>
+    <foaf:mbox_sha1sum>ee30decb84ca12092dac4b6a6e960a348363646a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jon-atle-gulla"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marta-sabou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-marta-sabou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marta Sabou</rdfs:label>
+    <j.0:name>Marta Sabou</j.0:name>
+    <foaf:mbox_sha1sum>19f8655880a3531e2a1d6eb329f44d5d6b88324b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marta-sabou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alessandro-artale">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-free-university-of-bozen-bolzano-alessandro-artale"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alessandro Artale</rdfs:label>
+    <j.0:name>Alessandro Artale</j.0:name>
+    <foaf:mbox_sha1sum>9559e5eedaa732e6b078a247cb3bf38263fa509c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alessandro-artale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-daquin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu d'Aquin</rdfs:label>
+    <j.0:name>Mathieu d’Aquin</j.0:name>
+    <foaf:mbox_sha1sum>e61cc68181adeb9fbbddc539a6fa01dd24b299c8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-daquin"/>
+    <j.0:name>Mathieu d'Aquin</j.0:name>
+    <rdfs:label>Mathieu d’Aquin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bari">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universita degli Studi di Bari</rdfs:label>
+    <j.0:name>Universita degli Studi di Bari</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bari"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marcelo-falappa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-mathieu-daquin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-bari-floriana-esposito">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/floriana-esposito"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bari"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marcelo-falappa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-marcelo-falappa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marcelo Falappa</rdfs:label>
+    <j.0:name>Marcelo Falappa</j.0:name>
+    <foaf:mbox_sha1sum>e7996a4e8321c123cb491771157e9cc24a3cfbbd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marcelo-falappa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/grigoris-antoniou">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-grigoris-antoniou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Grigoris Antoniou</rdfs:label>
+    <j.0:name>Grigoris Antoniou</j.0:name>
+    <foaf:mbox_sha1sum>f44cd7769f416e96864ac43498b082155196829e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/grigoris-antoniou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-nacional-del-sur-uns">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Nacional del Sur (UNS)</rdfs:label>
+    <j.0:name>Universidad Nacional del Sur (UNS)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-nacional-del-sur-uns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universitaet-karlsruhe-peter-haase">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-haase"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/james-delgrande">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-simon-fraser-university-james-delgrande"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>James Delgrande</rdfs:label>
+    <j.0:name>James Delgrande</j.0:name>
+    <foaf:mbox_sha1sum>612fd5e0f87bbfa4e40f864689eeed6477daa54e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/james-delgrande"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-moguillansky">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-martin-moguillansky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Moguillansky</rdfs:label>
+    <j.0:name>Martin Moguillansky</j.0:name>
+    <foaf:mbox_sha1sum>05879450ba4781510619a0bcce12a72a51ceaf91</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-moguillansky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/forth-ics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institute of Computer Science, Greece</rdfs:label>
+    <j.0:name>Institute of Computer Science, Greece</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/forth-ics"/>
+    <j.0:name>FORTH</j.0:name>
+    <rdfs:label>FORTH</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidade-de-sao-paulo-renata-wassermann">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/renata-wassermann"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidade-de-sao-paulo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jeff-z-pan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-aberdeen-jeff-z-pan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jeff Z. Pan</rdfs:label>
+    <j.0:name>Jeff Z. Pan</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jeff-z-pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-grigoris-antoniou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/grigoris-antoniou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-free-university-of-bozen-bolzano-alessandro-artale">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alessandro-artale"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/free-university-of-bozen-bolzano"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-applied-sciences-northwestern-switzerland-holger-wache">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/holger-wache"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-applied-sciences-northwestern-switzerland"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-ntnu-jon-atle-gulla">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jon-atle-gulla"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ntnu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Supporting the Evolution of SHIQ Ontologies with Inductive Logic Programming -- A Preliminary Study</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/francesca-alessandra-lisi"/>
+    <j.0:title>Supporting the Evolution of SHIQ Ontologies with Inductive Logic Programming -- A Preliminary Study</j.0:title>
+    <j.0:abstract>The definition of new concepts or roles for which extensional knowledge become available can turn out to be necessary to make a DL ontology evolve. In this paper we reformulate this task as a machine learning problem and study a solution based on techniques borrowed from that form of logic-based machine learning known under the name of Inductive Logic Programming (ILP). More precisely, we propose to adapt previous ILP results to the knowledge representation framework of DL+log in order to learn rules to be used for changing SHIQ ontologies.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/paper/main/5"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/floriana-esposito"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-giorgos-flouris">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/giorgos-flouris"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/giorgos-flouris">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-giorgos-flouris"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Giorgos Flouris</rdfs:label>
+    <j.0:name>Giorgos Flouris</j.0:name>
+    <foaf:mbox_sha1sum>dc808b065733afaf3aa11d334f478b26f7ef527d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/giorgos-flouris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/enrico-motta">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Enrico Motta</rdfs:label>
+    <j.0:name>Enrico Motta</j.0:name>
+    <foaf:mbox_sha1sum>28a0f82609671f47d811e6bee865afb23abfb8db</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/enrico-motta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-meyer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-meraka-institute-thomas-meyer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Meyer</rdfs:label>
+    <j.0:name>Thomas Meyer</j.0:name>
+    <foaf:mbox_sha1sum>b76b053d4974b2d025df52989b8d9af9f0bb9ca7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-meyer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-bari-francesca-alessandra-lisi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/francesca-alessandra-lisi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bari"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>German Research Center for Artificial Intelligence (DFKI)</rdfs:label>
+    <j.0:name>German Research Center for Artificial Intelligence (DFKI)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-mannheim">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Mannheim</rdfs:label>
+    <j.0:name>University of Mannheim</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-mannheim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renata-dividino">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-fraunhofer-institute-for-computer-graphics-research-igd-renata-dividino"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renata Dividino</rdfs:label>
+    <j.0:name>Renata Dividino</j.0:name>
+    <foaf:mbox_sha1sum>e0924a593798bdbaa39fd04ee8e9d9d5e1dd18ad</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renata-dividino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fraunhofer-institute-for-computer-graphics-research-igd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Fraunhofer Institute for Computer Graphics Research (IGD)</rdfs:label>
+    <j.0:name>Fraunhofer Institute for Computer Graphics Research (IGD)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fraunhofer-institute-for-computer-graphics-research-igd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-sonntag"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Open University</rdfs:label>
+    <j.0:name>The Open University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-dimitris-plexousakis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dimitris-plexousakis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/forth-ics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fouad-zablith"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-vrije-universiteit-amsterdam-the-netherlands-zhisheng-huang">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/zhisheng-huang"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-fouad-zablith">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fouad-zablith"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/simon-fraser-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Simon Fraser University</rdfs:label>
+    <j.0:name>Simon Fraser University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/simon-fraser-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/zhisheng-huang">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-vrije-universiteit-amsterdam-the-netherlands-zhisheng-huang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Zhisheng Huang</rdfs:label>
+    <j.0:name>Zhisheng Huang</j.0:name>
+    <foaf:mbox_sha1sum>238a59a17bd96fbb93f39aa9dba2f6847a8d261c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/zhisheng-huang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-moguillansky"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/paper/main/3"/>
+    <rdfs:label>A Theoretical Model to Handle Ontology Debugging &amp; Change Through Argumentation</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marcelo-falappa"/>
+    <j.0:abstract>A dynamic argumentation framework based on ALC description logics is presented by extending notions from argumentation. Since argumentation frameworks reason over graphs that relate arguments through attack, a methodology is proposed to bridge ontology-specific concepts to argumentation notions. In this way, inconsistency in the former will be represented as an attack in the latter. This approach benefits from (argumentation) acceptability semantics to restore consistency to ontologies. Finally, a model of ontology change is presented along with a rational characterization.</j.0:abstract>
+    <j.0:title>A Theoretical Model to Handle Ontology Debugging &amp; Change Through Argumentation</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicolas-rotstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/heiner-stuckenschmidt">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-mannheim-heiner-stuckenschmidt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Heiner Stuckenschmidt</rdfs:label>
+    <j.0:name>Heiner Stuckenschmidt</j.0:name>
+    <foaf:mbox_sha1sum>f072571d8c8abd21e637a9dec2c5e835165c8ece</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/heiner-stuckenschmidt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fouad-zablith">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-fouad-zablith"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fouad Zablith</rdfs:label>
+    <j.0:name>Fouad Zablith</j.0:name>
+    <foaf:mbox_sha1sum>388132c508c443bcb261ded283b98383f4f4149f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fouad-zablith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-fraunhofer-institute-for-computer-graphics-research-igd-renata-dividino">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/renata-dividino"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fraunhofer-institute-for-computer-graphics-research-igd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidade-de-sao-paulo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidade de São Paulo</rdfs:label>
+    <j.0:name>Universidade de São Paulo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidade-de-sao-paulo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-meraka-institute-thomas-meyer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-meyer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/meraka-institute"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-marta-sabou">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marta-sabou"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/free-university-of-bozen-bolzano">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Free University of Bozen-Bolzano</rdfs:label>
+    <j.0:name>Free University of Bozen-Bolzano</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/free-university-of-bozen-bolzano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/floriana-esposito"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marta-sabou"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-kmi-the-open-university-uk-enrico-motta">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/holger-wache">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-applied-sciences-northwestern-switzerland-holger-wache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Holger Wache</rdfs:label>
+    <j.0:name>Holger Wache</j.0:name>
+    <foaf:mbox_sha1sum>612ab1009b9f9bb7c31f53982a6de846e572dfff</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/holger-wache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-oakland-university-vijayan-sugumaran">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vijayan-sugumaran"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/oakland-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/4/authorList"/>
+    <j.0:title>Using Background Knowledge for Ontology Evolution</j.0:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marta-sabou"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mathieu-daquin"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fouad-zablith"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/paper/main/4"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/enrico-motta"/>
+    <j.0:abstract>One of the current bottlenecks for automating ontology evolution is resolving the right links between newly arising information and the existing knowledge in the ontology. Most of existing approaches mainly rely on the user when it comes to capturing and representing new knowledge. Our ontology evolution framework intends to reduce or even eliminate user input through the use of background knowledge. In this paper, we show how various sources of background knowledge could be exploited for relation discovery. We perform a relation discovery experiment focusing on the use of WordNet and Semantic Web ontologies as sources of background knowledge. We back our experiment with a thorough analysis that highlights various issues on how to improve and validate relation discovery in the future, which will directly improve the task of automatically performing ontology changes during evolution.</j.0:abstract>
+    <rdfs:label>Using Background Knowledge for Ontology Evolution</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-aberdeen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Aberdeen</rdfs:label>
+    <j.0:name>University of Aberdeen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-aberdeen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ntnu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Norwegian University of Science and Technology</rdfs:label>
+    <j.0:name>Norwegian University of Science and Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ntnu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dimitris-plexousakis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-forth-ics-dimitris-plexousakis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dimitris Plexousakis</rdfs:label>
+    <j.0:name>Dimitris Plexousakis</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dimitris-plexousakis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vijayan-sugumaran"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-applied-sciences-northwestern-switzerland">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Applied Sciences Northwestern Switzerland</rdfs:label>
+    <j.0:name>University of Applied Sciences Northwestern Switzerland</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-applied-sciences-northwestern-switzerland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/francesca-alessandra-lisi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-martin-moguillansky">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-moguillansky"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-nacional-del-sur-uns"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/oakland-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Oakland University</rdfs:label>
+    <j.0:name>Oakland University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/oakland-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-german-research-center-for-artificial-intelligence-dfki-daniel-sonntag">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-sonntag"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicolas-rotstein">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-nicolas-rotstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicolas Rotstein</rdfs:label>
+    <j.0:name>Nicolas Rotstein</j.0:name>
+    <foaf:mbox_sha1sum>f6854301d1429ff6e2b7b3251227203ed4195220</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicolas-rotstein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vrije-universiteit-amsterdam-the-netherlands">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vrije Universiteit Amsterdam</rdfs:label>
+    <j.0:name>Vrije Universiteit Amsterdam</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Controlled Ontology Evolution through Semiotic-based Ontology Evaluation</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/renata-dividino"/>
+    <j.0:title>Controlled Ontology Evolution through Semiotic-based Ontology Evaluation</j.0:title>
+    <j.0:abstract>Ontology evaluation is an important issue that must be addressed during the lifecycle of an ontology because it assures that the ontology reflects the desired requirements during selection, design, population, evolution, usage, or other processes of the ontology lifecycle. Ontology evaluation aims at assessing the quality and the adequacy of an ontology from the point of view of a particular predefined criterion, for use in a specific context, for a specific purpose. Here, we demonstrate that evaluation is an important issue for ontology evolution. To capture the different nature of evaluation and evolution criteria, we use a tool (S-OntoEval) aiming at assessing ontology quality by implementing existing quality metrics that draw upon semiotic theory. An evaluation of the SWIntO ontology of the SmartWeb project shows its controlled evolution by quality measurement and improvement.</j.0:abstract>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/paper/main/1"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-sonntag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universitaet-karlsruhe">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Karlsruhe</rdfs:label>
+    <j.0:name>University of Karlsruhe</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universitaet-karlsruhe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidad-nacional-del-sur-uns-marcelo-falappa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marcelo-falappa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-nacional-del-sur-uns"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/IWOD2008/iwod/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/renata-dividino"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/guilin-qi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universitaet-karlsruhe-guilin-qi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Guilin Qi</rdfs:label>
+    <j.0:name>Guilin Qi</j.0:name>
+    <foaf:mbox_sha1sum>7618a76dbd015fd744d2a2d5ef46642e65764490</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/guilin-qi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jon-atle-gulla"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-moguillansky"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vijayan-sugumaran">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-oakland-university-vijayan-sugumaran"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vijayan Sugumaran</rdfs:label>
+    <j.0:name>Vijayan Sugumaran</j.0:name>
+    <foaf:mbox_sha1sum>090fcb89fa62a44e520a5a2bc2aa800b3125931e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vijayan-sugumaran"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-haase">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universitaet-karlsruhe-peter-haase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Haase</rdfs:label>
+    <j.0:name>Peter Haase</j.0:name>
+    <foaf:mbox_sha1sum>37df258c12bd6cff2ef621f28549b5e48334e3d1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/francesca-alessandra-lisi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-university-of-bari-francesca-alessandra-lisi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Francesca Lisi</rdfs:label>
+    <j.0:name>Francesca Lisi</j.0:name>
+    <foaf:mbox_sha1sum>082657c852d69248417b8795e8e81298c554da83</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/francesca-alessandra-lisi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/renata-wassermann">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/iwod2008-universidade-de-sao-paulo-renata-wassermann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Renata Wassermann</rdfs:label>
+    <j.0:name>Renata Wassermann</j.0:name>
+    <foaf:mbox_sha1sum>a70ec591561a81e38107ddc7de18167a32775608</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/renata-wassermann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2">
+    <rdfs:label>An Ontology Creation Methodology: A Phased Approach</rdfs:label>
+    <j.0:keyword>Ontology Creation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vijayan-sugumaran"/>
+    <j.0:keyword>Ontologies</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Semantic Web</j.0:keyword>
+    <j.0:keyword>Text Mining</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/iwod/2008/paper/main/2"/>
+    <j.0:title>An Ontology Creation Methodology: A Phased Approach</j.0:title>
+    <j.0:abstract>Existing ontology construction workbenches have severe limitations in creating ontologies from representative text collections. This paper presents a new workbench-supported ontology creation methodology that is specially designed for non-ontology experts with little knowledge of semantic markup languages. The workbench generates OWL models and is implemented as part of a search project for the entertainment domain. New techniques are gradually being added to the workbench, and early testing indicates that the ontology creation approach can be used by domain experts without much guidance from ontology experts.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jon-atle-gulla"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/iwod2008/data.semanticweb.org/workshop/iwod/2008/paper/main/2/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/iwod/2008/proceedings"/>
+  </rdf:Description>
+</rdf:RDF>

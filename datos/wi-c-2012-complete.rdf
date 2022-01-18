@@ -1,0 +1,1652 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-f-barrero">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-de-alcala-david-f-barrero"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David F. Barrero</rdfs:label>
+    <j.0:name>David F. Barrero</j.0:name>
+    <j.0:givenName>David</j.0:givenName>
+    <j.0:familyName>F. Barrero</j.0:familyName>
+    <foaf:mbox_sha1sum>30c5ae020e2d758f9b5814f9840ad1615dadec3e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-f-barrero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-de-saint-etienne-pierre-maret">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pierre-maret"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universite-de-saint-etienne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pawan-lingras">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-saint-marys-university-pawan-lingras"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-pawan-lingras"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pawan Lingras</rdfs:label>
+    <j.0:name>Pawan Lingras</j.0:name>
+    <j.0:givenName>Pawan</j.0:givenName>
+    <j.0:familyName>Lingras</j.0:familyName>
+    <foaf:mbox_sha1sum>318d5fd469582a9bb317fc998b0257b0e8240fd4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pawan-lingras"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-steinar-kristoffersen">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/steinar-kristoffersen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-stockholm-school-of-economics-robin-teigland">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/robin-teigland"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stockholm-school-of-economics"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList"/>
+    <j.0:keyword>Virtual communities</j.0:keyword>
+    <rdfs:label>Smart Places: Multi-Agent based Virtual Community Management System</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/muhammad-fahad"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christophe-gravier"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/11"/>
+    <j.0:title>Smart Places: Multi-Agent based Virtual Community Management System</j.0:title>
+    <j.0:keyword>JaCaMo</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/pierre-maret"/>
+    <j.0:keyword>Jason</j.0:keyword>
+    <j.0:abstract>Virtual Communities (VC) are synergetic digital spaces to build collaborations and exchange knowledge between people sharing similar interests or goals. They respond to human needs such as information sharing, friendship, and recreation. In this paper, we present a VC Management System, based on a Multi-Agent Oriented Programming (MAOP) approach. Using the MAOP JaCaMo platform, we make possible to install a decentralized and open management of those communities in a context of smart cities. Participants of a virtual community are each supported by a Jason agent that encapsulates the logic and the control of the user participation to a VC (such as publishing posts, notifying members, etc.). A set of CArtAgO artifacts provides the basic functionalities and operations giving access to the basic functionalities for knowledge exchange in such VC. Agents can exploit those artifacts to execute their tasks while achieving their individual and collective goals. The global coordination strategies enforcing behaviors of the participants of a VC are expressed as multi-agent normative organizations managed by the Moise framework.</j.0:abstract>
+    <j.0:keyword>Multi-Agent programming</j.0:keyword>
+    <j.0:keyword>Information Exchange</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/olivier-boissier"/>
+    <j.0:keyword>Cartago</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-craiova-software-engineering-department-romania-costin-badica">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/costin-badica"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-craiova-software-engineering-department-romania"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-iut-lumiere-university-of-lyon-ii-bron-france-muhammad-fahad">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/muhammad-fahad"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/iut-lumiere-university-of-lyon-ii-bron-france"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jacques-calmet">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-karlsruhe-institute-of-technology-jacques-calmet"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-jacques-calmet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jacques Calmet</rdfs:label>
+    <j.0:name>Jacques Calmet</j.0:name>
+    <j.0:givenName>Jacques</j.0:givenName>
+    <j.0:familyName>Calmet</j.0:familyName>
+    <foaf:mbox_sha1sum>df7c2a561485e8a91db33ed02374580a5b096750</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jacques-calmet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/olivier-boissier"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-sap-uk-wasif-gilani">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/wasif-gilani"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/saulo-pedro">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ufscar-saulo-pedro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Saulo Pedro</rdfs:label>
+    <j.0:name>Saulo Pedro</j.0:name>
+    <j.0:givenName>Saulo</j.0:givenName>
+    <j.0:familyName>Pedro</j.0:familyName>
+    <foaf:mbox_sha1sum>42b0db9824fa5e73c9de9ef6cacce02a6646947a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/saulo-pedro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/laurent-vercouter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yi-zeng"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ecole-nationale-superieure-des-mines-fayol-ensmse-lsti">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ecole Nationale Supérieure des Mines, FAYOL-ENSMSE, LSTI</rdfs:label>
+    <j.0:name>Ecole Nationale Supérieure des Mines, FAYOL-ENSMSE, LSTI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ecole-nationale-superieure-des-mines-fayol-ensmse-lsti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/laurent-vercouter">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-litis-lab-insa-de-rouen-laurent-vercouter"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-laurent-vercouter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Laurent Vercouter</rdfs:label>
+    <j.0:name>Laurent Vercouter</j.0:name>
+    <j.0:givenName>Laurent</j.0:givenName>
+    <j.0:familyName>Vercouter</j.0:familyName>
+    <foaf:mbox_sha1sum>a13017efb602be4b97bde9d432613bfdc4e6b310</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/laurent-vercouter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jorn-altmann">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-seoul-national-university-college-of-engineering-jorn-altmann"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-jorn-altmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jorn Altmann</rdfs:label>
+    <j.0:name>Jorn Altmann</j.0:name>
+    <j.0:givenName>Jorn</j.0:givenName>
+    <j.0:familyName>Altmann</j.0:familyName>
+    <foaf:mbox_sha1sum>abd40f3adab46e103cc45cf3ee5b3b9a85d27642</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jorn-altmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>Clustering avatars behaviours from Virtual Worlds interactions</j.0:title>
+    <j.0:keyword>Data processing</j.0:keyword>
+    <j.0:keyword>Virtual Worlds</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maria-d-r-moreno"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/david-camacho"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/10"/>
+    <j.0:abstract>Virtual Worlds (VWs) platforms and applications provide a practical implementation of the Metaverse concept. These applications, as highly inmersive and interactive 3D environments, have become very popular in social networks and games domains. The existence of a set of open platforms like OpenSim or OpenCobalt have played a major role in the popularization of this technology and they open new exciting research areas. One of these areas is behaviour analysis. In virtual worlds, the user (or avatar) can move and interact within an artificial world with a high degree of freedom. The movements and iterations of the avatar can be monitorized, and hence this information can be analysed to obtain interesting behavioural patterns. Usually, only the information related to the avatars conversations (textual chat
+logs) are directly available for processing. However, these open platforms allows to capture other kind of information like their exact position of an avatar in the VW, what they are looking at, or which actions they perform inside these worlds. This paper studies how this information, can be extracted, processed and later used by clustering methods to detect behaviour or group formations in the world. To detect the behavioural patterns of the avatars considered, clustering techniques have been used. These techniques, using the correct data preprocessing and modelling, can be
+used to automatically detect hidden patterns from data.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gema-bello-orgaz"/>
+    <j.0:keyword>Behavioral patterns</j.0:keyword>
+    <j.0:keyword>Clustering Techniques</j.0:keyword>
+    <rdfs:label>Clustering avatars behaviours from Virtual Worlds interactions</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/david-f-barrero"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/pierre-maret"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-costin-badica">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/costin-badica"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-eddie-soulier">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eddie-soulier"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/maebashi-institute-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Maebashi Institute of Technology</rdfs:label>
+    <j.0:name>Maebashi Institute of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/maebashi-institute-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ning-zhong"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yann-krupa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-york-university-christo-el-morr">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christo-el-morr"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/york-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-frederic-amblard">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/frederic-amblard"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-turku-kimmo-tarkkanen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kimmo-tarkkanen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-turku"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-hannes-werthner">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/hannes-werthner"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-litis-lab-insa-de-rouen-laurent-vercouter">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/laurent-vercouter"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/litis-lab-insa-de-rouen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-christo-el-morr">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christo-el-morr"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-bert-jan-van-beijnum">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/bert-jan-van-beijnum"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/technical-university-of-cluj-napoca">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Technical University of Cluj-Napoca</rdfs:label>
+    <j.0:name>Technical University of Cluj-Napoca</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/technical-university-of-cluj-napoca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ens-des-mines-de-saint-etienne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>ENS des Mines de Saint-Etienne</rdfs:label>
+    <j.0:name>ENS des Mines de Saint-Etienne</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ens-des-mines-de-saint-etienne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-rios">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-research-center-for-advanced-science-and-technology-university-of-tokyo-sebastian-rios"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-sebastian-rios"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Rios</rdfs:label>
+    <j.0:name>Sebastian Rios</j.0:name>
+    <j.0:givenName>Sebastian</j.0:givenName>
+    <j.0:familyName>Rios</j.0:familyName>
+    <foaf:mbox_sha1sum>84a1962378c16bed77ff2585a7b94fb49f2bb174</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-rios"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andrei-ciortea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-iit-delhi-maya-ramanath">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maya-ramanath"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/iit-delhi"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yi-zeng">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-yi-zeng"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yi Zeng</rdfs:label>
+    <j.0:name>Yi Zeng</j.0:name>
+    <j.0:givenName>Yi</j.0:givenName>
+    <j.0:familyName>Zeng</j.0:familyName>
+    <foaf:mbox_sha1sum>2013c10e560ab39bbf1f5dc736acd4615dce76f4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yi-zeng"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+    <j.0:name>Universidad Politécnica de Madrid</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/inria-sophia-antipolis">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>INRIA Sophia</rdfs:label>
+    <j.0:name>INRIA Sophia</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/inria-sophia-antipolis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-politecnica-de-madrid-oscar-corcho">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/indiana-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Indiana University</rdfs:label>
+    <j.0:name>Indiana University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/indiana-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/muhammad-fahad"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-saarland-christoph-stahl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-stahl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-saarland"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ufscar-federal-university-of-sao-carlos">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UFSCar - Federal University of Sao Carlos</rdfs:label>
+    <j.0:name>UFSCar - Federal University of Sao Carlos</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ufscar-federal-university-of-sao-carlos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eddie-soulier">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universit-de-technologie-de-troyes-utt-eddie-soulier"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-eddie-soulier"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eddie Soulier</rdfs:label>
+    <j.0:name>Eddie Soulier</j.0:name>
+    <j.0:givenName>Eddie</j.0:givenName>
+    <j.0:familyName>Soulier</j.0:familyName>
+    <foaf:mbox_sha1sum>fde2351231737b48b8f7a97259b1af3d82c87486</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eddie-soulier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-oscar-corcho">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-c-dac-m-sasikumar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/m-sasikumar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/c-dac"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3">
+    <j.0:keyword>search refinement</j.0:keyword>
+    <j.0:keyword>interest analysis</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/3"/>
+    <j.0:title>User Interests Driven Web Personalization Based on Multiple Social Networks</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yi-zeng"/>
+    <j.0:keyword>Web personalization</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList"/>
+    <j.0:abstract>User related data indicate user interests in a certain environment. In the context of massive data from the Web, if an application wants to provide more personalized service (e.g. search) for users, an investigation on user interests is needed. User interests are usually distributed in different sources. In order to provide a more comprehensive understanding, user related data from multiple sources need to be integrated together for deeper analysis. Web based social networks have become typical platforms for extracting user interests. In addition, there are various types of interests from these social networks. In this paper, we provide an algorithmic framework for retrieving semantic data based on user interests from multiple sources (such as multiple social networking sites). We design several algorithms to deal with interests based retrieval based on single and multiple types of interests. We utilize publication data from Semantic Web Dog Food (which can be considered as an academic collaboration based social network), and microblogging data from Twitter to validate our framework. The Active Academic Visit Recommendation Application (AAVRA) are developed as a concrete usecase to show the potential effectiveness of the proposed framework for user interests driven Web personalization based on multiple social networks.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yan-wang"/>
+    <rdfs:label>User Interests Driven Web Personalization Based on Multiple Social Networks</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ning-zhong"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/xu-ren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-de-alcala">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad de Alcalá</rdfs:label>
+    <j.0:name>Universidad de Alcalá</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-de-alcala"/>
+    <j.0:name>Universidad de Alcala</j.0:name>
+    <rdfs:label>Universidad de Alcala</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/leguistin-maud">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-du-mirail-lisst-cers-leguistin-maud"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Leguistin Maud</rdfs:label>
+    <j.0:name>Leguistin Maud</j.0:name>
+    <j.0:givenName>Leguistin</j.0:givenName>
+    <j.0:familyName>Maud</j.0:familyName>
+    <foaf:mbox_sha1sum>cfdf6391c4992228f4db57df04c3d8fe24d5c255</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/leguistin-maud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-christoph-stahl">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christoph-stahl"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maria-d-r-moreno"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-umr-cnrs-5516-universite-jean-monnet-johann-stan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/johann-stan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/umr-cnrs-5516-universite-jean-monnet"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-vienna-university-of-technology-hannes-werthner">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/hannes-werthner"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vienna-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-johann-stan">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/johann-stan"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universit-de-technologie-de-troyes-utt-eddie-soulier">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eddie-soulier"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universit-de-technologie-de-troyes-utt"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-stahl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-saarland-christoph-stahl"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-christoph-stahl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Stahl</rdfs:label>
+    <j.0:name>Christoph Stahl</j.0:name>
+    <j.0:givenName>Christoph</j.0:givenName>
+    <j.0:familyName>Stahl</j.0:familyName>
+    <foaf:mbox_sha1sum>5a24a4398854ef6c8f58734bbc03689333efee9b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-stahl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/victor-de-graaff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ufscar-federal-university-of-sao-carlos-estevam-hruschka-junior">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/estevam-hruschka-junior"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ufscar-federal-university-of-sao-carlos"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4">
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/frederic-amblard"/>
+    <j.0:keyword>groups of friends</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/leguistin-maud"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <rdfs:label>Automated Community Detection on Social Networks: Useful ? Efficient ? Asking the users</rdfs:label>
+    <j.0:keyword>social networks</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/remy-cazabet"/>
+    <j.0:abstract>In most online social networks, with the increasing num- ber of users and content, the problem of contact filtering becomes more and more present. Either to find the most in- teresting publications, or to control the diffusion of their own information, users need do distinguish between several cate- gories of contacts. The recent introduction of such features in online social networks – for instance, Circles in Google+ or Facebook Smart lists – shows that it is a problem they are confronted to. In this paper, we explore this question through multidisciplinary aspects. First, we discuss about this issue of groups management in the context of social net- works, relying on sociological studies and results of a survey done to a panel of Facebook users. Then, we present sev- eral techniques from the state of the art to automatically find meaningful groups of contacts in a user’s contact list. Finally, we asked Facebook users to evaluate these solutions on their own Facebook network, both to compare the so- lutions among themselves and to assess how pertinent the best ones are according to them. The conclusions of this study are, on the one hand, that few people use existing group management tools on Facebook, whereas they deem it necessary to differentiate their communication depending on their audience. On the other hand, the study shows that a network analysis approach can strongly improve the ef- ficiency of an automated detection of groups on networks, which could be used, combined with profile data extraction, to design intelligent management of groups of contacts.</j.0:abstract>
+    <j.0:title>Automated Community Detection on Social Networks: Useful ? Efficient ? Asking the users</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/4"/>
+    <j.0:keyword>community detection</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gema-bello-orgaz">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-autonoma-de-madrid-gema-bello-orgaz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gema Bello Orgaz</rdfs:label>
+    <j.0:name>Gema Bello Orgaz</j.0:name>
+    <j.0:givenName>Gema</j.0:givenName>
+    <j.0:familyName>Orgaz</j.0:familyName>
+    <foaf:mbox_sha1sum>e2d8d4f96e762190b6455a55ce52c3d68f5d6fa3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gema-bello-orgaz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-yan-wang">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yan-wang"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/international-wic-institute-beijing-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-de-saint-etienne-christophe-gravier">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christophe-gravier"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universite-de-saint-etienne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-indiana-university-ying-ding">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ying-ding"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/indiana-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-irit-remy-cazabet">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/remy-cazabet"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP UK</rdfs:label>
+    <j.0:name>SAP UK</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/frederic-amblard">
+    <j.0:givenName>Frederic</j.0:givenName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-cnrs-irit-universit-des-sciences-sociales-toulouse-1-frederic-amblard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/frederic-amblard"/>
+    <foaf:mbox_sha1sum>f51aecf812f3cbe958d4f1aecfba7f33a3c030fe</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <j.0:name>Frederic Amblard</j.0:name>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-frederic-amblard"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-irit-ut1-frederic-amblard"/>
+    <rdfs:label>Frederic Amblard</rdfs:label>
+    <j.0:familyName>Amblard</j.0:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-rolf-a-de-by">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rolf-a-de-by"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/david-camacho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-ioan-letia">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ioan-letia"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/xu-ren">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-xu-ren"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Xu Ren</rdfs:label>
+    <j.0:name>Xu Ren</j.0:name>
+    <j.0:givenName>Xu</j.0:givenName>
+    <j.0:familyName>Ren</j.0:familyName>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/xu-ren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-unknown-rajendra-akerkar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rajendra-akerkar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-pascal-molli">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/pascal-molli"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kimmo-tarkkanen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-turku-kimmo-tarkkanen"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-kimmo-tarkkanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kimmo Tarkkanen</rdfs:label>
+    <j.0:name>Kimmo Tarkkanen</j.0:name>
+    <j.0:givenName>Kimmo</j.0:givenName>
+    <j.0:familyName>Tarkkanen</j.0:familyName>
+    <foaf:mbox_sha1sum>e749298187876df1d709296488aa97eef7567f53</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kimmo-tarkkanen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christophe-gravier">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-de-saint-etienne-christophe-gravier"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christophe Gravier</rdfs:label>
+    <j.0:name>Christophe Gravier</j.0:name>
+    <j.0:givenName>Christophe</j.0:givenName>
+    <j.0:familyName>Gravier</j.0:familyName>
+    <foaf:mbox_sha1sum>af583d240b4536b3ead4ec62a1b46a8e5456e659</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christophe-gravier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/maurice-van-keulen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-david-camacho">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/david-camacho"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/costin-badica">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-craiova-software-engineering-department-romania-costin-badica"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-costin-badica"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Costin Badica</rdfs:label>
+    <j.0:name>Costin Badica</j.0:name>
+    <j.0:givenName>Costin</j.0:givenName>
+    <j.0:familyName>Badica</j.0:familyName>
+    <foaf:mbox_sha1sum>e7434195566154bcb7269f2ef8917c038bc08ea9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/costin-badica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-victor-de-graaff">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/victor-de-graaff"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/research-center-for-advanced-science-and-technology-university-of-tokyo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Research Center for Advanced Science and Technology, University of Tokyo</rdfs:label>
+    <j.0:name>Research Center for Advanced Science and Technology, University of Tokyo</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/research-center-for-advanced-science-and-technology-university-of-tokyo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/carnegie-mellon-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CMU</rdfs:label>
+    <j.0:name>CMU</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/carnegie-mellon-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universit-de-technologie-de-troyes-utt">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>universit de technologie de Troyes UTT</rdfs:label>
+    <j.0:name>universit de technologie de Troyes UTT</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universit-de-technologie-de-troyes-utt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/lhc-universite-de-saint-etienne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LHC Université de Saint Etienne</rdfs:label>
+    <j.0:name>LHC Université de Saint Etienne</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/lhc-universite-de-saint-etienne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-harry-halpin">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/harry-halpin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrei-ciortea">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-politehnica-of-bucharest-andrei-ciortea"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrei Ciortea</rdfs:label>
+    <j.0:name>Andrei Ciortea</j.0:name>
+    <j.0:givenName>Andrei</j.0:givenName>
+    <j.0:familyName>Ciortea</j.0:familyName>
+    <foaf:mbox_sha1sum>4a9e1e28e986960d5c2a485f9ea610309c05887b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrei-ciortea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christophe-gravier"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/iit-delhi">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IIT Delhi</rdfs:label>
+    <j.0:name>IIT Delhi</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/iit-delhi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wasif-gilani">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-sap-uk-wasif-gilani"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-wasif-gilani"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Wasif Gilani</rdfs:label>
+    <j.0:name>Wasif Gilani</j.0:name>
+    <j.0:givenName>Wasif</j.0:givenName>
+    <j.0:familyName>Gilani</j.0:familyName>
+    <foaf:mbox_sha1sum>e9f0ea5b8a12e25ef154da8296851e1c83d47433</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/wasif-gilani"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/xu-ren"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rolf-a-de-by"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/umr-cnrs-5516-universite-jean-monnet">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UMR CNRS 5516 Université Jean-Monnet</rdfs:label>
+    <j.0:name>UMR CNRS 5516 Université Jean-Monnet</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/umr-cnrs-5516-universite-jean-monnet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-dominikus-heckmann">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dominikus-heckmann"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-ying-ding">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ying-ding"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-sebastian-rios">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/sebastian-rios"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steinar-kristoffersen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ostfold-university-college-steinar-kristoffersen"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-steinar-kristoffersen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Steinar Kristoffersen</rdfs:label>
+    <j.0:name>Steinar Kristoffersen</j.0:name>
+    <j.0:givenName>Steinar</j.0:givenName>
+    <j.0:familyName>Kristoffersen</j.0:familyName>
+    <foaf:mbox_sha1sum>423e7e9ec6b60c12a510818d181735f3e2857130</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/steinar-kristoffersen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicolas-delaforge">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-inria-sophia-antipolis-nicolas-delaforge"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-nicolas-delaforge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nicolas Delaforge</rdfs:label>
+    <j.0:name>Nicolas Delaforge</j.0:name>
+    <j.0:givenName>Nicolas</j.0:givenName>
+    <j.0:familyName>Delaforge</j.0:familyName>
+    <foaf:mbox_sha1sum>8c4dbc19d838e6693674295c3d5a22cc568e5e09</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nicolas-delaforge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christo-el-morr">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-york-university-christo-el-morr"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-christo-el-morr"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christo El Morr</rdfs:label>
+    <j.0:name>Christo El Morr</j.0:name>
+    <j.0:givenName>Christo</j.0:givenName>
+    <j.0:familyName>El Morr</j.0:familyName>
+    <foaf:mbox_sha1sum>56b3cda2eb5f32356348916cbe2d028b25a82744</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christo-el-morr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yan-wang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-technical-university-of-cluj-napoca-ioan-letia">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ioan-letia"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/technical-university-of-cluj-napoca"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-politehnica-of-bucharest">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University POLITEHNICA of Bucharest</rdfs:label>
+    <j.0:name>University POLITEHNICA of Bucharest</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-politehnica-of-bucharest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/saulo-pedro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cnrs-irit-universit-des-sciences-sociales-toulouse-1">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CNRS IRIT - Universit des Sciences Sociales Toulouse 1</rdfs:label>
+    <j.0:name>CNRS IRIT - Universit des Sciences Sociales Toulouse 1</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cnrs-irit-universit-des-sciences-sociales-toulouse-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/karlsruhe-institute-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Karlsruhe Institute of Technology</rdfs:label>
+    <j.0:name>Karlsruhe Institute of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/karlsruhe-institute-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/seoul-national-university-college-of-engineering">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Seoul National University, College of Engineering</rdfs:label>
+    <j.0:name>Seoul National University, College of Engineering</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/seoul-national-university-college-of-engineering"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-autonoma-de-madrid-david-camacho">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-camacho"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-autonoma-de-madrid"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-jacques-calmet">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jacques-calmet"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dominikus-heckmann">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-german-research-center-for-artificial-intelligence-dfki-dominikus-heckmann"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-dominikus-heckmann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dominikus Heckmann</rdfs:label>
+    <j.0:name>Dominikus Heckmann</j.0:name>
+    <j.0:givenName>Dominikus</j.0:givenName>
+    <j.0:familyName>Heckmann</j.0:familyName>
+    <foaf:mbox_sha1sum>3b7785355d5bbf7e63156bd8352511b82ae2b06f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dominikus-heckmann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/johann-stan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-umr-cnrs-5516-universite-jean-monnet-johann-stan"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-johann-stan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Johann Stan</rdfs:label>
+    <j.0:name>Johann Stan</j.0:name>
+    <j.0:givenName>Johann</j.0:givenName>
+    <j.0:familyName>Stan</j.0:familyName>
+    <foaf:mbox_sha1sum>a6dcdff18ec92943f1fcb69363fbf857033229e7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/johann-stan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-nicolas-delaforge">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nicolas-delaforge"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yan-wang">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-yan-wang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yan Wang</rdfs:label>
+    <j.0:name>Yan Wang</j.0:name>
+    <j.0:givenName>Yan</j.0:givenName>
+    <j.0:familyName>Wang</j.0:familyName>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yan-wang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yann-krupa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ens-des-mines-de-saint-etienne-yann-krupa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yann Krupa</rdfs:label>
+    <j.0:name>Yann Krupa</j.0:name>
+    <j.0:givenName>Yann</j.0:givenName>
+    <j.0:familyName>Krupa</j.0:familyName>
+    <foaf:mbox_sha1sum>c2f53d10d06f006b18f62b9707da2d80e91da3ae</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yann-krupa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8">
+    <rdfs:label>Designing Privacy-Aware Social Networks: A Multi-Agent Approach</rdfs:label>
+    <j.0:keyword>multi-agent systems</j.0:keyword>
+    <j.0:title>Designing Privacy-Aware Social Networks: A Multi-Agent Approach</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/8"/>
+    <j.0:abstract>People do not generally mind that some personal information is shared, but that it is shared in the wrong ways and with inappropriate others. We introduce a model for the automatic detection of incompatible relationships among agents in a virtual community. We define this model to the aim of adding to the PrivaCIAS framework a new layer that follows the theory of contextual integrity in more depth. We describe in detail the implementation of a proof of concept privacy-aware photo-sharing social network that we had developed for Android smartphones. The social network was built on the extended PrivaCIAS framework, and thus illustrates its applicability in helping users to preserve privacy.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/laurent-vercouter"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andrei-ciortea"/>
+    <j.0:keyword>social networking</j.0:keyword>
+    <j.0:keyword>privacy</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yann-krupa"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList"/>
+    <j.0:keyword>contextual integrity</j.0:keyword>
+    <j.0:keyword>normative organizations</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-jorn-altmann">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jorn-altmann"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/frederic-amblard"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/york-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>York University</rdfs:label>
+    <j.0:name>York University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/york-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rajendra-akerkar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-unknown-rajendra-akerkar"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-rajendra-akerkar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rajendra Akerkar</rdfs:label>
+    <j.0:name>Rajendra Akerkar</j.0:name>
+    <j.0:givenName>Rajendra</j.0:givenName>
+    <j.0:familyName>Akerkar</j.0:familyName>
+    <foaf:mbox_sha1sum>95b0f6a1aeb5d1eccfa83738f4340845233200f8</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rajendra-akerkar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-maebashi-institute-of-technology-ning-zhong">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ning-zhong"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/maebashi-institute-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anind-dey">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-carnegie-mellon-university-anind-dey"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-anind-dey"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anind Dey</rdfs:label>
+    <j.0:name>Anind Dey</j.0:name>
+    <j.0:givenName>Anind</j.0:givenName>
+    <j.0:familyName>Dey</j.0:familyName>
+    <foaf:mbox_sha1sum>1800d8af6870ecc6ba2842f78bef26c5e46c826b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anind-dey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ostfold-university-college">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Østfold University College</rdfs:label>
+    <j.0:name>Østfold University College</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ostfold-university-college"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/muhammad-fahad">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-iut-lumiere-university-of-lyon-ii-bron-france-muhammad-fahad"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Muhammad Fahad</rdfs:label>
+    <j.0:name>Muhammad Fahad</j.0:name>
+    <j.0:givenName>Muhammad</j.0:givenName>
+    <j.0:familyName>Fahad</j.0:familyName>
+    <foaf:mbox_sha1sum>7411e0068f0c31811ed99d72834825b66ccecdce</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/muhammad-fahad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-autonoma-de-madrid-gema-bello-orgaz">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gema-bello-orgaz"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-autonoma-de-madrid"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/m-sasikumar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-c-dac-m-sasikumar"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-m-sasikumar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>M Sasikumar</rdfs:label>
+    <j.0:name>M Sasikumar</j.0:name>
+    <j.0:givenName>M</j.0:givenName>
+    <j.0:familyName>Sasikumar</j.0:familyName>
+    <foaf:mbox_sha1sum>5e44856da8b3e623395af16ce30f2c2f66dcd030</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/m-sasikumar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-research-center-for-advanced-science-and-technology-university-of-tokyo-sebastian-rios">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-rios"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/research-center-for-advanced-science-and-technology-university-of-tokyo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/c-dac">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>C-DAC</rdfs:label>
+    <j.0:name>C-DAC</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/c-dac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maya-ramanath">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-iit-delhi-maya-ramanath"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-maya-ramanath"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maya Ramanath</rdfs:label>
+    <j.0:name>Maya Ramanath</j.0:name>
+    <j.0:givenName>Maya</j.0:givenName>
+    <j.0:familyName>Ramanath</j.0:familyName>
+    <foaf:mbox_sha1sum>a8455a45c12575b7f85c47a3b085b58cfa1fbea9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maya-ramanath"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-pierre-maret">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/pierre-maret"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/victor-de-graaff">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-victor-de-graaff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Victor De Graaff</rdfs:label>
+    <j.0:name>Victor De Graaff</j.0:name>
+    <j.0:givenName>Victor</j.0:givenName>
+    <j.0:familyName>De Graaff</j.0:familyName>
+    <foaf:mbox_sha1sum>ea6a42d26dfd5ac2abf15e6de6a2187db60e9a35</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/victor-de-graaff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/estevam-hruschka-junior"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/leguistin-maud"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universite-de-saint-etienne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Université de Saint-Etienne</rdfs:label>
+    <j.0:name>Université de Saint-Etienne</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universite-de-saint-etienne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5">
+    <j.0:keyword>Geosocial networking</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/maurice-van-keulen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/victor-de-graaff"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList"/>
+    <j.0:keyword>Geoprofiles</j.0:keyword>
+    <j.0:title>Towards Geosocial Recommender Systems</j.0:title>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <j.0:abstract>The usage of social networks sites (SNSs), such as Face-
+book, and geosocial networks (GSNs), such as Foursquare,
+has increased tremendously over the past years. The will-
+ingness of users to share their current locations and expe-
+riences facilitate the creation of geographical recommender
+systems based on user generated content (UGC). This idea
+has been used to create a substantial amount of geosocial
+recommender systems (GRSs), such as Gogobot, TripIt, and
+Trippy already, but can be applied to more complex scenar-
+ios, such as the recommendation of products with a strong
+binding to their region, such as real estate or vacation des-
+tinations.
+
+This extended form of GRS development requires advanced
+functionality for information collection (from the web, other
+social media and sensors), information enrichment (such as
+data quality assessment and advanced data analysis), and
+personalized recommendations. The creation of a toolset to
+cope with these challenges is the goal of this research project,
+for which the outline is presented in this paper.</j.0:abstract>
+    <j.0:keyword>Recommender systems</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rolf-a-de-by"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/5"/>
+    <rdfs:label>Towards Geosocial Recommender Systems</rdfs:label>
+    <j.0:keyword>User profiles</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-maya-ramanath">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/maya-ramanath"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/international-wic-institute-beijing-university-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>International WIC Institute, Beijing University of Technology</rdfs:label>
+    <j.0:name>International WIC Institute, Beijing University of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/international-wic-institute-beijing-university-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-seoul-national-university-college-of-engineering-jorn-altmann">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jorn-altmann"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/seoul-national-university-college-of-engineering"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-german-research-center-for-artificial-intelligence-dfki-dominikus-heckmann">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dominikus-heckmann"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ufscar">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UFSCar</rdfs:label>
+    <j.0:name>UFSCar</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ufscar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-inria-sophia-antipolis-nicolas-delaforge">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicolas-delaforge"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/inria-sophia-antipolis"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ufscar-saulo-pedro">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/saulo-pedro"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ufscar"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-yi-zeng">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yi-zeng"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/international-wic-institute-beijing-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/wi&amp;c2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about wi&amp;c2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:55 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/wic/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-international-wic-institute-beijing-university-of-technology-xu-ren">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/xu-ren"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/international-wic-institute-beijing-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/david-f-barrero"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/remy-cazabet">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-irit-remy-cazabet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Remy Cazabet</rdfs:label>
+    <j.0:name>Remy Cazabet</j.0:name>
+    <j.0:givenName>Remy</j.0:givenName>
+    <j.0:familyName>Cazabet</j.0:familyName>
+    <foaf:mbox_sha1sum>826a2f7bd610081ee0623778ea0a96daf2e13f9a</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/remy-cazabet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/irit">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IRIT</rdfs:label>
+    <j.0:name>IRIT</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/irit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-craiova-software-engineering-department-romania">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Craiova, Software Engineering Department, Romania</rdfs:label>
+    <j.0:name>University of Craiova, Software Engineering Department, Romania</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-craiova-software-engineering-department-romania"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-maurice-van-keulen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maurice-van-keulen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/hannes-werthner">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-vienna-university-of-technology-hannes-werthner"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-hannes-werthner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Hannes Werthner</rdfs:label>
+    <j.0:name>Hannes Werthner</j.0:name>
+    <j.0:givenName>Hannes</j.0:givenName>
+    <j.0:familyName>Werthner</j.0:familyName>
+    <foaf:mbox_sha1sum>469cdae73bc3750bde3991b85d5215c2f792cc52</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/hannes-werthner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-rajendra-akerkar">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/rajendra-akerkar"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/remy-cazabet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-bert-jan-van-beijnum">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/bert-jan-van-beijnum"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/litis-lab-insa-de-rouen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>LITIS lab, INSA de Rouen</rdfs:label>
+    <j.0:name>LITIS lab, INSA de Rouen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/litis-lab-insa-de-rouen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-twente">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Twente</rdfs:label>
+    <j.0:name>University of Twente</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-twente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oscar-corcho">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-politecnica-de-madrid-oscar-corcho"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-oscar-corcho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oscar Corcho</rdfs:label>
+    <j.0:name>Oscar Corcho</j.0:name>
+    <j.0:givenName>Oscar</j.0:givenName>
+    <j.0:familyName>Corcho</j.0:familyName>
+    <foaf:mbox_sha1sum>efbd90eca236ae3131e67f30e3abe0a1bceff305</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-robin-teigland">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/robin-teigland"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/11"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pierre-maret">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pierre-maret"/>
+    <j.0:familyName>Maret</j.0:familyName>
+    <rdfs:label>Pierre Maret</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-de-saint-etienne-pierre-maret"/>
+    <j.0:givenName>Pierre</j.0:givenName>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-lhc-universite-de-saint-etienne-pierre-maret"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-pierre-maret"/>
+    <foaf:mbox_sha1sum>de83e895c90bb4155cf71395d6c6dc0f5c01e947</foaf:mbox_sha1sum>
+    <j.0:name>Pierre Maret</j.0:name>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-saint-marys-university-pawan-lingras">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pawan-lingras"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/saint-marys-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-camacho">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-autonoma-de-madrid-david-camacho"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-david-camacho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Camacho</rdfs:label>
+    <j.0:name>David Camacho</j.0:name>
+    <j.0:givenName>David</j.0:givenName>
+    <j.0:familyName>Camacho</j.0:familyName>
+    <foaf:mbox_sha1sum>bf776f6dde3142933ed2984d7bdc5374869be589</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-camacho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>German Research Center for Artificial Intelligence</rdfs:label>
+    <j.0:name>German Research Center for Artificial Intelligence</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gema-bello-orgaz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maurice-van-keulen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-maurice-van-keulen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maurice Van Keulen</rdfs:label>
+    <j.0:name>Maurice Van Keulen</j.0:name>
+    <j.0:givenName>Maurice</j.0:givenName>
+    <j.0:familyName>Van Keulen</j.0:familyName>
+    <foaf:mbox_sha1sum>377f81eac4879a2e14dfc324c09d94a29137fbeb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maurice-van-keulen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-irit-ut1-frederic-amblard">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/frederic-amblard"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit-ut1"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-nantes-pascal-molli">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pascal-molli"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-nantes"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7">
+    <j.0:abstract>The recent growth of virtual communities, social web and information sharing gives to information retrieval and machine learning systems a source of information referred as the "wisdom of crowds". In this work we show that this information could be used not only as a source of knowledge but as a way to bring intelligent systems closer to users by using their opinion as part of the knowledge acquisition/validation allowing self-supervision. For that we have implemented a validation system for the NELL (Never-Ending Language Learner) system using the question answering platform given by the Yahoo!Answers web community. Moreover, we focus in this paper, in the validation of first order rules induced by NELL using its Rule Learning (RL) algorithm. This paper presents the main motivations for using a QA forum instead of other web-based validation sources; describes the proposed approach with a "Macro QA"-based component named SS-Crowd (self-supervisor agent based on the wisdom of crowds) and brings and discusses the obtained results and how they can impact in a never-ending learning system like NELL in which self-supervision plays a crucial role.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/saulo-pedro"/>
+    <j.0:keyword>machine learning</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>question answering</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/7/authorList"/>
+    <rdfs:label>Collective Intelligence as a Source for Machine Learning Self-Supervision</rdfs:label>
+    <j.0:keyword>self-supervision</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/wic/2012/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/wic/2012/paper/7"/>
+    <j.0:title>Collective Intelligence as a Source for Machine Learning Self-Supervision</j.0:title>
+    <j.0:keyword>virtual communities</j.0:keyword>
+    <j.0:keyword>knowledge validation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/estevam-hruschka-junior"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-chair-laurent-vercouter">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/laurent-vercouter"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-turku">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Turku</rdfs:label>
+    <j.0:name>University of Turku</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-turku"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ying-ding">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-indiana-university-ying-ding"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-ying-ding"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ying Ding</rdfs:label>
+    <j.0:name>Ying Ding</j.0:name>
+    <j.0:givenName>Ying</j.0:givenName>
+    <j.0:familyName>Ding</j.0:familyName>
+    <foaf:mbox_sha1sum>541426905a1eac4ee69a90c7940f90ea8e5a0c64</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ying-ding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ens-des-mines-de-saint-etienne-yann-krupa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yann-krupa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ens-des-mines-de-saint-etienne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/unknown">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>(unknown)</rdfs:label>
+    <j.0:name>(unknown)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/unknown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-autonoma-de-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Autónoma de Madrid</rdfs:label>
+    <j.0:name>Universidad Autónoma de Madrid</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-autonoma-de-madrid"/>
+    <j.0:name>Universidad Autonoma de Madrid</j.0:name>
+    <rdfs:label>Universidad Autonoma de Madrid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/saint-marys-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Saint Mary's University</rdfs:label>
+    <j.0:name>Saint Mary's University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/saint-marys-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-anind-dey">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/anind-dey"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-politehnica-of-bucharest-andrei-ciortea">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrei-ciortea"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-politehnica-of-bucharest"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-edinburgh-harry-halpin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/harry-halpin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-edinburgh"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-m-sasikumar">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/m-sasikumar"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-edinburgh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Edinburgh</rdfs:label>
+    <j.0:name>University of Edinburgh</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-edinburgh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vienna-university-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vienna University of Technology</rdfs:label>
+    <j.0:name>Vienna University of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vienna-university-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-de-alcala-david-f-barrero">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-f-barrero"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-de-alcala"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/estevam-hruschka-junior">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ufscar-federal-university-of-sao-carlos-estevam-hruschka-junior"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Estevam Hruschka Junior</rdfs:label>
+    <j.0:name>Estevam Hruschka Junior</j.0:name>
+    <j.0:givenName>Estevam</j.0:givenName>
+    <j.0:familyName>Hruschka Junior</j.0:familyName>
+    <foaf:mbox_sha1sum>3e054808994d22a80d1c5d45cb1632879346eb2c</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/estevam-hruschka-junior"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-kimmo-tarkkanen">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/kimmo-tarkkanen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/pascal-molli">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-nantes-pascal-molli"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-pascal-molli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Pascal Molli</rdfs:label>
+    <j.0:name>Pascal Molli</j.0:name>
+    <j.0:givenName>Pascal</j.0:givenName>
+    <j.0:familyName>Molli</j.0:familyName>
+    <foaf:mbox_sha1sum>ecfffc7fc0c92308d8c905f30f557ade5ef5eeef</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/pascal-molli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-wasif-gilani">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/wasif-gilani"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stockholm-school-of-economics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stockholm School of Economics</rdfs:label>
+    <j.0:name>Stockholm School of Economics</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stockholm-school-of-economics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-de-alcala-maria-d-r-moreno">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/maria-d-r-moreno"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-de-alcala"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-lhc-universite-de-saint-etienne-pierre-maret">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/pierre-maret"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lhc-universite-de-saint-etienne"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universite-du-mirail-lisst-cers">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>université du mirail, LISST CERS</rdfs:label>
+    <j.0:name>université du mirail, LISST CERS</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universite-du-mirail-lisst-cers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-karlsruhe-institute-of-technology-jacques-calmet">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jacques-calmet"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/karlsruhe-institute-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/iut-lumiere-university-of-lyon-ii-bron-france">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IUT Lumière, University of Lyon II, Bron, France</rdfs:label>
+    <j.0:name>IUT Lumière, University of Lyon II, Bron, France</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/iut-lumiere-university-of-lyon-ii-bron-france"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-carnegie-mellon-university-anind-dey">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anind-dey"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/carnegie-mellon-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/wi&amp;c2012/data.semanticweb.org/workshop/wic/2012/paper/3/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rolf-a-de-by">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-rolf-a-de-by"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rolf A. De By</rdfs:label>
+    <j.0:name>Rolf A. De By</j.0:name>
+    <j.0:givenName>Rolf</j.0:givenName>
+    <j.0:familyName>De By</j.0:familyName>
+    <foaf:mbox_sha1sum>8fbc1b724ce5ee07ae6478f21c34b38c8db167e6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rolf-a-de-by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olivier-boissier">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ecole-nationale-superieure-des-mines-fayol-ensmse-lsti-olivier-boissier"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Olivier Boissier</rdfs:label>
+    <j.0:name>Olivier Boissier</j.0:name>
+    <j.0:givenName>Olivier</j.0:givenName>
+    <j.0:familyName>Boissier</j.0:familyName>
+    <foaf:mbox_sha1sum>ec4d9279c84ce4d3718494056bf8a7d6fa8c5772</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/olivier-boissier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-saarland">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Saarland University</rdfs:label>
+    <j.0:name>Saarland University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-saarland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universite-du-mirail-lisst-cers-leguistin-maud">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/leguistin-maud"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universite-du-mirail-lisst-cers"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ioan-letia">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-technical-university-of-cluj-napoca-ioan-letia"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-ioan-letia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ioan Letia</rdfs:label>
+    <j.0:name>Ioan Letia</j.0:name>
+    <j.0:givenName>Ioan</j.0:givenName>
+    <j.0:familyName>Letia</j.0:familyName>
+    <foaf:mbox_sha1sum>6903aea0ef19b2b518347288c1169fae41d910dd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ioan-letia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-nantes">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Nantes - LINA</rdfs:label>
+    <j.0:name>University of Nantes - LINA</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-nantes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bert-jan-van-beijnum">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-twente-bert-jan-van-beijnum"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-bert-jan-van-beijnum"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Bert-Jan van Beijnum</rdfs:label>
+    <j.0:name>Bert-Jan van Beijnum</j.0:name>
+    <j.0:givenName>Bert-Jan</j.0:givenName>
+    <j.0:familyName>van Beijnum</j.0:familyName>
+    <foaf:mbox_sha1sum>a41c4f8988d01e991338e557b8b7ba066fa966f1</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bert-jan-van-beijnum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/irit-ut1">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IRIT-UT1</rdfs:label>
+    <j.0:name>IRIT-UT1</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/irit-ut1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ning-zhong">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-maebashi-institute-of-technology-ning-zhong"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ning Zhong</rdfs:label>
+    <j.0:name>Ning Zhong</j.0:name>
+    <j.0:givenName>Ning</j.0:givenName>
+    <j.0:familyName>Zhong</j.0:familyName>
+    <foaf:mbox_sha1sum>08445a31a78661b5c746feff39a9db6e4e2cc5cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ning-zhong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robin-teigland">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-stockholm-school-of-economics-robin-teigland"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-robin-teigland"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robin Teigland</rdfs:label>
+    <j.0:name>Robin Teigland</j.0:name>
+    <j.0:givenName>Robin</j.0:givenName>
+    <j.0:familyName>Teigland</j.0:familyName>
+    <foaf:mbox_sha1sum>ccea45e819f5b31d3fa434d0a02faac1284a68a9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robin-teigland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-pawan-lingras">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/pawan-lingras"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/wi&amp;c2012/wic/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/maria-d-r-moreno">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-universidad-de-alcala-maria-d-r-moreno"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Maria D. R-Moreno</rdfs:label>
+    <j.0:name>Maria D. R-Moreno</j.0:name>
+    <j.0:givenName>Maria</j.0:givenName>
+    <j.0:familyName>D. R-Moreno</j.0:familyName>
+    <foaf:mbox_sha1sum>aa8f3a38936f95e48eb3f1fe53c6a73d23168e01</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/maria-d-r-moreno"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ecole-nationale-superieure-des-mines-fayol-ensmse-lsti-olivier-boissier">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olivier-boissier"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ecole-nationale-superieure-des-mines-fayol-ensmse-lsti"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-ostfold-university-college-steinar-kristoffersen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steinar-kristoffersen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ostfold-university-college"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/harry-halpin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-university-of-edinburgh-harry-halpin"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/wi&amp;c2012-programme-committee-member-harry-halpin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Harry Halpin</rdfs:label>
+    <j.0:name>Harry Halpin</j.0:name>
+    <j.0:givenName>Harry</j.0:givenName>
+    <j.0:familyName>Halpin</j.0:familyName>
+    <foaf:mbox_sha1sum>c5e75a0dd882184416c8680f5c402a261314bb79</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/harry-halpin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/wi&amp;c2012-cnrs-irit-universit-des-sciences-sociales-toulouse-1-frederic-amblard">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/frederic-amblard"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cnrs-irit-universit-des-sciences-sociales-toulouse-1"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/WI&amp;C 2012/wic/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

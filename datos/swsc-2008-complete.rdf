@@ -1,0 +1,871 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/telematica-instituut">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Telematica Instituut</rdfs:label>
+    <j.0:name>Telematica Instituut</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/telematica-instituut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/bjoern-knuth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fausto-giunchiglia">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-trento-italy-fausto-giunchiglia"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fausto Giunchiglia</rdfs:label>
+    <j.0:name>Fausto Giunchiglia</j.0:name>
+    <foaf:mbox_sha1sum>ad1bf97094dfdc9d370fdf06df968c90c4b4852d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fausto-giunchiglia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-kaiser">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-research-center-palo-alto-lcc-matthias-kaiser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Kaiser</rdfs:label>
+    <j.0:name>Matthias Kaiser</j.0:name>
+    <foaf:mbox_sha1sum>6f22e54f753a6c826af24c4585cd656649013ba7</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-kaiser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomas-vitvar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-tomas-vitvar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomas Vitvar</rdfs:label>
+    <j.0:name>Tomas Vitvar</j.0:name>
+    <foaf:mbox_sha1sum>add37f77d1c406daf170cb0f0aeb8213ded3137d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomas-vitvar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thorsten-liebig">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-ulm-university-thorsten-liebig"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thorsten Liebig</rdfs:label>
+    <j.0:name>Thorsten Liebig</j.0:name>
+    <foaf:mbox_sha1sum>00071c41a8ce1fb1818ea77957054496cc009b16</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kavitha-srinivas">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-ibm-research-kavitha-srinivas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kavitha Srinivas</rdfs:label>
+    <j.0:name>Kavitha Srinivas</j.0:name>
+    <foaf:mbox_sha1sum>3524dd31de79a544b21dd104327c3c7eb9a9f139</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kavitha-srinivas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford University, CA, USA</rdfs:label>
+    <j.0:name>Stanford University, CA, USA</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-universidad-politecnica-de-madrid-oscar-corcho">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marten-van-sinderen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-center-for-telematics-and-information-technology-ctit-university-of-twente-marten-van-sinderen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marten van Sinderen</rdfs:label>
+    <j.0:name>Marten van Sinderen</j.0:name>
+    <foaf:mbox_sha1sum>a14165090e053a9add665f1b786a5ab2923a5e6b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marten-van-sinderen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-domingue">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-kmi-the-open-university-uk-john-domingue"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Domingue</rdfs:label>
+    <j.0:name>John Domingue</j.0:name>
+    <foaf:mbox_sha1sum>ee358e3b2e0d8a6dd78e3b2ae9d56dd03a2c5941</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-domingue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/swsc2008">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.2:title>Dataset about swsc2008.</j.2:title>
+    <j.2:created>Tue May 03 19:04:37 CEST 2016</j.2:created>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <j.2:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.3:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/swsc/2008/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-hp-palo-alto-anupriya-ankolekar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/anupriya-ankolekar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/hp-palo-alto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/teduh-dirgahayu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/politecnico-di-milano">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Politecnico di Milano</rdfs:label>
+    <j.0:name>Politecnico di Milano</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/politecnico-di-milano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/merced-systems-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Merced Systems, Inc.</rdfs:label>
+    <j.0:name>Merced Systems, Inc.</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/merced-systems-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-potsdam-bjoern-knuth">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/bjoern-knuth"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-potsdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-bussler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-merced-systems-inc-christoph-bussler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Bussler</rdfs:label>
+    <j.0:name>Christoph Bussler</j.0:name>
+    <foaf:mbox_sha1sum>c3851852e12dae64e1e8a8780319333544355f26</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-bussler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-telematica-instituut-stanislav-pokraev">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stanislav-pokraev"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/telematica-instituut"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-omair-shafiq">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/omair-shafiq"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tiziana-margaria"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/srdjan-komazec">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-srdjan-komazec"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Srdjan Komazec</rdfs:label>
+    <j.0:name>Srdjan Komazec</j.0:name>
+    <foaf:mbox_sha1sum>7348d8f19c568de04c7718880f700fad7acdfab9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/rodrigo-mantovaneli-pessoa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-research-center-palo-alto-lcc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP Research Center Palo Alto, LCC</rdfs:label>
+    <j.0:name>SAP Research Center Palo Alto, LCC</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-research-center-palo-alto-lcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rodrigo-mantovaneli-pessoa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-center-for-telematics-and-information-technology-ctit-university-of-twente-rodrigo-mantovaneli-pessoa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rodrigo Mantovaneli Pessoa</rdfs:label>
+    <j.0:name>Rodrigo Mantovaneli Pessoa</j.0:name>
+    <foaf:mbox_sha1sum>49d1f11620f19d0d3c21aef45bb5fa567e77d87e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rodrigo-mantovaneli-pessoa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jens-lemcke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-ag-jens-lemcke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jens Lemcke</rdfs:label>
+    <j.0:name>Jens Lemcke</j.0:name>
+    <foaf:mbox_sha1sum>f53b0d572e5460e1dd37caf5c031a84212af39ec</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jens-lemcke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/omair-shafiq">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-omair-shafiq"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Omair Shafiq</rdfs:label>
+    <j.0:name>Omair Shafiq</j.0:name>
+    <foaf:mbox_sha1sum>0561a1adc730fcc9296f43d11ff91825cbbf4057</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/omair-shafiq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-nui-galway">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DERI Galway</rdfs:label>
+    <j.0:name>DERI Galway</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-ag-peter-emmel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-emmel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-ag"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-ibm-research-kavitha-srinivas">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kavitha-srinivas"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ibm-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/york-sure">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-research-york-sure"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>York Sure</rdfs:label>
+    <j.0:name>York Sure</j.0:name>
+    <foaf:mbox_sha1sum>833dd359e65a3b1efb1c4921a8bf6928e53f2085</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/york-sure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/siobhan-clarke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-trinity-college-dublin-siobhan-clarke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Siobhán Clarke</rdfs:label>
+    <j.0:name>Siobhán Clarke</j.0:name>
+    <foaf:mbox_sha1sum>a54234c76ebf58cf61e3212590f465ce51f51ce3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/siobhan-clarke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP Research</rdfs:label>
+    <j.0:name>SAP Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-jena-germany-ulrich-kuester">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ulrich-kuester"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-jena-germany"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-5">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marten-van-sinderen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/charles-petrie">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-stanford-university-charles-petrie"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Charles Petrie</rdfs:label>
+    <j.0:name>Charles Petrie</j.0:name>
+    <foaf:mbox_sha1sum>d5c83cc89fb461a2b5cd99721709f873563e2f42</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/charles-petrie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/swsc/2008/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-wahler">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-alexander-wahler"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Wahler</rdfs:label>
+    <j.0:name>Alexander Wahler</j.0:name>
+    <foaf:mbox_sha1sum>cb0ed6095ae9058b8fff90273e5cbf56860845bb</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-wahler"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/axel-polleres">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-nui-galway-axel-polleres"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Axel Polleres</rdfs:label>
+    <j.0:name>Axel Polleres</j.0:name>
+    <foaf:mbox_sha1sum>776866afe69158abddfa6dbf92aaaf2045bd91a4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sap-ag">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SAP AG</rdfs:label>
+    <j.0:name>SAP AG</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sap-ag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2">
+    <j.0:keyword>GEM</j.0:keyword>
+    <rdfs:label>Advances in Solving the Mediator Scenario with jABC and jABC/GEM</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jens-lemcke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>Advances in Solving the Mediator Scenario with jABC and jABC/GEM</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/swsc/2008/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/swsc/2008/paper/main/2"/>
+    <j.0:keyword>jABC</j.0:keyword>
+    <j.0:keyword>SWS</j.0:keyword>
+    <j.0:keyword>Semantic Web Service Challenge</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/matthias-kaiser"/>
+    <j.0:keyword>Mediation</j.0:keyword>
+    <j.0:abstract>This paper extends the previously presented solutions to the Mediation Scenario to cover the advanced scenarios "Purchase Order Mediation v2" and "Payment Problem". Here, we use first jABC's technique for modelling service orchestrations via SLGs to solve the scenarios, and then we reuse part of that work and jABC's capabilities to provide an alternative solution with GEM, a goal-driven approach of configurable, communicating agents that each act upon a responsible human user. In the initial implementation presented at the previous SWS Challenge workshop (June 2008, Tenerife), we specifically implemented those parts that were needed to tackle the "Purchase Order Mediation" scenario. This paper completes the implementation of our vision to handle all three mediation scenarios.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christian-kubczak"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bjoern-knuth"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tiziana-margaria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-ag-jens-lemcke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jens-lemcke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-ag"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-trinity-college-dublin-siobhan-clarke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/siobhan-clarke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/trinity-college-dublin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-twente">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Twente</rdfs:label>
+    <j.0:name>University of Twente</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-twente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oscar-corcho">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-universidad-politecnica-de-madrid-oscar-corcho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oscar Corcho</rdfs:label>
+    <j.0:name>Oscar Corcho</j.0:name>
+    <foaf:mbox_sha1sum>f7a7f2a23510a213f493d7ae70ad831dfb0d7ed0</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Politecnica de Madrid</rdfs:label>
+    <j.0:name>Universidad Politecnica de Madrid</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-michal-zaremba">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michal-zaremba"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/sri-international">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>SRI</rdfs:label>
+    <j.0:name>SRI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/sri-international"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/baoshi-yan">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-bosch-research-baoshi-yan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Baoshi Yan</rdfs:label>
+    <j.0:name>Baoshi Yan</j.0:name>
+    <foaf:mbox_sha1sum>316a50666ad42187b744fe004e6b3de77a6a67bd</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/baoshi-yan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anupriya-ankolekar">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-hp-palo-alto-anupriya-ankolekar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Anupriya Ankolekar</rdfs:label>
+    <j.0:name>Anupriya Ankolekar</j.0:name>
+    <foaf:mbox_sha1sum>9afbcc96606f8f1ca748bfe4ff49a381a5b52ba3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/anupriya-ankolekar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stefano-ceri">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-politecnico-di-milano-stefano-ceri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stefano Ceri</rdfs:label>
+    <j.0:name>Stefano Ceri</j.0:name>
+    <foaf:mbox_sha1sum>fea532b2f1b12e12f0a02272a510e620ae2d8b4f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stefano-ceri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-german-research-center-for-artificial-intelligence-dfki-matthias-klusch">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-klusch"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-emmel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-ag-peter-emmel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Emmel</rdfs:label>
+    <j.0:name>Peter Emmel</j.0:name>
+    <foaf:mbox_sha1sum>70419dadebeddc3f127bc3bd619518c01ff17f1f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-emmel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/german-research-center-for-artificial-intelligence-dfki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI</rdfs:label>
+    <j.0:name>DFKI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-trento-italy-fausto-giunchiglia">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fausto-giunchiglia"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-trento-italy"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ibm-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IBM Research</rdfs:label>
+    <j.0:name>IBM Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ibm-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-telematica-instituut-dick-quartel">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dick-quartel"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/telematica-instituut"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1">
+    <j.0:keyword>MDA</j.0:keyword>
+    <j.0:title>Model-driven Service Integration using the COSMO framework</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rodrigo-mantovaneli-pessoa"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dick-quartel"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/swsc/2008/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marten-van-sinderen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Service Mediation</j.0:keyword>
+    <j.0:keyword>Model Transformations</j.0:keyword>
+    <j.0:abstract>In this paper, we describe an approach for solving the integration problem in the Purchase Order Mediation scenario of the Semantic Web Service Challenge. The key feature of our approach is that service models are employed at different abstraction levels to develop end-to-end integration solutions from business requirements to software implementation.</j.0:abstract>
+    <rdfs:label>Model-driven Service Integration using the COSMO framework</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stanislav-pokraev"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/teduh-dirgahayu"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/swsc/2008/paper/main/1"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/malgorzata-mochol">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-freie-universitaet-berlin-malgorzata-mochol"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Malgorzata Mochól</rdfs:label>
+    <j.0:name>Malgorzata Mochól</j.0:name>
+    <foaf:mbox_sha1sum>55b7c25c1f635d7d0cbb1cda0b9fe7b3657e8d6d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/malgorzata-mochol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-waldinger">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sri-international-richard-waldinger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Richard Waldinger</rdfs:label>
+    <j.0:name>Richard Waldinger</j.0:name>
+    <foaf:mbox_sha1sum>f4a53557942941a257afa87aeff2ad1ab1d770e4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/richard-waldinger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-ulm-university-thorsten-liebig">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thorsten-liebig"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ulm-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bosch-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Bosch Research</rdfs:label>
+    <j.0:name>Bosch Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bosch-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/emanuele-della-valle">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-cefriel-emanuele-della-valle"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Emanuele Della Valle</rdfs:label>
+    <j.0:name>Emanuele Della Valle</j.0:name>
+    <foaf:mbox_sha1sum>3c51c3a1d6497aece2e266a87372cd76ba43ece4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/emanuele-della-valle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sri-international-richard-waldinger">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/richard-waldinger"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ulrich-kuester">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-jena-germany-ulrich-kuester"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ulrich Küster</rdfs:label>
+    <j.0:name>Ulrich Küster</j.0:name>
+    <foaf:mbox_sha1sum>04bc2cb357016505f4da233803f2991a29f44810</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ulrich-kuester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/bjoern-knuth">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-potsdam-bjoern-knuth"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Björn Knuth</rdfs:label>
+    <j.0:name>Björn Knuth</j.0:name>
+    <foaf:mbox_sha1sum>bd09085b4926dc56122d38c8d692018581bde7cf</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/bjoern-knuth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>KMI, Open University</rdfs:label>
+    <j.0:name>KMI, Open University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/teduh-dirgahayu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-twente-teduh-dirgahayu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Teduh Dirgahayu</rdfs:label>
+    <j.0:name>Teduh Dirgahayu</j.0:name>
+    <foaf:mbox_sha1sum>ec74e925890a61ebda5ccbc6d7b1dcb9bdd62e3f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/teduh-dirgahayu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/hp-palo-alto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>HP Palo Alto</rdfs:label>
+    <j.0:name>HP Palo Alto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/hp-palo-alto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ulm-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Ulm University</rdfs:label>
+    <j.0:name>Ulm University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ulm-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/center-for-telematics-and-information-technology-ctit-university-of-twente">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Center for Telematics and Information Technology (CTIT), University of Twente</rdfs:label>
+    <j.0:name>Center for Telematics and Information Technology (CTIT), University of Twente</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/center-for-telematics-and-information-technology-ctit-university-of-twente"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-kubczak">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-dortmund-university-of-technology-christian-kubczak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christian Kubczak</rdfs:label>
+    <j.0:name>Christian Kubczak</j.0:name>
+    <foaf:mbox_sha1sum>4d99401dd6369acf0324b59187eb785669caad28</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-kubczak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bolzano">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Bolzano</rdfs:label>
+    <j.0:name>University of Bolzano</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bolzano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/dortmund-university-of-technology">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Dortmund University of Technology</rdfs:label>
+    <j.0:name>Dortmund University of Technology</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/dortmund-university-of-technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jens-lemcke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-cefriel-emanuele-della-valle">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emanuele-della-valle"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cefriel"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-potsdam">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Potsdam, Germany</rdfs:label>
+    <j.0:name>University of Potsdam, Germany</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-potsdam"/>
+    <j.0:name>University of Potsdam</j.0:name>
+    <rdfs:label>University of Potsdam</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-research-center-palo-alto-lcc-matthias-kaiser">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-kaiser"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research-center-palo-alto-lcc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michal-zaremba">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-michal-zaremba"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michal Zaremba</rdfs:label>
+    <j.0:name>Michal Zaremba</j.0:name>
+    <foaf:mbox_sha1sum>6acf299699cfad60781619ba234511a5d3508267</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michal-zaremba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stanislav-pokraev">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-telematica-instituut-stanislav-pokraev"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stanislav Pokraev</rdfs:label>
+    <j.0:name>Stanislav Pokraev</j.0:name>
+    <foaf:mbox_sha1sum>9f0e3d12d009729d1e312cde93f0411870c240f5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stanislav-pokraev"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-tomas-vitvar">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tomas-vitvar"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-bolzano-jos-de-bruijn">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jos-de-bruijn"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bolzano"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sri-international-david-martin">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-martin"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sri-international"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>STI Innsbruck</rdfs:label>
+    <j.0:name>STI Innsbruck</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+    <j.0:name>Semantic Technology Institute (STI), Innsbruck</j.0:name>
+    <j.0:name>STI International</j.0:name>
+    <rdfs:label>Semantic Technology Institute (STI), Innsbruck</rdfs:label>
+    <rdfs:label>STI International</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-federico-facca">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/federico-facca"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-center-for-telematics-and-information-technology-ctit-university-of-twente-marten-van-sinderen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marten-van-sinderen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/center-for-telematics-and-information-technology-ctit-university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-trento-italy">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Trento</rdfs:label>
+    <j.0:name>University of Trento</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-trento-italy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-center-for-telematics-and-information-technology-ctit-university-of-twente-rodrigo-mantovaneli-pessoa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/rodrigo-mantovaneli-pessoa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/center-for-telematics-and-information-technology-ctit-university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-bosch-research-baoshi-yan">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/baoshi-yan"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bosch-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-nui-galway-axel-polleres">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/axel-polleres"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-nui-galway"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-martin">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sri-international-david-martin"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Martin</rdfs:label>
+    <j.0:name>David Martin</j.0:name>
+    <foaf:mbox_sha1sum>ce183d682ed63e5bef7d969fa5eeb259e6ee6023</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-martin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-merced-systems-inc-christoph-bussler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-bussler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/merced-systems-inc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-stanford-university-charles-petrie">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/charles-petrie"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-politecnico-di-milano-stefano-ceri">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stefano-ceri"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/politecnico-di-milano"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Free University Berlin</rdfs:label>
+    <j.0:name>Free University Berlin</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/freie-universitaet-berlin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christian-kubczak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/trinity-college-dublin">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Trinity College</rdfs:label>
+    <j.0:name>Trinity College</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/trinity-college-dublin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-sap-research-york-sure">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/york-sure"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/sap-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-freie-universitaet-berlin-malgorzata-mochol">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/malgorzata-mochol"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-dortmund-university-of-technology-christian-kubczak">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christian-kubczak"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dortmund-university-of-technology"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dick-quartel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jos-de-bruijn">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-bolzano-jos-de-bruijn"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jos de Bruijn</rdfs:label>
+    <j.0:name>Jos de Bruijn</j.0:name>
+    <foaf:mbox_sha1sum>dd403e68bef41a15051f71091f1682560daf5793</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jos-de-bruijn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-jena-germany">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Jena, Germany</rdfs:label>
+    <j.0:name>University of Jena, Germany</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-jena-germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-alexander-wahler">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alexander-wahler"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sudhir-agarwal">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-institut-aifb-universitaet-karlsruhe-sudhir-agarwal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sudhir Agarwal</rdfs:label>
+    <j.0:name>Sudhir Agarwal</j.0:name>
+    <foaf:mbox_sha1sum>23e01d9e42f56692d1ff5c7a732cb81ddd33d92d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sudhir-agarwal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-klusch">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-german-research-center-for-artificial-intelligence-dfki-matthias-klusch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Klusch</rdfs:label>
+    <j.0:name>Matthias Klusch</j.0:name>
+    <foaf:mbox_sha1sum>57876bb570c0df05cb5353220e5b2e1a040c1409</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-klusch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-twente-teduh-dirgahayu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/teduh-dirgahayu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-twente"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tiziana-margaria">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-potsdam-tiziana-margaria"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tiziana Margaria</rdfs:label>
+    <j.0:name>Tiziana Margaria</j.0:name>
+    <foaf:mbox_sha1sum>f25307fc4b5a3ae606bed9eb67f034f1ba7ff150</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tiziana-margaria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/federico-facca">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-federico-facca"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Federico Facca</rdfs:label>
+    <j.0:name>Federico Facca</j.0:name>
+    <foaf:mbox_sha1sum>db7ef91cbd0f9034e7d408787e288bc2e077b216</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/federico-facca"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dick-quartel">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-telematica-instituut-dick-quartel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dick Quartel</rdfs:label>
+    <j.0:name>Dick Quartel</j.0:name>
+    <foaf:mbox_sha1sum>bce1f6e7fc73eebdf170d6fab287ba1ed98ee22f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dick-quartel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cefriel">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CEFRIEL, Italy</rdfs:label>
+    <j.0:name>CEFRIEL, Italy</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cefriel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-institut-aifb-universitaet-karlsruhe-sudhir-agarwal">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sudhir-agarwal"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-university-of-potsdam-tiziana-margaria">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tiziana-margaria"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-potsdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-deri-universitaet-innsbruck-srdjan-komazec">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/srdjan-komazec"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/deri-universitaet-innsbruck"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institut-aifb-universitaet-karlsruhe">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>AIFB</rdfs:label>
+    <j.0:name>AIFB</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/1/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/stanislav-pokraev"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/swsc2008/data.semanticweb.org/workshop/swsc/2008/paper/main/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/matthias-kaiser"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/swsc2008-kmi-the-open-university-uk-john-domingue">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-domingue"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/SWSC2008/swsc/2008"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

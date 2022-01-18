@@ -1,0 +1,633 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yoshinobu-kitamura"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-luxembourg-cedric-pruski">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/cedric-pruski"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-luxembourg"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicolas-guelfi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nigel-r-shadbolt">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-nigel-r-shadbolt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kevin-ottens"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <cofunc:abstract>To construct large scale ontologies, two major approaches are discussed by many researchers. One is a cooperative construction of ontologies, and the other is a modularization of ontologies. To combine these two approaches, this paper discusses a framework for supporting cooperative ontology construction based on dependency management among modularized ontologies. In such a situation, one of the key issues is the maintenance of consistency among inter-dependent ontologies because each ontology is revised asynchronously by different developers. In order to realize consistent development of ontologies, the framework provides two functions: to manage the dependencies between ontology modules and to keep and restore consistencies between them when they are influenced by changes of other modules. Furthermore, we outline an implementation of our framework in our environment for building/using ontology: Hozo.</cofunc:abstract>
+    <rdfs:label>A Framework for Cooperative Ontology Construction Based on Dependency Management of Modules</rdfs:label>
+    <cofunc:title>A Framework for Cooperative Ontology Construction Based on Dependency Management of Modules</cofunc:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/569"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yoshinobu-kitamura"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eiichi-sunagawa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andreas-schmidt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-ching-man-au-yeung">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ching-man-au-yeung"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simone-braun">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-simone-braun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-universita-politecnica-delle-marche-aldo-franco-dragoni">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/aldo-franco-dragoni"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universita-politecnica-delle-marche"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eiichi-sunagawa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/cedric-pruski"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-riichiro-mizoguchi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-yoshinobu-kitamura">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yoshinobu-kitamura"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicolas-guelfi"/>
+    <cofunc:title>Understanding and Supporting Ontology Evolution by Observing the WWW Conference</cofunc:title>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/chantal-reynaud"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/568"/>
+    <cofunc:abstract>Ontologies which represent domain knowledge in information systems are efficient to enhance information retrieval. However, domain knowledge is evolving over time and thus it should be also expressible at ontology level. Unfortunately, we consider that ontology evolution is barely study and its basic principles have not been yet precisely defined according to our notion of evolution. In this paper, we have followed a bottom-up approach consisting in a rigorous analysis of the evolution of a particular domain over a significant period of time (namely the WWW series of conference over a decade) to highlight concrete domain knowledge evolutions. We then have generalized and we present a precise set of evolution features that should be offered by ontology metamodels. We also evaluate the modelling capabilities of OWL to represent these features and finally, we show the contribution of ontology evolution support to improve Web information retrieval.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <rdfs:label>Understanding and Supporting Ontology Evolution by Observing the WWW Conference</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/cedric-pruski"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andreas-walter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marie-pierre-gleizes">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-marie-pierre-gleizes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ching-man-au-yeung"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/esoe2007">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about esoe2007.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:50 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-the-aegean-george-vouros">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/george-vouros"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-the-aegean"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kevin-ottens">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-kevin-ottens"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicolas-guelfi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-luxembourg-nicolas-guelfi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/timo-muenster">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-timo-muenster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-the-aegean-konstantinos-kotis">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/konstantinos-kotis"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-the-aegean"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/george-vouros">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-the-aegean-george-vouros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-nicholas-gibbins">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicholas-gibbins"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-nathalie-aussenac-gilles">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nathalie-aussenac-gilles"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit-universite-paul-sabatier"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-lri-university-of-paris-sud-chantal-reynaud">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/chantal-reynaud"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/lri-university-of-paris-sud"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/olga-streibel">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-freie-universitaet-berlin-olga-streibel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-simone-braun">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mauro-mazzieri">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-universita-politecnica-delle-marche-mauro-mazzieri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/cedric-pruski">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-luxembourg-cedric-pruski"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Ontology Revision as Non-Prioritized Belief Revision</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-franco-dragoni"/>
+    <cofunc:title>Ontology Revision as Non-Prioritized Belief Revision</cofunc:title>
+    <cofunc:abstract>Ontology revision is the process of managing an ontology when a new axiom or fact would render it inconsistent. So far, the AGM approach to belief revision has been adapted to work with ontologies. However, when multiple sources are contributing uncertain knowledge about a static domain, an approach that doesn't give priority to incoming information and allows to recover previously discarded axioms is more suited.
+We describe an ontology revision framework that links symbolic and numerical techniques to allow the consistent evolution of an ontology from the contributions of multiple potentially unreliable sources.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/562"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mauro-mazzieri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/riichiro-mizoguchi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-riichiro-mizoguchi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-franco-dragoni">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-universita-politecnica-delle-marche-aldo-franco-dragoni"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/esoe2007/esoe/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>International Workshop on Emergent Semantics and Ontology Evolution</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/konstantinos-kotis">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-the-aegean-konstantinos-kotis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andreas-walter">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-andreas-walter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kouji-kozaki">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-kouji-kozaki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valerie-camps">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-valerie-camps"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-marie-pierre-gleizes">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marie-pierre-gleizes"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit-universite-paul-sabatier"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-kouji-kozaki">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chantal-reynaud">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-lri-university-of-paris-sud-chantal-reynaud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-freie-universitaet-berlin-olga-streibel">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/olga-streibel"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/freie-universitaet-berlin"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/timo-muenster"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/wolfgang-maass">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-wolfgang-maass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/565"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andreas-walter"/>
+    <cofunc:title>The Ontology Maturing Approach for Collaborative and Work Integrated Ontology Development: Evaluation Results and Future Directions</cofunc:title>
+    <cofunc:abstract>Ontology maturing as a conceptual process model is based on the assumption that ontology engineering is a continuous collaborative and informal learning process and always embedded in tasks that make use of the ontology to be developed. For supporting ontology maturing, we need lightweight and easy-to-use tools integrating usage and construction processes of ontologies. Within two applications - ImageNotion for semantic annotation of images and SOBOLEO for semantically enriched social bookmarking - we have shown that such ontology maturing support is feasible with the help of Web 2.0 technologies. In this paper, we want to present the conclusions from two evaluation sessions with end users and summarize requirements for further development.</cofunc:abstract>
+    <rdfs:label>The Ontology Maturing Approach for Collaborative and Work Integrated Ontology Development: Evaluation Results and Future Directions</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andreas-schmidt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentin-zacharias">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-valentin-zacharias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-valerie-camps">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/valerie-camps"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit-universite-paul-sabatier"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-andreas-walter">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andreas-walter"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/valerie-camps"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ching-man-au-yeung">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-ching-man-au-yeung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tobias-kowatsch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tobias-kowatsch">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-tobias-kowatsch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ching-man-au-yeung"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/564"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:abstract>The use of tags to describe Web resources in a collaborative manner has experienced rising popularity among Web users in recent years. The product of such activity is given the name folksonomy, which can be considered as a scheme of organizing information in the users' own way. In this paper, we present a possible way to analyze the tripartite graphs - graphs involving users, tags and resources - of folksonomies and discuss how these elements acquire their meanings through their associations with other elements, a process we call mutual contextualization. In particular, we demonstrate how different meanings of ambiguous tags can be discovered through such analysis of the tripartite graph by studying the tag sf. We also discuss how the result can be used as a basis to better understand the nature of folksonomies.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <rdfs:label>Understanding the Semantics of Ambiguous Tags in Folksonomies</rdfs:label>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList"/>
+    <cofunc:title>Understanding the Semantics of Ambiguous Tags in Folksonomies</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nicholas-gibbins"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mauro-mazzieri"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/konstantinos-kotis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-tobias-kowatsch">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tobias-kowatsch"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/furtwangen-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-maass"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vlad-tanasescu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-luxembourg-nicolas-guelfi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nicolas-guelfi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-luxembourg"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-universita-politecnica-delle-marche-mauro-mazzieri">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mauro-mazzieri"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universita-politecnica-delle-marche"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marie-pierre-gleizes"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/568/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/chantal-reynaud"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/christos-chalkiopoulos-christos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567">
+    <cofunc:abstract>In collaborative indexing systems users generate a big amount of metadata by labelling web-based content. These labels are known as tags and form a shared vocabulary. In order to understand the characteristics of that vocabulary, we study structural patterns of these tags by implying the theory of self-organizing systems. Therefore, we utilize the graph theoretic notion to model the network of tags and their valued connections, which represent frequency rates of co-occurring tags. Empirical data is provided by the free-for-all collaborative indexing systems Delicious, Connotea and CiteULike. First, we measure the frequency distribution of co-occurring tags. Secondly, we correlate these tags towards their rank over time. Results indicate a strong relationship among a few tags as well as a notable persistence of these tags over time. Therefore, we make the educated guess that the observed collaborative indexing systems are self-organizing systems towards a shared vocabulary building. Implications on the results are the presence of semantic domains based on high frequency rates of co-occurring tags, which reflect topics of interest among the user community. When observing those semantic domains over time, that information can be used to provide a historical or trend-setting development of the community's interests, thus enhancing collaborative indexing systems in general as well as providing a new tool to develop community-based products and services at the same time.</cofunc:abstract>
+    <cofunc:title>Vocabulary Patterns in Free-for-all Collaborative Indexing Systems</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/timo-muenster"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-maass"/>
+    <rdfs:label>Vocabulary Patterns in Free-for-all Collaborative Indexing Systems</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tobias-kowatsch"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/567"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/567/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-wolfgang-maass">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/wolfgang-maass"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/furtwangen-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/562/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/aldo-franco-dragoni"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nicholas-gibbins"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Extreme Tagging: Emergent Semantics through the Tagging of Tags</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/olga-streibel"/>
+    <cofunc:title>Extreme Tagging: Emergent Semantics through the Tagging of Tags</cofunc:title>
+    <cofunc:abstract>While the Semantic Web requires a large amount of structured knowledge (triples) to allow machine reasoning, the acquisition of this knowledge still represents an open issue. Indeed, expressing expert knowledge in a given formalism is a tedious process. Less structured annotations such as tagging have, however, proved immensely popular, whilst existing unstructured or semi-structured collaborative knowledge bases such as Wikipedia have proven to be useful and scalable. Both processes are often regulated through social mechanisms such as wiki-like operations, recommendations, ratings, and collaborative games. To promote collaborative tagging as a means to acquire unstructured as well as structured knowledge we introduce the notion of Extreme Tagging, which describes systems which allow the tagging of resources, as well as of tags themselves and their relations. We provide a formal description of extreme tagging followed by examples and highlight the necessity of regulatory processes which can be applied to it. We also present a prototype implementation.</cofunc:abstract>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/571"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vlad-tanasescu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/george-vouros"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/571/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/olga-streibel"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nathalie-aussenac-gilles"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yoshinobu-kitamura">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-osaka-university-japan-yoshinobu-kitamura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-fzi-forschungszentrum-informatik-valentin-zacharias">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fzi-forschungszentrum-informatik"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/569/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-kevin-ottens">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kevin-ottens"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/irit-universite-paul-sabatier"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nikoleta-lelli"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/valentin-zacharias"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christos-chalkiopoulos-christos"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/566/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/konstantinos-kotis"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nikoleta-lelli"/>
+    <cofunc:abstract>Nowadays it is widely accepted that ontologies, the key technology for the realization of the Semantic Web, are artefacts that are collaboratively and iteratively developed/evolved, shared, evaluated and discussed within communities of knowledge workers. To enhance the potential of ontologies to be collaboratively engineered and be consistently evolved within and between different communities, they must be escorted with rich meta-information describing the conceptualisations they realize, implementation decisions, the rationale for their evolution, as well as the evolution itself. To support the collaborative engineering of ontologies within and across different communities, this paper proposes a framework of (meta-)ontologies for capturing the meta-information that is necessary for interlinking, sharing, and combining knowledge among the parties involved in such a process. The framework is being embedded in the HCOME ontology engineering methodology, and can be applied to the design and implementation of ontology engineering tools towards advancing their interoperability.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/george-vouros"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/566"/>
+    <cofunc:title>The HCOME-3O Framework for Supporting the Collaborative Engineering of Evolving Ontologies</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+    <rdfs:label>The HCOME-3O Framework for Supporting the Collaborative Engineering of Evolving Ontologies</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/esoe2007/iswc-aswc/2007">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc-aswc/2007"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-nigel-r-shadbolt">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-southampton"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nathalie-aussenac-gilles">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-irit-universite-paul-sabatier-nathalie-aussenac-gilles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-furtwangen-university-timo-muenster">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/timo-muenster"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/furtwangen-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ESOE2007/esoe/2007"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/565/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/simone-braun"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>Dynamic Ontology Co-Evolution from Texts: Principles and Case Study </cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/valerie-camps"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nathalie-aussenac-gilles"/>
+    <rdfs:label>Dynamic Ontology Co-Evolution from Texts: Principles and Case Study </rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/esoe/2007/papers/570"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/570/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marie-pierre-gleizes"/>
+    <cofunc:abstract>As claimed in the Semantic Web project, a huge amount of physically distributed interacting software agents could find the semantic of available resources and answer more relevantly to users' requests if the content of these resources would be represented with formal semantic concepts defined in ontologies. Because Web information sources are highly dynamic and conceptually heterogeneous, one of the most challenging problems in the Semantic Web research is the proper and frequent ontology updating in keeping with knowledge changes. To tackle this problem, we have developed a self-organizing multi-agent system -Dynamo- able to create an ontology draft from automatic text processing. Because it is well-known that only a part of a domain description is explicitly described in texts, Dynamo enables an ontology co-construction with a domain expert in a fully interactive way. In this paper, we present the principles of this approach and related experiments. </cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kevin-ottens"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/esoe/2007/proceedings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/esoe2007/data.semanticweb.org/workshop/esoe/2007/papers/564/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/nigel-r-shadbolt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nicholas-gibbins">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/esoe2007-university-of-southampton-nicholas-gibbins"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1086 @@
+<rdf:RDF
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:j.0="http://xmlsummerschool.com/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:j.1="http://www.xmlprague.cz/"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dbpedia="http://dbpedia.org/"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:twitter="https://twitter.com/"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:balisage="http://www.balisage.net/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrc_ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:github="https://github.com/"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:wiki="http://www.wikipedia.org/wiki/"
+    xmlns:j.3="http://xmlamsterdam.com/"
+    xmlns:j.4="http://data.semanticweb.org/conference/xmllondon/"
+    xmlns:j.5="http://rdfs.org/ns/void#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/debbie-lockett">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Debbie Lockett</rdfs:label>
+    <cofunc:name>Debbie Lockett</cofunc:name>
+    <cofunc:givenName>Debbie</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/debbie-lockett"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-kay">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Kay</rdfs:label>
+    <cofunc:name>Michael Kay</cofunc:name>
+    <cofunc:givenName>Michael</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/walpole/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-philip-fennell">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/philip-fennell"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-lumley">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Lumley</rdfs:label>
+    <cofunc:name>John Lumley</cofunc:name>
+    <cofunc:givenName>John</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/james-fuller">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-james-fuller"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-james-fuller"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>James Fuller</rdfs:label>
+    <cofunc:name>James Fuller</cofunc:name>
+    <cofunc:givenName>James</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/overstory-consulting">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>OverStory Consulting Ltd</rdfs:label>
+    <cofunc:name>OverStory Consulting Ltd</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/overstory-consulting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/sire">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Stéphane Sire's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/sire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/bleeken">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/bleeken/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Nick Van den Bleeken's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nick-van-den-bleeken"/>
+    <cofunc:title>Building Rich Web Applications using XForms 2.0</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lou-burnard">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lou Burnard</rdfs:label>
+    <cofunc:name>Lou Burnard</cofunc:name>
+    <cofunc:givenName>Lou</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lou-burnard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/autumn-cuellar">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-autumn-cuellar"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Autumn Cuellar</rdfs:label>
+    <cofunc:name>Autumn Cuellar</cofunc:name>
+    <cofunc:givenName>Autumn</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/autumn-cuellar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/walpole">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/walpole/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Rob Walpole's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/rob-walpole"/>
+    <cofunc:title>The National Archives Digital Records Infrastructure Catalogue</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/walpole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/chris-de-vreeze">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Chris de Vreeze</rdfs:label>
+    <cofunc:name>Chris de Vreeze</cofunc:name>
+    <cofunc:givenName>Chris</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/mercator-it-solutions">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Mercator IT Solutions Ltd</rdfs:label>
+    <cofunc:name>Mercator IT Solutions Ltd</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/mercator-it-solutions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tony-graham">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tony Graham</rdfs:label>
+    <cofunc:name>Tony Graham</cofunc:name>
+    <cofunc:givenName>Tony</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fuller">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fuller/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>James Fuller's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/james-fuller"/>
+    <cofunc:title>xproc.xq - Architecture of an XProc processor</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/fuller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/networked-planet">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Networked Planet</rdfs:label>
+    <cofunc:name>Networked Planet</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/networked-planet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/cuellar">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/cuellar/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Autumn Cuellar's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/autumn-cuellar"/>
+    <cofunc:title>What you need to know about the Maths Stack</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/cuellar"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/bob-mathews"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/paul-topping"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-nick-van-den-bleeken">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nick-van-den-bleeken"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/george-bina">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>George Bina</rdfs:label>
+    <cofunc:name>George Bina</cofunc:name>
+    <cofunc:givenName>George</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fabio-labella">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fabio Labella</rdfs:label>
+    <cofunc:name>Fabio Labella</cofunc:name>
+    <cofunc:givenName>Fabio</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/braaksma">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/braaksma/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Abel Braaksma's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/abel-braaksma"/>
+    <cofunc:title>Lazy processing of XML in XSLT for big data</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/braaksma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/william-narmontas">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>William Narmontas</rdfs:label>
+    <cofunc:name>William Narmontas</cofunc:name>
+    <cofunc:givenName>William</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/william-narmontas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-rahtz">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-sebastian-rahtz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Rahtz</rdfs:label>
+    <cofunc:name>Sebastian Rahtz</cofunc:name>
+    <cofunc:givenName>Sebastian</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-rahtz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-christian-gruen">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/christian-gruen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/cuellar/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/warman/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/bleeken">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Nick Van den Bleeken's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/bleeken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-eric-van-der-vlist">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eric-van-der-vlist"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/abel-braaksma">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-abel-braaksma"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-abel-braaksma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Abel Braaksma</rdfs:label>
+    <cofunc:name>Abel Braaksma</cofunc:name>
+    <cofunc:givenName>Abel</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-abel-braaksma">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/abel-braaksma"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jorge-williams">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jorge Williams</rdfs:label>
+    <cofunc:name>Jorge Williams</cofunc:name>
+    <cofunc:givenName>Jorge</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jorge-williams"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/syncro-soft">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>oXygen</rdfs:label>
+    <cofunc:name>SyncRO Soft</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/syncro-soft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yolijn-van-der-kolk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yolijn van der Kolk</rdfs:label>
+    <cofunc:name>Yolijn van der Kolk</cofunc:name>
+    <cofunc:givenName>Yolijn</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yolijn-van-der-kolk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fennell/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/antenna-house">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Antenna House</rdfs:label>
+    <cofunc:name>Antenna House</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/antenna-house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/rahtz">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Sebastian Rahtz's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/rahtz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vanessa-braganholo">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vanessa Braganholo</rdfs:label>
+    <cofunc:name>Vanessa Braganholo</cofunc:name>
+    <cofunc:givenName>Vanessa</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vanessa-braganholo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/sire">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/sire/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Stéphane Sire's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/christine-vanoirbeek"/>
+    <cofunc:title>Small Data in the large with Oppidum</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/sire"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/stephane-sire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/richard-pineger">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-richard-pineger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Richard Pineger</rdfs:label>
+    <cofunc:name>Richard Pineger</cofunc:name>
+    <cofunc:givenName>Richard</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/richard-pineger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/xmlguild.org">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>XML Guild</rdfs:label>
+    <cofunc:name>XML Guild</cofunc:name>
+    <owl:sameAs rdf:resource="http://xmlguild.org"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-oxford">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Oxford</rdfs:label>
+    <cofunc:name>University of Oxford</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-oxford"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-adrian-warman">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/adrian-warman"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/hillman/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-abel-braaksma">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/abel-braaksma"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eric-van-der-vlist">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-eric-van-der-vlist"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-eric-van-der-vlist"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eric Van Der Vlist</rdfs:label>
+    <cofunc:name>Eric Van Der Vlist</cofunc:name>
+    <cofunc:givenName>Eric</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/epimorphics">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Epimorphics</rdfs:label>
+    <cofunc:name>Epimorphics Ltd</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/epimorphics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/fuller">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>James Fuller's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fuller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-snelson">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-john-snelson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Snelson</rdfs:label>
+    <cofunc:name>John Snelson</cofunc:name>
+    <cofunc:givenName>John</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-snelson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-nigel-whitaker">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nigel-whitaker"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-catherine-dolbear">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/catherine-dolbear"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/whitaker">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/whitaker/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Nigel Whitaker's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/nigel-whitaker"/>
+    <cofunc:title>Optimizing XML for Comparison and Change</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/whitaker"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/robin-la-fontaine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/catherine-dolbear">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-catherine-dolbear"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Catherine Dolbear</rdfs:label>
+    <cofunc:name>Catherine Dolbear</cofunc:name>
+    <cofunc:givenName>Catherine</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/catherine-dolbear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-eric-van-der-vlist">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/eric-van-der-vlist"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-general-chair-charles-foster">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/charles-foster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/general-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/hillman">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/hillman/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Tomos Hillman's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/richard-pineger"/>
+    <cofunc:title>Practice what we Preach</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/hillman"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tomos-hillman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/norman-walsh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Norman Walsh</rdfs:label>
+    <cofunc:name>Norman Walsh</cofunc:name>
+    <cofunc:givenName>Norman</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/norman-walsh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-tomos-hillman">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tomos-hillman"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/walpole">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Rob Walpole's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/walpole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrew-sales">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrew Sales</rdfs:label>
+    <cofunc:name>Andrew Sales</cofunc:name>
+    <cofunc:givenName>Andrew</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/saxonica">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Saxonica</rdfs:label>
+    <cofunc:name>Saxonica</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-philip-fennell">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/philip-fennell"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tatu-saloranta">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-tatu-saloranta"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tatu Saloranta</rdfs:label>
+    <cofunc:name>Tatu Saloranta</cofunc:name>
+    <cofunc:givenName>Tatu</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tatu-saloranta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nic-gibson">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nic Gibson</rdfs:label>
+    <cofunc:name>Nic Gibson</cofunc:name>
+    <cofunc:givenName>Nic</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lars-windauer">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-lars-windauer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lars Windauer</rdfs:label>
+    <cofunc:name>Lars Windauer</cofunc:name>
+    <cofunc:givenName>Lars</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lars-windauer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andy-seaborne">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andy Seaborne</rdfs:label>
+    <cofunc:name>Andy Seaborne</cofunc:name>
+    <cofunc:givenName>Andy</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/delpratt">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/delpratt/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>O'Neil Delpratt's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/oneil-delpratt"/>
+    <cofunc:title>XML on the Web: is it still relevant?</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/whitaker">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Nigel Whitaker's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/whitaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-rob-walpole">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/rob-walpole"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/shaun-mcdonald">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Shaun McDonald</rdfs:label>
+    <cofunc:name>Shaun McDonald</cofunc:name>
+    <cofunc:givenName>Shaun</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/shaun-mcdonald"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/vlist/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-james-fuller">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/james-fuller"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/rahtz/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-sebastian-rahtz">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/sebastian-rahtz"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/deltaxml">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DeltaXML</rdfs:label>
+    <cofunc:name>DeltaXML</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/deltaxml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dino-fancellu">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dino Fancellu</rdfs:label>
+    <cofunc:name>Dino Fancellu</cofunc:name>
+    <cofunc:givenName>Dino</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dino-fancellu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/rob-walpole">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-rob-walpole"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Rob Walpole</rdfs:label>
+    <cofunc:name>Rob Walpole</cofunc:name>
+    <cofunc:givenName>Rob</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/rob-walpole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-oneil-delpratt">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/oneil-delpratt"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christian-gruen">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-christian-gruen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christian Grün</rdfs:label>
+    <cofunc:name>Christian Grün</cofunc:name>
+    <cofunc:givenName>Christian</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christian-gruen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-adam-retter">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/adam-retter"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-richard-pineger">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/richard-pineger"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/delpratt">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>O'Neil Delpratt's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/delpratt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robbert-broersma">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robbert Broersma</rdfs:label>
+    <cofunc:name>Robbert Broersma</cofunc:name>
+    <cofunc:givenName>Robbert</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robbert-broersma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/event2">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>XML Summer School 2014</rdfs:label>
+    <owl:sameAs rdf:resource="http://xmlsummerschool.com/2014"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/centrum-wiskunde-and-informatica">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Centrum Wiskunde and Informatica</rdfs:label>
+    <cofunc:name>Centrum Wiskunde and Informatica</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/vlist">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/vlist/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Eric Van der Vlist's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eric-van-der-vlist"/>
+    <cofunc:title>When MVC becomes a burden for XForms</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-lars-windauer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/lars-windauer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/warman">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Adrian Warman's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/warman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/basex">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BaseX</rdfs:label>
+    <cofunc:name>BaseX</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/basex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/whitaker"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/dolbear"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/sire"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/hillman"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/bleeken"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fuller"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/delpratt"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/walpole"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/braaksma"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/warman"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fennell"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/rahtz"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/vlist"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/cuellar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/dolbear/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nick-van-den-bleeken">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-nick-van-den-bleeken"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nick Van den Bleeken</rdfs:label>
+    <cofunc:name>Nick Van den Bleeken</cofunc:name>
+    <cofunc:givenName>Nick</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nick-van-den-bleeken"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/braaksma">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Abel Braaksma's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/braaksma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/bleeken/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ibm">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>IBM</rdfs:label>
+    <cofunc:name>IBM</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ibm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/oxford-university-press">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Oxford University Press</rdfs:label>
+    <cofunc:name>Oxford University Press</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adam-retter">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-adam-retter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adam Retter</rdfs:label>
+    <cofunc:name>Adam Retter</cofunc:name>
+    <cofunc:givenName>Adam</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/rahtz">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/rahtz/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Sebastian Rahtz's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lou-burnard"/>
+    <cofunc:title>A complete schema definition language for the Text Encoding Initiative</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/rahtz"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sebastian-rahtz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fennell">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fennell/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Philip Fennell's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/philip-fennell"/>
+    <cofunc:title>Extremes of XML</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/fennell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fasterxml">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>FasterXML</rdfs:label>
+    <cofunc:name>FasterXML</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fasterxml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-edinburgh">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Edinburgh</rdfs:label>
+    <cofunc:name>University of Edinburgh</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-edinburgh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/rackspace">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Rackspace</rdfs:label>
+    <cofunc:name>Rackspace</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/rackspace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/xmllondon2013">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about xmllondon2013.</dcterms:title>
+    <dcterms:created>Wed Jun 15 15:52:24 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matt-kohl">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matt Kohl</rdfs:label>
+    <cofunc:name>Matt Kohl</cofunc:name>
+    <cofunc:givenName>Matt</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matt-kohl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/hillman">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Tomos Hillman's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/hillman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-stephane-sire">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/stephane-sire"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eduardo-goncalves">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eduardo Corrêa Gonçalves</rdfs:label>
+    <cofunc:name>Eduardo Corrêa Gonçalves</cofunc:name>
+    <cofunc:givenName>Eduardo Corrêa</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eduardo-goncalves"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stephane-sire">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-stephane-sire"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stéphane Sire</rdfs:label>
+    <cofunc:name>Stéphane Sire</cofunc:name>
+    <cofunc:givenName>Stéphane</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/celina-huang">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Celina Huang</rdfs:label>
+    <cofunc:name>Celina Huang</cofunc:name>
+    <cofunc:givenName>Celina</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/celina-huang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sandro-cirulli">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sandro Cirulli</rdfs:label>
+    <cofunc:name>Sandro Cirulli</cofunc:name>
+    <cofunc:givenName>Sandro</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/event4">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>XML Summer School 2015</rdfs:label>
+    <owl:sameAs rdf:resource="http://xmlsummerschool.com/2015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/geert-bormans">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Geert Bormans</rdfs:label>
+    <cofunc:name>Geert Bormans</cofunc:name>
+    <cofunc:givenName>Geert</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/geert-bormans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/dolbear">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/dolbear/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Catherine Dolbear's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/catherine-dolbear"/>
+    <cofunc:title>From trees to graphs: creating Linked Data from XML</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/dolbear"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/shaun-mcdonald"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/charles-foster">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-charles-foster"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-general-chair-charles-foster"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Charles Foster</rdfs:label>
+    <cofunc:name>Charles Foster</cofunc:name>
+    <cofunc:givenName>Charles</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/charles-foster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-topping">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Topping</rdfs:label>
+    <cofunc:name>Paul Topping</cofunc:name>
+    <cofunc:givenName>Paul</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-topping"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/braaksma/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/vlist">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Eric Van der Vlist's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/vlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christine-vanoirbeek">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christine Vanoirbeek</rdfs:label>
+    <cofunc:name>Christine Vanoirbeek</cofunc:name>
+    <cofunc:givenName>Christine</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christine-vanoirbeek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/sire/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/warman">
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/warman/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <rdfs:label>Adrian Warman's 2013 paper</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/adrian-warman"/>
+    <cofunc:title>Using Distributed Version Control Systems</cofunc:title>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/conference/xmllondon/2013/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/warman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/adrian-warman">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-adrian-warman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Adrian Warman</rdfs:label>
+    <cofunc:name>Adrian Warman</cofunc:name>
+    <cofunc:givenName>Adrian</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/adrian-warman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/fennell">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Philip Fennell's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fennell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-autumn-cuellar">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/autumn-cuellar"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/frameless">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Frameless</rdfs:label>
+    <cofunc:name>Frameless</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/frameless"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-charles-foster">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/charles-foster"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ksoftware">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>3Ksoftware</rdfs:label>
+    <cofunc:name>3Ksoftware</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/3ksoftware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-tatu-saloranta">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/tatu-saloranta"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/fuller/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/phil-gooch">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Phil Gooch</rdfs:label>
+    <cofunc:name>Phil Gooch</cofunc:name>
+    <cofunc:givenName>Phil</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/phil-gooch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oneil-delpratt">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-oneil-delpratt"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>O'Neil Delpratt</rdfs:label>
+    <cofunc:name>O'Neil Delpratt</cofunc:name>
+    <cofunc:givenName>O'Neil</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oneil-delpratt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robin-la-fontaine">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robin La Fontaine</rdfs:label>
+    <cofunc:name>Robin La Fontaine</cofunc:name>
+    <cofunc:givenName>Robin</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robin-la-fontaine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-james-fuller">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/james-fuller"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/presenter"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mohamed-zergaoui">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-mohamed-zergaoui"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mohamed Zergaoui</rdfs:label>
+    <cofunc:name>Mohamed Zergaoui</cofunc:name>
+    <cofunc:givenName>Mohamed</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mohamed-zergaoui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/delpratt/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/johannes-wilm">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Johannes Wilm</rdfs:label>
+    <cofunc:name>Johannes Wilm</cofunc:name>
+    <cofunc:givenName>Johannes</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/johannes-wilm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steven-pemberton">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Steven Pemberton</rdfs:label>
+    <cofunc:name>Steven Pemberton</cofunc:name>
+    <cofunc:givenName>Steven</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/cuellar">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Autumn Cuellar's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/cuellar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philip-fearon">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philip Fearon</rdfs:label>
+    <cofunc:name>Philip Fearon</cofunc:name>
+    <cofunc:givenName>Philip</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philip-fearon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vivliostyle">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vivliostyle</rdfs:label>
+    <cofunc:name>Vivliostyle Inc.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vivliostyle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/xmllondon2013/paper/whitaker/authorList">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tomos-hillman">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-tomos-hillman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tomos Hillman</rdfs:label>
+    <cofunc:name>Tomos Hillman</cofunc:name>
+    <cofunc:givenName>Tomos</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tomos-hillman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/philip-fennell">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-philip-fennell"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-philip-fennell"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Philip Fennell</rdfs:label>
+    <cofunc:name>Philip Fennell</cofunc:name>
+    <cofunc:givenName>Philip</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/existdb">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>eXistdb</rdfs:label>
+    <cofunc:name>eXistdb</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/existdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kal-ahmed">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kal Ahmed</rdfs:label>
+    <cofunc:name>Kal Ahmed</cofunc:name>
+    <cofunc:givenName>Kal</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/appsoft-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Xeditor</rdfs:label>
+    <cofunc:name>appsoft Technologies</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/appsoft-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013/presentation/dolbear">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Catherine Dolbear's 2013 talk</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/dolbear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-ludwig">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Ludwig</rdfs:label>
+    <cofunc:name>Christoph Ludwig</cofunc:name>
+    <cofunc:givenName>Christoph</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-ludwig"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-john-snelson">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/john-snelson"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/henry-thompson">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Henry S. Thompson</rdfs:label>
+    <cofunc:name>Henry S. Thompson</cofunc:name>
+    <cofunc:givenName>Henry</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/henry-thompson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lech-rzedzicki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lech Rzedzicki</rdfs:label>
+    <cofunc:name>Lech Rzedzicki</cofunc:name>
+    <cofunc:givenName>Lech</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lech-rzedzicki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-programme-committee-member-mohamed-zergaoui">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mohamed-zergaoui"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/xmllondon2013/xmllondon/2013"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nigel-whitaker">
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/xmllondon2013-presenter-nigel-whitaker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nigel Whitaker</rdfs:label>
+    <cofunc:name>Nigel Whitaker</cofunc:name>
+    <cofunc:givenName>Nigel</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nigel-whitaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/shinyu-murakami">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Shinyu Murakami</rdfs:label>
+    <cofunc:name>Shinyu Murakami</cofunc:name>
+    <cofunc:givenName>Shinyu</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+    <cofunc:name xml:lang="ja">村上 真雄</cofunc:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/elias-weingaertner">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Elias Weingärtner</rdfs:label>
+    <cofunc:name>Elias Weingärtner</cofunc:name>
+    <cofunc:givenName>Elias</cofunc:givenName>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/elias-weingaertner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/marklogic">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>MarkLogic</rdfs:label>
+    <cofunc:name>MarkLogic Corporation</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/xmllondon2013/event6">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>XML Summer School 2013</rdfs:label>
+    <owl:sameAs rdf:resource="http://xmlsummerschool.com/2013"/>
+  </rdf:Description>
+</rdf:RDF>

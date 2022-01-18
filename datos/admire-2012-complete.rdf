@@ -1,0 +1,1681 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:j.0="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:j.1="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/ns/prov#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra-barcelona-spain">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Music Technology Group, Universitat Pompeu Fabra, Barcelona, Spain</rdfs:label>
+    <j.0:name>Music Technology Group, Universitat Pompeu Fabra, Barcelona, Spain</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/music-technology-group-universitat-pompeu-fabra-barcelona-spain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/david-hauger"/>
+    <j.0:abstract>This paper aims at leveraging microblogs to address two challenges in music information retrieval (MIR), similarity estimation between music artists and inferring typical listening patterns at different granularity levels (city, country, global).
+From two collections of several million microblogs, which we gathered over ten months, music-related information is extracted and statistically analyzed. We propose and evaluate four co-occurrence-based methods to compute artist similarity scores. Moreover, we derive and analyze culture-specific music listening patterns to investigate the diversity of listening behavior around the world.</j.0:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList"/>
+    <j.0:keyword>similarity measurement</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/15"/>
+    <j.0:keyword>social media mining</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <j.0:keyword>music information retrieval</j.0:keyword>
+    <j.0:keyword>evaluation</j.0:keyword>
+    <j.0:title>Mining Microblogs to Infer Music Artist Similarity and Cultural Listening Patterns</j.0:title>
+    <rdfs:label>Mining Microblogs to Infer Music Artist Similarity and Cultural Listening Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-martin-haro">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/martin-haro"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-columbia-university-thierry-bertin-mahieux">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thierry-bertin-mahieux"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/columbia-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-p-w-ellis">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-columbia-university-daniel-p-w-ellis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel P.W. Ellis</rdfs:label>
+    <j.0:name>Daniel P.W. Ellis</j.0:name>
+    <foaf:mbox_sha1sum>ccaa54b3ca083aec0a811b32af390f54194ac69d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-p-w-ellis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thierry-bertin-mahieux">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-columbia-university-thierry-bertin-mahieux"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thierry Bertin-Mahieux</rdfs:label>
+    <j.0:name>Thierry Bertin-Mahieux</j.0:name>
+    <foaf:mbox_sha1sum>8c0976f8eb5210a06ad2cfc0bdc195a3930831ae</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thierry-bertin-mahieux"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ichiro-fujinaga">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-ichiro-fujinaga"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ichiro Fujinaga</rdfs:label>
+    <j.0:name>Ichiro Fujinaga</j.0:name>
+    <foaf:mbox_sha1sum>ff589e2b44fbb0448e37e90dc6927d0e02217a21</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ichiro-fujinaga"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/perfecto-herrera"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universitat-pompeu-fabra">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universitat Pompeu Fabra</rdfs:label>
+    <j.0:name>Universitat Pompeu Fabra</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universitat-pompeu-fabra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mitsunori-ogihara">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-of-miami-mitsunori-ogihara"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mitsunori-ogihara"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mitsunori Ogihara</rdfs:label>
+    <j.0:name>Mitsunori Ogihara</j.0:name>
+    <foaf:mbox_sha1sum>28e4e5703e6ddabc18ce3681f4c64d28e6b053de</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mitsunori-ogihara"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-gracenote-ching-wei-chen">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ching-wei-chen"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/gracenote"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-perfecto-herrera">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/perfecto-herrera"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-yahoo-research-malcolm-slaney">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/malcolm-slaney"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/yahoo-research"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/goldsmiths-college-university-of-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Goldsmiths College, University of London</rdfs:label>
+    <j.0:name>Goldsmiths College, University of London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/goldsmiths-college-university-of-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-ucsd-brian-mcfee">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/brian-mcfee"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ucsd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-ashley-burgoyne">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-john-ashley-burgoyne"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Ashley Burgoyne</rdfs:label>
+    <j.0:name>John Ashley Burgoyne</j.0:name>
+    <foaf:mbox_sha1sum>ac6e8517e8482a1321943ab67c7f5397b5c8865e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-ashley-burgoyne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/julian-urbano"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mohamed-sordo">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-bbc-ian-knopke">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ian-knopke"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bbc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/johannes-kepler-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Johannes Kepler University</rdfs:label>
+    <j.0:name>Johannes Kepler University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/johannes-kepler-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/arjen-de-vries">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-cwi-amsterdam-arjen-de-vries"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-arjen-de-vries"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Arjen De Vries</rdfs:label>
+    <j.0:name>Arjen De Vries</j.0:name>
+    <foaf:mbox_sha1sum>0c611388f223673bbcc86cd1037dfa1221f95036</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/arjen-de-vries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-dmitry-bogdanov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dmitry-bogdanov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Johannes Kepler University Linz</rdfs:label>
+    <j.0:name>Johannes Kepler University Linz</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/johannes-kepler-university-linz-austria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-masataka-goto">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/masataka-goto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bbc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>BBC</rdfs:label>
+    <j.0:name>British Broadcasting Corporation</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bbc"/>
+    <j.0:name>BBC</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-jun-wang">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jun-wang"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-arjen-de-vries">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/arjen-de-vries"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/yi-hsuan-yang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-uiuc-xiao-hu">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/xiao-hu"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/uiuc"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-dmitry-bogdanov">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dmitry-bogdanov"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-xiao-hu">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/xiao-hu"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/centre-for-digital-music-queen-mary-university-of-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Centre for Digital Music, Queen Mary University of London</rdfs:label>
+    <j.0:name>Centre for Digital Music, Queen Mary University of London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/centre-for-digital-music-queen-mary-university-of-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/inesc-tec">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>INESC TEC</rdfs:label>
+    <j.0:name>INESC TEC</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/inesc-tec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/artificial-intelligence-research-institute-iiia-csic-bellaterra-spain">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Artificial Intelligence Research Institute (IIIA-CSIC), Bellaterra, Spain</rdfs:label>
+    <j.0:name>Artificial Intelligence Research Institute (IIIA-CSIC), Bellaterra, Spain</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/artificial-intelligence-research-institute-iiia-csic-bellaterra-spain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luis-lemos">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-luis-lemos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Luís Lemos</rdfs:label>
+    <j.0:name>Luís Lemos</j.0:name>
+    <foaf:mbox_sha1sum>27d5e394e2e60011856712124e6e93c730f632ee</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/luis-lemos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-institute-of-advanced-industrial-science-and-technology-aist">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Institute of Advanced Industrial Science and Technology (AIST)</rdfs:label>
+    <j.0:name>National Institute of Advanced Industrial Science and Technology (AIST)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-institute-of-advanced-industrial-science-and-technology-aist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-barcelona-spain-justin-salamon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/justin-salamon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra-barcelona-spain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-centre-de-recerca-matematica-alvaro-corral">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alvaro-corral"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/centre-de-recerca-matematica"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tillman-weyde"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-mohamed-sordo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-malcolm-slaney">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/malcolm-slaney"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-academia-sinica-yi-hsuan-yang">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/yi-hsuan-yang"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/academia-sinica"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-joao-vinagre">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joao-vinagre"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/faculty-of-science-university-of-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-otto-von-guericke-university-magdeburg-sebastian-stober">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sebastian-stober"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/otto-von-guericke-university-magdeburg"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/inesc-porto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>INESC Porto</rdfs:label>
+    <j.0:name>INESC Porto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/inesc-porto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mathieu-barthet">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mathieu-barthet"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dmitry-bogdanov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jun-wang">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences-jun-wang"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-jun-wang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jun Wang</rdfs:label>
+    <j.0:name>Jun Wang</j.0:name>
+    <foaf:mbox_sha1sum>0f69522086e578dc1c067493d43bfffa35c32508</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jun-wang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrew-hankinson">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-andrew-hankinson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Andrew Hankinson</rdfs:label>
+    <j.0:name>Andrew Hankinson</j.0:name>
+    <foaf:mbox_sha1sum>d535932efa589d6267af80dd73ad3ec8aaf9b3df</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/andrew-hankinson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/joao-vinagre">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-joao-vinagre"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>João Vinagre</rdfs:label>
+    <j.0:name>João Vinagre</j.0:name>
+    <foaf:mbox_sha1sum>0d25b1ad6b4c418cb394bc4b041b598ad0ef8f73</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/joao-vinagre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-miami">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Miami</rdfs:label>
+    <j.0:name>University of Miami</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-miami"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-wolff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/academia-sinica">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Academia Sinica</rdfs:label>
+    <j.0:name>Academia Sinica</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/academia-sinica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-gracenote-oscar-celma">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oscar-celma"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/gracenote"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11">
+    <j.0:keyword>test collections</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/julian-urbano"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <j.0:keyword>evaluation</j.0:keyword>
+    <j.0:title>Towards Minimal Test Collections for Evaluation of Audio Music Similarity and Retrieval</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/11"/>
+    <j.0:abstract>Reliable evaluation of Information Retrieval systems requires large amounts of relevance judgments. Making these annotations is quite complex and tedious for many Music Information Retrieval tasks, so performing such evaluations requires too much effort. A low-cost alternative is the application of Minimal Test Collection algorithms, which offer quite reliable results while significantly reducing the annotation effort. The idea is to incrementally select what documents to judge so that we can compute estimates of the effectiveness differences between systems with some degree of confidence. In this paper we show a first approach towards its application to the evaluation of the Audio Music Similarity and Retrieval task. An analysis with the MIREX 2009 and 2011 data shows that the judging effort can be reduced to about 30-40% to obtain results with 95% confidence.</j.0:abstract>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>music information retrieval</j.0:keyword>
+    <j.0:keyword>relevance judgments</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList"/>
+    <rdfs:label>Towards Minimal Test Collections for Evaluation of Audio Music Similarity and Retrieval</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-julian-urbano">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/julian-urbano"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-peter-knees">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-knees"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fabien-gouyon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gert-lanckriet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings">
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6"/>
+    <j.0:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/marcos-aurelio-domingues">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-tec-marcos-aurelio-domingues"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Marcos Aurélio Domingues</rdfs:label>
+    <j.0:name>Marcos Aurélio Domingues</j.0:name>
+    <foaf:mbox_sha1sum>537d3d8a393eb6b78084e602336997e0fce26642</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/marcos-aurelio-domingues"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/martin-haro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-gabriel-vigliensoni">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gabriel-vigliensoni"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/mcgill-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-carlos-iii-of-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University Carlos III of Madrid</rdfs:label>
+    <j.0:name>University Carlos III of Madrid</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-carlos-iii-of-madrid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-steve-tjoa">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steve-tjoa"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-cwi-amsterdam-arjen-de-vries">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/arjen-de-vries"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/cwi-amsterdam"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mehdi-elahi">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mehdi-elahi"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12">
+    <j.0:keyword>search</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/andrew-hankinson"/>
+    <j.0:keyword>web applications</j.0:keyword>
+    <j.0:keyword>music notation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/ichiro-fujinaga"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList"/>
+    <rdfs:label>Creating Large-Scale Searchable Digital Collections from Printed Music Materials</rdfs:label>
+    <j.0:title>Creating Large-Scale Searchable Digital Collections from Printed Music Materials</j.0:title>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/12"/>
+    <j.0:keyword>digital collections</j.0:keyword>
+    <j.0:abstract>In this paper we present our work towards developing a large-scale web application for digitizing, recognizing (via optical music recognition), correcting, displaying, and searching printed music texts. We present the results of a recently completed prototype implementation of our workflow process, from document capture to presentation on the web. We discuss a number of lessons learned from this prototype. Finally, we present some open-source Web 2.0 tools developed to provide essential infrastructure components for making searchable printed music collections available online. Our hope is that these experiences and tools will help in creating next-generation globally accessible digital music libraries.</j.0:abstract>
+    <j.0:keyword>optical music recognition</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gabriel-vigliensoni"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/john-ashley-burgoyne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/david-hauger">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-david-hauger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>David Hauger</rdfs:label>
+    <j.0:name>David Hauger</j.0:name>
+    <foaf:mbox_sha1sum>a3b0ecf604aba7bb6c026903244047398191eb49</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/david-hauger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/marcos-aurelio-domingues"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-dfki-technical-university-of-kaiserslautern-stephan-baumann">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/stephan-baumann"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/dfki-technical-university-of-kaiserslautern"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-mohamed-sordo">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-dmitry-bogdanov">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dmitry-bogdanov"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-of-california-san-diego-brian-mcfee">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/brian-mcfee"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-california-san-diego"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-tec-fabien-gouyon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fabien-gouyon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/inesc-tec"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-austrian-research-institute-for-artificial-intelligence-arthur-flexer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/arthur-flexer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/austrian-research-institute-for-artificial-intelligence"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-alipio-mario-jorge">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/alipio-mario-jorge"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/faculty-of-science-university-of-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-porto-fabien-gouyon">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fabien-gouyon"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/inesc-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/otto-von-guericke-university-magdeburg">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Otto-von-Guericke-University Magdeburg</rdfs:label>
+    <j.0:name>Otto-von-Guericke-University Magdeburg</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/otto-von-guericke-university-magdeburg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/tel-aviv-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Tel-Aviv University</rdfs:label>
+    <j.0:name>Tel-Aviv University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/tel-aviv-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ian-knopke">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ian-knopke"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/masataka-goto">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-national-institute-of-advanced-industrial-science-and-technology-aist-masataka-goto"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-masataka-goto"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Masataka Goto</rdfs:label>
+    <j.0:name>Masataka Goto</j.0:name>
+    <foaf:mbox_sha1sum>8cf2e78222dc527742c62c516693e8651b39400e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/masataka-goto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-markus-schedl">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-carlos-iii-of-madrid-julian-urbano">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/julian-urbano"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-carlos-iii-of-madrid"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steve-tjoa">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-steve-tjoa"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-steve-tjoa"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Steve Tjoa</rdfs:label>
+    <j.0:name>Steve Tjoa</j.0:name>
+    <foaf:mbox_sha1sum>7116ae74e0df7fb58aba87e2bd272dd864227f2b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/steve-tjoa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ben-fields">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ben-fields"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-the-echo-nest-paul-lamere">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/paul-lamere"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-echo-nest"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-matthias-mauch">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthias-mauch"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences-jun-wang">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jun-wang"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-mehdi-elahi">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mehdi-elahi"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/artificial-intelligence-research-institute-iiia-csic">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Artificial Intelligence Research Institute (IIIA-CSIC)</rdfs:label>
+    <j.0:name>Artificial Intelligence Research Institute (IIIA-CSIC)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/artificial-intelligence-research-institute-iiia-csic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-markus-schedl">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/joan-serra">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-artificial-intelligence-research-institute-iiia-csic-joan-serra"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-artificial-intelligence-research-institute-iiia-csic-bellaterra-spain-joan-serra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Joan Serrà</rdfs:label>
+    <j.0:name>Joan Serrà</j.0:name>
+    <foaf:mbox_sha1sum>c3eb01ec77717bbf268b59a9c81dfa7daa76a2b5</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/joan-serra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gert-lanckriet">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-ucsd-gert-lanckriet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gert Lanckriet</rdfs:label>
+    <j.0:name>Gert Lanckriet</j.0:name>
+    <foaf:mbox_sha1sum>9faf4264fa3330555cbf270bdf911aa7ca0c7dfe</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gert-lanckriet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-knees">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-peter-knees"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-peter-knees"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Knees</rdfs:label>
+    <j.0:name>Peter Knees</j.0:name>
+    <foaf:mbox_sha1sum>e3c1d126328680d1179349e21c438e25147d3239</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-knees"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/mcgill-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>McGill university</rdfs:label>
+    <j.0:name>McGill university</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/mcgill-university"/>
+    <j.0:name>McGill University</j.0:name>
+    <rdfs:label>McGill University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-stephan-baumann">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/stephan-baumann"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/10"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:title>The Million Song Dataset Challenge</j.0:title>
+    <j.0:keyword>large-scale</j.0:keyword>
+    <j.0:abstract>Music is not a patio chair or a cutlery set, and it should
+not be recommended the same way. Music is a highly complex
+signal that is part of our cultural framework and has
+a prominent place in our everyday life. Yet dealing with
+the millions of songs we have access to and finding the ones
+that will enliven our day is essential. What could once be
+solved by advice from one’s best friends has evolved into a
+large-scale internet-era problem, and the music information
+retrieval community needs to step up to the challenge. We
+introduce the Million Song Dataset Challenge to improve the
+state-of-the-art and unify the community behind a common
+evaluation. The goal is to predict the songs a user will listen to,
+given the user’s listening history and full information
+(meta-data, content analysis) of all songs. We explain the need
+for such a contest, the data we use, our goals and design choices,
+and present baseline experimental results using simple, off-the-shelf
+recommendation algorithms.</j.0:abstract>
+    <rdfs:label>The Million Song Dataset Challenge</rdfs:label>
+    <j.0:keyword>evaluation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-p-w-ellis"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thierry-bertin-mahieux"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/gert-lanckriet"/>
+    <j.0:keyword>music recommendation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/brian-mcfee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/uiuc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UIUC</rdfs:label>
+    <j.0:name>UIUC</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/uiuc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-peter-knees">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/peter-knees"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-dominik-schnitzer">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/dominik-schnitzer"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/centre-de-recerca-matematica">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Centre de Recerca Matemàtica</rdfs:label>
+    <j.0:name>Centre de Recerca Matemàtica</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/centre-de-recerca-matematica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/admire2012">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about admire2012.</dcterms:title>
+    <dcterms:created>Tue May 03 19:03:37 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.2:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/admire/2012/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/gabriel-vigliensoni">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-gabriel-vigliensoni"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Gabriel Vigliensoni</rdfs:label>
+    <j.0:name>Gabriel Vigliensoni</j.0:name>
+    <foaf:mbox_sha1sum>97ee9eafee3c141bdea44a525e743561697ab036</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/gabriel-vigliensoni"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-national-institute-of-advanced-industrial-science-and-technology-aist-masataka-goto">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/masataka-goto"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/national-institute-of-advanced-industrial-science-and-technology-aist"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/columbia-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Columbia University</rdfs:label>
+    <j.0:name>Columbia University</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/columbia-university"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/xiao-hu">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-uiuc-xiao-hu"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-xiao-hu"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Xiao Hu</rdfs:label>
+    <j.0:name>Xiao Hu</j.0:name>
+    <foaf:mbox_sha1sum>ad1df1d625b3244a48df8387016ce454f8a442f6</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/xiao-hu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/austrian-research-institute-for-artificial-intelligence">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Austrian Research Institute for Artificial Intelligence</rdfs:label>
+    <j.0:name>Austrian Research Institute for Artificial Intelligence</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/austrian-research-institute-for-artificial-intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-matthias-mauch">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/matthias-mauch"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-2">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/david-hauger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ching-wei-chen">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-gracenote-ching-wei-chen"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ching-wei-chen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ching-Wei Chen</rdfs:label>
+    <j.0:name>Ching-Wei Chen</j.0:name>
+    <foaf:mbox_sha1sum>04f3fb9e6d5ec02472b6c5a224e501f87acde319</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ching-wei-chen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/ichiro-fujinaga"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-6">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-7"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-5"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/luis-lemos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/queen-mary-university-of-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Queen Mary University of London</rdfs:label>
+    <j.0:name>Queen Mary University of London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/queen-mary-university-of-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ian-knopke">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-bbc-ian-knopke"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ian-knopke"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ian Knopke</rdfs:label>
+    <j.0:name>Ian Knopke</j.0:name>
+    <foaf:mbox_sha1sum>5f96b0866e5c56c1063d1a476a7571de2ef2f1ba</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ian-knopke"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-city-university-london-daniel-wolff">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-wolff"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/city-university-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/city-university-london">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>City University London</rdfs:label>
+    <j.0:name>City University London</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/city-university-london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-brian-mcfee">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/brian-mcfee"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-andrew-hankinson">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/andrew-hankinson"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/mcgill-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-paul-lamere">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/paul-lamere"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9">
+    <j.0:keyword>feature</j.0:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/daniel-wolff"/>
+    <j.0:keyword>music information retrieval</j.0:keyword>
+    <rdfs:label>Adapting Similarity on the MagnaTagATune Dataset: Effects of Model and Feature Choices</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/9"/>
+    <j.0:keyword>context-based retrieval</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <j.0:title>Adapting Similarity on the MagnaTagATune Dataset: Effects of Model and Feature Choices</j.0:title>
+    <j.0:keyword>similarity adaptation</j.0:keyword>
+    <j.0:keyword>music similarity measures</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tillman-weyde"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/9/authorList"/>
+    <j.0:abstract>This work builds on and responds to previous publications on adaptation of similarity measures to user voting data from the MagnaTagATune dataset. The similarity dataset presented by Stober and Nürnberger at AMR 2011 has been reproduced to test other approaches in a comparable way. On this set, we compare their two-level approach, defining similarity measures on individual facets and combining them in a linear model, to the Metric Learning to Rank (MLR) algorithm which adapts a measure that operates directly on low-level features. We compare the different algorithms, features and parameter spaces with regards to minimising constraint violations. Furthermore, the effectiveness of the MLR algorithm in generalising over unknown similarity data is evaluated on this dataset. We explore the effects of feature choice. Here, we found that the binary genre data showed little correlation with the similarity data, but combined with audio features it clearly improved generalisation.</j.0:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-california-san-diego">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of California, San Diego</rdfs:label>
+    <j.0:name>University of California, San Diego</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-california-san-diego"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/paul-lamere">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-the-echo-nest-paul-lamere"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-paul-lamere"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Paul Lamere</rdfs:label>
+    <j.0:name>Paul Lamere</j.0:name>
+    <foaf:mbox_sha1sum>4237873a567ac0b83150155864caccaca21b4848</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/paul-lamere"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/markus-schedl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-geraint-wiggins">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/geraint-wiggins"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-4">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/perfecto-herrera"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-ben-fields">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ben-fields"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/unknown"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robert-macrae">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-queen-mary-university-of-london-robert-macrae"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-robert-macrae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robert Macrae</rdfs:label>
+    <j.0:name>Robert Macrae</j.0:name>
+    <foaf:mbox_sha1sum>b549054b2aa4136d7a05f91c10eb0fa78574ec15</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robert-macrae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-5">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-6"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-4"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joao-vinagre"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/arthur-flexer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-austrian-research-institute-for-artificial-intelligence-arthur-flexer"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-arthur-flexer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Arthur Flexer</rdfs:label>
+    <j.0:name>Arthur Flexer</j.0:name>
+    <foaf:mbox_sha1sum>195af8cb3062aef111dec3e06209ebda562b5612</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/arthur-flexer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fabien-gouyon">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-tec-fabien-gouyon"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-porto-fabien-gouyon"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-fabien-gouyon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fabien Gouyon</rdfs:label>
+    <j.0:name>Fabien Gouyon</j.0:name>
+    <foaf:mbox_sha1sum>72c299beedafe0402770b023767c8d9c6170ab1d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fabien-gouyon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oscar-celma">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-gracenote-oscar-celma"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-oscar-celma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oscar Celma</rdfs:label>
+    <j.0:name>Oscar Celma</j.0:name>
+    <foaf:mbox_sha1sum>7b9fc8e98aafe036d68f1b321d16e149ea092910</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oscar-celma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/justin-salamon">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-barcelona-spain-justin-salamon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Justin Salamon</rdfs:label>
+    <j.0:name>Justin Salamon</j.0:name>
+    <foaf:mbox_sha1sum>f0de9ca275a0edc9f70478e271535206ca3c7323</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/justin-salamon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-inesc-tec-marcos-aurelio-domingues">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/marcos-aurelio-domingues"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/inesc-tec"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alipio-mario-jorge">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-alipio-mario-jorge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alípio Mário Jorge</rdfs:label>
+    <j.0:name>Alípio Mário Jorge</j.0:name>
+    <foaf:mbox_sha1sum>71c1e3d39c07e07a3ca56793185eb8c46bfeea59</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alipio-mario-jorge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-ichiro-fujinaga">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/ichiro-fujinaga"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/mcgill-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ching-wei-chen">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/ching-wei-chen"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/justin-salamon"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/john-ashley-burgoyne"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alvaro-corral"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thierry-bertin-mahieux"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dmitry-bogdanov">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-dmitry-bogdanov"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-dmitry-bogdanov"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-dmitry-bogdanov"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dmitry Bogdanov</rdfs:label>
+    <j.0:name>Dmitry Bogdanov</j.0:name>
+    <foaf:mbox_sha1sum>73cffd2fbd127cdac38d2400871453f1e2fee12d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dmitry-bogdanov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-4">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-5"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-3"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jose-paulo-leal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-artificial-intelligence-research-institute-iiia-csic-bellaterra-spain-joan-serra">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/artificial-intelligence-research-institute-iiia-csic-bellaterra-spain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/stephan-baumann">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-dfki-technical-university-of-kaiserslautern-stephan-baumann"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-stephan-baumann"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Stephan Baumann</rdfs:label>
+    <j.0:name>Stephan Baumann</j.0:name>
+    <foaf:mbox_sha1sum>0adfed243ef259756f3c0ffa2872301917e57334</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/stephan-baumann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/brian-mcfee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/ucsd">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>UCSD</rdfs:label>
+    <j.0:name>UCSD</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/ucsd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/geraint-wiggins">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-goldsmiths-college-university-of-london-geraint-wiggins"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-geraint-wiggins"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Geraint Wiggins</rdfs:label>
+    <j.0:name>Geraint Wiggins</j.0:name>
+    <foaf:mbox_sha1sum>c34c5e249f1ae6a7c36a8285447d7e70cb458191</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/geraint-wiggins"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-emilia-gomez">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emilia-gomez"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-ucsd-gert-lanckriet">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/gert-lanckriet"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/ucsd"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/malcolm-slaney">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-yahoo-research-malcolm-slaney"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-malcolm-slaney"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Malcolm Slaney</rdfs:label>
+    <j.0:name>Malcolm Slaney</j.0:name>
+    <foaf:mbox_sha1sum>9a724a89b8fbd86ff73c1fdf9e18fc6dace466f3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/malcolm-slaney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-barcelona-spain-emilia-gomez">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/emilia-gomez"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra-barcelona-spain"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-columbia-university-daniel-p-w-ellis">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/daniel-p-w-ellis"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/columbia-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-2">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-3"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList/item-1"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/gabriel-vigliensoni"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/10/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/daniel-p-w-ellis"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-3">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-4"/>
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alipio-mario-jorge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/dfki-technical-university-of-kaiserslautern">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>DFKI &amp; Technical University of Kaiserslautern</rdfs:label>
+    <j.0:name>DFKI &amp; Technical University of Kaiserslautern</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/dfki-technical-university-of-kaiserslautern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-steve-tjoa">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/steve-tjoa"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-jose-paulo-leal">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jose-paulo-leal"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/faculty-of-science-university-of-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alvaro-corral">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-centre-de-recerca-matematica-alvaro-corral"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Álvaro Corral</rdfs:label>
+    <j.0:name>Álvaro Corral</j.0:name>
+    <foaf:mbox_sha1sum>5ee214c2fee6340d4fca9a2b536bc68e03667dad</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alvaro-corral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/ben-fields">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-ben-fields"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-ben-fields"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ben Fields</rdfs:label>
+    <j.0:name>Ben Fields</j.0:name>
+    <foaf:mbox_sha1sum>d3f066b58c09312414d5b4be50dfb827a86d80c9</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/ben-fields"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-fabien-gouyon">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/fabien-gouyon"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-echo-nest">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Echo Nest</rdfs:label>
+    <j.0:name>The Echo Nest</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-echo-nest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-arthur-flexer">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/arthur-flexer"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-3">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/emilia-gomez"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/unknown">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>(unknown)</rdfs:label>
+    <j.0:name>(unknown)</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/unknown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/15/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/yi-hsuan-yang">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-academia-sinica-yi-hsuan-yang"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Yi-Hsuan Yang</rdfs:label>
+    <j.0:name>Yi-Hsuan Yang</j.0:name>
+    <foaf:mbox_sha1sum>d0725746885fc4915d5aca7f2daf15f5519eaa62</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/yi-hsuan-yang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5">
+    <j.0:keyword>power-law</j.0:keyword>
+    <j.0:title>Power-law distribution in encoded MFCC frames of speech, music, and environmental sound signals</j.0:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/perfecto-herrera"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <rdfs:label>Power-law distribution in encoded MFCC frames of speech, music, and environmental sound signals</rdfs:label>
+    <j.0:keyword>timbre</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/martin-haro"/>
+    <j.0:keyword>MFCC</j.0:keyword>
+    <j.0:keyword>sound retrieval</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/5"/>
+    <j.0:abstract>Many sound-related applications use Mel-frequency cepstral coefficients (MFCC) to describe audio timbral content. Most of the research efforts dealing with MFCCs have been focused on the study of different classification and clustering algorithms, the use of complementary audio descriptors, or the effect of different distance measures. The goal of this paper is to focus on the statistical properties of the MFCC descriptor itself. For that purpose, we use a simple encoding process that maps a short-time MFCC vector to a dictionary of binary code-words. We study and characterize the rank-frequency distribution of such MFCC code-words, considering speech, music, and environmental sound sources. We show that, regardless of the sound source, MFCC code-words follow a shifted power-law distribution. This implies that there are a few code-words that occur very frequently and many that happen rarely, with no typical or characteristic code-word in the distribution.
+We also observe that the inner-structure of the most frequent code-words has characteristic patterns. For instance, we observe that close MFCC coefficients tend to have similar quantization values in the case of music signals. 
+Finally, we study the rank-frequency distributions of individual music recordings and show that they present the same type of heavy-tailed distribution as found in the large-scale databases. This fact is exploited in two supervised semantic inference tasks: genre and instrument classification. In particular, we obtain similar classification results as the ones obtained by considering all frames in the recordings by just using 50 (properly selected) frames.
+Beyond this particular example, we believe that the fact that MFCC frames follow a power-law distribution could potentially have important implications for future applications dealing with audio signals.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alvaro-corral"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>large-scale data</j.0:keyword>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/5/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/faculty-of-science-university-of-porto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Faculty of Science, University of Porto</rdfs:label>
+    <j.0:name>Faculty of Science, University of Porto</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/faculty-of-science-university-of-porto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-linz-austria-dominik-schnitzer">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dominik-schnitzer"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university-linz-austria"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mehdi-elahi">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-mehdi-elahi"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mehdi-elahi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mehdi Elahi</rdfs:label>
+    <j.0:name>Mehdi Elahi</j.0:name>
+    <foaf:mbox_sha1sum>d85242663ac8041762319c008508714dc355a630</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mehdi-elahi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/daniel-wolff">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-city-university-london-daniel-wolff"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Daniel Wolff</rdfs:label>
+    <j.0:name>Daniel Wolff</j.0:name>
+    <foaf:mbox_sha1sum>0d9c8937c328cd429380a3cdded632ae32eceaca</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/daniel-wolff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/perfecto-herrera">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-perfecto-herrera"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Perfecto Herrera</rdfs:label>
+    <j.0:name>Perfecto Herrera</j.0:name>
+    <foaf:mbox_sha1sum>90712fb677a7c9a769876b909d98bbd906dfe671</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/perfecto-herrera"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-1">
+    <j.0:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/12/authorList/item-2"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/andrew-hankinson"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-artificial-intelligence-research-institute-iiia-csic-joan-serra">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/artificial-intelligence-research-institute-iiia-csic"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-queen-mary-university-of-london-robert-macrae">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/robert-macrae"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/queen-mary-university-of-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/department-of-music-university-of-aberdeen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Department of Music, University of Aberdeen</rdfs:label>
+    <j.0:name>Department of Music, University of Aberdeen</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/department-of-music-university-of-aberdeen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/noam-koenigstein">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-tel-aviv-university-noam-koenigstein"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-noam-koenigstein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Noam Koenigstein</rdfs:label>
+    <j.0:name>Noam Koenigstein</j.0:name>
+    <foaf:mbox_sha1sum>5854929a0c2b214a343a0faf29f341def548c9ae</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/noam-koenigstein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>National Network New Media Engineering Research Center，Institute of Acoustics, Chinese Academy of Sciences</rdfs:label>
+    <j.0:name>National Network New Media Engineering Research Center，Institute of Acoustics, Chinese Academy of Sciences</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/yahoo-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Yahoo! Research</rdfs:label>
+    <j.0:name>Yahoo! Research</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/yahoo-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-noam-koenigstein">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/noam-koenigstein"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sebastian-stober">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-otto-von-guericke-university-magdeburg-sebastian-stober"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-sebastian-stober"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sebastian Stober</rdfs:label>
+    <j.0:name>Sebastian Stober</j.0:name>
+    <foaf:mbox_sha1sum>332bbb73d816fca9196f5105a5c22c2d19efd21f</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sebastian-stober"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6">
+    <j.0:keyword>cover song detection</j.0:keyword>
+    <j.0:keyword>music retrieval</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/justin-salamon"/>
+    <j.0:keyword>music similarity</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/emilia-gomez"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/6"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList"/>
+    <j.0:abstract>In this paper we compare the use of different musical representations for the task of version identification (i.e.~retrieving alternative performances of the same musical piece). We automatically compute descriptors representing the melody and bass line using a state-of-the-art melody extraction algorithm, and compare them to a harmony-based descriptor. The similarity of descriptor sequences is computed using a dynamic programming algorithm based on nonlinear time series analysis which has been successfully used for version identification with harmony descriptors. After evaluating the accuracy of individual descriptors, we assess whether performance can be improved by descriptor fusion, for which we apply a classification approach, comparing different classification algorithms. We show that both melody and bass line descriptors carry useful information for version identification, and that combining them increases version detection accuracy. Whilst harmony remains the most reliable musical representation for version identification, we demonstrate how in some cases performance can be improved by combining it with melody and bass line descriptions. Finally, we identify some of the limitations of the proposed descriptor fusion approach, and discuss directions for future research.</j.0:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joan-serra"/>
+    <rdfs:label>Melody, Bassline and Harmony Representations for Music Version Identification</rdfs:label>
+    <j.0:keyword>Version identification</j.0:keyword>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>harmony</j.0:keyword>
+    <j.0:keyword>bassline</j.0:keyword>
+    <j.0:keyword>melody extraction</j.0:keyword>
+    <j.0:title>Melody, Bassline and Harmony Representations for Music Version Identification</j.0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/martin-haro">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-martin-haro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Martin Haro</rdfs:label>
+    <j.0:name>Martin Haro</j.0:name>
+    <foaf:mbox_sha1sum>db4399b57b6fdaf38a00481f2c5e45599b877d24</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/martin-haro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tillman-weyde">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-city-university-london-tillman-weyde"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tillman Weyde</rdfs:label>
+    <j.0:name>Tillman Weyde</j.0:name>
+    <foaf:mbox_sha1sum>b06b8cb1cc62748d5042bb06f5c69709eee46a1e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tillman-weyde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-emilia-gomez">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/emilia-gomez"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/marcos-aurelio-domingues"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jose-paulo-leal"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alipio-mario-jorge"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/2"/>
+    <j.0:keyword>Tags</j.0:keyword>
+    <j.0:title>Combining Usage and Content in an Online Music Recommendation System for Music in the Long-Tail</j.0:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <j.0:keyword>Music recommendation</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/luis-lemos"/>
+    <j.0:abstract>In this paper we propose a hybrid music recommender system, which combines usage and content data. We describe an online evaluation experiment performed in real time on a commercial music web site, specialised in content from the very long tail of music content. We compare it against two stand-alone recommenders, the first system based on usage and the second one based on content data. The results show that the proposed hybrid recommender shows advantages with respect to usage- and content-based systems, namely, higher user absolute acceptance rate, higher user activity rate and higher user loyalty.</j.0:abstract>
+    <j.0:keyword>Hybrid recommender system</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fabien-gouyon"/>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <j.0:keyword>Usage data</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joao-vinagre"/>
+    <rdfs:label>Combining Usage and Content in an Online Music Recommendation System for Music in the Long-Tail</rdfs:label>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <j.0:keyword>Audio features</j.0:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList">
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-5"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-7"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-4"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-3"/>
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-7"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-4"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-3"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/cwi-amsterdam">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>CWI</rdfs:label>
+    <j.0:name>CWI</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/cwi-amsterdam"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jose-paulo-leal">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-jose-paulo-leal"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>José Paulo Leal</rdfs:label>
+    <j.0:name>José Paulo Leal</j.0:name>
+    <foaf:mbox_sha1sum>da1485a2c6d9b88b106b87aaee8f4216bee1594d</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jose-paulo-leal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-sebastian-stober">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/sebastian-stober"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-centre-for-digital-music-queen-mary-university-of-london-mathieu-barthet">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mathieu-barthet"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/centre-for-digital-music-queen-mary-university-of-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/gracenote">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Gracenote</rdfs:label>
+    <j.0:name>Gracenote</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/gracenote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-david-hauger">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/david-hauger"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/johannes-kepler-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dominik-schnitzer">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-linz-austria-dominik-schnitzer"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-dominik-schnitzer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dominik Schnitzer</rdfs:label>
+    <j.0:name>Dominik Schnitzer</j.0:name>
+    <foaf:mbox_sha1sum>6a324288c296d8cf9d7739b32f4ca9436e5a1014</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dominik-schnitzer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-mcgill-university-john-ashley-burgoyne">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-ashley-burgoyne"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/mcgill-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-city-university-london-tillman-weyde">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tillman-weyde"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/city-university-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthias-mauch">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-unknown-matthias-mauch"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-matthias-mauch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthias Mauch</rdfs:label>
+    <j.0:name>Matthias Mauch</j.0:name>
+    <foaf:mbox_sha1sum>bf208546eed9a557abfe5dd3f1f070c5b519df8b</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthias-mauch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-robert-macrae">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/robert-macrae"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-oscar-celma">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/oscar-celma"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-chair"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mohamed-sordo">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-mohamed-sordo"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-universitat-pompeu-fabra-mohamed-sordo"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mohamed-sordo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mohamed Sordo</rdfs:label>
+    <j.0:name>Mohamed Sordo</j.0:name>
+    <foaf:mbox_sha1sum>db40524c0bbaf8d47e9a5d6e77912e56f0965759</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mohamed-sordo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList">
+    <j.0:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-2"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-2"/>
+    <j.0:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-1"/>
+    <j.0:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mathieu-barthet">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-centre-for-digital-music-queen-mary-university-of-london-mathieu-barthet"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mathieu-barthet"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mathieu Barthet</rdfs:label>
+    <j.0:name>Mathieu Barthet</j.0:name>
+    <foaf:mbox_sha1sum>afbd06d17d33498037f4251b62a5f3875d2cea8e</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mathieu-barthet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/music-technology-group-universitat-pompeu-fabra">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Music Technology Group, Universitat Pompeu Fabra</rdfs:label>
+    <j.0:name>Music Technology Group, Universitat Pompeu Fabra</j.0:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/music-technology-group-universitat-pompeu-fabra"/>
+    <j.0:name>Music Technology Group / Universitat Pompeu Fabra</j.0:name>
+    <rdfs:label>Music Technology Group / Universitat Pompeu Fabra</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/emilia-gomez">
+    <rdfs:label>Emilia Gómez</rdfs:label>
+    <rdfs:label>Emilia Gomez</rdfs:label>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-emilia-gomez"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/emilia-gomez"/>
+    <j.0:name>Emilia Gomez</j.0:name>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <j.0:name>Emilia Gómez</j.0:name>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-emilia-gomez"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-music-technology-group-universitat-pompeu-fabra-barcelona-spain-emilia-gomez"/>
+    <foaf:mbox_sha1sum>0ba7a945622789c9dd6820a2e9c0a6510c052935</foaf:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-mitsunori-ogihara">
+    <j.0:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mitsunori-ogihara"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/admire2012/admire/2012"/>
+    <j.0:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-7">
+    <j.0:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/2/authorList/item-6"/>
+    <j.0:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/markus-schedl">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-johannes-kepler-university-markus-schedl"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-chair-markus-schedl"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Markus Schedl</rdfs:label>
+    <j.0:name>Markus Schedl</j.0:name>
+    <foaf:mbox_sha1sum>5d1306d14d5f5e6af24bf1387c4108511252cda4</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/markus-schedl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/brian-mcfee">
+    <j.0:name>Brian McFee</j.0:name>
+    <rdfs:label>Brian McFee</rdfs:label>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-of-california-san-diego-brian-mcfee"/>
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-ucsd-brian-mcfee"/>
+    <foaf:mbox_sha1sum>e34a87b98bc853eb016135e3b36e97bf639c06c0</foaf:mbox_sha1sum>
+    <rdfs:label>Brian Mcfee</rdfs:label>
+    <j.0:name>Brian Mcfee</j.0:name>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-brian-mcfee"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/brian-mcfee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-goldsmiths-college-university-of-london-geraint-wiggins">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/geraint-wiggins"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/goldsmiths-college-university-of-london"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/julian-urbano">
+    <j.0:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-carlos-iii-of-madrid-julian-urbano"/>
+    <j.0:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/admire2012-programme-committee-member-julian-urbano"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Julián Urbano</rdfs:label>
+    <j.0:name>Julián Urbano</j.0:name>
+    <foaf:mbox_sha1sum>c1f3c462f6137696e1cd95cc185b443f1580b8c3</foaf:mbox_sha1sum>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/julian-urbano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-tel-aviv-university-noam-koenigstein">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/noam-koenigstein"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/tel-aviv-university"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4">
+    <j.0:keyword>tag-based music retrieval</j.0:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/perfecto-herrera"/>
+    <j.0:keyword>music auto-tagging</j.0:keyword>
+    <j.0:keyword>music retagging</j.0:keyword>
+    <rdfs:label>Music Retagging Using Label Propagation and Robust Principal Component Analysis</rdfs:label>
+    <j.0:abstract>The emergence of social tagging websites such as Last.fm has provided new opportunities for learning computational models that automatically tag music. Researchers typically obtain music tags from the Internet and use them to construct machine learning models. Nevertheless, such tags are usually noisy and sparse. In this paper, we present a preliminary study that aims at refining (retagging) social tags by exploiting the content similarity between tracks and the semantic redundancy of the track-tag matrix. The evaluated algorithms include a graph-based label propagation method that is often used in semi-supervised learning and a robust principal component analysis (PCA) algorithm that has led to state-of-the-art result in matrix completion. The result indicates that robust PCA with content similarity constraint is particularly effective; it improves the robustness of tagging against three types of synthetic errors and boosts the recall rate of music auto-tagging by 7% in a real-world setting.</j.0:abstract>
+    <j.0:title>Music Retagging Using Label Propagation and Robust Principal Component Analysis</j.0:title>
+    <j.0:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/admire2012/data.semanticweb.org/workshop/admire/2012/paper/4/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dmitry-bogdanov"/>
+    <j.0:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/admire/2012/proceedings"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/yi-hsuan-yang"/>
+    <j.0:keyword>social tagging</j.0:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/admire/2012/paper/4"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mohamed-sordo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-university-of-miami-mitsunori-ogihara">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mitsunori-ogihara"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-miami"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/admire2012-faculty-of-science-university-of-porto-luis-lemos">
+    <j.0:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luis-lemos"/>
+    <j.0:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/faculty-of-science-university-of-porto"/>
+    <j.0:during rdf:resource="https://w3id.org/scholarlydata/event/AdMIRE 2012/admire/2012"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>

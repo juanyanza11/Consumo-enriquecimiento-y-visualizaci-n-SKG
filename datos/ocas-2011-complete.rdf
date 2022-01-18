@@ -1,0 +1,1475 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:bibtex="http://swrc.ontoware.org/ontology#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:cofunc="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:misc="http://data.semanticweb.org/ns/misc#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/ns/prov#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:wordnet="http://xmlns.com/wordnet/1.6/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/joost-schanstra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-toronto-michael-gruninger">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-gruninger"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-toronto"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/stanford-university">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Stanford</rdfs:label>
+    <cofunc:name>Stanford University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+    <cofunc:name>Stanford</cofunc:name>
+    <rdfs:label>Stanford University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/eero-hyvoenen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science-eero-hyvoenen"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-helsinki-and-aalto-university-school-of-science-eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Eero Hyvönen</rdfs:label>
+    <cofunc:name>Eero Hyvönen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-nigam-shah">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/nigam-shah"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Semantic Computing Research Group (SeCo), Aalto University School of Science, Department of Media Technology</rdfs:label>
+    <cofunc:name>Semantic Computing Research Group (SeCo), Aalto University School of Science and Technology (TKK)</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:name>Semantic Computing Research Group (SeCo), Aalto University School of Science, Department of Media Technology</cofunc:name>
+    <rdfs:label>Semantic Computing Research Group (SeCo), Aalto University School of Science and Technology (TKK)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-toro">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-vicomtech-carlos-toro"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-carlos-toro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Toro</rdfs:label>
+    <cofunc:name>Carlos Toro</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-toro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-fan-yang-turner">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fan-yang-turner"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/13"/>
+    <cofunc:keyword>Social web</cofunc:keyword>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:title>Folksonomies behind the scenes</cofunc:title>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/leyla-jael-garcia-castro"/>
+    <cofunc:keyword>Wiki</cofunc:keyword>
+    <cofunc:abstract>In this position paper we analyze the similarities amongst folksonomies, semantic wikis, and ontology building; we also propose an alignment and orchestration of ontologies representing these scenarios. We argue that such alignment enables a more direct application of folksonomy-based approaches over these set-ups. The rationale behind folksonomies is shared across environments such as collaborative ontology building and semantic wikis. The three of them aim to facilitate knowledge sharing across communities; a social environment in which individual and community objectives are achieved supports them all. </cofunc:abstract>
+    <cofunc:keyword>Semantic web</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList"/>
+    <cofunc:keyword>Folksonomy</cofunc:keyword>
+    <cofunc:keyword>Ontology engineering</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/alexander-garcia-castro"/>
+    <rdfs:label>Folksonomies behind the scenes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/robert-stevens"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList"/>
+    <cofunc:keyword>Semantic Annotation</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <cofunc:keyword>Ontology</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/fan-yang-turner"/>
+    <cofunc:keyword>Sensemaking</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <rdfs:label>Socio-technical Ontology Development for Modelling Sensemaking in Heterogeneous Domains</rdfs:label>
+    <cofunc:keyword>Modularisation</cofunc:keyword>
+    <cofunc:title>Socio-technical Ontology Development for Modelling Sensemaking in Heterogeneous Domains</cofunc:title>
+    <cofunc:abstract>Sensemaking is often associated with processing large or complex amount of data obtained from diverse and distributed sources. With information explosion from the web, sensemaking is becoming ubiquitous and ever more challenging. Semantic technologies have potential to support understanding of sensemaking process with the benefits they bring (e.g. reasoning, aggregation, automation). Conceptual models of sensemaking have been developed to understand its complex processes by social and information scientist; however, these frameworks are not applicable directly to system design. This paper describes a socio-technical approach for modelling sensemaking process in order to inform the development of intelligent services to aid sensemakers. We apply an a priori ontology modularisation methodology for handling complexity of heterogeneous domains and utilise well-known sensemaking theoretical framework to guide ontology development. This approach is applied in an EU project - Dicode, for the development of its sensemaking ontology. </cofunc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-the-genomics-institute-of-the-novartis-research-foundation-benjamin-good">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/benjamin-good"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/the-genomics-institute-of-the-novartis-research-foundation"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-katri-seppaelae">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/katri-seppaelae"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-luis-ramos">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/luis-ramos"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/the-genomics-institute-of-the-novartis-research-foundation">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>The Genomics Institute of the Novartis Research Foundation</rdfs:label>
+    <cofunc:name>The Genomics Institute of the Novartis Research Foundation</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/the-genomics-institute-of-the-novartis-research-foundation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mark-a-musen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-mark-a-musen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mark Musen</rdfs:label>
+    <cofunc:name>Mark Musen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/fluid-operations">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>fluid Operations</rdfs:label>
+    <cofunc:name>fluid Operations</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/fluid-operations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/matias-frosterus"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/lydia-lau">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-lydia-lau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Lydia Lau</rdfs:label>
+    <cofunc:name>Lydia Lau</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/luis-ramos">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-luis-ramos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Luis Ramos</rdfs:label>
+    <cofunc:name>Luis Ramos</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList/item-1"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-gruninger">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-toronto-michael-gruninger"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-michael-gruninger"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Gruninger</rdfs:label>
+    <cofunc:name>Michael Gruninger</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-gruninger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-john-bateman">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/john-bateman"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-osma-suominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-michael-gruninger">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michael-gruninger"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-william-hogan">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/william-hogan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-helsinki-and-aalto-university-school-of-science-eero-hyvoenen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-helsinki-and-aalto-university-school-of-science"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-gesis-leibniz-institute-for-the-social-sciences-thomas-bosch">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/thomas-bosch"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/gesis-leibniz-institute-for-the-social-sciences"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Rensselaer Polytechnic Institute</rdfs:label>
+    <cofunc:name>Rensselaer Polytechnic Institute</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/rensselaer-polytechnic-institute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/valentina-presutti">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Valentina Presutti</foaf:name>
+    <foaf:givenname>Valentina</foaf:givenname>
+    <foaf:familyName>Presutti</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kwarc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>KWARC</rdfs:label>
+    <cofunc:name>KWARC</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kwarc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-panagiotis-moulos">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-moulos"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/steve-pettifer">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-steve-pettifer"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-steve-pettifer"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Steve Pettifer</rdfs:label>
+    <cofunc:name>Steve Pettifer</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/steve-pettifer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-helsinki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Helsinki</rdfs:label>
+    <cofunc:name>University of Helsinki</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-helsinki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11">
+    <rdfs:label>Extending Ontologies with Free Keywords in a Collaborative Annotation Environment</rdfs:label>
+    <cofunc:abstract>Semantic web technologies have introduced the idea of annotating content in terms of concepts taken from ontologies. Since concepts are defined in terms of properties and relations to other concepts, descriptions grow up into larger RDF graphs that can be used as a basis for data integration and intelligent information retrieval. Since ontologies are typically incomplete, it is usually necessary to offer the annotator the possibility to introduce new free keywords or tags in addition to the predefined ontology concepts. The problem then is that free keywords/tags do not have ontological connections to the rest of the RDF graph, unless such relations are defined by the annotator.  We present a process for integrating free keywords into the ontological framework, and a practical tool implementation of it, discussing the challenges and possibilities introduced by the system. We also describe a case study performed for the Finnish Defence Forces, where the tool is used for creating a faceted semantic search portal featuring the free keywords and the ontological concepts at the same time.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/matias-frosterus"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:keyword>free keywords</cofunc:keyword>
+    <cofunc:keyword>ontologies</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:keyword>Annotation</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+    <cofunc:title>Extending Ontologies with Free Keywords in a Collaborative Annotation Environment</cofunc:title>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mika-wahlroos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7">
+    <cofunc:keyword>rdf</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:title>Ontologies Come of Age with the iKUP Browser</cofunc:title>
+    <rdfs:label>Ontologies Come of Age with the iKUP Browser</rdfs:label>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/joost-schanstra"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+    <cofunc:keyword>ontologies</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/julie-klein"/>
+    <cofunc:abstract>The iKUP browser, a web-based application to the kidney and urinary pathway knowledge base, shows ontologies coming of age by enabling biologists to ask questions of integrated data that form hypotheses that are being tested in the laboratory. That is, semantically annotated data, that are integrated through rich interconnections, have been delivered to the target users in a form that they can use to change how they undertake their job.</cofunc:abstract>
+    <cofunc:keyword>owl</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/robert-stevens"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-moulos"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/simon-jupp"/>
+    <cofunc:keyword>semantic web</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-jouni-tuominen">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oliver-kutz">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-sfb-tr-8-spatial-cognition-oliver-kutz"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-oliver-kutz"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oliver Kutz</rdfs:label>
+    <cofunc:name>Oliver Kutz</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oliver-kutz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+    <cofunc:name>Universidad Politécnica de Madrid</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+    <cofunc:name>Universidad Politecnica de Madrid</cofunc:name>
+    <rdfs:label>Universidad Politecnica de Madrid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/riichiro-mizoguchi">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-riichiro-mizoguchi"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-riichiro-mizoguchi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Riichiro Mizoguchi</rdfs:label>
+    <cofunc:name>Riichiro Mizoguchi</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#OrganisedEvent"/>
+    <rdfs:label>Ontologies come of Age in the Semantic Web</rdfs:label>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/christoph-lange">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-jacobs-university-bremen-christoph-lange"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Christoph Lange</rdfs:label>
+    <cofunc:name>Christoph Lange</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/christoph-lange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fan-yang-turner">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-fan-yang-turner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fan Yang-Turner</rdfs:label>
+    <cofunc:name>Fan Yang-Turner</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/event/ocas2011/iswc/2011">
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kmi-the-open-university-uk-carlos-pedrinaci">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12">
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/sini-pessala"/>
+    <rdfs:label>MUTU: An Analysis Tool for Maintaining a System of Hierarchically Linked Ontologies</rdfs:label>
+    <cofunc:keyword>dependent ontology</cofunc:keyword>
+    <cofunc:abstract>We consider ontology evolution in a system of light-weight LinkedData ontologies, aligned with each other to form a large ontology system. Whenchanges occur in one of the ontologies, it is difficult for the human editor to keeptrack of what actually has been changed and what modifications may be needed inthe related ontologies in order to keep the system consistent. This paper presentsan analysis toolMUTU, by which such changes and their potential effects to otherontologies can be found. Such an analysis is useful for the ontology editors forundestanding the differences between ontology versions, and for updating relatedontologies when changes occur in other components of the ontology system.</cofunc:abstract>
+    <cofunc:keyword>ontology evolution</cofunc:keyword>
+    <cofunc:keyword>linked data ontologies</cofunc:keyword>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:title>MUTU: An Analysis Tool for Maintaining a System of Hierarchically Linked Ontologies</cofunc:title>
+    <cofunc:keyword>upper ontology</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/matias-frosterus"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/katri-seppaelae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/sini-pessala">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-sini-pessala"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Sini Pessala</rdfs:label>
+    <cofunc:name>Sini Pessala</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/mark-a-musen"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <rdfs:label>iCAT: A Collaborative Authoring Tool for ICD-11</rdfs:label>
+    <cofunc:keyword>infrastructure reuse</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/csongor-nyulas"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+    <cofunc:keyword>collaboration</cofunc:keyword>
+    <cofunc:keyword>interlinking ontologies</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <cofunc:abstract>We present iCAT—the Collaborative Authoring Tool for the 11th revision of the International Classification of Diseases (ICD-11). ICD is a fundamental health-care resource developed by the World Health Organization (WHO) and applied in all United Nations countries for a variety of uses. A landmark change in this ICD-11 revision compared to previous ones is the use of OWL as a representation language and of Semantic Web technologies for the collaborative authoring of the ICD content. A community of international medical experts develops ICD-11 in a collaborative setting using the Web-based iCAT platform. Besides its extensive collaboration support, iCAT also fosters the interconnectedness of ICD-11 with other biomedical ontologies and terminologies by providing interlinking and reusing capabilities as a fundamental feature of the tool, while also storing the provenance metadata. The generic and extensible infrastructure as well as its declarative user interface allowed us to easily deploy iCAT in a production setting for the development of ICD-11 and two other WHO classifications. The declarative user interface allowed us to custom tailor the platform for domain experts use. iCAT is in production use since October 2009; it was used to author over 105,000 changes in the ICD-11 ontology, to create more than 40,000 cross-links to other biomedical ontologies, and to produce over 19,000 notes and discussions. The software is open source and a demo version of the platform is available at http://icatdemo.stanford.edu.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <cofunc:title>iCAT: A Collaborative Authoring Tool for ICD-11</cofunc:title>
+    <cofunc:keyword>real-world biomedical ontology</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/school-of-computing-university-of-leeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>School of Computing, University of Leeds</rdfs:label>
+    <cofunc:name>School of Computing, University of Leeds</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/school-of-computing-university-of-leeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-natalya-noy">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-timothy-redmond">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-6"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-5"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-4"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-simon-jupp">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/simon-jupp"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/gesis-leibniz-institute-for-the-social-sciences">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>GESIS - Leibniz Institute for the Social Sciences</rdfs:label>
+    <cofunc:name>GESIS - Leibniz Institute for the Social Sciences</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/gesis-leibniz-institute-for-the-social-sciences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-jacobs-university-bremen-christoph-lange">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/christoph-lange"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-4">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-sfb-tr-8-spatial-cognition-oliver-kutz">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oliver-kutz"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-bremen-sfb-tr-8-spatial-cognition"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mike-dean">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-raytheon-bbn-technologies-mike-dean"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-mike-dean"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mike Dean</rdfs:label>
+    <cofunc:name>Mike Dean</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mike-dean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-5">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mark-a-musen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-oscar-corcho">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-and-university-of-helsinki-kim-viljanen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kim-viljanen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-and-university-of-helsinki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/raytheon-bbn-technologies">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Raytheon BBN Technologies</rdfs:label>
+    <cofunc:name>Raytheon BBN Technologies</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/raytheon-bbn-technologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-arkansas-for-medical-sciences-william-hogan">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/william-hogan"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-arkansas-for-medical-sciences"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aalto University School of Science</rdfs:label>
+    <cofunc:name>Aalto University School of Science</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/natalya-noy">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-natalya-noy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Natasha F. Noy</rdfs:label>
+    <cofunc:name>Natasha F. Noy</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10">
+    <cofunc:keyword>XML Schema</cofunc:keyword>
+    <rdfs:label>Generic Multilevel Approach Designing Domain Ontologies based on XML Schemas</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/10"/>
+    <cofunc:abstract>Designing an ontology for a specific domain is a time-consuming process. In many cases information sources like XML Schemas serve as a basis for ontology engineers to conceptualize the intended ontologies. The ontology design process is sped up significantly when XML Schemas are transformed automatically into generated ontologies. An XML Schema Metamodel Ontology has been designed to represent the components of the XML Schema abstract data model. The generated ontologies’ classes are defined as sub classes of this ontology. The classes specified for the generated ontologies are intended to be further supplemented with additional semantic and domain specific information defined in domain ontologies. The resulting ontologies are as usable as ontologies that were constructed completely manual, but with a fraction of necessary effort.</cofunc:abstract>
+    <cofunc:keyword>Semantic Web</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/brigitte-mathiak"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/thomas-bosch"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:title>Generic Multilevel Approach Designing Domain Ontologies based on XML Schemas</cofunc:title>
+    <cofunc:keyword>Ontology Design</cofunc:keyword>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList/item-1">
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/luis-ramos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/tania-tudorache">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-tania-tudorache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Tania Tudorache</rdfs:label>
+    <cofunc:name>Tania Tudorache</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/simon-jupp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-matthew-horridge">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/matthew-horridge"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4">
+    <cofunc:keyword>SWRL</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/4"/>
+    <cofunc:keyword>Semantic Web</cofunc:keyword>
+    <cofunc:keyword>OWL</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:title>Ontology-Based Features Recognition and Design Rules Checker System</cofunc:title>
+    <cofunc:keyword>SQWRL</cofunc:keyword>
+    <cofunc:abstract>We designed and implemented an Ontology-Based System for Features Recognition and Design Rules Checking. It was developed using Semantic Web technologies. It was implemented by means of the Protégé Application Programming Interface (API), a rule engine and a reasoner. Using ontology in the core of the system enabled the representation of manufacturing rules and Automatic Features recognition. Rules and Queries were not hard coded in the program, so we gave to the system a high level of maintainability and reusability.  Features were classified as general and specifics, easing the work of classifying newer features as they appear, given their previous classification. Most common sheet metal features referred in the literature were recognized by the system. </cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/luis-ramos"/>
+    <rdfs:label>Ontology-Based Features Recognition and Design Rules Checker System</rdfs:label>
+    <cofunc:keyword>CAD</cofunc:keyword>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4/authorList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/julie-klein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/anna-lisa-gentile">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Anna Lisa Gentile</foaf:name>
+    <foaf:givenname>Anna Lisa</foaf:givenname>
+    <foaf:familyName>Gentile</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-mark-a-musen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mark-a-musen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/timothy-redmond"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/keisuke-hihara">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-keisuke-hihara"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Keisuke Hihara</rdfs:label>
+    <cofunc:name>Keisuke Hihara</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/bundeswehr-university-munich-germany">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Universitaet der Bundeswehr</rdfs:label>
+    <cofunc:name>Universitaet der Bundeswehr</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/bundeswehr-university-munich-germany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-robert-stevens">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/robert-stevens"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/john-bateman">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-bremen-john-bateman"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>John Bateman</rdfs:label>
+    <cofunc:name>John Bateman</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/john-bateman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-steve-pettifer">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/steve-pettifer"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-leeds">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Leeds</rdfs:label>
+    <cofunc:name>University of Leeds</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Andrea Giovanni Nuzzolese</foaf:name>
+    <foaf:givenname>Andrea Giovanni</foaf:givenname>
+    <foaf:familyName>Nuzzolese</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-poznan-supercomputing-and-networking-center-raul-palma">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/raul-palma"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/poznan-supercomputing-and-networking-center"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/fan-yang-turner"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/benjamin-good">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-the-genomics-institute-of-the-novartis-research-foundation-benjamin-good"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-benjamin-good"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Benjamin Good</rdfs:label>
+    <cofunc:name>Benjamin Good</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/benjamin-good"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-tania-tudorache">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-raul-garcia-castro">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/raul-garcia-castro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/brigitte-mathiak">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-gesis-leibniz-institute-for-the-social-sciences-brigitte-mathiak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Brigitte Mathiak</rdfs:label>
+    <cofunc:name>Brigitte Mathiak</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/panagiotis-moulos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/nigam-shah">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-nigam-shah"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-nigam-shah"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Nigam Shah</rdfs:label>
+    <cofunc:name>Nigam Shah</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/nigam-shah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/natalya-noy"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-boris-villazon-terrazas">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science-eero-hyvoenen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-keisuke-hihara">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/keisuke-hihara"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/peter-haase">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-fluid-operations-peter-haase"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-peter-haase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Peter Haase</rdfs:label>
+    <cofunc:name>Peter Haase</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/osaka-university-japan">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Osaka</rdfs:label>
+    <cofunc:name>University of Osaka</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+    <cofunc:name>I.S.I.R., Osaka University</cofunc:name>
+    <rdfs:label>I.S.I.R., Osaka University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kenneth-baclawski">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-vistology-inc-kenneth-baclawski"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Ken Baclawski</rdfs:label>
+    <cofunc:name>Ken Baclawski</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kenneth-baclawski"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-carlos-toro">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/carlos-toro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/joost-schanstra">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-joost-schanstra"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Joost Schanstra</rdfs:label>
+    <cofunc:name>Joost Schanstra</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/li-ding">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-rensselaer-polytechnic-institute-li-ding"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-li-ding"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Li Ding</rdfs:label>
+    <cofunc:name>Li Ding</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/li-ding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-lydia-lau">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/lydia-lau"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-school-of-computing-university-of-leeds-vania-dimitrova">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/vania-dimitrova"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/school-of-computing-university-of-leeds"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aalto University School of Science, Dept. of Media Technology and University of Helsinki, Dept. of Computer Science</rdfs:label>
+    <cofunc:name>Aalto University School of Science, Dept. of Media Technology and University of Helsinki, Dept. of Computer Science</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bremen-sfb-tr-8-spatial-cognition">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Bremen, SFB/TR 8 Spatial Cognition</rdfs:label>
+    <cofunc:name>University of Bremen, SFB/TR 8 Spatial Cognition</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bremen-sfb-tr-8-spatial-cognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/aldo-gangemi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Aldo Gangemi</foaf:name>
+    <foaf:givenname>Aldo</foaf:givenname>
+    <foaf:familyName>Gangemi</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-4">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-5"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-3"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-benjamin-good">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/benjamin-good"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/michael-kohlhase">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kwarc-michael-kohlhase"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-michael-kohlhase"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Michael Kohlhase</rdfs:label>
+    <cofunc:name>Michael Kohlhase</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/michael-kohlhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki-jouni-tuominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/institut-national-de-la-sante-et-de-la-recherche-medicale">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Institut National de la Santé et de la Recherche Médicale</rdfs:label>
+    <cofunc:name>Institut National de la Santé et de la Recherche Médicale</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/csongor-nyulas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-oliver-kutz">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/oliver-kutz"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-bundeswehr-university-munich-germany-leyla-jael-garcia-castro">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/leyla-jael-garcia-castro"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/bundeswehr-university-munich-germany"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/mika-wahlroos">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-helsinki-mika-wahlroos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Mika Wahlroos</rdfs:label>
+    <cofunc:name>Mika Wahlroos</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-raul-garcia-castro">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/raul-garcia-castro"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-jouni-tuominen">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/jouni-tuominen"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kdz-centre-for-public-administration-research">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>NIST</rdfs:label>
+    <cofunc:name>NIST</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kdz-centre-for-public-administration-research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/thomas-bosch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-5">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-6"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-4"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/osma-suominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/jacobs-university-bremen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Jacobs University Bremen</rdfs:label>
+    <cofunc:name>Jacobs University Bremen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/jacobs-university-bremen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/fabian-neuhaus">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kdz-centre-for-public-administration-research-fabian-neuhaus"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-fabian-neuhaus"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Fabian Neuhaus</rdfs:label>
+    <cofunc:name>Fabian Neuhaus</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/fabian-neuhaus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/tania-tudorache"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-6">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-5"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/katri-seppaelae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-matias-frosterus">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matias-frosterus"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-nigam-shah">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/nigam-shah"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-leyla-jael-garcia-castro">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/leyla-jael-garcia-castro"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/poznan-supercomputing-and-networking-center">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Poznan Supercomputing and Networking Center</rdfs:label>
+    <cofunc:name>Poznan Supercomputing and Networking Center</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/poznan-supercomputing-and-networking-center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-oscar-corcho">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/oscar-corcho"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vicomtech">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Vicomtech</rdfs:label>
+    <cofunc:name>Vicomtech</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vicomtech"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/timothy-redmond">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-timothy-redmond"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Timothy Redmond</rdfs:label>
+    <cofunc:name>Timothy Redmond</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matthew-horridge">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-matthew-horridge"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-matthew-horridge"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matthew Horridge</rdfs:label>
+    <cofunc:name>Matthew Horridge</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matthew-horridge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/aalto-university-school-of-science-and-university-of-helsinki">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aalto University, School of Science</rdfs:label>
+    <cofunc:name>Aalto University, School of Science</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-university-of-helsinki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-helsinki-and-aalto-university-school-of-science">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Aalto University and University of Helsinki</rdfs:label>
+    <cofunc:name>Aalto University and University of Helsinki</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-helsinki-and-aalto-university-school-of-science"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-fluid-operations-peter-haase">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/peter-haase"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/fluid-operations"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/alexander-garcia-castro">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Alexander Garcia</rdfs:label>
+    <cofunc:name>Alexander Garcia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/raul-garcia-castro">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-raul-garcia-castro"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-raul-garcia-castro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Raul Garcia</rdfs:label>
+    <cofunc:name>Raul Garcia</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/raul-garcia-castro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-rensselaer-polytechnic-institute-li-ding">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/rensselaer-polytechnic-institute"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-gesis-leibniz-institute-for-the-social-sciences-brigitte-mathiak">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/brigitte-mathiak"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/gesis-leibniz-institute-for-the-social-sciences"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-bremen">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Bremen</rdfs:label>
+    <cofunc:name>University of Bremen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-bremen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/oscar-corcho">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-oscar-corcho"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-oscar-corcho"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Oscar Corcho</rdfs:label>
+    <cofunc:name>Oscar Corcho</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-vistology-inc-kenneth-baclawski">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kenneth-baclawski"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vistology-inc"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-dhavalkumar-thakker">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/dhavalkumar-thakker"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-leeds"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/thomas-bosch">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-gesis-leibniz-institute-for-the-social-sciences-thomas-bosch"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Thomas Bosch</rdfs:label>
+    <cofunc:name>Thomas Bosch</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/csongor-nyulas">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-csongor-nyulas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Csongor I Nyulas</rdfs:label>
+    <cofunc:name>Csongor I Nyulas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kouji-kozaki">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-kouji-kozaki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kouji Kozaki</rdfs:label>
+    <cofunc:name>Kouji Kozaki</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/robert-stevens">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-robert-stevens"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Robert Stevens</rdfs:label>
+    <cofunc:name>Robert Stevens</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-michael-kohlhase">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/michael-kohlhase"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-arkansas-for-medical-sciences">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Arkansas for Medical Sciences</rdfs:label>
+    <cofunc:name>University of Arkansas for Medical Sciences</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-arkansas-for-medical-sciences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/alexander-garcia-castro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/leyla-jael-garcia-castro">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-bundeswehr-university-munich-germany-leyla-jael-garcia-castro"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-leyla-jael-garcia-castro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Leyla Jael García Castro</rdfs:label>
+    <cofunc:name>Leyla Jael García Castro</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+    <cofunc:name>Leyla Garcia</cofunc:name>
+    <rdfs:label>Leyla Garcia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/keisuke-hihara"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kdz-centre-for-public-administration-research-fabian-neuhaus">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/fabian-neuhaus"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kdz-centre-for-public-administration-research"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/kmi-the-open-university-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>Knowledge Media Institute, The Open University</rdfs:label>
+    <cofunc:name>Knowledge Media Institute, The Open University</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-vicomtech-carlos-toro">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/carlos-toro"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/vicomtech"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-2"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17">
+    <cofunc:isPartOf rdf:resource="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings"/>
+    <cofunc:keyword>dynamic is-a hierarchy generation</cofunc:keyword>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#InProceedings"/>
+    <cofunc:hasAuthorList rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList"/>
+    <cofunc:title>Dynamic is-a Hierarchy Generation for User Centric Semantic Web</cofunc:title>
+    <cofunc:abstract>In ontological theory, is-a hierarchy must represent essential property of things and hence it should be single-inheritance, since essential property of things cannot be multiple. However, we cannot avoid multi-perspective issues when we build an ontology because the user often want to understand things from their own viewpoints. Especially, in the Semantic Web, the variety of 　user causes the variety of viewpoint to capture target domains. In order to tackle this multi perspective issue, we adopt an approach of dynamically generating is-a hierarchies according to the viewpoint of users from an ontology using single-inheritance. This article discusses a framework for dynamic is-a hierarchy generation and its implementation as extended function of Hozo. Through the function, the users can understand an ontology from their own viewpoints.</cofunc:abstract>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/keisuke-hihara"/>
+    <cofunc:keyword>ontology</cofunc:keyword>
+    <dc:creator rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <cofunc:keyword>viewpoint</cofunc:keyword>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+    <rdfs:label>Dynamic is-a Hierarchy Generation for User Centric Semantic Web</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-peter-haase">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/peter-haase"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/matias-frosterus">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-matias-frosterus"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Matias Frosterus</rdfs:label>
+    <cofunc:name>Matias Frosterus</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/vania-dimitrova">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-school-of-computing-university-of-leeds-vania-dimitrova"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Vania Dimitrova</rdfs:label>
+    <cofunc:name>Vania Dimitrova</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/william-hogan">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-arkansas-for-medical-sciences-william-hogan"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-william-hogan"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>William Hogan</rdfs:label>
+    <cofunc:name>William Hogan</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/william-hogan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/workshop/ocas/2011/proceedings">
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/4"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+    <cofunc:hasPart rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/simon-jupp">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-simon-jupp"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Simon Jupp</rdfs:label>
+    <cofunc:name>Simon Jupp</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-riichiro-mizoguchi">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/13/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/leyla-jael-garcia-castro"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-boris-villazon-terrazas">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/boris-villazon-terrazas"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/universidad-politecnica-de-madrid"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-joost-schanstra">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/joost-schanstra"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-mike-dean">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/mike-dean"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/vistology-inc">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>VIStology, Inc.</rdfs:label>
+    <cofunc:name>VIStology, Inc.</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/vistology-inc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-1">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/sini-pessala"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-stanford-university-csongor-nyulas">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/csongor-nyulas"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/stanford-university"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/dhavalkumar-thakker">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-leeds-dhavalkumar-thakker"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Dhavalkumar Thakker</rdfs:label>
+    <cofunc:name>Dhavalkumar Thakker</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/raul-palma">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-poznan-supercomputing-and-networking-center-raul-palma"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-raul-palma"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Raul Palma</rdfs:label>
+    <cofunc:name>Raul Palma</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/raul-palma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList">
+    <cofunc:hasLastItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-3"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasFirstItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-1"/>
+    <cofunc:hasItem rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-1"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#List"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Manchester</rdfs:label>
+    <cofunc:name>University of Manchester</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+    <cofunc:name>The University of Manchester</cofunc:name>
+    <rdfs:label>The University of Manchester</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-li-ding">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/li-ding"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/boris-villazon-terrazas">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-universidad-politecnica-de-madrid-boris-villazon-terrazas"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-boris-villazon-terrazas"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Boris Villazón-Terrazas</rdfs:label>
+    <cofunc:name>Boris Villazón-Terrazas</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/boris-villazon-terrazas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/julie-klein">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-julie-klein"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Julie Klein</rdfs:label>
+    <cofunc:name>Julie Klein</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/osma-suominen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-osma-suominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Osma Suominen</rdfs:label>
+    <cofunc:name>Osma Suominen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/kim-viljanen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-and-university-of-helsinki-kim-viljanen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Kim Viljanen</rdfs:label>
+    <cofunc:name>Kim Viljanen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/kim-viljanen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-osaka-university-japan-kouji-kozaki">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/kouji-kozaki"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/osaka-university-japan"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-helsinki-mika-wahlroos">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mika-wahlroos"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-helsinki"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-riichiro-mizoguchi">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-2">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-3"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/eero-hyvoenen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-2">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/10/authorList/item-1"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/brigitte-mathiak"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-sini-pessala">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/sini-pessala"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kwarc-michael-kohlhase">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/michael-kohlhase"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/kwarc"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/carlos-pedrinaci">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-kmi-the-open-university-uk-carlos-pedrinaci"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-carlos-pedrinaci"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Carlos Pedrinaci</rdfs:label>
+    <cofunc:name>Carlos Pedrinaci</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-fabian-neuhaus">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/fabian-neuhaus"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/katri-seppaelae">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-katri-seppaelae"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Katri Seppälä</rdfs:label>
+    <cofunc:name>Katri Seppälä</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/organisation/university-of-toronto">
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Organisation"/>
+    <rdfs:label>University of Toronto</rdfs:label>
+    <cofunc:name>University of Toronto</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/organization/university-of-toronto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-raytheon-bbn-technologies-mike-dean">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/mike-dean"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/raytheon-bbn-technologies"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-carlos-pedrinaci">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/carlos-pedrinaci"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/17/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/riichiro-mizoguchi"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-3">
+    <cofunc:next rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-4"/>
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/12/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/matias-frosterus"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/dataset/ocas2011">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dcterms:title>Dataset about ocas2011.</dcterms:title>
+    <dcterms:created>Tue May 03 19:04:12 CEST 2016</dcterms:created>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/andrea-giovanni-nuzzolese"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/anna-lisa-gentile"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/valentina-presutti"/>
+    <dcterms:creator rdf:resource="https://w3id.org/scholarlydata/person/aldo-gangemi"/>
+    <j.1:hadPrimarySource rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/complete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-matthew-horridge">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/matthew-horridge"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-julie-klein">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/julie-klein"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-3">
+    <cofunc:previous rdf:resource="https://w3id.org/scholarlydata/inproceedings/ocas2011/data.semanticweb.org/workshop/ocas/2011/paper/11/authorList/item-2"/>
+    <cofunc:hasContent rdf:resource="https://w3id.org/scholarlydata/person/mika-wahlroos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ListItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/panagiotis-moulos">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-institut-national-de-la-sante-et-de-la-recherche-medicale-panagiotis-moulos"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Panagiotis Moulos</rdfs:label>
+    <cofunc:name>Panagiotis Moulos</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/person/jouni-tuominen">
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki-jouni-tuominen"/>
+    <cofunc:hasAffiliation rdf:resource="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk-jouni-tuominen"/>
+    <cofunc:holdsRole rdf:resource="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-jouni-tuominen"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Person"/>
+    <rdfs:label>Jouni Tuominen</rdfs:label>
+    <cofunc:name>Jouni Tuominen</cofunc:name>
+    <owl:sameAs rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/affiliation-during-event/ocas2011-university-of-manchester-uk-steve-pettifer">
+    <cofunc:isAffiliationOf rdf:resource="https://w3id.org/scholarlydata/person/steve-pettifer"/>
+    <cofunc:withOrganisation rdf:resource="https://w3id.org/scholarlydata/organisation/university-of-manchester-uk"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/OCAS2011/ocas/2011"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#AffiliationDuringEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/scholarlydata/role-during-event/ocas2011-programme-committee-member-raul-palma">
+    <cofunc:isHeldBy rdf:resource="https://w3id.org/scholarlydata/person/raul-palma"/>
+    <cofunc:during rdf:resource="https://w3id.org/scholarlydata/event/ocas2011/ocas/2011"/>
+    <cofunc:withRole rdf:resource="https://w3id.org/scholarlydata/resource/programme-committee-member"/>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#RoleDuringEvent"/>
+  </rdf:Description>
+</rdf:RDF>
