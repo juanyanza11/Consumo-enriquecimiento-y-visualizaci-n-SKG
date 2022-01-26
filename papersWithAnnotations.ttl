@@ -1,0 +1,720 @@
+@prefix ns1: <http://purl.org/dc/terms/> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-pd-260> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-pd-267> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-phdsym-245> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-129> ns1:subject <http://dbpedia.org/resource/DBpedia> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-156> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-157> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-195> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-196> ns1:subject <http://dbpedia.org/resource/Machine-readable_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw-2016-research%2Binuse-90> ns1:subject <http://dbpedia.org/resource/Axiom> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw2012/paper/posters/24> ns1:subject <http://dbpedia.org/resource/Integral> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw2012/paper/research/11> ns1:subject <http://dbpedia.org/resource/Semi-structured_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw2012/paper/research/36> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw2012/paper/research/37> ns1:subject <http://dbpedia.org/resource/Information_retrieval> .
+
+<https://w3id.org/scholarlydata/inproceedings/ekaw2012/paper/research/71> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_13> ns1:subject <http://dbpedia.org/resource/Triplestore> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_23> ns1:subject <http://dbpedia.org/resource/Evolution> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_4> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-demo-pd_41> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-in-use-220> ns1:subject <http://dbpedia.org/resource/Fault_tolerance> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-poster-pd_43> ns1:subject <http://dbpedia.org/resource/Machine_learning> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-120> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-142> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-165> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-199> ns1:subject <http://dbpedia.org/resource/DBpedia> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-research-61> ns1:subject <http://dbpedia.org/resource/Machine_learning> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-mepdaw-1> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-mepdaw-4> ns1:subject <http://dbpedia.org/resource/Manifold> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-mepdaw-6> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-quweda2017-6> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-quweda2017-8> ns1:subject <http://dbpedia.org/resource/Software_prototyping> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-rsp2017-1> ns1:subject <http://dbpedia.org/resource/City> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc-2017-workshops-semdeep-17-3> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-119> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-217> ns1:subject <http://dbpedia.org/resource/Library_classification> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-280> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-282> ns1:subject <http://dbpedia.org/resource/Minimalist_program> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-299> ns1:subject <http://dbpedia.org/resource/Media_Play> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-46> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2007/paper-99> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/119> ns1:subject <http://dbpedia.org/resource/XML> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/120> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/133> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/168> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/3> ns1:subject <http://dbpedia.org/resource/Data_stream> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2008/paper/32> ns1:subject <http://dbpedia.org/resource/Machine_learning> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2009/paper/127> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2009/paper/163> ns1:subject <http://dbpedia.org/resource/Computer_simulation> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2009/paper/225> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2009/paper/232> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/mobility/6> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/onto/43> ns1:subject <http://dbpedia.org/resource/Natural_language_processing> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/onto/57> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/sensor/1> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/web_of_data/28> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/web_of_data/36> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2010/paper/web_of_data/48> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/digital-libraries/1> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/inductive-approaches/4> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/inductive-approaches/6> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/reasoning/9> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/1> ns1:subject <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/13> ns1:subject <http://dbpedia.org/resource/Join_and_meet> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/26> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/27> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/49> ns1:subject <http://dbpedia.org/resource/Nissan_Skyline_GT-R> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/52> ns1:subject <http://dbpedia.org/resource/RDF_Schema> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2011/paper/semantic-data-management/7> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/demonstation/303> ns1:subject <http://dbpedia.org/resource/JavaScript> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/demonstation/304> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/in-use-industrial/162> ns1:subject <http://dbpedia.org/resource/Software_prototyping> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/in-use-industrial/228> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/102> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/132> ns1:subject <http://dbpedia.org/resource/Data_model> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/136> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/20> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/231> ns1:subject <http://dbpedia.org/resource/Data_structure> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/24> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2012/paper/research/31> ns1:subject <http://dbpedia.org/resource/World_Wide_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2013/paper/eswc-2013/118> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2013/paper/eswc-2013/204> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2013/paper/eswc-2013/34> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/133> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/144> ns1:subject <http://dbpedia.org/resource/Wireless_sensor_network> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/168> ns1:subject <http://dbpedia.org/resource/Software_license> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/192> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/210> ns1:subject <http://dbpedia.org/resource/Level_of_measurement> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/35> ns1:subject <http://dbpedia.org/resource/Synthetic_biology> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/50> ns1:subject <http://dbpedia.org/resource/Query_optimization> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/76> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2014/paper/research/81> ns1:subject <http://dbpedia.org/resource/Context_awareness> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/demo/19> ns1:subject <http://dbpedia.org/resource/Data_integration> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/demo/29> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/demo/3> ns1:subject <http://dbpedia.org/resource/Geographic_information_system> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/demo/43> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/demo/48> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/poster/18> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/poster/4> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/132> ns1:subject <http://dbpedia.org/resource/Standard_language> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/142> ns1:subject <http://dbpedia.org/resource/Compact_space> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/156> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/171> ns1:subject <http://dbpedia.org/resource/Exponential_growth> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/175> ns1:subject <http://dbpedia.org/resource/Tree_structure> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/28> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/32> ns1:subject <http://dbpedia.org/resource/Holden_Dealer_Team> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/63> ns1:subject <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2015/paper/research/90> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/demo/29> ns1:subject <http://dbpedia.org/resource/Open-source_software> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/demo/57> ns1:subject <http://dbpedia.org/resource/Demoscene> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/demo/6> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/poster/12> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/poster/15> ns1:subject <http://dbpedia.org/resource/Intelligence> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/poster/20> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/poster/35> ns1:subject <http://dbpedia.org/resource/XML> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/poster/39> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/106> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/117> ns1:subject <http://dbpedia.org/resource/Provenance> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/174> ns1:subject <http://dbpedia.org/resource/Parsing> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/207> ns1:subject <http://dbpedia.org/resource/Machine-readable_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/251> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/45> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/7> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/eswc2016/paper/research/89> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/evodyn2011/data.semanticweb.org/workshop/evodyn/2011/paper/5> ns1:subject <http://dbpedia.org/resource/Relational_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/fis2010/paper/posters/8> ns1:subject <http://dbpedia.org/resource/Future_Internet> .
+
+<https://w3id.org/scholarlydata/inproceedings/fis2010/paper/semantic_technologies/1> ns1:subject <http://dbpedia.org/resource/Future_Internet> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-in-use-426> ns1:subject <http://dbpedia.org/resource/Digitization> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-journal-675> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-460> ns1:subject <http://dbpedia.org/resource/Graph_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-464> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-472> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-489> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-507> ns1:subject <http://dbpedia.org/resource/Air_pollution> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-510> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-512> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-515> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-523> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-530> ns1:subject <http://dbpedia.org/resource/Transaction_Processing_Facility> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-536> ns1:subject <http://dbpedia.org/resource/Sens> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-539> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-542> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-545> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-574> ns1:subject <http://dbpedia.org/resource/Ontology_(information_science)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-593> ns1:subject <http://dbpedia.org/resource/Evening_Standard> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-599> ns1:subject <http://dbpedia.org/resource/Query_plan> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-617> ns1:subject <http://dbpedia.org/resource/The_Goal_(novel)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-621> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-posters-and-demos-635> ns1:subject <http://dbpedia.org/resource/Spreadsheet> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc-2017-resources-178> ns1:subject <http://dbpedia.org/resource/Scholarly_communication> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-117> ns1:subject <http://dbpedia.org/resource/Semantics_of_logic> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-143> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-158> ns1:subject <http://dbpedia.org/resource/Internet> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-164> ns1:subject <http://dbpedia.org/resource/Vector_space> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-204> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-237> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-262> ns1:subject <http://dbpedia.org/resource/Machine_learning> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2017-iswc2017-research-95> ns1:subject <http://dbpedia.org/resource/Empirical_research> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-319> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-320> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-328> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-329> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-347> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-359> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-364> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-366> ns1:subject <http://dbpedia.org/resource/Directed_acyclic_graph> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-371> ns1:subject <http://dbpedia.org/resource/Semantics> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-375> ns1:subject <http://dbpedia.org/resource/Neural_machine_translation> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-poster_and_demo-390> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-1> ns1:subject <http://dbpedia.org/resource/Level_of_detail> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-121> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-128> ns1:subject <http://dbpedia.org/resource/Cloud_computing> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-149> ns1:subject <http://dbpedia.org/resource/Paradigm> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-155> ns1:subject <http://dbpedia.org/resource/Cache_(computing)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-157> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-165> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-23> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-53> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-research-97> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-resources-199> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-resources-239> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2018-workshop_and_tutorial-290> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-468> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-502> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-525> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-533> ns1:subject <http://dbpedia.org/resource/Ontology_(information_science)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-570> ns1:subject <http://dbpedia.org/resource/Component-based_software_engineering> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-demo-572> ns1:subject <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-doctoral-414> ns1:subject <http://dbpedia.org/resource/Data_processing> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-doctoral-419> ns1:subject <http://dbpedia.org/resource/Ontology_(information_science)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-in-use-237> ns1:subject <http://dbpedia.org/resource/Application_programming_interface> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-industry-555> ns1:subject <http://dbpedia.org/resource/Neptune> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-journal-406> ns1:subject <http://dbpedia.org/resource/Shadow_Copy> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-journal-432> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-journal-440> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-463> ns1:subject <http://dbpedia.org/resource/Graph_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-489> ns1:subject <http://dbpedia.org/resource/Recommender_system> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-490> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-505> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-507> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-510> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-poster-563> ns1:subject <http://dbpedia.org/resource/Multi-core_processor> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-research-130> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-research-242> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-research-251> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-research-319> ns1:subject <http://dbpedia.org/resource/Ontology_(information_science)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-resource-200> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-resource-228> ns1:subject <http://dbpedia.org/resource/Big_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc-2019-resource-257> ns1:subject <http://dbpedia.org/resource/Countable_set> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2006/paper-19> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2006/paper-20> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2006/paper-24> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2006/paper-9> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/posters-demos/papers/338> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/posters-demos/papers/340> ns1:subject <http://dbpedia.org/resource/Mentorship> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/posters-demos/papers/344> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/1> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/295> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/323> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/533> ns1:subject <http://dbpedia.org/resource/Synchronization> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/631> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2007+aswc2007/tracks/research/papers/85> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/11> ns1:subject <http://dbpedia.org/resource/Usability> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/16> ns1:subject <http://dbpedia.org/resource/Matrix_management> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/24> ns1:subject <http://dbpedia.org/resource/Poster_session> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/30> ns1:subject <http://dbpedia.org/resource/Uniform_Resource_Identifier> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/4> ns1:subject <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/40> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/55> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/66> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/69> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/poster_demo/81> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/178> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/19> ns1:subject <http://dbpedia.org/resource/RDF_Schema> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/22> ns1:subject <http://dbpedia.org/resource/Open-source_software> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/237> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/259> ns1:subject <http://dbpedia.org/resource/Graph_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2008/paper/research/262> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/inuse/203> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/144> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/146> ns1:subject <http://dbpedia.org/resource/Spreadsheet> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/147> ns1:subject <http://dbpedia.org/resource/Web_Ontology_Language> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/154> ns1:subject <http://dbpedia.org/resource/Identity_theft> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/174> ns1:subject <http://dbpedia.org/resource/Mayo_Clinic> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/182> ns1:subject <http://dbpedia.org/resource/Demoscene> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/poster_demo/195> ns1:subject <http://dbpedia.org/resource/Library_classification> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/125> ns1:subject <http://dbpedia.org/resource/RDF_Schema> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/161> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/165> ns1:subject <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/203> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/241> ns1:subject <http://dbpedia.org/resource/Finite_set> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/290> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/301> ns1:subject <http://dbpedia.org/resource/World_Wide_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2009/paper/research/347> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/144> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/241> ns1:subject <http://dbpedia.org/resource/Evolution> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/280> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/376> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/442> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/465> ns1:subject <http://dbpedia.org/resource/Chart> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/467> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/473> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/496> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/498> ns1:subject <http://dbpedia.org/resource/RDF_Schema> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/503> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/51> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/518> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/519> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/61> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2010/paper/70> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/poster-demo-proceedings/paper-08> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/poster-demo-proceedings/paper-14> ns1:subject <http://dbpedia.org/resource/Scalability> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/poster-demo-proceedings/paper-24> ns1:subject <http://dbpedia.org/resource/RDF_Schema> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/poster-demo-proceedings/paper-28> ns1:subject <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-1/paper-13> ns1:subject <http://dbpedia.org/resource/Complex_event_processing> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-1/paper-20> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-1/paper-35> ns1:subject <http://dbpedia.org/resource/Biomedicine> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-10> ns1:subject <http://dbpedia.org/resource/Molecular_mechanics> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-12> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-20> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-24> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-27> ns1:subject <http://dbpedia.org/resource/Benchmarking> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-31> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-32> ns1:subject <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2012/proceedings-2/paper-33> ns1:subject <http://dbpedia.org/resource/Parallel_computing> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-14> ns1:subject <http://dbpedia.org/resource/Formal_concept_analysis> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-21> ns1:subject <http://dbpedia.org/resource/Representational_state_transfer> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-23> ns1:subject <http://dbpedia.org/resource/Wikipedia> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-26> ns1:subject <http://dbpedia.org/resource/World_Wide_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-34> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-35> ns1:subject <http://dbpedia.org/resource/Open_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-37> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-38> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-40> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-41> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-46> ns1:subject <http://dbpedia.org/resource/Context_awareness> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-52> ns1:subject <http://dbpedia.org/resource/Graphium_(butterfly)> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-53> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-56> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/poster-demo-proceedings/paper-64> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-05> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-07> ns1:subject <http://dbpedia.org/resource/Normative> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-09> ns1:subject <http://dbpedia.org/resource/Document-oriented_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-27> ns1:subject <http://dbpedia.org/resource/Full-text_search> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-32> ns1:subject <http://dbpedia.org/resource/Type_inference> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-1/paper-41> ns1:subject <http://dbpedia.org/resource/Tacit_knowledge> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-02> ns1:subject <http://dbpedia.org/resource/Data_model> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-18> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-20> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-21> ns1:subject <http://dbpedia.org/resource/Kaizen> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-22> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-23> ns1:subject <http://dbpedia.org/resource/Benchmarking> .
+
+<https://w3id.org/scholarlydata/inproceedings/iswc2013/proceedings-2/paper-26> ns1:subject <http://dbpedia.org/resource/Subset> .
+
+<https://w3id.org/scholarlydata/inproceedings/ldow2008/data.semanticweb.org/workshop/LDOW/2008/paper/13> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ldow2012/data.semanticweb.org/workshop/ldow/2012/paper/4> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/lrec2008/papers/108> ns1:subject <http://dbpedia.org/resource/Metaphor> .
+
+<https://w3id.org/scholarlydata/inproceedings/msw2011/data.semanticweb.org/workshop/msw/2011/paper/4> ns1:subject <http://dbpedia.org/resource/Open_standard> .
+
+<https://w3id.org/scholarlydata/inproceedings/natures2008/data.semanticweb.org/workshop/natures/2008/paper/main/3> ns1:subject <http://dbpedia.org/resource/Genetic_algorithm> .
+
+<https://w3id.org/scholarlydata/inproceedings/ordring2011/data.semanticweb.org/workshop/ordring/2011/paper/7> ns1:subject <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<https://w3id.org/scholarlydata/inproceedings/owled2007/paper-23> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/owled2007/paper-6> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/pickme2008/data.semanticweb.org/workshop/pickme/2008/paper/main/6> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/semwiki2010/data.semanticweb.org/workshop/semwiki/2010/paper/main/18> ns1:subject <http://dbpedia.org/resource/Triplestore> .
+
+<https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/1> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/14> ns1:subject <http://dbpedia.org/resource/RDFa> .
+
+<https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/15> ns1:subject <http://dbpedia.org/resource/Data_structure> .
+
+<https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/5> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/sfsw2008/data.semanticweb.org/workshop/scripting/2008/paper/7> ns1:subject <http://dbpedia.org/resource/Internet_Relay_Chat> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2008/data.semanticweb.org/workshop/ssws/2008/paper/main/1> ns1:subject <http://dbpedia.org/resource/Linked_data> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2008/data.semanticweb.org/workshop/ssws/2008/paper/main/3> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2008/data.semanticweb.org/workshop/ssws/2008/paper/main/4> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2008/data.semanticweb.org/workshop/ssws/2008/paper/main/5> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2008/data.semanticweb.org/workshop/ssws/2008/paper/main/7> ns1:subject <http://dbpedia.org/resource/Inference> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2011/data.semanticweb.org/workshop/ssws/2011/paper/11> ns1:subject <http://dbpedia.org/resource/Conjunctive_query> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2011/data.semanticweb.org/workshop/ssws/2011/paper/13> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2011/data.semanticweb.org/workshop/ssws/2011/paper/4> ns1:subject <http://dbpedia.org/resource/Shakespeare_authorship_question> .
+
+<https://w3id.org/scholarlydata/inproceedings/ssws2011/data.semanticweb.org/workshop/ssws/2011/paper/6> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/vissw2009/data.semanticweb.org/workshop/VISSW/2009/paper/main/4> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/vissw2010/data.semanticweb.org/workshop/VISSW/2010/paper/main/4> ns1:subject <http://dbpedia.org/resource/KDE> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2007/paper/main/272> ns1:subject <http://dbpedia.org/resource/Object-oriented_programming> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2007/paper/main/435> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2007/paper/main/565> ns1:subject <http://dbpedia.org/resource/Ontology> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2007/paper/main/785> ns1:subject <http://dbpedia.org/resource/Bioinformatics> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2008/paper/45> ns1:subject <http://dbpedia.org/resource/Graph_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2008/paper/606> ns1:subject <http://dbpedia.org/resource/World_Wide_Web_Consortium> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2009/paper/110> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2009/paper/111> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2010/paper/main/213> ns1:subject <http://dbpedia.org/resource/Semantic_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2011/paper/ep-sparql-a-unified-language-for-event-processing-> ns1:subject <http://dbpedia.org/resource/Sensor> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2011/paper/rewriting-queries-on-sparql-views> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2011/phd/addressing-the-rdfa-publishing-bottleneck> ns1:subject <http://dbpedia.org/resource/Wireless_ad_hoc_network> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2011/phd/ranked-answer-graph-construction-for-keyword-queri> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2011/poster/caching-intermediate-result-of-sparql-queries> ns1:subject <http://dbpedia.org/resource/Resource_Description_Framework> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/demo/36> ns1:subject <http://dbpedia.org/resource/MapReduce> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/dev/22> ns1:subject <http://dbpedia.org/resource/JavaScript> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/paper/1290> ns1:subject <http://dbpedia.org/resource/Question_answering> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/paper/562> ns1:subject <http://dbpedia.org/resource/Relational_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/paper/809> ns1:subject <http://dbpedia.org/resource/SPARQL> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/phd/32> ns1:subject <http://dbpedia.org/resource/World_Wide_Web> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/poster/179> ns1:subject <http://dbpedia.org/resource/Relational_database> .
+
+<https://w3id.org/scholarlydata/inproceedings/www2012/poster/181> ns1:subject <http://dbpedia.org/resource/Context_awareness> .
+
