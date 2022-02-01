@@ -231,3 +231,291 @@
         <http://dbpedia.org/resource/Category:World_Wide_Web_Consortium_standards>,
         <http://dbpedia.org/resource/Category:XML> .
 
+<http://dbpedia.org/resource/Category:1827_establishments_in_England> rdfs:label "1827 establishments in England" .
+
+<http://dbpedia.org/resource/Category:1994_establishments_in_the_United_States> rdfs:label "1994 establishments in the United States" .
+
+<http://dbpedia.org/resource/Category:20th-century_inventions> rdfs:label "20th-century inventions" .
+
+<http://dbpedia.org/resource/Category:Algorithms_on_strings> rdfs:label "Algorithms on strings" .
+
+<http://dbpedia.org/resource/Category:American_inventions> rdfs:label "American inventions" .
+
+<http://dbpedia.org/resource/Category:Application_layer_protocols> rdfs:label "Application layer protocols" .
+
+<http://dbpedia.org/resource/Category:Articles_with_example_JavaScript_code> rdfs:label "Articles with example JavaScript code" .
+
+<http://dbpedia.org/resource/Category:Articles_with_example_code> rdfs:label "Articles with example code" .
+
+<http://dbpedia.org/resource/Category:Basic_concepts_in_set_theory> rdfs:label "Basic concepts in set theory" .
+
+<http://dbpedia.org/resource/Category:Big_data> rdfs:label "Big data" .
+
+<http://dbpedia.org/resource/Category:Biomedicine> rdfs:label "Biomedicine" .
+
+<http://dbpedia.org/resource/Category:Branches_of_biology> rdfs:label "Branches of biology" .
+
+<http://dbpedia.org/resource/Category:British_inventions> rdfs:label "British inventions" .
+
+<http://dbpedia.org/resource/Category:Business_analysis> rdfs:label "Business analysis" .
+
+<http://dbpedia.org/resource/Category:CERN> rdfs:label "CERN" .
+
+<http://dbpedia.org/resource/Category:Chemical_reactions> rdfs:label "Chemical reactions" .
+
+<http://dbpedia.org/resource/Category:City> rdfs:label "City" .
+
+<http://dbpedia.org/resource/Category:Cloud_standards> rdfs:label "Cloud standards" .
+
+<http://dbpedia.org/resource/Category:Cognition> rdfs:label "Cognition" .
+
+<http://dbpedia.org/resource/Category:Compiler_construction> rdfs:label "Compiler construction" .
+
+<http://dbpedia.org/resource/Category:Computational_chemistry> rdfs:label "Computational chemistry" .
+
+<http://dbpedia.org/resource/Category:Computer-related_introductions_in_1969> rdfs:label "Computer-related introductions in 1969" .
+
+<http://dbpedia.org/resource/Category:Computer-related_introductions_in_1989> rdfs:label "Computer-related introductions in 1989" .
+
+<http://dbpedia.org/resource/Category:Computer-related_introductions_in_2007> rdfs:label "Computer-related introductions in 2007" .
+
+<http://dbpedia.org/resource/Category:Computer_file_formats> rdfs:label "Computer file formats" .
+
+<http://dbpedia.org/resource/Category:Computing_terminology> rdfs:label "Computing terminology" .
+
+<http://dbpedia.org/resource/Category:Concepts_in_epistemology> rdfs:label "Concepts in epistemology" .
+
+<http://dbpedia.org/resource/Category:Cross-platform_software> rdfs:label "Cross-platform software" .
+
+<http://dbpedia.org/resource/Category:Cybernetics> rdfs:label "Cybernetics" .
+
+<http://dbpedia.org/resource/Category:Daily_Mail_and_General_Trust> rdfs:label "Daily Mail and General Trust" .
+
+<http://dbpedia.org/resource/Category:Daily_newspapers_published_in_the_United_Kingdom> rdfs:label "Daily newspapers published in the United Kingdom" .
+
+<http://dbpedia.org/resource/Category:Data_management> rdfs:label "Data management" .
+
+<http://dbpedia.org/resource/Category:Data_mining> rdfs:label "Data mining" .
+
+<http://dbpedia.org/resource/Category:Data_serialization_formats> rdfs:label "Data serialization formats" .
+
+<http://dbpedia.org/resource/Category:Database_algorithms> rdfs:label "Database algorithms" .
+
+<http://dbpedia.org/resource/Category:Database_models> rdfs:label "Database models" .
+
+<http://dbpedia.org/resource/Category:Database_theory> rdfs:label "Database theory" .
+
+<http://dbpedia.org/resource/Category:Declarative_programming_languages> rdfs:label "Declarative programming languages" .
+
+<http://dbpedia.org/resource/Category:Dialectology> rdfs:label "Dialectology" .
+
+<http://dbpedia.org/resource/Category:Diglossia> rdfs:label "Diglossia" .
+
+<http://dbpedia.org/resource/Category:Distributed_computing_architecture> rdfs:label "Distributed computing architecture" .
+
+<http://dbpedia.org/resource/Category:Dynamically_typed_programming_languages> rdfs:label "Dynamically typed programming languages" .
+
+<http://dbpedia.org/resource/Category:Emerging_technologies> rdfs:label "Emerging technologies" .
+
+<http://dbpedia.org/resource/Category:Empiricism> rdfs:label "Empiricism" .
+
+<http://dbpedia.org/resource/Category:Epistemology_of_science> rdfs:label "Epistemology of science" .
+
+<http://dbpedia.org/resource/Category:Evening_newspapers> rdfs:label "Evening newspapers" .
+
+<http://dbpedia.org/resource/Category:Events_(computing)> rdfs:label "Events (computing)" .
+
+<http://dbpedia.org/resource/Category:Free_daily_newspapers> rdfs:label "Free daily newspapers" .
+
+<http://dbpedia.org/resource/Category:Free_software_culture_and_documents> rdfs:label "Free software culture and documents" .
+
+<http://dbpedia.org/resource/Category:Free_software_programmed_in_Scala> rdfs:label "Free software programmed in Scala" .
+
+<http://dbpedia.org/resource/Category:Functional_languages> rdfs:label "Functional languages" .
+
+<http://dbpedia.org/resource/Category:Functions_and_mappings> rdfs:label "Functions and mappings" .
+
+<http://dbpedia.org/resource/Category:Graph_databases> rdfs:label "Graph databases" .
+
+<http://dbpedia.org/resource/Category:High-level_programming_languages> rdfs:label "High-level programming languages" .
+
+<http://dbpedia.org/resource/Category:History_of_Wikipedia> rdfs:label "History of Wikipedia" .
+
+<http://dbpedia.org/resource/Category:Hypermedia> rdfs:label "Hypermedia" .
+
+<http://dbpedia.org/resource/Category:Information_Age> rdfs:label "Information Age" .
+
+<http://dbpedia.org/resource/Category:Information_architecture> rdfs:label "Information architecture" .
+
+<http://dbpedia.org/resource/Category:Information_retrieval_genres> rdfs:label "Information retrieval genres" .
+
+<http://dbpedia.org/resource/Category:Information_systems> rdfs:label "Information systems" .
+
+<http://dbpedia.org/resource/Category:Integrals> rdfs:label "Integrals" .
+
+<http://dbpedia.org/resource/Category:Intermolecular_forces> rdfs:label "Intermolecular forces" .
+
+<http://dbpedia.org/resource/Category:Internet_Standard_organizations> rdfs:label "Internet Standard organizations" .
+
+<http://dbpedia.org/resource/Category:Internet_ages> rdfs:label "Internet ages" .
+
+<http://dbpedia.org/resource/Category:Internet_terminology> rdfs:label "Internet terminology" .
+
+<http://dbpedia.org/resource/Category:JavaScript> rdfs:label "JavaScript" .
+
+<http://dbpedia.org/resource/Category:Java_platform> rdfs:label "Java platform" .
+
+<http://dbpedia.org/resource/Category:Knowledge_bases> rdfs:label "Knowledge bases" .
+
+<http://dbpedia.org/resource/Category:Knowledge_engineering> rdfs:label "Knowledge engineering" .
+
+<http://dbpedia.org/resource/Category:Knowledge_representation> rdfs:label "Knowledge representation" .
+
+<http://dbpedia.org/resource/Category:Language> rdfs:label "Language" .
+
+<http://dbpedia.org/resource/Category:Language_varieties_and_styles> rdfs:label "Language varieties and styles" .
+
+<http://dbpedia.org/resource/Category:Lattice_theory> rdfs:label "Lattice theory" .
+
+<http://dbpedia.org/resource/Category:Learning> rdfs:label "Learning" .
+
+<http://dbpedia.org/resource/Category:Linear_operators_in_calculus> rdfs:label "Linear operators in calculus" .
+
+<http://dbpedia.org/resource/Category:London_Evening_Standard> rdfs:label "London Evening Standard" .
+
+<http://dbpedia.org/resource/Category:London_newspapers> rdfs:label "London newspapers" .
+
+<http://dbpedia.org/resource/Category:Markup_languages> rdfs:label "Markup languages" .
+
+<http://dbpedia.org/resource/Category:Meaning_(philosophy_of_language)> rdfs:label "Meaning (philosophy of language)" .
+
+<http://dbpedia.org/resource/Category:Metadata> rdfs:label "Metadata" .
+
+<http://dbpedia.org/resource/Category:Modeling_languages> rdfs:label "Modeling languages" .
+
+<http://dbpedia.org/resource/Category:Molecular_modelling> rdfs:label "Molecular modelling" .
+
+<http://dbpedia.org/resource/Category:Molecular_physics> rdfs:label "Molecular physics" .
+
+<http://dbpedia.org/resource/Category:Object-based_programming_languages> rdfs:label "Object-based programming languages" .
+
+<http://dbpedia.org/resource/Category:Ontology> rdfs:label "Ontology" .
+
+<http://dbpedia.org/resource/Category:Ontology_(information_science)> rdfs:label "Ontology (information science)" .
+
+<http://dbpedia.org/resource/Category:Open_formats> rdfs:label "Open formats" .
+
+<http://dbpedia.org/resource/Category:Organizations_based_in_Cambridge,_Massachusetts> rdfs:label "Organizations based in Cambridge, Massachusetts" .
+
+<http://dbpedia.org/resource/Category:Organizations_established_in_1994> rdfs:label "Organizations established in 1994" .
+
+<http://dbpedia.org/resource/Category:Parsing> rdfs:label "Parsing" .
+
+<http://dbpedia.org/resource/Category:Podcasting_companies> rdfs:label "Podcasting companies" .
+
+<http://dbpedia.org/resource/Category:Populated_places_by_type> rdfs:label "Populated places by type" .
+
+<http://dbpedia.org/resource/Category:Presentation_layer_protocols> rdfs:label "Presentation layer protocols" .
+
+<http://dbpedia.org/resource/Category:Process_(computing)> rdfs:label "Process (computing)" .
+
+<http://dbpedia.org/resource/Category:Programming_languages_created_in_1995> rdfs:label "Programming languages created in 1995" .
+
+<http://dbpedia.org/resource/Category:Programming_languages_created_in_2008> rdfs:label "Programming languages created in 2008" .
+
+<http://dbpedia.org/resource/Category:Programming_languages_with_an_ISO_standard> rdfs:label "Programming languages with an ISO standard" .
+
+<http://dbpedia.org/resource/Category:Promotion_of_national_languages> rdfs:label "Promotion of national languages" .
+
+<http://dbpedia.org/resource/Category:Prototype-based_programming_languages> rdfs:label "Prototype-based programming languages" .
+
+<http://dbpedia.org/resource/Category:Publications_established_in_1827> rdfs:label "Publications established in 1827" .
+
+<http://dbpedia.org/resource/Category:Query_languages> rdfs:label "Query languages" .
+
+<http://dbpedia.org/resource/Category:RDF_data_access> rdfs:label "RDF data access" .
+
+<http://dbpedia.org/resource/Category:Relational_database_management_systems> rdfs:label "Relational database management systems" .
+
+<http://dbpedia.org/resource/Category:Relational_model> rdfs:label "Relational model" .
+
+<http://dbpedia.org/resource/Category:Research> rdfs:label "Research" .
+
+<http://dbpedia.org/resource/Category:SPARQL> rdfs:label "SPARQL" .
+
+<http://dbpedia.org/resource/Category:Scientific_terminology> rdfs:label "Scientific terminology" .
+
+<http://dbpedia.org/resource/Category:Scripting_languages> rdfs:label "Scripting languages" .
+
+<http://dbpedia.org/resource/Category:Semantic_relations> rdfs:label "Semantic relations" .
+
+<http://dbpedia.org/resource/Category:Sociolinguistics> rdfs:label "Sociolinguistics" .
+
+<http://dbpedia.org/resource/Category:Software_development> rdfs:label "Software development" .
+
+<http://dbpedia.org/resource/Category:Software_quality> rdfs:label "Software quality" .
+
+<http://dbpedia.org/resource/Category:Standard_languages> rdfs:label "Standard languages" .
+
+<http://dbpedia.org/resource/Category:Standards_organizations_in_the_United_States> rdfs:label "Standards organizations in the United States" .
+
+<http://dbpedia.org/resource/Category:Strategic_management> rdfs:label "Strategic management" .
+
+<http://dbpedia.org/resource/Category:Technology_consortia> rdfs:label "Technology consortia" .
+
+<http://dbpedia.org/resource/Category:Text_editor_features> rdfs:label "Text editor features" .
+
+<http://dbpedia.org/resource/Category:Trade_and_industrial_classification_systems> rdfs:label "Trade and industrial classification systems" .
+
+<http://dbpedia.org/resource/Category:Types_of_databases> rdfs:label "Types of databases" .
+
+<http://dbpedia.org/resource/Category:Types_of_populated_places> rdfs:label "Types of populated places" .
+
+<http://dbpedia.org/resource/Category:Usability> rdfs:label "Usability" .
+
+<http://dbpedia.org/resource/Category:User_interface_techniques> rdfs:label "User interface techniques" .
+
+<http://dbpedia.org/resource/Category:Veterinary_medicine> rdfs:label "Veterinary medicine" .
+
+<http://dbpedia.org/resource/Category:Web_development> rdfs:label "Web development" .
+
+<http://dbpedia.org/resource/Category:Web_programming> rdfs:label "Web programming" .
+
+<http://dbpedia.org/resource/Category:Web_technology> rdfs:label "Web technology" .
+
+<http://dbpedia.org/resource/Category:World_Wide_Web_Consortium> rdfs:label "World Wide Web Consortium" .
+
+<http://dbpedia.org/resource/Category:XML-based_standards> rdfs:label "XML-based standards" .
+
+<http://dbpedia.org/resource/Category:Bibliography_file_formats> rdfs:label "Bibliography file formats" .
+
+<http://dbpedia.org/resource/Category:Data_modeling_languages> rdfs:label "Data modeling languages" .
+
+<http://dbpedia.org/resource/Category:Database_management_systems> rdfs:label "Database management systems" .
+
+<http://dbpedia.org/resource/Category:English_inventions> rdfs:label "English inventions" .
+
+<http://dbpedia.org/resource/Category:Human–computer_interaction> rdfs:label "Human–computer interaction" .
+
+<http://dbpedia.org/resource/Category:Machine_learning> rdfs:label "Machine learning" .
+
+<http://dbpedia.org/resource/Category:Open_data> rdfs:label "Open data" .
+
+<http://dbpedia.org/resource/Category:Resource_Description_Framework> rdfs:label "Resource Description Framework" .
+
+<http://dbpedia.org/resource/Category:SQL> rdfs:label "SQL" .
+
+<http://dbpedia.org/resource/Category:Technical_communication> rdfs:label "Technical communication" .
+
+<http://dbpedia.org/resource/Category:Tim_Berners-Lee> rdfs:label "Tim Berners-Lee" .
+
+<http://dbpedia.org/resource/Category:World_Wide_Web> rdfs:label "World Wide Web" .
+
+<http://dbpedia.org/resource/Category:XML> rdfs:label "XML" .
+
+<http://dbpedia.org/resource/Category:Web_services> rdfs:label "Web services" .
+
+<http://dbpedia.org/resource/Category:World_Wide_Web_Consortium_standards> rdfs:label "World Wide Web Consortium standards" .
+
+<http://dbpedia.org/resource/Category:Semantic_Web> rdfs:label "Semantic Web" .
+
